@@ -1,0 +1,17 @@
+<!-- LINK Inherits https://github.com/squidfunk/mkdocs-material/blob/master/src/templates/main.html
+     MIT License: Copyright (c) 2016-2024 Martin Donath <martin.donath@squidfunk.com>
+-->
+
+{% extends "base.html" %}
+
+<!-- ANCHOR Announcement Bar -->
+{% block announce %}
+  Follow me on
+    <span class="twemoji mastodon">
+      {% include ".icons/fontawesome/brands/mastodon.svg" %}
+    </span>
+    <strong>Mastodon</strong>
+  <a rel="me" href="https://tylernguyen.social/@tylernguyen">
+    <strong>@tylernguyen@tylernguyen.social</strong>
+  </a>
+{% endblock %}

@@ -1,0 +1,6 @@
+# Cache
+.cache
+
+# Folder view configuration files
+.DS_Store
+Desktop.ini

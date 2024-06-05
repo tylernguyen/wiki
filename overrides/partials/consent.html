@@ -1,0 +1,91 @@
+<!-- LINK Modifies https://github.com/squidfunk/mkdocs-material-insiders/blob/master/src/templates/partials/consent.html
+     MIT License: Copyright (c) 2016-2024 Martin Donath <martin.donath@squidfunk.com>
+-->
+
+<!-- Determine cookies -->
+{% set cookies = config.extra.consent.cookies | d({}) %}
+{% if config.extra.analytics %}
+  {% if "analytics" not in cookies %}
+    {% set _ = cookies.update({ "analytics": "Google Analytics" }) %}
+  {% endif %}
+{% endif %}
+{% if config.repo_url and "github.com" in config.repo_url %}
+  {% if "github" not in cookies %}
+    {% set _ = cookies.update({ "github": "GitHub" }) %}
+  {% endif %}
+{% endif %}
+
+<!-- Determine actions -->
+{% set actions = config.extra.consent.actions %}
+{% if not actions %}
+  {% set actions = ["accept", "manage"] %}
+{% endif %}
+
+<!-- Determine initial settings state -->
+{% if "manage" not in actions %}
+  {% set checked = "checked" %}
+{% endif %}
+
+<!-- Consent title -->
+<h4>{{ config.extra.consent.title }}</h4>
+<img src="https://assets.tylernguyen.wiki/logos/PostHog-light.svg#only-light" alt="PostHog" width="250">
+<img src="https://assets.tylernguyen.wiki/logos/PostHog-dark.svg#only-dark" alt="PostHog" width="250">
+<p>{{ config.extra.consent.description }}</p>
+
+<!-- Consent settings -->
+<input
+  class="md-toggle"
+  type="checkbox"
+  id="__settings"
+  {{ checked }}
+/>
+<div class="md-consent__settings">
+  <ul class="task-list">
+    {% for type in cookies %}
+      {% set checked = "" %}
+      {% if cookies[type] is string %}
+        {% set name = cookies[type] %}
+        {% set checked = "checked" %}
+      {% else %}
+        {% set name = cookies[type].name %}
+        {% if cookies[type].checked %}
+          {% set checked = "checked" %}
+        {% endif %}
+      {% endif %}
+      <li class="task-list-item">
+        <label class="task-list-control">
+          <input type="checkbox" name="{{ type }}" {{ checked }}>
+          <span class="task-list-indicator"></span>
+          {{ name }}
+        </label>
+      </li>
+    {% endfor %}
+  </ul>
+</div>
+
+<!-- Consent controls -->
+<div class="md-consent__controls">
+  {% for action in actions %}
+
+    <!-- Button to accept cookies -->
+    {% if action == "accept" %}
+      <button class="md-button md-button--primary">
+        {{- lang.t("consent.accept") -}}
+      </button>
+    {% endif %}
+
+    <!-- Button to reject cookies -->
+    {% if action == "reject" %}
+      <button type="reset" class="md-button md-button--primary">
+        {{- lang.t("consent.reject") -}}
+      </button>
+    {% endif %}
+
+    <!-- Button to manage settings -->
+    {% if action == "manage" %}
+      <label class="md-button" for="__settings">
+        {{- lang.t("consent.manage") -}}
+      </label>
+    {% endif %}
+  {% endfor %}
+</div>
