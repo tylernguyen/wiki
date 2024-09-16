@@ -170,14 +170,14 @@ tags:
 
 <div class="grid cards" markdown>
 
-- ![Neural DSP Archetype: Gojira X](https://assets.tylernguyen.wiki/logos/NeuralDSP_Archetype-Gojira.png){ .twemoji } [Neural DSP Archetype: Gojira X](https://neuraldsp.com/plugins/archetype-gojira)
-- ![Neural DSP Archetype: Plini X](https://assets.tylernguyen.wiki/logos/NeuralDSP_Archetype-Plini.png){ .twemoji } [Neural DSP Archetype: Plini X](https://neuraldsp.com/plugins/archetype-plini)
+- ![Neural DSP Archetype: Gojira X](https://assets.tylernguyen.wiki/logos/NeuralDSP_Archetype-Gojira.png){ .twemoji } [Archetype: Gojira X](https://neuraldsp.com/plugins/archetype-gojira)
+- ![Neural DSP Archetype: Plini X](https://assets.tylernguyen.wiki/logos/NeuralDSP_Archetype-Plini.png){ .twemoji } [Archetype: Plini X](https://neuraldsp.com/plugins/archetype-plini)
 
 </div>
 
 <div class="grid cards" markdown>
 
-- ![Neural DSP Archetype: Petrucci](https://assets.tylernguyen.wiki/logos/NeuralDSP_Archetype-Petrucci.png){ .twemoji } [Neural DSP Archetype: Petrucci](https://neuraldsp.com/plugins/archetype-petrucci)
-- ![Neural DSP Archetype: TIm Henson](https://assets.tylernguyen.wiki/logos/NeuralDSP_Archetype-Tim-Henson.png){ .twemoji } [Neural DSP Archetype: Tim Henson](https://neuraldsp.com/plugins/archetype-tim-henson)
+- ![Neural DSP Archetype: Petrucci](https://assets.tylernguyen.wiki/logos/NeuralDSP_Archetype-Petrucci.png){ .twemoji } [Archetype: Petrucci](https://neuraldsp.com/plugins/archetype-petrucci)
+- ![Neural DSP Archetype: Tim Henson](https://assets.tylernguyen.wiki/logos/NeuralDSP_Archetype-Tim-Henson.png){ .twemoji } [Archetype: Tim Henson](https://neuraldsp.com/plugins/archetype-tim-henson)
 
 </div>
