@@ -85,10 +85,6 @@
   --md-typeset-kbd-accent-color: rgb(var(--solarized-base03));
 }
 
-.md-grid {
-  max-width: 1660px;
-}
-
 /* NOTE Header: Hide shadow under header */
 .md-header[data-md-state="shadow"],
 .md-header--shadow {
