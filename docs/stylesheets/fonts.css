@@ -15,22 +15,22 @@
 }
 
 .md-typeset h1 {
+  color: var(--md-default-fg-color);
   margin: 0 0 .75em;
-  font-size: xx-large;
-  font-weight: 130;
-  color: rgb(var(--solarized-orange));
-  text-decoration: underline;
-  text-decoration-color: rgb(var(--solarized-orange));
+  font-weight: bold;
+  word-spacing: -5px;
 }
 
 .md-typeset h2 {
   font-weight: 120;
+  word-spacing: -5px;
 }
 
 .md-typeset p {
   font-weight: 110;
   font-size: medium;
   line-height: 1.6;
+  word-spacing: -2px;
 }
 
 .md-typeset figcaption {
@@ -45,8 +45,6 @@
 .md-meta {
   color: var(--md-default-fg-color--light);
   font-size: small;
-  padding: 2px;
-  margin-bottom: 20px;
 }
 
 .md-grid {

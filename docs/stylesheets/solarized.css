@@ -56,6 +56,7 @@
   --md-typeset-kbd-color: rgb(var(--solarized-base2));
   --md-typeset-kbd-border-color: rgb(var(--solarized-green));
   --md-typeset-kbd-accent-color: rgb(var(--solarized-base3));
+  --md-typeset-mark-color: rgb(var(--solarized-green));
 }
 
 [data-md-color-scheme="slate"] {
@@ -783,7 +784,11 @@
 }
 
 .md-post {
-  margin: 0;
-  padding: 0;
-  border: 0;
+  margin-left: 0;
+  margin-bottom: 3em;
+}
+
+.md-pin {
+  background: var(--md-primary-fg-color);
+  color: black;
 }
