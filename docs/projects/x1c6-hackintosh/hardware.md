@@ -52,8 +52,8 @@ I also advise to redo the stock thermal application.
 
 [:simple-youtube:{ .youtube } @der8auer](https://www.youtube.com/@der8auer) shown himself tuning this exact machine model with liquid metal:
 
-1. [:simple-youtube:{ .youtube } Lenovo X1 Carbon G6 - Liquid Metal and Tuning (Part 1/2)](https://www.youtube.com/watch?v=FXR5-HwIre8)
-2. [:simple-youtube:{ .youtube } Lenovo X1 Carbon G6 - Liquid Metal and Tuning (Part 2/2)](https://www.youtube.com/watch?v=1yimz_Wy0lM)
+1. [:simple-youtube:{ .youtube } Lenovo X1 Carbon G6 - Liquid Metal and Tuning (Part 1)](https://www.youtube.com/watch?v=FXR5-HwIre8)
+2. [:simple-youtube:{ .youtube } Lenovo X1 Carbon G6 - Liquid Metal and Tuning (Part 2)](https://www.youtube.com/watch?v=1yimz_Wy0lM)
 
 ## Battery Replacement
 
