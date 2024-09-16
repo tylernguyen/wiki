@@ -4,18 +4,6 @@
 
 <!-- Post excerpt -->
 <article class="md-post md-post--excerpt">
-    <!-- Post content -->
-    <!-- ANCHOR Customization -->
-    <!-- TODO post.content should be title only! -->
-  <div class="md-post__content md-typeset">
-    {{ post.content }}
-    <!-- NOTE Removed Continue reading link -->
-  </div>
-
-  <header class="md-post__header">
-
-    <!-- ANCHOR Customization -->
-    <!-- NOTE Removed Author Information -->
 
     <!-- Post metadata -->
     <div class="md-post__meta md-meta">
@@ -63,6 +51,11 @@
             {% endif %}
           </li>
         {% endif %}
+
+        <!-- Pin marker -->
+        {% if post.config.pin %}
+          <span class="md-pin"></span>
+        {% endif %}
       </ul>
 
       <!-- Draft marker -->
@@ -73,4 +66,18 @@
       {% endif %}
     </div>
   </header>
+
+  <!-- Post content -->
+  <div class="md-post__content md-typeset">
+    {{ post.content }}
+
+    <!-- Continue reading link -->
+    {% if post.more %}
+      <nav class="md-post__action">
+        <a href="{{ post.url | url }}">
+          continue →
+        </a>
+      </nav>
+    {% endif %}
+  </div>
 </article>
