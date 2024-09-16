@@ -23,6 +23,7 @@ RSS is my preferred method of following websites. I also maintain an email alias
 - [Seirdy’s Home](https://seirdy.one/)
 - [endtimes.dev](https://endtimes.dev/) [:fontawesome-solid-square-rss:{ .rss }](https://endtimes.dev/feed.xml){ .card-link title="RSS Feed"}
 - [Jeff Geerling](https://www.jeffgeerling.com/blog)
+- [tonsky.me](https://tonsky.me/)
 
 ## Digital Gardens
 
