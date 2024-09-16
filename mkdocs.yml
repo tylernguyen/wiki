@@ -67,8 +67,7 @@ theme:
     tag:
       default: octicons/tag-16
       Evergreen: material/leaf
-      video-games: material/microsoft-xbox-controller
-      board-games: material/chess-pawn
+      MTG: material/cards
   palette:
     - media: "(prefers-color-scheme)"
       scheme: default
@@ -112,27 +111,31 @@ extra:
       link: https://tylernguyen.codes/explore/repos
   tags:
     Evergreen: Evergreen
-    Video Games: video-games
-    Board Games: board-games
+    MTG : MTG
 
 extra_css:
   - stylesheets/solarized.css
   - stylesheets/fonts.css
   - stylesheets/colors.css
+  - https://unpkg.com/katex@0/dist/katex.min.css
 
 extra_javascript:
   - https://unpkg.com/tablesort@5.3.0/dist/tablesort.min.js
   - javascripts/tablesort.js
   - https://unpkg.com/mermaid@10.9.1/dist/mermaid.min.js
+  - javascripts/katex.js
+  - https://unpkg.com/katex@0/dist/katex.min.js
+  - https://unpkg.com/katex@0/dist/contrib/auto-render.min.js
 
 watch:
   - includes
 
 # ANCHOR Plugins
 plugins:
-  - meta  # NOTE Located at the beginning of the list of `plugins` so that other plugins (including the [built-in blog plugin]) will pick up the set defaults
+  - meta  # NOTE Located at the beginning of the list of `plugins` so that other pluginps (including the [built-in blog plugin]) will pick up the set defaults
   - blog:
       blog_dir: .
+      # blog_toc: true # NOTE TOC on blog index
       archive_toc: true
       draft_if_future_date: true
       post_excerpt: required
@@ -274,6 +277,8 @@ markdown_extensions:
   - tools.collapse_code:
       expand_text: ''
       collapse_text: ''
+  - pymdownx.arithmatex:
+      generic: true
 
 # ANCHOR Navigation tree
 nav:
@@ -313,7 +318,7 @@ nav:
       - dotfiles.md
       - hardware.md
       - peripherals.md
-      - tools.md
+      - workshop.md
       - software.md
       - services.md
       - self-hosted.md
