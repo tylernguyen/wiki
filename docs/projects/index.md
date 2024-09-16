@@ -19,7 +19,6 @@
 
     [:simple-github:{ .github } Repository](https://github.com/tylernguyen/x1c6-hackintosh){ .md-button }
     [:octicons-markdown-16: README](x1c6-hackintosh/README.md){ .md-button }
-    [:material-data-matrix: Datasheet](x1c6-hackintosh/datasheet.md){ .md-button }
     [:octicons-law-16:](https://github.com/tylernguyen/x1c6-hackintosh/blob/main/LICENSE){ .card-link title=License }
 
 </div>
