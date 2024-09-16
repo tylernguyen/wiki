@@ -8,15 +8,11 @@ categories:
 slug: hello-world
 ---
 
-# Hello, World! Building Dot Wiki
+# Hello, World!
+
+Building a knowledge base and maintaining a blog has always been something I've always wanted to do. So after an extended period of on and off development, I'm now proud to say that my personal wiki is now public. The following is a quick overview of the stack used in creationg of this website.
 
 <!-- more -->
-
-/// announce | It's Alive!
-
-Keeping a knowledge base and maintaining a blog has been something I've always wanted to do. So after an extended period of on and off development, I'm now proud to say that my personal wiki is now public.
-
-///
 
 ## Markdown :octicons-markdown-16:
 
