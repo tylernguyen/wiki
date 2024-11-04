@@ -13,11 +13,11 @@
         <li class="md-meta__item">
           <!-- SECTION Customization -->
           <time datetime="{{ post.config.date.created }}">
-            {{ post.config.date.created | date }}
+            {{ post.config.date.created.strftime("%Y-%m-%d") }}
           </time>
           {% if post.config.date.updated %}
             <time datetime="{{ post.config.date.updated }}">
-            (Updated {{ post.config.date.updated | date }})
+            (Edited {{ post.config.date.updated.strftime("%Y-%m-%d") }})
             </time>
           {% endif %}
           <!-- !SECTION Customization -->
