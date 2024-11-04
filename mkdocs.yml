@@ -136,6 +136,7 @@ plugins:
   - blog:
       blog_dir: .
       # blog_toc: true # NOTE TOC on blog index
+      post_readtime: false
       archive_toc: true
       draft_if_future_date: true
       post_excerpt: required
