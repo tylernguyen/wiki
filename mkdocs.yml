@@ -125,6 +125,7 @@ extra_javascript:
   - javascripts/tablesort.js
   - https://unpkg.com/mermaid@10.9.1/dist/mermaid.min.js
   - javascripts/katex.js
+  - https://unpkg.com/mermaid@11/dist/mermaid.min.js
   - https://unpkg.com/katex@0/dist/katex.min.js
   - https://unpkg.com/katex@0/dist/contrib/auto-render.min.js
 
