@@ -1,4 +1,6 @@
 ---
+hide:
+  - toc
 icon: material/sword
 tags:
   - Evergreen
@@ -6,16 +8,17 @@ tags:
 
 # Manga
 
-/// featured
-![Goodnight Punpun](https://assets.tylernguyen.wiki/covers/Goodnight-Punpun.png){ align=right width=125 }
+<div style="text-align:center;" markdown>
+{==
 
-[:simple-anilist:{ .anilist } AniList](https://anilist.co/manga/34632/Oyasumi-Punpun){ .md-button }
-[![Viz](https://assets.tylernguyen.wiki/logos/Viz.png){ .twemoji  } Viz](https://www.viz.com/goodnight-punpun){ .md-button }
-///
+## Featured
 
-/// featured
-![Vagabond](https://assets.tylernguyen.wiki/covers/Vagabond.jpg){ align=right width=125 }
+==}
+</div>
 
-[:simple-anilist:{ .anilist } AniList](https://anilist.co/manga/30656/Vagabond){ .md-button }
-[![Viz](https://assets.tylernguyen.wiki/logos/Viz.png){ .twemoji  } Viz](https://www.viz.com/vagabond){ .md-button }
-///
+![Vagabond](https://assets.tylernguyen.wiki/covers/Vagabond.jpg){ width=125 }
+![Goodnight Punpun](https://assets.tylernguyen.wiki/covers/Goodnight-Punpun.png){ width=125 }
+
+**Vagabond** [:simple-anilist:{ .anilist }](https://anilist.co/manga/30656/Vagabond "AniList") [![Viz](https://assets.tylernguyen.wiki/logos/Viz.png){ .twemoji  }](<https://www.viz.com/vagabond> "VIZ")
+
+**Goodnight Punpun** [:simple-anilist:{ .anilist }](https://anilist.co/manga/34632/Oyasumi-Punpun "AniList") [![Viz](https://assets.tylernguyen.wiki/logos/Viz.png){ .twemoji  }](https://www.viz.com/goodnight-punpun "VIZ")

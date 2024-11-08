@@ -8,7 +8,14 @@ hide:
 
 # Movies
 
-/// featured
+<div style="text-align:center;" markdown>
+{==
+
+## Featured
+
+==}
+</div>
+
 <div class="grid cards" markdown>
 
 - ![Enter the Dragon](https://image.tmdb.org/t/p/original/b9G01LQzVhxgxdFOgopYlShM4L5.jpg)
@@ -36,4 +43,3 @@ hide:
     [![IMDb](https://assets.tylernguyen.wiki/logos/IMDb.png){ .twemoji .card-link title="IMDb" }](https://www.imdb.com/title/tt8579674/)
 
 </div>
-///

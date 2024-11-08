@@ -1,30 +1,29 @@
 ---
-icon: material/robot-angry-outline
+hide:
+  - toc
+icon: octicons/comment-16
 tags:
   - Evergreen
 ---
 
 # Comics
 
-/// featured
-**The Department of Truth**
+<div style="text-align:center;" markdown>
+{==
 
-![Department of Truth](https://assets.tylernguyen.wiki/covers/Department-of-Truth_2021.jpg){ align=right width=125 }
+## Featured
 
-[James Tynion IV](https://jamestynioniv.substack.com/){ .md-button }
-[![Comic Vine](https://assets.tylernguyen.wiki/logos/ComicVine.png){ .twemoji  } Comic Vine](https://comicvine.gamespot.com/the-department-of-truth/4050-130740/){ .md-button }
-[![Image Comics](https://assets.tylernguyen.wiki/logos/Image_Comics.svg){ .twemoji  } Image Comics](https://imagecomics.com/comics/series/the-department-of-truth){ .md-button }
-///
+==}
+</div>
 
-/// featured
-**Spy Superb**
+![Department of Truth](https://assets.tylernguyen.wiki/covers/Department-of-Truth_2021.jpg){ width=125 }
+![Spy Superb](https://assets.tylernguyen.wiki/covers/Spy-Superb_2023.jpg){ width=125 }
 
-![Spy Superb](https://assets.tylernguyen.wiki/covers/Spy-Superb_2023.jpg){ align=right width=125 }
+**The Department of Truth (2020)** [![Image Comics](https://assets.tylernguyen.wiki/logos/Image_Comics.svg){ .twemoji  }](https://imagecomics.com/comics/series/the-department-of-truth "Image Comics")
 
-[Matt Kindt](https://www.mattkindtshop.com){ .md-button }
-[![Comic Vine](https://assets.tylernguyen.wiki/logos/ComicVine.png){ .twemoji  } Comic Vine](https://comicvine.gamespot.com/spy-superb/4050-147440/){ .md-button }
-[![Dark Horse Comics](https://assets.tylernguyen.wiki/logos/Dark_Horse_Comics.svg){ .twemoji  } Dark Horse Comics](https://www.darkhorse.com/Books/3010-220/Spy-Superb-HC){ .md-button }
-///
+**Spy Superb (2023)** [![Dark Horse Comics](https://assets.tylernguyen.wiki/logos/Dark_Horse_Comics.svg){ .twemoji  }](https://www.darkhorse.com/Books/3010-220/Spy-Superb-HC "Dark Horse Comics")
+
+---
 
 - 100 Bullets (1999)
 - A Contract with God (1978)

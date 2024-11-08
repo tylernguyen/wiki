@@ -6,7 +6,14 @@
 
 # Anime
 
-/// featured
+<div style="text-align:center;" markdown>
+{==
+
+## Featured
+
+==}
+</div>
+
 <div class="grid cards" markdown>
 
 - ![Cowboy Bebop](https://image.tmdb.org/t/p/original/A4PHx94G7mvM3b8vsDJ5HEaQ6uv.jpg)
@@ -39,4 +46,3 @@
     [![aniDB](https://assets.tylernguyen.wiki/logos/aniDB.png){ .twemoji .card-link title="aniDB" }](https://anidb.net/anime/10384)
 
 </div>
-///
