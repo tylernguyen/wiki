@@ -1,7 +1,7 @@
 @font-face {
   font-family: "BerkeleyMono";
   src: url("/assets/font/BerkeleyMonoVariable/BerkeleyMonoVariable-Regular.woff2") format("woff2");
-  font-display: swap;
+  font-display: optional;
   font-weight: 100 150;
   font-style: normal;
 }
@@ -9,7 +9,7 @@
 @font-face {
   font-family: "BerkeleyMono";
   src: url("/assets/font/BerkeleyMonoVariable/BerkeleyMonoVariable-Italic.woff2") format("woff2");
-  font-display: swap;
+  font-display: optional;
   font-weight: 100 150;
   font-style: italic;
 }
