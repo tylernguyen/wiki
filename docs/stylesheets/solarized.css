@@ -127,6 +127,16 @@
   background-color: var(--md-primary-fg-color--light);
 }
 
+.md-nav--primary .md-nav__title {
+  color: var(--md-default-fg-color);
+}
+
+.md-nav--primary .md-nav__title[for="__drawer"] {
+  background-color: var(--md-default-bg-color--light);
+  color: var(--md-default-fg-color);
+  font-size: 0.9rem;
+}
+
 /* NOTE Icon Recolor */
 .md-source__icon {
   color: var(--md-default-fg-color);
