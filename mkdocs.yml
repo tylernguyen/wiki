@@ -200,7 +200,6 @@ markdown_extensions:
       - featured
       - announce
       - extension
-      - code
       - setting
       - screenshot
   - pymdownx.blocks.caption
@@ -234,8 +233,6 @@ markdown_extensions:
         class: announce
       - name: details-extension
         class: extension
-      - name: details-code
-        class: code
       - name: details-setting
         class: setting
       - name: details-screenshot
