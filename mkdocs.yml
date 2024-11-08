@@ -50,8 +50,8 @@ theme:
   icon:
     repo: simple/github
     annotation: octicons/comment-24
-    search: octicons/rel-file-path-24
-    top: octicons/chevron-up-24
+    search: material/magnify-expand
+    top: octicons/move-to-top-24
     view: octicons/markdown-16
     admonition:
       note: octicons/pencil-16
