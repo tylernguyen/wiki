@@ -1,11 +1,11 @@
 ---
-pin: true
 date:
   created: 2024-05-01
   updated: 2024-05-22
 categories:
   - Update
 slug: hello-world
+pin: false
 ---
 
 # Hello, World!
@@ -82,8 +82,8 @@ I briefly considered [Plausible Analytics](https://plausible.io/), but the analy
 
 - <figure markdown>
     <p align="center">
-    ![PostHog](https://assets.tylernguyen.wiki/logos/PostHog-light.svg#only-light){ width=350 }
-    ![PostHog](https://assets.tylernguyen.wiki/logos/PostHog-dark.svg#only-dark){ width=350 }
+    ![PostHog](https://assets.tylernguyen.wiki/logos/PostHog-light.svg#only-light){ loading-lazy width=350 }
+    ![PostHog](https://assets.tylernguyen.wiki/logos/PostHog-dark.svg#only-dark){ loading-lazy width=350 }
     </p>
     </figure>
 
