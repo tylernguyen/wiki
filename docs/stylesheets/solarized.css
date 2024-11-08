@@ -129,7 +129,16 @@
 
 /* NOTE Icon Recolor */
 .md-source__icon {
-  color: #f05032;
+  color: var(--md-default-fg-color);
+}
+
+[dir="ltr"] .md-source__repository {
+  color: var(--md-default-fg-color);
+}
+
+.md-header__option,
+.md-header__button.md-icon {
+  color: var(--md-default-fg-color);
 }
 
 .md-social__link:nth-child(1) svg {
