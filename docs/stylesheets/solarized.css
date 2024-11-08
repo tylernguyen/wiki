@@ -162,7 +162,8 @@
 .md-search__icon,
 .md-search-result__icon,
 .md-search__input::placeholder {
-  color: var(--md-default-fg-color) !important;
+  color: var(--md-default-fg-color--lighter) !important;
+  scale: 95%;
 }
 
 .md-search-result__meta {
