@@ -316,8 +316,7 @@ nav:
       - manga.md
       - graphic-novels.md
       - podcasts.md
-      - board-games.md
-      - video-games.md
+      - games.md
     - Uses:
       - dotfiles.md
       - hardware.md
