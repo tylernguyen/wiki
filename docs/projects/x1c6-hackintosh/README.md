@@ -7,23 +7,23 @@ subtitle: README.md
 
 ## FAQ
 
-#### Does everything work?
+### Does everything work?
 
 Core functions work flawlessly. Notable non-functional features include the fingerprint reader, WWAN, and USB 3.1 Gen2 hotplug.
 
-#### Is this project maintained?
+### Is this project maintained?
 
 Yes, until eventually my x1c6 dies or macOS phases out update (even then, it'll likely last a few more years).
 
-#### Can this brick my laptop?
+### Can this brick my laptop?
 
 Not very likely, expect drive wipes and lost time, however.
 
-#### Can you port this for X machine?
+### Can you port this for X machine?
 
 No.
 
-#### How do I keep my Hackintosh setup updated?
+### How do I keep my Hackintosh setup updated?
 
 Currently, there is no automatic solution available. For now, I recommend you create a GitHub watch alert and update the EFI as it comes along.
 
