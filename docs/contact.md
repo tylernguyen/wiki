@@ -6,31 +6,18 @@ hide:
 
 # Contact
 
-I'm available on fediverse at my personal Mastodon instance.
+You can reach me quickly via the fediverse at [:simple-mastodon:{ .mastodon } @tylernguyen@tylernguyen.social](https://tylernguyen.social/@tylernguyen).
 
-<div style="text-align:center;" markdown>
+Alternatively, my (Proton) email address is [:simple-protonmail:{ .protonmail } human@tylernguyen.email](mailto:human@tylernguyen.email).
 
-[:simple-mastodon:{ .mastodon } @tylernguyen@tylernguyen.social](https://tylernguyen.social/@tylernguyen){ .md-button }
+Optionally,  [:simple-gnuprivacyguard:{ .gnuprivacyguard } 0x136307727d3eef96](https://github.com/tylernguyen.gpg) is my PGP key.
 
-</div>
-
-Email is also a convenient way to get ahold of me.
-
-<div style="text-align:center;" markdown>
-
-[:simple-protonmail:{ .protonmail } human@tylernguyen.email](mailto:human@tylernguyen.email){ .md-button }
-[:simple-gnuprivacyguard:{ .gnuprivacyguard } 0x136307727d3eef96](https://github.com/tylernguyen.gpg){ .md-button }
-
-</div>
-
-I do not have a Twitter[^1], Facebook[^2], nor Instagram.
+/// warning
+I do not have a Twitter[^1], Facebook[^2], Instagram, nor Threads.
+///
 
 [^1]: [Richard Stallman: Twitter](https://stallman.org/twitter.html)
 [^2]: [Richard Stallman: Reasons not be used by Facebook](https://stallman.org/facebook.html)
-
-/// note
-I would prefer for messages to be encrypted, even if its content is non-sensitive.
-///
 
 /// success | What I'll DEFINITELY respond to.
 
