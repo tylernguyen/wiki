@@ -40,8 +40,8 @@ theme:
     - navigation.prune # LINK https://squidfunk.github.io/mkdocs-material/setup/setting-up-navigation/?h=navigation+pru#navigation-pruning
     - navigation.sections
     - navigation.tabs
-    - navigation.tabs.sticky
-    - navigation.top # LINK https://squidfunk.github.io/mkdocs-material/setup/setting-up-navigation/?h=navigation#back-to-top-button
+    #- navigation.tabs.sticky
+    #- navigation.top # LINK https://squidfunk.github.io/mkdocs-material/setup/setting-up-navigation/?h=navigation#back-to-top-button
     - navigation.tracking # NOTE Update URL with Active Anchor
     - search.highlight # LINK https://squidfunk.github.io/mkdocs-material/setup/setting-up-site-search/?h=search+high#search-highlighting
     - search.suggest # LINK https://squidfunk.github.io/mkdocs-material/setup/setting-up-site-search/?h=search+high#search-suggestions
