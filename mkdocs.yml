@@ -203,6 +203,7 @@ markdown_extensions:
       - code
       - setting
       - screenshot
+  - pymdownx.blocks.caption
   - pymdownx.blocks.details:
       types:
       - name: details-note
