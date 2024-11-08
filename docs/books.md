@@ -1,5 +1,5 @@
 ---
-icon: material/book-open-variant-outline
+icon: material/book-open-outline
 tags:
   - Evergreen
 ---
@@ -8,16 +8,22 @@ tags:
 
 I prefer to listen to the audiobook version when available. I've read/listened to the books listed here at least once. Frequent interested genres include: general nonfiction, history, crime, science, and mathematics.
 
-/// featured
-![The Committed](https://assets.tylernguyen.wiki/covers/The-Committed_2021.jpg){ align=right width=125 }
-![The Sympathizer](https://assets.tylernguyen.wiki/covers/The-Sympathizer_2015.jpg){ align=right width=125}
+<div style="text-align:center;" markdown>
+{==
 
-__Nguyễn, Việt Thanh__ - _The Sympathizer_ [:simple-goodreads:{ .goodreads }](https://www.goodreads.com/book/show/23168277-the-sympathizer){ .card-link title=Goodreads }
+## Featured
 
-__Nguyễn, Việt Thanh__ - _The Committed (Sequel to The Sympathizer)_ [:simple-goodreads:{ .goodreads }](https://www.goodreads.com/book/show/52260627-the-committed){ .card-link title=Goodreads }
+==}
+</div>
 
-[Việt Thanh Nguyễn](https://vietnguyen.info/){ .md-button }
-///
+![The Committed](https://assets.tylernguyen.wiki/covers/The-Committed_2021.jpg){ width=125 }
+![The Sympathizer](https://assets.tylernguyen.wiki/covers/The-Sympathizer_2015.jpg){ width=125}
+
+__Nguyễn, Việt Thanh__ - _The Sympathizer_ [:simple-goodreads:{ .goodreads }](https://www.goodreads.com/book/show/23168277-the-sympathizer "Goodreads")
+
+__Nguyễn, Việt Thanh__ - _The Committed (Sequel to The Sympathizer)_ [:simple-goodreads:{ .goodreads }](https://www.goodreads.com/book/show/52260627-the-committed "Goodreads")
+
+---
 
 ## Art, Design & Writing
 
@@ -77,6 +83,27 @@ __Nguyễn, Việt Thanh__ - _The Committed (Sequel to The Sympathizer)_ [:simpl
 - __Otsuka, Julie__ - _The Buddha in The Attic_
 - __Tarantino, Quentin__ - _Once Upon a Time in Hollywood_
 
+## Graphic Novels
+
+- __Backderf, Derf__ - _My Friend Dahmer_ (2012)
+- __Backderf, Derf__ - _Trashed_ (2015)
+- __Bechdel, Alison__ - _Fun Home: A Family Tragicomic_ (2006)
+- __Campbell, Eddie__ - _Alec: The Years Have Pants_ (2009)
+- __Delisle, Guy__ - _A User’s Guide to Neglectful Parenting_ (2013)
+- __Delisle, Guy__ - _Burma Chronicles_ (2008)
+- __Delisle, Guy__ - _Factory Summers_ (2021)
+- __Delisle, Guy__ - _Hostage_ (2017)
+- __Delisle, Guy__ - _Jerusalem: Chronicles from the Holy City_ (2012)
+- __Delisle, Guy__ - _Pyongyang: A Journey in North Korea_ (2005)
+- __Derf Backderf__ - _Kent State: Four Dead in Ohio_ (2020)
+- __Eisner, Will__ - _A Contract with God and Other Tenement Stories_ (2017)
+- __Eisner, Will__ - _A Contract with God_ (1978)
+- __Guerse, Guy__ - _Albert and the Others_ (2007)
+- __Sacco, Joe__ - _Footnotes in Gaza_ (2009)
+- __Schechter, Harold & Powell, Eric__ - _Did You Hear What Eddie Gein Done?_ (2021)
+- __Spiegelman, Art__ - _Maus: A Survivor's Tale_ (1986)
+- __Windsor-Smith, Barry__ - _Monsters_ (2021)
+
 ## History
 
 - __Applebaum, Anne__ - _Gulag: A History_
@@ -85,10 +112,10 @@ __Nguyễn, Việt Thanh__ - _The Committed (Sequel to The Sympathizer)_ [:simpl
 - __Deyle, Steven__ - _Carry Me Back: The Domestic Slave Trade in American Life_
 - __Dolnick, Edward__ - _The Clockwork Universe: Saac Newto, Royal Society, and the Birth of the Modern World_
 - __FitzGerald, Frances__ - _Fire in the Lake: The Vietnamese and the Americans in Vietnam_
-- __Harari, Yuvai Noah__ - _Sapiens_
-- __Harari, Yuvai Noah__ - _Homo Deus (Sequal to Sapiens)_
 - __Golding, William__ - _The Inheritors_
 - __Graeber, David__ - _Debt: The First 5000 Years_
+- __Harari, Yuvai Noah__ - _Homo Deus (Sequal to Sapiens)_
+- __Harari, Yuvai Noah__ - _Sapiens_
 - __Johnson, Walter__ - _Soul by Soul: Life Inside the Antebellum Slave Market_
 - __Keefe, Patrick Radden__ - _Say Nothing: A True Story of Murder and Memory in Northern Ireland_
 - __Kiernan, Ben__ - _Việt Nam: A History from Earliest Times to the Present_
@@ -132,8 +159,8 @@ __Nguyễn, Việt Thanh__ - _The Committed (Sequel to The Sympathizer)_ [:simpl
 - __Akerlof, George A. and Shiller, Robert J.__ - _Phishing for Phools: The Economy of Manipulation and Deception_
 - __Gawande, Atul__ - _Being Mortal: Medicine and What Matters in the End_
 - __Geithner, Timothy F.__ - _Stress Test: Reflections on Financial Cries_
-- __Godfrey-Smith, Peter__ - _Other Minds: The Octopus, the Sea, and the Deep Origins of Consciousness_
 - __Godfrey-Smith, Peter__ - _Metazoa: Animal Life and the Birth of the Mind_
+- __Godfrey-Smith, Peter__ - _Other Minds: The Octopus, the Sea, and the Deep Origins of Consciousness_
 - __Huff, Darrell__ - _How to Lie with Statistics_
 - __Kahneman, Daniel__ - _Thinking, Fast and Slow_
 - __Levitt, Steven and Dubner, Stephen__ - _Freakonomics_
