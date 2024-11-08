@@ -86,3 +86,66 @@
 .md-typeset .md-button {
   font-weight: 120;
 }
+.md-typeset code {
+  font-size: .6rem;
+  padding-left: .25em;
+  padding-right: .25em;
+}
+
+.md-typeset figcaption {
+  font-weight: 100;
+  font-size: .6rem;
+}
+
+.md-typeset h1 {
+  margin: 0 0 .75em;
+  color: rgb(var(--md-default-fg-color));
+  word-spacing: -5px;
+  font-size: 1.5rem;
+}
+
+.md-typeset h2 {
+  word-spacing: -3px;
+  font-size: 1.2rem;
+}
+
+.md-typeset h3 {
+  font-size: 1rem;
+}
+
+.md-typeset p {
+  font-weight: 110;
+  font-size: 0.7rem;
+  line-height: 1.6;
+  word-spacing: -2px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+
+.md-typeset ul {
+  font-size: .7rem;
+}
+
+/* NOTE Correct Nav Item Font sizing on mobile */
+
+.md-nav--primary .md-nav__item {
+  font-size: .7rem;
+  line-height: 1.5;
+}
+
+/* LINK https: //github.com/squidfunk/mkdocs-material/discussions/6757#discussioncomment-10100386 */
+
+.md-tooltip2 {
+  top: calc(var(--md-tooltip-host-y) - 1.5rem);
+}
+
+.md-tooltip2>.md-typeset {
+  color: var(--tooltip-color);
+  font-family: var(--default-font);
+  font-size: 0.5rem;
+  font-weight: normal;
+}
+
+.admonition-title {
+  letter-spacing: 0.5px;
+}
