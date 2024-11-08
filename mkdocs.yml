@@ -87,6 +87,17 @@ theme:
         icon: material/lightbulb-outline
         name: "Light Mode Enabled. Click to Toggle Automatic Mode."
 
+    # - scheme: slate
+    #   primary: custom
+    #   toggle:
+    #     icon: material/lightbulb-night-outline
+    #     name: Dark Mode Enabled. Click to Toggle Light Mode.
+
+    # - scheme: default
+    #   toggle:
+    #     icon: material/lightbulb-outline
+    #     name: Light Mode Enabled. Click to Toggle Automatic Mode.
+
 extra:
   analytics:
     provider: posthog
