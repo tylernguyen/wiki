@@ -134,7 +134,6 @@ extra_css:
 extra_javascript:
   - https://unpkg.com/tablesort@5.3.0/dist/tablesort.min.js
   - javascripts/tablesort.js
-  - https://unpkg.com/mermaid@10.9.1/dist/mermaid.min.js
   - javascripts/katex.js
   - https://unpkg.com/mermaid@11/dist/mermaid.min.js
   - https://unpkg.com/katex@0/dist/katex.min.js
