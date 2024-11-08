@@ -48,6 +48,7 @@ theme:
     - toc.follow # LINK https://squidfunk.github.io/mkdocs-material/setup/setting-up-navigation/?h=navigation#anchor-following
     #- toc.integrate # NOTE Table of Contents as part of Navigation INCOMPATIBLE with navigation.indexes
   icon:
+    repo: simple/github
     annotation: octicons/comment-24
     search: octicons/rel-file-path-24
     top: octicons/chevron-up-24
