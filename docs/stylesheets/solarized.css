@@ -146,7 +146,7 @@
 }
 
 .md-social__link:nth-child(2) svg {
-  fill: #181717;
+  fill: var(--md-default-fg-color);
 }
 
 .md-social__link:nth-child(3) svg {
