@@ -8,7 +8,7 @@ hide:
 <div class="grid cards" markdown>
 
 - [:simple-mastodon:{ .mastodon } @tylernguyen@tylernguyen.social](https://tylernguyen.social/@tylernguyen)
-- [:simple-github:{ .github } @tylernguyen](https://github.com/tylernguyen)
+- [:simple-github:{ .foreground } @tylernguyen](https://github.com/tylernguyen)
 - [:simple-gitea:{ .gitea } tylernguyen.codes](https://tylernguyen.codes)
 
 </div>
@@ -71,8 +71,8 @@ I.e. copy, remix, and redistribute in a non-commercial manner.
 
 - <figure markdown>
     <p align="center">
-    ![PostHog](https://assets.tylernguyen.wiki/logos/PostHog-light.svg#only-light){ width=250 }
-    ![PostHog](https://assets.tylernguyen.wiki/logos/PostHog-dark.svg#only-dark){ width=250 }
+    ![PostHog](https://assets.tylernguyen.wiki/logos/PostHog-light.svg#only-light){ loading-lazy width=250 }
+    ![PostHog](https://assets.tylernguyen.wiki/logos/PostHog-dark.svg#only-dark){ loading-lazy width=250 }
     </p>
     </figure>
 

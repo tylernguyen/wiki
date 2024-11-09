@@ -4,53 +4,81 @@
 
 # dotfiles
 
-<div style="text-align:center;" markdown>
+<div class="grid cards" markdown>
 
-[:octicons-repo-16:{ .github } github.com/tylernguyen/dotfiles](https://github.com/tylernguyen/dotfiles){ .md-button }
+- :simple-git:{ .git } [tylernguyen/dotfiles](https://github.com/tylernguyen/dotfiles)
+    ![GitHub Stars](https://img.shields.io/github/stars/tylernguyen/dotfiles?style=flat&logo=GitHub&logoColor=073642&labelColor=eee8d5&color=859900#only-light){ .twemoji }
+    ![GitHub Forks](https://img.shields.io/github/forks/tylernguyen/dotfiles?style=flat&logo=GitHub&logoColor=073642&labelColor=eee8d5&color=859900#only-light){ .twemoji }
+    ![GitHub Stars](https://img.shields.io/github/stars/tylernguyen/dotfiles?style=flat&logo=GitHub&logoColor=839496&labelColor=073642&color=2aa198#only-dark){ .twemoji }
+    ![GitHub Forks](https://img.shields.io/github/forks/tylernguyen/dotfiles?style=flat&logo=GitHub&logoColor=839496&labelColor=073642&color=2aa198#only-dark){ .twemoji }
 
 </div>
 
-/// abstract
-dotfiles is designed with maximum cross-platform compatibility, minimal components, and universal behaviors in mind.
-///
-
-/// extension | Components
 <div class="grid cards" markdown>
-
-- ![zsh](https://assets.tylernguyen.wiki/logos/zsh.svg){ .twemoji } [zsh](https://zsh.sourceforge.io/)
-[:octicons-markdown-16:](https://zsh.sourceforge.io/Doc/){ .card-link title=Documentation}
 
 - ![chezmoi](https://assets.tylernguyen.wiki/logos/chezmoi.svg){ .twemoji } [chezmoi](https://github.com/twpayne/chezmoi/)
 [:octicons-markdown-16:](https://www.chezmoi.io/){ .card-link title=Documentation}
 [:fontawesome-regular-file-code:](https://github.com/twpayne/chezmoi){ .card-link title="Source Code" }
 [:octicons-law-16:](https://github.com/twpayne/chezmoi/blob/master/LICENSE){ .card-link title=License }
 
-- :simple-wezterm:{ .wezterm } [wezterm](https://wezfurlong.org/wezterm/index.html)
-[:octicons-markdown-16:](https://wezfurlong.org/wezterm/){ .card-link title=Documentation}
-[:fontawesome-regular-file-code:](https://github.com/wez/wezterm){ .card-link title="Source Code" }
-[:octicons-law-16:](https://github.com/wez/wezterm/blob/main/LICENSE.md){ .card-link title=License }
+    ``` bash
+
+    chezmoi init --ssh tylernguyen #(1)
+
+    ```
+
+    1. Initialize `chezmoi` source direcotry with the dotfiles repository of :simple-github:{ .foreground } GitHub user `tylernguyen`. Use SSH origin instead of the default HTTPS.
+
+</div>
+
+<div class="grid cards" markdown>
 
 - :simple-1password:{ .onepassword } [1Password](https://1password.com/)
 [:fontawesome-solid-money-bill:](https://1password.com/sign-up/){ .card-link title=Pricing }
 [:fontawesome-regular-eye:](https://support.onepassword.com/1password-privacy/){ .card-link title="Privacy Policy" }
 [:octicons-markdown-16:](https://developer.onepassword.com/){ .card-link title="Developer Documentation" }
 
+- :simple-wezterm:{ .wezterm } [wezterm](https://wezfurlong.org/wezterm/index.html)
+[:octicons-markdown-16:](https://wezfurlong.org/wezterm/){ .card-link title=Documentation}
+[:fontawesome-regular-file-code:](https://github.com/wez/wezterm){ .card-link title="Source Code" }
+[:octicons-law-16:](https://github.com/wez/wezterm/blob/main/LICENSE.md){ .card-link title=License }
+
 </div>
+
+<div class="grid cards" markdown>
+
+- :simple-zsh:{ .foreground } [zsh](https://zsh.sourceforge.io/)
+[:octicons-markdown-16:](https://zsh.sourceforge.io/Doc/){ .card-link title=Documentation}
+
+    :simple-git:{ .git } [zimfw/zimfw](<https://github.com/zimfw/zimfw>)
+        ![GitHub Stars](https://img.shields.io/github/stars/zimfw/zimfw?style=flat&logo=GitHub&logoColor=073642&labelColor=eee8d5&color=859900#only-light){ .twemoji }
+        ![GitHub Forks](https://img.shields.io/github/forks/zimfw/zimfw?style=flat&logo=GitHub&logoColor=073642&labelColor=eee8d5&color=859900#only-light){ .twemoji }
+        ![GitHub Stars](https://img.shields.io/github/stars/zimfw/zimfw?style=flat&logo=GitHub&logoColor=839496&labelColor=073642&color=2aa198#only-dark){ .twemoji }
+        ![GitHub Forks](https://img.shields.io/github/forks/zimfw/zimfw?style=flat&logo=GitHub&logoColor=839496&labelColor=073642&color=2aa198#only-dark){ .twemoji }
+
+    :simple-git:{ .git } [romkatv/powerlevel10k](<https://github.com/romkatv/powerlevel10k>)
+        ![GitHub Stars](https://img.shields.io/github/stars/romkatv/powerlevel10k?style=flat&logo=GitHub&logoColor=073642&labelColor=eee8d5&color=859900#only-light){ .twemoji }
+        ![GitHub Forks](https://img.shields.io/github/forks/romkatv/powerlevel10k?style=flat&logo=GitHub&logoColor=073642&labelColor=eee8d5&color=859900#only-light){ .twemoji }
+        ![GitHub Stars](https://img.shields.io/github/stars/romkatv/powerlevel10k?style=flat&logo=GitHub&logoColor=839496&labelColor=073642&color=2aa198#only-dark){ .twemoji }
+        ![GitHub Forks](https://img.shields.io/github/forks/romkatv/powerlevel10k?style=flat&logo=GitHub&logoColor=839496&labelColor=073642&color=2aa198#only-dark){ .twemoji }
+
+    :simple-git:{ .git } [atuinsh/atuin](<https://github.com/atuinsh/atuin>)
+        ![GitHub Stars](https://img.shields.io/github/stars/atuinsh/atuin?style=flat&logo=GitHub&logoColor=073642&labelColor=eee8d5&color=859900#only-light){ .twemoji }
+        ![GitHub Forks](https://img.shields.io/github/forks/atuinsh/atuin?style=flat&logo=GitHub&logoColor=073642&labelColor=eee8d5&color=859900#only-light){ .twemoji }
+        ![GitHub Stars](https://img.shields.io/github/stars/atuinsh/atuin?style=flat&logo=GitHub&logoColor=839496&labelColor=073642&color=2aa198#only-dark){ .twemoji }
+        ![GitHub Forks](https://img.shields.io/github/forks/atuinsh/atuin?style=flat&logo=GitHub&logoColor=839496&labelColor=073642&color=2aa198#only-dark){ .twemoji }
+
+    :simple-git:{ .git } [Aloxaf/fzf-tab](https://github.com/Aloxaf/fzf-tab)
+        ![GitHub Stars](https://img.shields.io/github/stars/Aloxaf/fzf-tab?style=flat&logo=GitHub&logoColor=073642&labelColor=eee8d5&color=859900#only-light){ .twemoji }
+        ![GitHub Forks](https://img.shields.io/github/forks/Aloxaf/fzf-tab?style=flat&logo=GitHub&logoColor=073642&labelColor=eee8d5&color=859900#only-light){ .twemoji }
+        ![GitHub Stars](https://img.shields.io/github/stars/Aloxaf/fzf-tab?style=flat&logo=GitHub&logoColor=839496&labelColor=073642&color=2aa198#only-dark){ .twemoji }
+        ![GitHub Forks](https://img.shields.io/github/forks/Aloxaf/fzf-tab?style=flat&logo=GitHub&logoColor=839496&labelColor=073642&color=2aa198#only-dark){ .twemoji }
+
+</div>
+
+/// abstract
+dotfiles is designed with maximum cross-platform compatibility, minimal components, and universal behaviors in mind.
 ///
-
-## Wezterm :simple-wezterm:{ .wezterm }
-
-- Cross-platform, written in Rust
-- [GPU-accelerated](https://wezfurlong.org/wezterm/config/lua/config/front_end.html)
-- Ligature support
-- [Nerd Fonts fallback](https://wezfurlong.org/wezterm/config/lua/wezterm/nerdfonts.html)
-
-## Z Shell ![zsh](https://assets.tylernguyen.wiki/logos/zsh.svg){ .twemoji }
-
-- :octicons-repo-16:{ .github } [zimfw/zimfw](<https://github.com/zimfw/zimfw>) - Plugin Manager
-- :octicons-repo-16:{ .github } [romkatv/powerlevel10k](<https://github.com/romkatv/powerlevel10k>) - Prompt Theme
-- :octicons-repo-16:{ .github } [atunish/atuin](<https://github.com/atuinsh/atuin>) - Shell History TUI
-- :octicons-repo-16:{ .github } [Aloxaf/fzf-tab](https://github.com/Aloxaf/fzf-tab) - fzf Completion Menu
 
 ## Git :simple-git:{ .git }
 
@@ -64,8 +92,17 @@ I prefer to rebase by default, unless there is very specific reason to merge.
 
 ## Package Managers
 
-On Windows :simple-windows:{ .windows } , I use `winget` by default, supplementing it with third-party installers and the Microsoft Store if needed. Portable executables are placed in `%userprofile%/bin`.
+<div class="grid cards" markdown>
 
-On macOS :simple-apple:{ .apple } , [:simple-homebrew:{ .homebrew } homebrew](https://brew.sh/) is preferred and likewise supplemented by the App Store.
+- :simple-gnubash:{ .gnubash } [winget](https://github.com/microsoft/winget-cli)
+- :simple-flatpak:{ .flatpak } [Flatpak](<https://flatpak.org/>)
+- [:simple-homebrew:{ .homebrew } homebrew](https://brew.sh/)
+- :simple-appstore:{ .appstore } [App Store](<https://github.com/romkatv/powerlevel10k>)
 
-Depending on the Linux :simple-linux:{ .linux } distribution, I tend to use the default package managers such `apt` or `pacman`. If there are no feature difference, however, I will defer to installation via [:simple-flatpak:{ .flatpak } flatpak](https://flatpak.org/).
+</div>
+
+/// note
+
+On Windows, portable executables are placed in `%userprofile%/bin`. Include this in `PATH`.
+
+///

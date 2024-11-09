@@ -8,21 +8,31 @@ tags:
 
 RSS is my preferred method of following websites. I also maintain an email alias specifically for newsletters to be converted into an RSS feed.
 
-/// featured
-- [danluu.com](https://danluu.com/) [:fontawesome-solid-square-rss:{ .rss }](https://danluu.com/atom.xml){ .card-link title="RSS Feed"}
-- [No Mercy / No Malice](https://www.profgalloway.com/) [:fontawesome-solid-square-rss:{ .rss }](https://www.profgalloway.com/feed/){ .card-link title="RSS Feed"}
-- [NY Times - Visual Investigation](https://www.nytimes.com/spotlight/visual-investigations) [:simple-youtube:{ .youtube }](https://www.youtube.com/playlist?list=PL4CGYNsoW2iAZt9-UzPyPZOH-AlRMxcIE){ .card-link title="YouTube Channel"}
-- [@3blue1brown](https://www.youtube.com/@3blue1brown) [:simple-youtube:{ .youtube }](https://www.youtube.com/@3blue1brown){ .card-link title="YouTube Channel"}
-- [@LEMMiNO](https://www.youtube.com/@LEMMiNO) [:simple-youtube:{ .youtube }](https://www.youtube.com/@LEMMiNO){ .card-link title="YouTube Channel"}
-///
+<div style="text-align:center;" markdown>
+{==
+
+## Featured
+
+==}
+</div>
+
+- [danluu.com](https://danluu.com/) [:material-rss-box:{ .rss }](https://danluu.com/atom.xml){ .card-link title="RSS Feed"}
+- [No Mercy / No Malice](https://www.profgalloway.com/) [:material-rss-box:{ .rss }](https://www.profgalloway.com/feed/){ .card-link title="RSS Feed"}
+
+---
+
+## Aggregators
+
+- [Hacker News](https://news.ycombinator.com/)
+- [Lobsters](https://lobste.rs/)
 
 ## Blogs
 
-- [Schneier on Security](https://www.schneier.com/) [:fontawesome-solid-square-rss:{ .rss }](https://www.schneier.com/feed/){ .card-link title="RSS Feed"}
-- [Julia Evans](https://jvns.ca) [:fontawesome-solid-square-rss:{ .rss }](https://jvns.ca/atom.xml){ .card-link title="RSS Feed"}
+- [Schneier on Security](https://www.schneier.com/) [:material-rss-box:{ .rss }](https://www.schneier.com/feed/){ .card-link title="RSS Feed"}
+- [Julia Evans](https://jvns.ca) [:material-rss-box:{ .rss }](https://jvns.ca/atom.xml){ .card-link title="RSS Feed"}
 - [Seirdy’s Home](https://seirdy.one/)
-- [endtimes.dev](https://endtimes.dev/) [:fontawesome-solid-square-rss:{ .rss }](https://endtimes.dev/feed.xml){ .card-link title="RSS Feed"}
-- [Jeff Geerling](https://www.jeffgeerling.com/blog)
+- [endtimes.dev](https://endtimes.dev/) [:material-rss-box:{ .rss }](https://endtimes.dev/feed.xml){ .card-link title="RSS Feed"}
+- [Jeff Geerling](https://www.jeffgeerling.com/blog), and [@JeffGeerling](https://www.youtube.com/@JeffGeerling) :simple-youtube:{ .youtube }
 - [tonsky.me](https://tonsky.me/)
 
 ## Digital Gardens
@@ -56,3 +66,9 @@ RSS is my preferred method of following websites. I also maintain an email alias
 ## Cooking
 
 - [Dr. Doughlas Baldwin - A Practical Guide to Sous Vide Cooking](https://douglasbaldwin.com/sous-vide.html)
+
+## YouTube :simple-youtube:{ .youtube }
+
+- [NY Times - Visual Investigation](https://www.youtube.com/playlist?list=PL4CGYNsoW2iAZt9-UzPyPZOH-AlRMxcIE) :simple-youtube:{ .youtube }
+- [@3blue1brown](https://www.youtube.com/@3blue1brown) :simple-youtube:{ .youtube }
+- [@LEMMiNO](https://www.youtube.com/@LEMMiNO) :simple-youtube:{ .youtube }

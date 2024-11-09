@@ -9,7 +9,7 @@ hide:
 
 <div style="text-align:center;" class="grid cards" markdown>
 
-- :simple-github:{ .github } GitHub
+- :simple-github:{ .foreground } GitHub
 [:octicons-repo-16:](https://github.com/tylernguyen/wiki){ .card-link title="Repository" }
 [:octicons-workflow-16:](){ .card-link title="Workflow" }
 
@@ -35,7 +35,7 @@ hide:
 [:fontawesome-regular-file-code:](https://github.com/squidfunk/mkdocs-material){ .card-link title="Source Code" }
 [:octicons-law-16:](https://github.com/squidfunk/mkdocs-material/blob/master/LICENSE){ .card-link title=License }
 
-- [PyMdown Extensions](https://facelessuser.github.io/pymdown-extensions/) by [:simple-github:{ .github } @facelessuser](https://github.com/facelessuser)
+- [PyMdown Extensions](https://facelessuser.github.io/pymdown-extensions/) by [:simple-github:{ .foreground } @facelessuser](https://github.com/facelessuser)
 [:octicons-markdown-16:](https://facelessuser.github.io/pymdown-extensions/){ .card-link title=Documentation}
 [:fontawesome-regular-file-code:](https://github.com/facelessuser/pymdown-extensions/tree/main){ .card-link title="Source Code" }
 [:octicons-law-16:](https://github.com/facelessuser/pymdown-extensions/blob/main/LICENSE.md){ .card-link title=License }
@@ -56,12 +56,12 @@ hide:
 
 <div class="grid cards" markdown>
 
-- :simple-simpleicons:{ .simpleicons } [Simple Icons](https://simpleicons.org/)
+- :simple-simpleicons:{ .foreground } [Simple Icons](https://simpleicons.org/)
 [:fontawesome-regular-file-code:](https://github.com/simple-icons/simple-icons){ .card-link title="Source Code" }
 [:octicons-law-16:](https://github.com/simple-icons/simple-icons/blob/develop/LICENSE.md){ .card-link title=License }
 [:fontawesome-regular-heart:](https://opencollective.com/simple-icons){ .card-link title=Support }
 
-- :simple-github:{ .github } [Octicons](https://primer.style/foundations/icons) by GitHub
+- :simple-github:{ .foreground } [Octicons](https://primer.style/foundations/icons) by GitHub
 [:fontawesome-regular-file-code:](https://github.com/primer/octicons){ .card-link title="Source Code" }
 [:octicons-law-16:](https://github.com/primer/octicons/blob/main/LICENSE){ .card-link title=License }
 [:fontawesome-regular-eye:](https://docs.github.com/en/site-policy/privacy-policies/github-privacy-statement){ .card-link title="Privacy Policy" }
@@ -90,8 +90,8 @@ hide:
 
 - <figure markdown>
     <p align="center">
-    ![PostHog](https://assets.tylernguyen.wiki/logos/PostHog-light.svg#only-light){ width=250 }
-    ![PostHog](https://assets.tylernguyen.wiki/logos/PostHog-dark.svg#only-dark){ width=250 }
+    ![PostHog](https://assets.tylernguyen.wiki/logos/PostHog-light.svg#only-light){ loading-lazy width=250 }
+    ![PostHog](https://assets.tylernguyen.wiki/logos/PostHog-dark.svg#only-dark){ loading-lazy width=250 }
     </p>
     </figure>
 

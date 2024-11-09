@@ -16,12 +16,17 @@ tags:
 ==}
 </div>
 
-![Department of Truth](https://assets.tylernguyen.wiki/covers/Department-of-Truth_2021.jpg){ width=125 }
-![Spy Superb](https://assets.tylernguyen.wiki/covers/Spy-Superb_2023.jpg){ width=125 }
+<div class="grid cards" markdown>
 
-**The Department of Truth (2020)** [![Image Comics](https://assets.tylernguyen.wiki/logos/Image_Comics.svg){ .twemoji  }](https://imagecomics.com/comics/series/the-department-of-truth "Image Comics")
+- ![Department of Truth](https://assets.tylernguyen.wiki/covers/Department-of-Truth_2021.jpg){ width=125 }
 
-**Spy Superb (2023)** [![Dark Horse Comics](https://assets.tylernguyen.wiki/logos/Dark_Horse_Comics.svg){ .twemoji  }](https://www.darkhorse.com/Books/3010-220/Spy-Superb-HC "Dark Horse Comics")
+    __The Department of Truth (2020)__ [![Image Comics](https://assets.tylernguyen.wiki/logos/Image_Comics.svg){ .twemoji  }](https://imagecomics.com/comics/series/the-department-of-truth "Image Comics")
+
+- ![Spy Superb](https://assets.tylernguyen.wiki/covers/Spy-Superb_2023.jpg){ width=125 }
+
+    __Spy Superb (2023)__ [![Dark Horse Comics](https://assets.tylernguyen.wiki/logos/Dark_Horse_Comics.svg){ .twemoji  }](https://www.darkhorse.com/Books/3010-220/Spy-Superb-HC "Dark Horse Comics")
+
+</div>
 
 ---
 

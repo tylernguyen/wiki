@@ -8,11 +8,31 @@ tags:
 
 I hate subscriptions and actively avoid them when I can. This is mostly a financial decision but is also motivated by data privacy. The services here are mostly irreplaceable for their features and/or should not be self-hosted for security.
 
+## NextDNS
+
+<div class="grid cards" markdown>
+
+- :simple-nextdns:{ .nextdns } [NextDNS](https://nextdns.io/)
+
+</div>
+
 ## Productivity
 
 <div class="grid cards" markdown>
 
+- ![Google Calendar](https://assets.tylernguyen.wiki/logos/Google_Calendar.svg){ .twemoji } [Google Calendar](https://calendar.google.com/)
+
+    ---
+
+    - <span class="solarized-red">:material-eye-lock-outline: **Properitary**</span>
+    - <span class="solarized-red">:material-newspaper: **Ad**</span>-ware
+
 - :simple-todoist:{ .todoist } [Todoist](https://todoist.com/)
+
+    ---
+
+    - <span class="solarized-red">:material-eye-lock-outline: **Properitary**</span>
+    - <span class="solarized-green">:material-sync: **Subscription**</span>-ware
 
 </div>
 
@@ -38,49 +58,13 @@ eBooks and audiobooks are sold by Amazon with DRM. Buy directly from publisher a
 Consider archiving your audiobooks from Audible. See [rmcrackan/Libation](https://github.com/rmcrackan/Libation).
 ///
 
-## 1Password
+## Proton
 
 <div class="grid cards" markdown>
 
 - <figure markdown>
     <p align="center">
-    ![1Password](https://assets.tylernguyen.wiki/logos/1Password-light.svg#only-light){ width=200 }
-    ![1Password](https://assets.tylernguyen.wiki/logos/1Password-dark.svg#only-dark){ width=200 }
-    </p>
-    </figure>
-
-</div>
-
-/// warning
-1Password is not open source.
-///
-
-1Password is robust, cross-platform, and well integrated. Its ease of use and wide adoption also makes sharing passwords effortless.
-
-1Password also offers various developer functions that I find cannot be matched by other offerings. These include:
-
-- SSH Authentication
-- Git Commit Signing
-- Developer Tokens and Secrets Automation
-- [twpayne/chezmoi](https://www.chezmoi.io/user-guide/password-managers/1password/) integration for managing dotfiles
-- [Visual Studio Code](https://developer.1password.com/docs/vscode/) integration for editing secrets
-
-/// info
-1Password is [audited](https://support.onepassword.com/security-assessments/) on a regular basis and also documents their security in the [security white paper](https://1passwordstatic.com/files/security/1password-white-paper.pdf).
-///
-
-[:octicons-link-external-16: Homepage](https://1password.com/){ .md-button }
-[:fontawesome-solid-money-bill:](https://1password.com/sign-up/){ .card-link title=Pricing }
-[:fontawesome-regular-eye:](https://support.onepassword.com/1password-privacy/){ .card-link title="Privacy Policy" }
-[:octicons-markdown-16:](https://developer.onepassword.com/){ .card-link title="Developer Documentation" }
-
-## Proton Unlimited
-
-<div class="grid cards" markdown>
-
-- <figure markdown>
-    <p align="center">
-    ![Proton](https://assets.tylernguyen.wiki/logos/Proton-logotype-purple-noborder.svg){ width=200 }
+    ![Proton](https://assets.tylernguyen.wiki/logos/Proton-logotype-purple-noborder.svg){ loading-lazy width=200 }
     </p>
     </figure>
 
@@ -126,17 +110,11 @@ Consider archiving your audiobooks from Audible. See [rmcrackan/Libation](https:
 <div class="grid cards" markdown>
 
 - :simple-cloudflare:{ .cloudflare } [Cloudflare Domain Registar](https://www.cloudflare.com/products/registrar/)
-
-    Cloudflare offers at-cost pricing both for new registrations and renewals.
-
 - :simple-cloudflare:{ .cloudflare } [Cloudflare DNS](https://www.cloudflare.com/)
 - :simple-cloudflare:{ .cloudflare } [Cloudflare R2](https://www.cloudflare.com/products/r2/)
-
-    Cloudflare R2 hosts assets for this wiki, as well as for my [Mastodon instance](https://tylernguyen.social/@tylernguyen).
-
-- ![Cloudflare Workers](https://assets.tylernguyen.wiki/logos/Cloudflare-Workers.png){ .twemoji } [Cloudflare Workers](https://workers.cloudflare.com/)
+- ![Cloudflare Workers](https://assets.tylernguyen.wiki/logos/Cloudflare_Workers.svg){ .twemoji } [Cloudflare Workers](https://workers.cloudflare.com/)
 - :simple-cloudflarepages:{ .cloudflarepages } [Cloudflare Pages](https://pages.cloudflare.com/)
-- ![Cloudflare Zero Trust](https://assets.tylernguyen.wiki/logos/Cloudflare-Zero-Trust.svg){ .twemoji } [Cloudflare Zero Trust](https://www.cloudflare.com/zero-trust/)
+- ![Cloudflare Zero Trust](https://assets.tylernguyen.wiki/logos/Cloudflare_Zero-Trust.png){ .twemoji } [Cloudflare Zero Trust](https://www.cloudflare.com/zero-trust/)
 
 </div>
 

@@ -23,6 +23,15 @@ Unraid is not open source.
 [:fontawesome-solid-money-bill:](https://unraid.net/pricing){ .card-link title=Pricing}
 [:octicons-markdown-16:](https://wiki.unraid.net/Documentation){ .card-link title=Documentation}
 
+## Virtual Machines
+
+<div class="grid cards" markdown>
+
+- :simple-homeassistant:{ .homeassistant } [Home Assistant](https://www.home-assistant.io/)
+[:fontawesome-regular-file-code:](https://github.com/home-assistant/core){ .card-link title="Source Code" }
+
+</div>
+
 ## Containers
 
 /// note
@@ -33,6 +42,21 @@ I recommend the linuxserver Docker image for its [image mods](https://mods.linux
 
 - ![plex](https://assets.tylernguyen.wiki/logos/plex.svg){ .twemoji } [Plex Media Server](https://www.plex.tv/)
 [:octicons-container-16:{ .docker }](https://hub.docker.com/r/linuxserver/plex){ .card-link title=Container}
+
+<div class="grid cards" markdown>
+
+- ![Kometa](https://assets.tylernguyen.wiki/logos/Kometa.png){ .twemoji } [Kometa](https://github.com/meisnate12/Plex-Meta-Manager)
+[:octicons-container-16:{ .docker }](https://hub.docker.com/r/kometateam/kometa){ .card-link title=Container}
+[:fontawesome-regular-file-code:](https://github.com/Kometa-Team/Kometa){ .card-link title="Source Code" }
+
+- ![Kometa/ImageMaid](https://assets.tylernguyen.wiki/logos/Kometa.png){ .twemoji } [Kometa/ImageMaid](https://github.com/meisnate12/Plex-Meta-Manager)
+[:octicons-container-16:{ .docker }](https://hub.docker.com/r/kometateam/imagemaid){ .card-link title=Container}
+
+</div>
+
+</div>
+
+<div class="grid cards" markdown>
 
 - ![Audiobookshelf](https://assets.tylernguyen.wiki/logos/audiobookshelf.svg){ .twemoji } [Audiobookshelf](https://www.audiobookshelf.org/)
 [:octicons-container-16:{ .docker }](https://github.com/advplyr/audiobookshelf/pkgs/container/audiobookshelf){ .card-link title=Container}
@@ -56,13 +80,6 @@ I recommend the linuxserver Docker image for its [image mods](https://mods.linux
 [:octicons-container-16:{ .docker }](https://hub.docker.com/r/linuxserver/freshrss){ .card-link title=Container}
 [:fontawesome-regular-file-code:](https://github.com/FreshRSS/FreshRSS){ .card-link title="Source Code" }
 
-- ![Kometa](https://assets.tylernguyen.wiki/logos/Kometa.png){ .twemoji } [Kometa (formerly plex-meta-manager)](https://github.com/meisnate12/Plex-Meta-Manager)
-[:octicons-container-16:{ .docker }](https://hub.docker.com/r/kometateam/kometa){ .card-link title=Container}
-[:fontawesome-regular-file-code:](https://github.com/Kometa-Team/Kometa){ .card-link title="Source Code" }
-
-- ![Kometa/ImageMaid](https://assets.tylernguyen.wiki/logos/Kometa.png){ .twemoji } [Kometa/ImageMaid](https://github.com/meisnate12/Plex-Meta-Manager)
-[:octicons-container-16:{ .docker }](https://hub.docker.com/r/kometateam/imagemaid){ .card-link title=Container}
-
 - [giorgi-o/SkinPeek](https://github.com/giorgi-o/SkinPeek)
 [:octicons-container-16:{ .docker }](https://github.com/users/giorgi-o/packages/container/package/skinpeek%2Fskinpeek){ .card-link title=Container}
 [:fontawesome-regular-file-code:](https://github.com/giorgi-o/SkinPeek){ .card-link title="Source Code" }
@@ -71,18 +88,25 @@ I recommend the linuxserver Docker image for its [image mods](https://mods.linux
 [:octicons-container-16:{ .docker }](https://hub.docker.com/r/rmcrackan/libation/tags){ .card-link title=Container}
 [:fontawesome-regular-file-code:](https://github.com/rmcrackan/Libation){ .card-link title="Source Code" }
 
+- ![Caddy](https://assets.tylernguyen.wiki/logos/Caddy.png){ .twemoji } [Caddy (serfriz/caddy-custom-builds)](https://github.com/serfriz/caddy-custom-builds)
+[:octicons-container-16:{ .docker }](https://github.com/serfriz?tab=packages&repo_name=caddy-custom-builds){ .card-link title=Container}
+[:fontawesome-regular-file-code:](https://github.com/serfriz/caddy-custom-builds){ .card-link title="Source Code" }
+
+- ![CrowdSec](https://assets.tylernguyen.wiki/logos/CrowdSec.png){ .twemoji } [CrowdSec](https://github.com/rmcrackan/Libation)
+[:octicons-container-16:{ .docker }](https://hub.docker.com/r/rmcrackan/libation/tags){ .card-link title=Container}
+[:fontawesome-regular-file-code:](https://github.com/rmcrackan/Libation){ .card-link title="Source Code" }
+
+- [:simple-syncthing:{ .syncthing } Syncthing](https://gitea.io/en-us/)
+[:octicons-container-16:{ .docker }](https://github.com/linuxserver/docker-syncthing/pkgs/container/syncthing){ .card-link title=Container}
+[:fontawesome-regular-file-code:](https://github.com/syncthing/syncthing){ .card-link title="Source Code" }
+
 </div>
 
 <div class="grid cards" markdown>
 
 - :simple-mastodon:{ .mastodon } [Mastodon](https://joinmastodon.org/)
 [:octicons-container-16:{ .docker }](https://github.com/mastodon/mastodon/pkgs/container/mastodon){ .card-link title=Container}
-
-    /// success
-    Follow me on the Fediverse: [@tylernguyen@tylernguyen.social](https://tylernguyen.social/@tylernguyen)
-    ///
-
-</div>
+[:fontawesome-regular-file-code:](https://github.com/mastodon/mastodon){ .card-link title="Source Code" }
 
 <div class="grid cards" markdown>
 
@@ -94,6 +118,8 @@ I recommend the linuxserver Docker image for its [image mods](https://mods.linux
 
 - :simple-elasticsearch:{ .elasticsearch } [Elasticsearch](https://www.elastic.co/elasticsearch)
 [:octicons-container-16:{ .docker }](https://hub.docker.com/_/elasticsearch/tags){ .card-link title=Container}
+
+</div>
 
 </div>
 
@@ -122,8 +148,8 @@ I use Cloudflare Tunnel[^1] (part of the Zero Trust suite) to expose some servic
 
 - <figure markdown>
     <p align="center">
-    ![Tailscale](https://assets.tylernguyen.wiki/logos/Tailscale-light.svg#only-light){ width=300 }
-    ![Tailscale](https://assets.tylernguyen.wiki/logos/Tailscale-dark.svg#only-dark){ width=300 }
+    ![Tailscale](https://assets.tylernguyen.wiki/logos/Tailscale-light.svg#only-light){ loading-lazy width=300 }
+    ![Tailscale](https://assets.tylernguyen.wiki/logos/Tailscale-dark.svg#only-dark){ loading-lazy width=300 }
     </p>
     </figure>
 
