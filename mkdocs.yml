@@ -30,7 +30,6 @@ theme:
     - content.footnote.tooltips # LINK https://squidfunk.github.io/mkdocs-material/reference/footnotes/?h=footnote+tooltips#footnote-tooltips
     - content.code.select # LINK https://squidfunk.github.io/mkdocs-material/reference/code-blocks/?h=code#code-selection-button
     - content.tooltips # LINK https://squidfunk.github.io/mkdocs-material/reference/tooltips/#improved-tooltips
-    #- navigation.expand # Note Bug: this will also expand collapsed code blocks on page reload
     - navigation.footer # LINK https://squidfunk.github.io/mkdocs-material/setup/setting-up-the-footer/?h=footer#navigation
     - navigation.indexes # LINK https://squidfunk.github.io/mkdocs-material/setup/setting-up-navigation/#section-index-pages INCOMPATIBLE with toc.integrate (Attach Top Level Doc to Section )
     - navigation.instant # LINK https://squidfunk.github.io/mkdocs-material/setup/setting-up-navigation/#instant-loading
@@ -38,7 +37,8 @@ theme:
     - navigation.instant.progress # LINK https://squidfunk.github.io/mkdocs-material/setup/setting-up-navigation/#progress-indicator
     - navigation.path # LINK https://squidfunk.github.io/mkdocs-material/setup/setting-up-navigation/?h=navigation+path#navigation-path
     - navigation.prune # LINK https://squidfunk.github.io/mkdocs-material/setup/setting-up-navigation/?h=navigation+pru#navigation-pruning
-    - navigation.sections
+    #- navigation.sections # NOTE Collapse section in projects page
+    #- navigation.expand # Note Bug: this will also expand collapsed code blocks on page reload
     - navigation.tabs
     #- navigation.tabs.sticky
     #- navigation.top # LINK https://squidfunk.github.io/mkdocs-material/setup/setting-up-navigation/?h=navigation#back-to-top-button
