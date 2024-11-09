@@ -793,3 +793,8 @@
   background: var(--md-primary-fg-color);
   color: black;
 }
+
+.md-typeset mark {
+  padding-left: 4px;
+  padding-right: 4px;
+}
