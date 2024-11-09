@@ -2,9 +2,14 @@
 icon: material/alert-outline
 date:
   created: 2024-01-01
+  updated: 2024-11-05
 ---
 
 # Admonitions
+
+Samples of Admonitions in :simple-materialformkdocs:{ .materialformkdocs } Material for MkDocs.
+
+Inherits <https://squidfunk.github.io/mkdocs-material/reference/admonitions/> and <https://facelessuser.github.io/pymdown-extensions/extensions/blocks/plugins/admonition/>
 
 <!-- more -->
 
@@ -84,9 +89,9 @@ In a hole in the ground there lived a hobbit. Not a nasty, dirty, wet hole, fill
 
 ## Custom Admonitions
 
-### Featured
+### Download
 
-/// featured
+/// download
 In a hole in the ground there lived a hobbit. Not a nasty, dirty, wet hole, filled with the ends of worms and an oozy smell, nor yet a dry, bare, sandy hole with nothing in it to sit down on or to eat: it was a hobbit hole, and that means comfort.
 ///
 

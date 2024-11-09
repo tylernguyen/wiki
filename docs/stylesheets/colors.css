@@ -1,3 +1,7 @@
+.foreground {
+  color: var(--md-default-fg-color);
+}
+
 .solarized-yellow {
   color: #b58900;
 }
@@ -30,12 +34,12 @@
   color: #859900;
 }
 
-.anilist {
-  color: #02a9ff;
+.americanexpress {
+  color: #2E77BC;
 }
 
-.apple {
-  color: #000000;
+.anilist {
+  color: #02a9ff;
 }
 
 .appstore {
@@ -48,6 +52,10 @@
 
 .boardgamegeek {
   color: #FF5100;
+}
+
+.chase {
+  color: #117ACA;
 }
 
 .cloudflare {
@@ -90,6 +98,10 @@
   color: #f05032;
 }
 
+.gitea {
+  color: #609926;
+}
+
 .github {
   color: #181717;
 }
@@ -98,8 +110,8 @@
   color: #2088FF;
 }
 
-.gitea {
-  color: #609926;
+.githubsponsors {
+  color: #EA4AAA;
 }
 
 .gnubash {
@@ -122,6 +134,10 @@
   color: #414141;
 }
 
+.homeassistant {
+  color: #18BCF2;
+}
+
 .homebrew {
   color: #fbb040;
 }
@@ -142,20 +158,8 @@
   color: #F5C518;
 }
 
-.ios {
-  color: #000000;
-}
-
 .javascript {
   color: #F7DF1E;
-}
-
-.json {
-  color: #000000;
-}
-
-.linux {
-  color: #000000;
 }
 
 .lua {
@@ -174,8 +178,16 @@
   color: #526CFE;
 }
 
+.mermaid {
+  color: #FF3670;
+}
+
 .neovim {
   color: #57A143;
+}
+
+.nextdns {
+  color: #007BFF;
 }
 
 .obsstudio {
@@ -206,10 +218,6 @@
   color: #4169E1;
 }
 
-.posthog {
-  color: #000000;
-}
-
 .proton {
   color: #6d4aff;
 }
@@ -228,10 +236,6 @@
 
 .python {
   color: #3776AB;
-}
-
-.qmk {
-  color: #333333;
 }
 
 .r {
@@ -262,20 +266,16 @@
   color: #B1003E;
 }
 
-.simpleicons {
-  color: #111111;
-}
-
 .simplelogin {
   color: #EA319F;
 }
 
-.steamdb {
-  color: #000000;
-}
-
 .sqlite {
   color: #003b57;
+}
+
+.syncthing {
+  color: #0891D1;
 }
 
 .tmdb {
@@ -294,28 +294,20 @@
   color: #800000;
 }
 
-.unraid {
-  color: #f15a2c;
-}
-
-.yaml {
-  color: #CB171E;
+.visualstudiocode {
+  color: #007acc;
 }
 
 .vlc {
   color: #ff8800;
 }
 
-.visualstudiocode {
-  color: #007acc;
-}
-
 .wezterm {
   color: #4E49EE;
 }
 
-.windows {
-  color: #0078d4;
+.yaml {
+  color: #CB171E;
 }
 
 .youtube {

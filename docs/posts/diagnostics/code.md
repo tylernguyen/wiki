@@ -2,13 +2,16 @@
 icon: material/code-braces
 date:
   created: 2024-01-01
+  updated: 2024-11-05
 ---
 
 # Code
 
-<!-- more -->
+Samples of [Pygments](https://pygments.org/) Syntax Highlighting in :simple-materialformkdocs:{ .materialformkdocs } Material for MkDocs.
 
-Demo of Pygments Syntax Highlighting in Material for MkDocs. Inherits <https://squidfunk.github.io/mkdocs-material/reference/code-blocks/>
+Inherits <https://squidfunk.github.io/mkdocs-material/reference/code-blocks/>
+
+<!-- more -->
 
 ## JavaScript :simple-javascript:{ .javascript }
 
@@ -177,7 +180,7 @@ variables:
 
 ////
 
-## JSON :simple-json:{ .json }
+## JSON :simple-json:{ .foreground }
 
 //// collapse-code
 

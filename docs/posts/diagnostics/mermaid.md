@@ -1,9 +1,14 @@
 ---
 date:
   created: 2024-01-01
+  updated: 2024-11-05
 ---
 
 # Mermaid
+
+Samples of [Mermaid](https://mermaid.js.org/) in :simple-materialformkdocs:{ .materialformkdocs } Material for MkDocs.
+
+Inherits <https://squidfunk.github.io/mkdocs-material/reference/diagrams/?h=mermaid>
 
 <!-- more -->
 
