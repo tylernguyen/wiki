@@ -21,8 +21,6 @@ tags:
     **VALORANT**
     [:simple-riotgames:{ .riotgames }](https://playvalorant.com/){ .card-link title="Riot Games: Play VALORANT"}
 
-    [:octicons-gear-16: Settings](https://tylernguyen.social/@tylernguyen){ .md-button }
-
 - ![Teamfight Tactics](https://assets.tylernguyen.wiki/games/heroes/Teamfight-Tactics.png)
     **Teamfight Tactics**
     [:simple-riotgames:{ .riotgames }](https://teamfighttactics.leagueoflegends.com/en-us/){ .card-link title="Riot Games: Teamfight Tactics"}
