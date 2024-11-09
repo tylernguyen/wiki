@@ -15,6 +15,5 @@
 *[TOTP]: Time-based One-Time Password
 *[TPM]: Trusted Platform Module
 *[VPN]: Virtual Private Network
-*[X1C6]: Lenovo X1 Carbon 6th Generation
 *[ACPI]: Advanced Configuration and Power Interface
 *[SSG]: Static Site Generator
