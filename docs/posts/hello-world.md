@@ -10,7 +10,7 @@ pin: false
 
 # Hello, World!
 
-Building a knowledge base and maintaining a blog has always been something I've always wanted to do. So after an extended period of on and off development, I'm now proud to say that my personal wiki is now public. The following is a quick overview of the stack used in creationg of this website.
+Building a knowledge base and maintaining a blog has always been something I've always wanted to do. So after an extended period of on and off development, I'm now proud to say that my personal wiki is now public. The following is a quick overview of the stack used in creating this website.
 
 <!-- more -->
 
@@ -89,4 +89,4 @@ I briefly considered [Plausible Analytics](https://plausible.io/), but the analy
 
 </div>
 
-Enters PostHog, which seems perfect for what I want analytics to do. Aside from the standard [web analyitcs](https://posthog.com/web-analytics) tookit, PostHog's [session replay](https://posthog.com/session-replay) seems like the perfect non-interactive feedback that I was looking for.
+Enters PostHog, which seems perfect for what I want analytics to do. Aside from the standard [web analytics](https://posthog.com/web-analytics) tookit, PostHog's [session replay](https://posthog.com/session-replay) seems like the perfect non-interactive feedback that I was looking for.
