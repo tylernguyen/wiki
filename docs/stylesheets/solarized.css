@@ -641,7 +641,7 @@
 .md-code__nav:hover,
 .md-code__nav {
   background-color: var(--md-default-bg-color--light);
-  font-size: larger;
+  font-size: 0.75rem;
 }
 
 /* NOTE Tag */
