@@ -42,7 +42,7 @@
   --md-primary-bg-color: rgb(var(--solarized-base02));
   --md-primary-fg-color--dark: rgb(var(--solarized-base2));
   --md-primary-fg-color: rgb(var(--solarized-green));
-  --md-primary-fg-color--light: rgba(var(--solarized-green), 0.2);
+  --md-primary-fg-color--light: rgba(var(--solarized-green), 0.3);
   --md-accent-fg-color: rgb(var(--solarized-cyan));
   --md-footer-fg-color: rgb(var(--solarized-base03));
   --md-footer-fg-color--light: rgb(var(--solarized-base02));
