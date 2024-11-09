@@ -55,7 +55,7 @@
   --md-typeset-kbd-color: rgb(var(--solarized-base2));
   --md-typeset-kbd-border-color: rgb(var(--solarized-green));
   --md-typeset-kbd-accent-color: rgb(var(--solarized-base3));
-  --md-typeset-mark-color: rgb(var(--solarized-green));
+  --md-typeset-mark-color: rgba(var(--solarized-green), 0.3);
 }
 
 [data-md-color-scheme="slate"] {
@@ -83,6 +83,7 @@
   --md-typeset-kbd-color: rgb(var(--solarized-base02));
   --md-typeset-kbd-border-color: rgb(var(--solarized-cyan));
   --md-typeset-kbd-accent-color: rgb(var(--solarized-base03));
+  --md-typeset-mark-color: rgba(var(--solarized-cyan), 0.4);
 }
 
 /* NOTE Header: Hide shadow under header */
