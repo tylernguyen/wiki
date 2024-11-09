@@ -94,11 +94,11 @@
 /* ANCHOR Header Recolors */
 .md-header {
   background-color: var(--md-default-bg-color--light);
+  border-bottom: .05rem solid var(--md-primary-fg-color);
 }
 
 .md-tabs {
   background-color: var(--md-primary-fg-color--light);
-  border-top: .05rem solid var(--md-primary-fg-color);
 }
 
 .md-footer {
