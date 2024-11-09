@@ -14,31 +14,21 @@
   font-style: italic;
 }
 
-.md-typeset h1 {
-  color: var(--md-default-fg-color);
-  margin: 0 0 .75em;
-  font-weight: bold;
-  word-spacing: -5px;
+body {
+  font-family: 'BerkeleyMono', 'Cascadia Code', 'Andale Mono', 'Consolas', 'SF Mono', monospace;
 }
 
-.md-typeset h2 {
-  font-weight: 120;
-  word-spacing: -5px;
-}
+/* LINK https://github.com/squidfunk/mkdocs-material/blob/master/src/templates/assets/stylesheets/main/_typeset.scss */
 
-.md-typeset p {
-  font-weight: 110;
-  font-size: medium;
-  line-height: 1.6;
-  word-spacing: -2px;
-}
-
-.md-typeset figcaption {
-  font-weight: 100;
-  font-size: small;
+.md-content__inner {
+  padding: 0;
 }
 
 .md-ellipsis {
+  font-weight: 100;
+}
+
+.md-grid {
   font-weight: 100;
 }
 
@@ -47,8 +37,16 @@
   font-size: small;
 }
 
-.md-grid {
-  font-weight: 100;
+.md-post__content.md-typeset h2 {
+  font-size: 1rem;
+  margin: 0;
+  letter-spacing: .25px;
+}
+
+.md-post--excerpt .md-post__header {
+  align-items: normal;
+  gap: .6rem;
+  min-height: 1.6rem;
 }
 
 .md-search-result .md-typeset {
@@ -61,28 +59,16 @@
   padding: 0.9rem 0;
 }
 
-.md-content__inner {
-  padding: 0;
+.md-typeset .admonition p {
+  font-size: 0.65rem;
 }
 
 .md-typeset .footnote ol li blockquote,
 .md-typeset .footnote ol li p,
 .md-typeset .footnote ul li blockquote,
 .md-typeset .footnote ul li p {
-  font-size: small;
+  font-size: .6rem;
 }
-
-.md-post__content.md-typeset h2 {
-  font-size: x-large;
-  margin: 0;
-}
-
-.md-post--excerpt .md-post__header {
-  align-items: normal;
-  gap: .6rem;
-  min-height: 1.6rem;
-}
-
 .md-typeset .md-button {
   font-weight: 120;
 }
