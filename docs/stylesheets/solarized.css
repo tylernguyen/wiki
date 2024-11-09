@@ -633,6 +633,10 @@
   color: var(--md-default-fg-color--light);
 }
 
+.md-typeset .md-button--primary {
+  background-color: var(--md-primary-fg-color--light);
+}
+
 :hover>.md-code__nav,
 .md-code__nav:hover,
 .md-code__nav {
