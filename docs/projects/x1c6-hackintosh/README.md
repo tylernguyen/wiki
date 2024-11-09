@@ -3,7 +3,7 @@ icon: simple/lenovo
 subtitle: README.md
 ---
 
-# README
+# X1C6 Hackintosh
 
 ## FAQ
 
