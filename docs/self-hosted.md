@@ -43,7 +43,9 @@ I recommend the linuxserver Docker image for its [image mods](https://mods.linux
 - ![plex](https://assets.tylernguyen.wiki/logos/plex.svg){ .twemoji } [Plex Media Server](https://www.plex.tv/)
 [:octicons-container-16:{ .docker }](https://hub.docker.com/r/linuxserver/plex){ .card-link title=Container}
 
-<div class="grid cards" markdown>
+- ![Audiobookshelf](https://assets.tylernguyen.wiki/logos/audiobookshelf.svg){ .twemoji } [Audiobookshelf](https://www.audiobookshelf.org/)
+[:octicons-container-16:{ .docker }](https://github.com/advplyr/audiobookshelf/pkgs/container/audiobookshelf){ .card-link title=Container}
+[:fontawesome-regular-file-code:](https://github.com/advplyr/audiobookshelf){ .card-link title="Source Code" }
 
 - ![Kometa](https://assets.tylernguyen.wiki/logos/Kometa.png){ .twemoji } [Kometa](https://github.com/meisnate12/Plex-Meta-Manager)
 [:octicons-container-16:{ .docker }](https://hub.docker.com/r/kometateam/kometa){ .card-link title=Container}
@@ -52,15 +54,12 @@ I recommend the linuxserver Docker image for its [image mods](https://mods.linux
 - ![Kometa/ImageMaid](https://assets.tylernguyen.wiki/logos/Kometa.png){ .twemoji } [Kometa/ImageMaid](https://github.com/meisnate12/Plex-Meta-Manager)
 [:octicons-container-16:{ .docker }](https://hub.docker.com/r/kometateam/imagemaid){ .card-link title=Container}
 
-</div>
+- ![Calibre](https://assets.tylernguyen.wiki/logos/calibre.svg){ .twemoji } [Calibre](https://calibre-ebook.com/)
+[:octicons-container-16:{ .docker }](https://hub.docker.com/r/linuxserver/calibre){ .card-link title=Container}
 
-</div>
-
-<div class="grid cards" markdown>
-
-- ![Audiobookshelf](https://assets.tylernguyen.wiki/logos/audiobookshelf.svg){ .twemoji } [Audiobookshelf](https://www.audiobookshelf.org/)
-[:octicons-container-16:{ .docker }](https://github.com/advplyr/audiobookshelf/pkgs/container/audiobookshelf){ .card-link title=Container}
-[:fontawesome-regular-file-code:](https://github.com/advplyr/audiobookshelf){ .card-link title="Source Code" }
+- ![Kavita](https://assets.tylernguyen.wiki/logos/kavita.svg){ .twemoji } [Kavita](https://www.kavitareader.com/)
+[:octicons-container-16:{ .docker }](https://hub.docker.com/r/linuxserver/kavita){ .card-link title=Container}
+[:fontawesome-regular-file-code:](https://github.com/Kareadita/Kavita){ .card-link title="Source Code" }
 
 - [:simple-gitea: Gitea](https://gitea.io/en-us/)
 [:octicons-container-16:{ .docker }](https://hub.docker.com/r/gitea/gitea/tags){ .card-link title=Container}
@@ -69,20 +68,9 @@ I recommend the linuxserver Docker image for its [image mods](https://mods.linux
 [:octicons-container-16:{ .docker }](https://github.com/paperless-ngx/paperless-ngx/pkgs/container/paperless-ngx){ .card-link title=Container}
 [:fontawesome-regular-file-code:](https://github.com/paperless-ngx/paperless-ngx){ .card-link title="Source Code" }
 
-- ![Calibre](https://assets.tylernguyen.wiki/logos/calibre.svg){ .twemoji } [Calibre](https://calibre-ebook.com/)
-[:octicons-container-16:{ .docker }](https://hub.docker.com/r/linuxserver/calibre){ .card-link title=Container}
-
-- ![Kavita](https://assets.tylernguyen.wiki/logos/kavita.svg){ .twemoji } [Kavita](https://www.kavitareader.com/)
-[:octicons-container-16:{ .docker }](https://hub.docker.com/r/linuxserver/kavita){ .card-link title=Container}
-[:fontawesome-regular-file-code:](https://github.com/Kareadita/Kavita){ .card-link title="Source Code" }
-
 - ![FreshRSS](https://assets.tylernguyen.wiki/logos/freshrss.svg){ .twemoji } [FreshRSS](https://freshrss.org/)
 [:octicons-container-16:{ .docker }](https://hub.docker.com/r/linuxserver/freshrss){ .card-link title=Container}
 [:fontawesome-regular-file-code:](https://github.com/FreshRSS/FreshRSS){ .card-link title="Source Code" }
-
-- [giorgi-o/SkinPeek](https://github.com/giorgi-o/SkinPeek)
-[:octicons-container-16:{ .docker }](https://github.com/users/giorgi-o/packages/container/package/skinpeek%2Fskinpeek){ .card-link title=Container}
-[:fontawesome-regular-file-code:](https://github.com/giorgi-o/SkinPeek){ .card-link title="Source Code" }
 
 - ![rmcrackan/Libation](https://assets.tylernguyen.wiki/logos/libation.png){ .twemoji } [rmcrackan/Libation](https://github.com/rmcrackan/Libation)
 [:octicons-container-16:{ .docker }](https://hub.docker.com/r/rmcrackan/libation/tags){ .card-link title=Container}
@@ -95,6 +83,10 @@ I recommend the linuxserver Docker image for its [image mods](https://mods.linux
 - ![CrowdSec](https://assets.tylernguyen.wiki/logos/CrowdSec.png){ .twemoji } [CrowdSec](https://github.com/rmcrackan/Libation)
 [:octicons-container-16:{ .docker }](https://hub.docker.com/r/rmcrackan/libation/tags){ .card-link title=Container}
 [:fontawesome-regular-file-code:](https://github.com/rmcrackan/Libation){ .card-link title="Source Code" }
+
+- [giorgi-o/SkinPeek](https://github.com/giorgi-o/SkinPeek)
+[:octicons-container-16:{ .docker }](https://github.com/users/giorgi-o/packages/container/package/skinpeek%2Fskinpeek){ .card-link title=Container}
+[:fontawesome-regular-file-code:](https://github.com/giorgi-o/SkinPeek){ .card-link title="Source Code" }
 
 - [:simple-syncthing:{ .syncthing } Syncthing](https://gitea.io/en-us/)
 [:octicons-container-16:{ .docker }](https://github.com/linuxserver/docker-syncthing/pkgs/container/syncthing){ .card-link title=Container}
@@ -125,9 +117,9 @@ I recommend the linuxserver Docker image for its [image mods](https://mods.linux
 
 ## Cloudflare Zero Trust
 
-![Cloudflare Zero Trust](https://assets.tylernguyen.wiki/logos/Cloudflare-Zero-Trust.svg){ align=right width=125 }
+![Cloudflare Zero Trust](https://assets.tylernguyen.wiki/logos/Cloudflare_Zero-Trust2.svg){ align=right width=125 }
 
-I use Cloudflare Tunnel[^1] (part of the Zero Trust suite) to expose some services to the public, notably my [:simple-mastodon:{ .mastodon } Mastodon](https://tylernguyen.social/@tylernguyen) and Gitea instance.
+I use Cloudflare Tunnel[^1] (part of the Zero Trust suite) to expose some services to the public, notably my [:simple-mastodon:{ .mastodon } Mastodon](https://tylernguyen.social/@tylernguyen) and :simple-gitea:{ .gitea } Gitea.
 
 <div class="grid cards" markdown>
 

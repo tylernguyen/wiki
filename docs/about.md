@@ -34,11 +34,9 @@ Beyond that, I hope to create succinct writings that is both informative of the 
 ## Disclaimer
 
 /// warning | Mine and mine alone
-
 Technical writings here are limited to my own knowledge and research.
 
 Opinions expressed here are just that.
-
 ///
 
 ## Navigation

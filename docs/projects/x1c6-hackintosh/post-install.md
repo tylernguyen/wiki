@@ -6,20 +6,20 @@ icon: octicons/gear-16
 
 ## YogaSMC
 
-<div style="text-align:center;" markdown>
+<div class="grid cards" markdown>
 
-[:simple-github:{.github} zhen-zen/YogaSMC](https://github.com/zhen-zen/YogaSMC){ .md-button }
+- :octicons-git-branch-16:{ .foreground } [zhen-zen/YogaSMC](https://github.com/zhen-zen/YogaSMC)
+    ![GitHub Stars](https://img.shields.io/github/stars/zhen-zen/YogaSMC?style=flat&logo=GitHub&logoColor=073642&labelColor=eee8d5&color=859900#only-light){ .twemoji }
+    ![GitHub Forks](https://img.shields.io/github/forks/zhen-zen/YogaSMC?style=flat&logo=GitHub&logoColor=073642&labelColor=eee8d5&color=859900#only-light){ .twemoji }
+    ![GitHub Stars](https://img.shields.io/github/stars/zhen-zen/YogaSMC?style=flat&logo=GitHub&logoColor=839496&labelColor=073642&color=2aa198#only-dark){ .twemoji }
+    ![GitHub Forks](https://img.shields.io/github/forks/zhen-zen/YogaSMC?style=flat&logo=GitHub&logoColor=839496&labelColor=073642&color=2aa198#only-dark){ .twemoji }
+
+    - YogaSMCPane is the preference pane showing basic information and settings.
+    - YogaSMCNC is the notification app that receive EC events. It also has fan control.
 
 </div>
 
-There are two components to YogaSMC:
-
-1. YogaSMCPane: a preference pane showing basic information and settings.
-2. YogaSMCNC: notification app that receives EC event; also has fan control.
-
-## Display
-
-### HiDPI
+## HiDPI Display
 
 /// warning
 Enabling HiDPI requires disabling Apple's System Integrity Protection (SIP).

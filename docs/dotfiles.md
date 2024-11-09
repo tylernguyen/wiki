@@ -6,7 +6,7 @@
 
 <div class="grid cards" markdown>
 
-- :simple-git:{ .git } [tylernguyen/dotfiles](https://github.com/tylernguyen/dotfiles)
+- :octicons-git-branch-16:{ .foreground } [tylernguyen/dotfiles](https://github.com/tylernguyen/dotfiles)
     ![GitHub Stars](https://img.shields.io/github/stars/tylernguyen/dotfiles?style=flat&logo=GitHub&logoColor=073642&labelColor=eee8d5&color=859900#only-light){ .twemoji }
     ![GitHub Forks](https://img.shields.io/github/forks/tylernguyen/dotfiles?style=flat&logo=GitHub&logoColor=073642&labelColor=eee8d5&color=859900#only-light){ .twemoji }
     ![GitHub Stars](https://img.shields.io/github/stars/tylernguyen/dotfiles?style=flat&logo=GitHub&logoColor=839496&labelColor=073642&color=2aa198#only-dark){ .twemoji }
@@ -50,25 +50,25 @@
 - :simple-zsh:{ .foreground } [zsh](https://zsh.sourceforge.io/)
 [:octicons-markdown-16:](https://zsh.sourceforge.io/Doc/){ .card-link title=Documentation}
 
-    :simple-git:{ .git } [zimfw/zimfw](<https://github.com/zimfw/zimfw>)
+    :octicons-git-branch-16:{ .foreground } [zimfw/zimfw](<https://github.com/zimfw/zimfw>)
         ![GitHub Stars](https://img.shields.io/github/stars/zimfw/zimfw?style=flat&logo=GitHub&logoColor=073642&labelColor=eee8d5&color=859900#only-light){ .twemoji }
         ![GitHub Forks](https://img.shields.io/github/forks/zimfw/zimfw?style=flat&logo=GitHub&logoColor=073642&labelColor=eee8d5&color=859900#only-light){ .twemoji }
         ![GitHub Stars](https://img.shields.io/github/stars/zimfw/zimfw?style=flat&logo=GitHub&logoColor=839496&labelColor=073642&color=2aa198#only-dark){ .twemoji }
         ![GitHub Forks](https://img.shields.io/github/forks/zimfw/zimfw?style=flat&logo=GitHub&logoColor=839496&labelColor=073642&color=2aa198#only-dark){ .twemoji }
 
-    :simple-git:{ .git } [romkatv/powerlevel10k](<https://github.com/romkatv/powerlevel10k>)
+    :octicons-git-branch-16:{ .foreground } [romkatv/powerlevel10k](<https://github.com/romkatv/powerlevel10k>)
         ![GitHub Stars](https://img.shields.io/github/stars/romkatv/powerlevel10k?style=flat&logo=GitHub&logoColor=073642&labelColor=eee8d5&color=859900#only-light){ .twemoji }
         ![GitHub Forks](https://img.shields.io/github/forks/romkatv/powerlevel10k?style=flat&logo=GitHub&logoColor=073642&labelColor=eee8d5&color=859900#only-light){ .twemoji }
         ![GitHub Stars](https://img.shields.io/github/stars/romkatv/powerlevel10k?style=flat&logo=GitHub&logoColor=839496&labelColor=073642&color=2aa198#only-dark){ .twemoji }
         ![GitHub Forks](https://img.shields.io/github/forks/romkatv/powerlevel10k?style=flat&logo=GitHub&logoColor=839496&labelColor=073642&color=2aa198#only-dark){ .twemoji }
 
-    :simple-git:{ .git } [atuinsh/atuin](<https://github.com/atuinsh/atuin>)
+    :octicons-git-branch-16:{ .foreground } [atuinsh/atuin](<https://github.com/atuinsh/atuin>)
         ![GitHub Stars](https://img.shields.io/github/stars/atuinsh/atuin?style=flat&logo=GitHub&logoColor=073642&labelColor=eee8d5&color=859900#only-light){ .twemoji }
         ![GitHub Forks](https://img.shields.io/github/forks/atuinsh/atuin?style=flat&logo=GitHub&logoColor=073642&labelColor=eee8d5&color=859900#only-light){ .twemoji }
         ![GitHub Stars](https://img.shields.io/github/stars/atuinsh/atuin?style=flat&logo=GitHub&logoColor=839496&labelColor=073642&color=2aa198#only-dark){ .twemoji }
         ![GitHub Forks](https://img.shields.io/github/forks/atuinsh/atuin?style=flat&logo=GitHub&logoColor=839496&labelColor=073642&color=2aa198#only-dark){ .twemoji }
 
-    :simple-git:{ .git } [Aloxaf/fzf-tab](https://github.com/Aloxaf/fzf-tab)
+    :octicons-git-branch-16:{ .foreground } [Aloxaf/fzf-tab](https://github.com/Aloxaf/fzf-tab)
         ![GitHub Stars](https://img.shields.io/github/stars/Aloxaf/fzf-tab?style=flat&logo=GitHub&logoColor=073642&labelColor=eee8d5&color=859900#only-light){ .twemoji }
         ![GitHub Forks](https://img.shields.io/github/forks/Aloxaf/fzf-tab?style=flat&logo=GitHub&logoColor=073642&labelColor=eee8d5&color=859900#only-light){ .twemoji }
         ![GitHub Stars](https://img.shields.io/github/stars/Aloxaf/fzf-tab?style=flat&logo=GitHub&logoColor=839496&labelColor=073642&color=2aa198#only-dark){ .twemoji }

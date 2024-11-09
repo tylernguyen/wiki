@@ -22,14 +22,10 @@ I hate subscriptions and actively avoid them when I can. This is mostly a financ
 
 - ![Google Calendar](https://assets.tylernguyen.wiki/logos/Google_Calendar.svg){ .twemoji } [Google Calendar](https://calendar.google.com/)
 
-    ---
-
     - <span class="solarized-red">:material-eye-lock-outline: **Properitary**</span>
     - <span class="solarized-red">:material-newspaper: **Ad**</span>-ware
 
 - :simple-todoist:{ .todoist } [Todoist](https://todoist.com/)
-
-    ---
 
     - <span class="solarized-red">:material-eye-lock-outline: **Properitary**</span>
     - <span class="solarized-green">:material-sync: **Subscription**</span>-ware
@@ -41,22 +37,39 @@ I hate subscriptions and actively avoid them when I can. This is mostly a financ
 <div class="grid cards" markdown>
 
 - :simple-audible:{ .audible } [Audible](https://www.audible.com/)
-- :simple-pocketcasts:{ .pocketcasts } [Pocket Casts](https://pocketcasts.com/)
-- ![Libby](https://assets.tylernguyen.wiki/logos/Libby.png){ .twemoji } [Libby](https://libbyapp.com)
+
+    /// warning
+    Audible is a subsidiary of Amazon.[^1]
+    ///
+
+    Audible is only used for exclusives.
+
+    eBooks and audiobooks are sold by Amazon with DRM. Buy directly from publisher and your local bookstore when possible!
+
+    /// tip
+    Archive your Audible library in a DRM-free format. See :octicons-git-branch-16:{ .foreground } [rmcrackan/Libation](https://github.com/rmcrackan/Libation).
+    ///
 
 </div>
 
-/// warning
-Audible is a subsidiary of Amazon.[^1]
+<div class="grid cards" markdown>
 
-Audible is only used for exclusives.
+- ![Libby](https://assets.tylernguyen.wiki/logos/Libby.png){ .twemoji } [Libby](https://libbyapp.com)
 
-eBooks and audiobooks are sold by Amazon with DRM. Buy directly from publisher and your local bookstore when possible!
-///
+    /// warning
+    Libby is a product of OverDrive, which is owned by :simple-rakuten:{ .rakuten } Rakuten.
+    ///
 
-/// tip
-Consider archiving your audiobooks from Audible. See [rmcrackan/Libation](https://github.com/rmcrackan/Libation).
-///
+</div>
+
+<div class="grid cards" markdown>
+
+- :simple-pocketcasts:{ .pocketcasts } [Pocket Casts](https://pocketcasts.com/)
+
+    - <span class="solarized-red">:material-eye-lock-outline: **Properitary**</span>
+    - <span class="solarized-green">:material-sync: **Subscription**</span>-ware
+
+</div>
 
 ## Proton
 
@@ -137,6 +150,22 @@ I mainly need transactional email for self-hosted apps, which send a very low vo
 [:fontawesome-solid-money-bill:](https://postmarkapp.com/pricing){ .card-link title="Pricing" }
 [:fontawesome-regular-eye:](https://postmarkapp.com/privacy-policy){ .card-link title="Privacy Policy" }
 [:octicons-markdown-16:](https://postmarkapp.com/manual){ .card-link title=Documentation }
+
+## Steam
+
+<div class="grid cards" markdown>
+
+- <figure markdown>
+    <p align="center">
+    ![Steam](https://assets.tylernguyen.wiki/logos/Steam-light.png#only-light){ loading-lazy width=250 }
+    ![Steam](https://assets.tylernguyen.wiki/logos/Steam-dark.png#only-dark){ loading-lazy width=250 }
+    </p>
+    </figure>
+
+</div>
+
+[:octicons-link-external-16: Homepage](https://store.steampowered.com/){ .md-button }
+[:fontawesome-regular-eye:](https://store.steampowered.com/privacy_agreement/){ .card-link title="Privacy Policy" }
 
 [^1]: [Richard Stallman: Reasons not to buy from Amazon](https://stallman.org/amazon.html)
 [^2]: [Privacy Guides: Email is an insecure form of communication by default](https://www.privacyguides.org/basics/email-security/)

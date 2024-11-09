@@ -2,7 +2,7 @@
 icon: material/chip
 ---
 
-# BIOS Prep
+# BIOS Settings
 
 Modding the machine's BIOS is **optional** and will unlock hidden advanced settings. These settings allow for better optimizations under macOS.
 
@@ -23,13 +23,17 @@ The CH341a SPI Programmer and SOIC8 Clip are needed to dump and flash the BIOS c
 The BIOS chip is located just above the CPU, hidden under the sticker shield.
 
 <figure markdown>
-  ![BIOS Chip Location](https://user-images.githubusercontent.com/3349081/87883762-38686380-c9cf-11ea-9e9d-c400f7b5407b.jpg){ width=300 }
+  ![BIOS Chip Location](https://user-images.githubusercontent.com/3349081/87883762-38686380-c9cf-11ea-9e9d-c400f7b5407b.jpg){ loading-lazy width=300 }
   <figcaption>BIOS Chip Location</figcaption>
 </figure>
 
-<div style="text-align:center;" markdown>
+<div class="grid cards" markdown>
 
-[:simple-github:{.github} digmorepaka/thinkpad-firnware-patches](https://github.com/digmorepaka/thinkpad-firmware-patches){ .md-button }
+- :octicons-git-branch-16:{ .foreground } [digmorepaka/thinkpad-firmware-patches](https://github.com/digmorepaka/thinkpad-firmware-patches)
+    ![GitHub Stars](https://img.shields.io/github/stars/digmorepaka/thinkpad-firmware-patches?style=flat&logo=GitHub&logoColor=073642&labelColor=eee8d5&color=859900#only-light){ .twemoji }
+    ![GitHub Forks](https://img.shields.io/github/forks/digmorepaka/thinkpad-firmware-patches?style=flat&logo=GitHub&logoColor=073642&labelColor=eee8d5&color=859900#only-light){ .twemoji }
+    ![GitHub Stars](https://img.shields.io/github/stars/digmorepaka/thinkpad-firmware-patches?style=flat&logo=GitHub&logoColor=839496&labelColor=073642&color=2aa198#only-dark){ .twemoji }
+    ![GitHub Forks](https://img.shields.io/github/forks/digmorepaka/thinkpad-firmware-patches?style=flat&logo=GitHub&logoColor=839496&labelColor=073642&color=2aa198#only-dark){ .twemoji }
 
 </div>
 
@@ -63,7 +67,7 @@ DVMT Pre-Allocated will enable 4K HDMI output.
 Disabling CFG Lock gives Kernel (XNU) and AppleIntelPowerManagement the ability to write to the MSR 0xE2 register.
 
 ``` mermaid
-graph TD
+graph LR
     id1[Advance Tab]-->id2[Intel Advanced Menu];
     id2-->id3[System Agent Configuration];
     id2-->id4[Power & Performance];
