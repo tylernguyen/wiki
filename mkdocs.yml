@@ -216,7 +216,7 @@ markdown_extensions:
       - danger
       - example
       - quote
-      - featured
+      - download
       - announce
       - extension
       - setting
@@ -246,8 +246,8 @@ markdown_extensions:
         class: example
       - name: details-quote
         class: quote
-      - name: details-featured
-        class: featured
+      - name: details-download
+        class: download
       - name: details-announce
         class: announce
       - name: details-extension
