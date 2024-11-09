@@ -157,8 +157,8 @@ I mainly need transactional email for self-hosted apps, which send a very low vo
 
 - <figure markdown>
     <p align="center">
-    ![Steam](https://assets.tylernguyen.wiki/logos/Steam-light.png#only-light){ loading-lazy width=250 }
-    ![Steam](https://assets.tylernguyen.wiki/logos/Steam-dark.png#only-dark){ loading-lazy width=250 }
+    ![Steam](https://assets.tylernguyen.wiki/logos/Steam-light.svg#only-light){ loading-lazy width=250 }
+    ![Steam](https://assets.tylernguyen.wiki/logos/Steam-dark.svg#only-dark){ loading-lazy width=250 }
     </p>
     </figure>
 
