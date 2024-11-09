@@ -184,6 +184,13 @@ plugins:
   - tags:
       shadow_tags_prefix: _
   - typeset
+  - minify:
+      minify_js: false
+      minify_css: true
+      css_files:
+        - stylesheets/solarized.css
+        - stylesheets/fonts.css
+        - stylesheets/colors.css
 
 # ANCHOR Markdown Extensions
 markdown_extensions:
