@@ -177,7 +177,9 @@ plugins:
       assets_exclude:
         - cdn.jsdelivr.net/npm/mathjax@3/*
         - giscus.app/*
-  - optimize
+  - optimize:
+      optimize_png_speed: 1
+      optimize_jpg_quality: 30
   - search
   - tags:
       shadow_tags_prefix: _
