@@ -12,49 +12,49 @@ tags:
 
 - <figure markdown>
     <p align="center">
-    ![BenQ Zowie XL2566K](https://assets.tylernguyen.wiki/hardware/BenQ-Zowie_XL2566K.png){ loading=lazy width=200}
+    ![BenQ Zowie XL2566K](https://assets.tylernguyen.wiki/hardware/BenQ-Zowie_XL2566K.png){ width=200}
     <figcaption>BenQ Zowie XL2566K</figcaption>
     </p>
     </figure>
 
 - <figure markdown>
     <p align="center">
-    ![Fractal Torrent](https://assets.tylernguyen.wiki/hardware/Fractal_Torrent.png){ loading=lazy width=140 }
+    ![Fractal Torrent](https://assets.tylernguyen.wiki/hardware/Fractal_Torrent.png){ width=140 }
     <figcaption>Fractal Torrent</figcaption>
     </p>
     </figure>
 
 - <figure markdown>
     <p align="center">
-    ![GIGABYTE X570S AORUS Master](https://assets.tylernguyen.wiki/hardware/GIGABYTE-X570S-AORUS-Master.png){ loading=lazy width=125 }
+    ![GIGABYTE X570S AORUS Master](https://assets.tylernguyen.wiki/hardware/GIGABYTE-X570S-AORUS-Master.png){ width=125 }
     <figcaption>GIGABYTE X570S AORUS Master</figcaption>
     </p>
     </figure>
 
 - <figure markdown>
     <p align="center">
-    ![AMD Ryzen 7 5800X3D](https://assets.tylernguyen.wiki/hardware/AMD_Ryzen-5800X3D.png){ loading=lazy width=175 }
+    ![AMD Ryzen 7 5800X3D](https://assets.tylernguyen.wiki/hardware/AMD_Ryzen-5800X3D.png){ width=175 }
     <figcaption>AMD Ryzen 7 5800X3D</figcaption>
     </p>
     </figure>
 
 - <figure markdown>
     <p align="center">
-    ![EVGA RTX 3080 Ti FTW3 Ultra](https://assets.tylernguyen.wiki/hardware/Nvidia_RTX3080-Ti-FTW3-Ultra.png){ loading=lazy width=200 }
+    ![EVGA RTX 3080 Ti FTW3 Ultra](https://assets.tylernguyen.wiki/hardware/Nvidia_RTX3080-Ti-FTW3-Ultra.png){ width=200 }
     <figcaption>EVGA RTX 3080 Ti FTW3 Ultra</figcaption>
     </p>
     </figure>
 
 - <figure markdown>
     <p align="center">
-    ![Noctua NH-D15 chromax.Black](https://assets.tylernguyen.wiki/hardware/Noctua_NH-D15-chromax.Black.png){ loading=lazy width=140 }
+    ![Noctua NH-D15 chromax.Black](https://assets.tylernguyen.wiki/hardware/Noctua_NH-D15-chromax.Black.png){ width=140 }
     <figcaption>Noctua NH-D15 chromax.Black</figcaption>
     </p>
     </figure>
 
 - <figure markdown>
     <p align="center">
-    ![be quiet! Dark Power 12 1000W](https://assets.tylernguyen.wiki/hardware/be-quiet!_Dark-Power-12.png){ loading=lazy width=175 }
+    ![be quiet! Dark Power 12 1000W](https://assets.tylernguyen.wiki/hardware/be-quiet!_Dark-Power-12.png){ width=175 }
     <figcaption>be quiet! Dark Power 12 1000W</figcaption>
     </p>
     </figure>
@@ -63,14 +63,14 @@ tags:
 
 - <figure markdown>
     <p align="center">
-    ![Sabrent Rocket 4.0 Plus](https://assets.tylernguyen.wiki/hardware/Sabrent_Rocket-4.0-Plus.png){ loading=lazy width=125 }
+    ![Sabrent Rocket 4.0 Plus](https://assets.tylernguyen.wiki/hardware/Sabrent_Rocket-4.0-Plus.png){ width=125 }
     <figcaption>Sabrent Rocket 4.0 Plus 1TB</figcaption>
     </p>
     </figure>
 
 - <figure markdown>
     <p align="center">
-    ![Crucial P3](https://assets.tylernguyen.wiki/hardware/Crucial_P3.png){ loading=lazy width=175 }
+    ![Crucial P3](https://assets.tylernguyen.wiki/hardware/Crucial_P3.png){ width=175 }
     <figcaption>Crucial P3 3.0 4TB</figcaption>
     </p>
     </figure>
