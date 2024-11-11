@@ -128,7 +128,7 @@ extra:
 extra_css:
   - stylesheets/solarized.css
   - stylesheets/fonts.css
-  - stylesheets/colors.css
+  - stylesheets/simpleicons.css
   - https://unpkg.com/katex@0/dist/katex.min.css
 
 extra_javascript:
@@ -190,7 +190,7 @@ plugins:
       css_files:
         - stylesheets/solarized.css
         - stylesheets/fonts.css
-        - stylesheets/colors.css
+        - stylesheets/simpleicons.css
 
 # ANCHOR Markdown Extensions
 markdown_extensions:
