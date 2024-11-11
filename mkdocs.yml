@@ -216,11 +216,9 @@ markdown_extensions:
       - danger
       - example
       - quote
-      - download
       - announce
       - extension
       - setting
-      - screenshot
   - pymdownx.blocks.caption
   - pymdownx.blocks.details:
       types:
@@ -246,16 +244,17 @@ markdown_extensions:
         class: example
       - name: details-quote
         class: quote
-      - name: details-download
-        class: download
       - name: details-announce
         class: announce
       - name: details-extension
         class: extension
       - name: details-setting
         class: setting
-      - name: details-screenshot
-        class: setting
+  - pymdownx.blocks.tab:
+      slugify: !!python/object/apply:pymdownx.slugs.slugify
+        kwds:
+          case: lower
+      alternate_style: true
   - pymdownx.betterem
   - pymdownx.caret
   - pymdownx.critic
@@ -287,11 +286,6 @@ markdown_extensions:
         - name: md-render
           class: md-render
           format: !!python/name:tools.pymdownx_md_render.md_sub_render
-  - pymdownx.blocks.tab:
-      slugify: !!python/object/apply:pymdownx.slugs.slugify
-        kwds:
-          case: lower
-      alternate_style: true
   - pymdownx.tasklist:
       custom_checkbox: true
   - tools.collapse_code:
