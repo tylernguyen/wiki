@@ -69,6 +69,8 @@ I despise advertising as the primary form of commercialization for services. And
     - <span class="solarized-red">:material-eye-lock-outline: **Properitary**</span>
     - <span class="solarized-green">:material-sync: **Subscription**</span>-ware
 
+    Having purchased the iOS and web app early on, I'm grandfathered into its lifetime plan[^4]. I do not think that :simple-pocketcasts:{ .pocketcasts } Pocket Casts is worth it at its current subscription price. Instead, I recommend :simple-applepodcasts:{ .applepodcast } Apple Podcast, :simple-overcast:{ .overcast } Overcast, or ![Audiobookshelf](https://assets.tylernguyen.wiki/logos/audiobookshelf.svg){ .twemoji } Audiobookshelf.
+
 </div>
 
 ## Proton
@@ -170,3 +172,4 @@ I mainly need transactional email for self-hosted apps, which send a very low vo
 [^1]: [Richard Stallman: Reasons not to buy from Amazon](https://stallman.org/amazon.html)
 [^2]: [Privacy Guides: Email is an insecure form of communication by default](https://www.privacyguides.org/basics/email-security/)
 [^3]: [Privacy Guides: VPN Overview](https://www.privacyguides.org/vpn/#vpn-overview)
+[^4]: [Lifetime Access To Pocket Casts Plus](https://support.pocketcasts.com/knowledge-base/lifetime-access-to-pocket-casts-plus/)
