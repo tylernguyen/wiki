@@ -19,7 +19,6 @@ body {
 }
 
 /* LINK https://github.com/squidfunk/mkdocs-material/blob/master/src/templates/assets/stylesheets/main/_typeset.scss */
-
 .md-content__inner {
   padding: 0;
 }
@@ -93,6 +92,7 @@ body {
 .md-typeset h2 {
   word-spacing: -3px;
   font-size: 1.2rem;
+  margin-top: 1rem;
 }
 
 .md-typeset h3 {
@@ -100,27 +100,21 @@ body {
 }
 
 .md-typeset p {
-  font-weight: 110;
   font-size: 0.7rem;
-  line-height: 1.6;
   word-spacing: -2px;
-  margin-top: 5px;
-  margin-bottom: 10px;
 }
 
 .md-typeset ul {
   font-size: .7rem;
 }
 
-/* NOTE Correct Nav Item Font sizing on mobile */
-
+/* NOTE Correct Nav Item font sizing on mobile */
 .md-nav--primary .md-nav__item {
   font-size: .7rem;
   line-height: 1.5;
 }
 
-/* LINK https: //github.com/squidfunk/mkdocs-material/discussions/6757#discussioncomment-10100386 */
-
+/* LINK https://github.com/squidfunk/mkdocs-material/discussions/6757#discussioncomment-10100386 */
 .md-tooltip2 {
   top: calc(var(--md-tooltip-host-y) - 1.5rem);
 }
