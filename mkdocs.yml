@@ -135,7 +135,6 @@ extra_javascript:
   - https://unpkg.com/tablesort@5.3.0/dist/tablesort.min.js
   - javascripts/tablesort.js
   - javascripts/katex.js
-  - https://unpkg.com/mermaid@11/dist/mermaid.min.js
   - https://unpkg.com/katex@0/dist/katex.min.js
   - https://unpkg.com/katex@0/dist/contrib/auto-render.min.js
 
@@ -280,9 +279,6 @@ markdown_extensions:
           - overrides/.icons
   - pymdownx.superfences: # NOTE Admoniton, Annotations, MermaidJS
       custom_fences:
-        - name: mermaid
-          class: mermaid
-          format: !!python/name:pymdownx.superfences.fence_code_format
         - name: md-render
           class: md-render
           format: !!python/name:tools.pymdownx_md_render.md_sub_render
