@@ -6,9 +6,7 @@ tags:
 
 # Software
 
-Though I do prefer free (as in freedom) software, I defer to the standard, popular choice if its open-source alternative is obviously lacking in features.
-
-More importantly, I only use software that adhere to the industry (usually open-source) standard and actively avoid any software that forces a new/proprietary implementation.
+Though I do prefer free (as in freedom) software, I do use proprietary software if its open-source alternative is not adequate.
 
 ## 1Password
 
