@@ -6,247 +6,120 @@ tags:
 
 # Hardware
 
-## PC
+## Computers
 
-<div class="grid cards" markdown>
+/// abstract | Philosophy
+I like full-sized form factor builds for expandability, ease of maintenance, and generally cheaper and more available used parts.
 
-- <figure markdown>
-    <p align="center">
-    ![BenQ Zowie XL2566K](https://assets.tylernguyen.wiki/hardware/BenQ-Zowie_XL2566K.png){ width=200}
-    <figcaption>BenQ Zowie XL2566K</figcaption>
-    </p>
-    </figure>
+Similarly, I prefer air-cooling over water-cooling for better reliability and repairability.
 
-- <figure markdown>
-    <p align="center">
-    ![Fractal Torrent](https://assets.tylernguyen.wiki/hardware/Fractal_Torrent.png){ width=140 }
-    <figcaption>Fractal Torrent</figcaption>
-    </p>
-    </figure>
-
-- <figure markdown>
-    <p align="center">
-    ![GIGABYTE X570S AORUS Master](https://assets.tylernguyen.wiki/hardware/GIGABYTE-X570S-AORUS-Master.png){ width=125 }
-    <figcaption>GIGABYTE X570S AORUS Master</figcaption>
-    </p>
-    </figure>
-
-- <figure markdown>
-    <p align="center">
-    ![AMD Ryzen 7 5800X3D](https://assets.tylernguyen.wiki/hardware/AMD_Ryzen-5800X3D.png){ width=175 }
-    <figcaption>AMD Ryzen 7 5800X3D</figcaption>
-    </p>
-    </figure>
-
-- <figure markdown>
-    <p align="center">
-    ![EVGA RTX 3080 Ti FTW3 Ultra](https://assets.tylernguyen.wiki/hardware/Nvidia_RTX3080-Ti-FTW3-Ultra.png){ width=200 }
-    <figcaption>EVGA RTX 3080 Ti FTW3 Ultra</figcaption>
-    </p>
-    </figure>
-
-- <figure markdown>
-    <p align="center">
-    ![Noctua NH-D15 chromax.Black](https://assets.tylernguyen.wiki/hardware/Noctua_NH-D15-chromax.Black.png){ width=140 }
-    <figcaption>Noctua NH-D15 chromax.Black</figcaption>
-    </p>
-    </figure>
-
-- <figure markdown>
-    <p align="center">
-    ![be quiet! Dark Power 12 1000W](https://assets.tylernguyen.wiki/hardware/be-quiet!_Dark-Power-12.png){ width=175 }
-    <figcaption>be quiet! Dark Power 12 1000W</figcaption>
-    </p>
-    </figure>
-
-<div class="grid cards" markdown>
-
-- <figure markdown>
-    <p align="center">
-    ![Sabrent Rocket 4.0 Plus](https://assets.tylernguyen.wiki/hardware/Sabrent_Rocket-4.0-Plus.png){ width=125 }
-    <figcaption>Sabrent Rocket 4.0 Plus 1TB</figcaption>
-    </p>
-    </figure>
-
-- <figure markdown>
-    <p align="center">
-    ![Crucial P3](https://assets.tylernguyen.wiki/hardware/Crucial_P3.png){ width=175 }
-    <figcaption>Crucial P3 3.0 4TB</figcaption>
-    </p>
-    </figure>
-
-</div>
-
-</div>
-
-## Server
-
-<div class="grid cards" markdown>
-
-- <figure markdown>
-    <p align="center">
-    ![Fractal Meshify 2 XL](https://assets.tylernguyen.wiki/hardware/Fractal_Meshify2-XL.png){ loading=lazy width=150 }
-    <figcaption>Fractal Meshify 2 XL</figcaption>
-    </p>
-    </figure>
-
-- <figure markdown>
-    <p align="center">
-    ![ASRock X570 Phantom Gaming X](https://assets.tylernguyen.wiki/hardware/ASRock_X570-Phantom-Gaming-X.png){ loading=lazy width=175 }
-    <figcaption>ASRock X570 Phantom Gaming X</figcaption>
-    </p>
-    </figure>
-
-- <figure markdown>
-    <p align="center">
-    ![AMD Ryzen 9 3950X](https://assets.tylernguyen.wiki/hardware/AMD_Ryzen-3950X.png){ loading=lazy width=175 }
-    <figcaption>AMD Ryzen 9 3950X</figcaption>
-    </p>
-    </figure>
-
-- <figure markdown>
-    <p align="center">
-    ![Noctua NH-D15 chromax.Black](https://assets.tylernguyen.wiki/hardware/Noctua_NH-D15-chromax.Black.png){ loading=lazy width=150 }
-    <figcaption>Noctua NH-D15 chromax.Black</figcaption>
-    </p>
-    </figure>
-
-- <figure markdown>
-    <p align="center">
-    ![PNY RTX 4000](https://assets.tylernguyen.wiki/hardware/PNY_Quadro-RTX4000.png){ loading=lazy width=225 }
-    <figcaption>PNY RTX 4000</figcaption>
-    </p>
-    </figure>
-
-- <figure markdown>
-    <p align="center">
-    ![WD Elements](https://assets.tylernguyen.wiki/hardware/WD_Elements.png){ loading=lazy width=75 }
-    <figcaption>150TB of shucked WD Drives</figcaption>
-    </p>
-    </figure>
-
-- <figure markdown>
-    <p align="center">
-    ![be quiet! Dark Power 12 1000W](https://assets.tylernguyen.wiki/hardware/be-quiet!_Dark-Power-12.png){ loading=lazy width=175 }
-    <figcaption>be quiet! Dark Power 12 1000W</figcaption>
-    </p>
-    </figure>
-
-<div class="grid cards" markdown>
-
-- <figure markdown>
-    <p align="center">
-    ![MTA18ASF4G72AZ-3G2R](https://assets.tylernguyen.wiki/hardware/Micron-DDR4-ECC-UDIMM.png){ loading=lazy width=150 }
-    <figcaption>Micron 32GB DDR4-3200 ECC UDIMM 2Rx8 CL22 MTA18ASF4G72AZ-3G2R</figcaption>
-    </p>
-    </figure>
-
-- <figure markdown>
-    <p align="center">
-    ![WD SN750](https://assets.tylernguyen.wiki/hardware/WD_Black-SN750.png){ loading=lazy width=150 }
-    <figcaption>2x 1TB WD SN750</figcaption>
-    </p>
-    </figure>
-
-</div>
-
-</div>
-
-/// tip
-[Disk Prices (US)](https://diskprices.com/) is convenient price checking/tracking tool for WD external drives.
+And I hate RGBs.
 ///
+
+=== "Desktop PC"
+
+    My PC runs ![Windows 11](https://assets.tylernguyen.wiki/logos/Windows11.svg){ .twemoji } Windows 11 and is mostly use for gaming.
+
+    - __BenQ Zowie XL2566K__
+
+      I mostly play VALORANT so the 25" size and 360Hz refresh rate goes well together. I don't recommend this monitor, however, as it is 1080p and a TN panel. My dream monitor would be a 25" 1440p OLED at 360Hz.
+
+    - __GIGABYTE X570S AORUS Master__
+    - __AMD Ryzen 7 5800X3D__
+    - __Noctua NH-D15 chromax.Black__
+
+      _AM4_ is more than adequate for my fidelity and performance needs right now. I don't intend to upgrade to _AM5_. The next platform upgrade would likely be AM6 or Intel's equivalent.
+
+    - __Fractal Torrent__
+    - __EVGA RTX 3080 Ti FTW3 Ultra__
+    - __Sabrent Rocket 4.0 Plus__
+    - __Crucial P3 3.0 4TB__
+    - __be quiet! Dark Power 12 1000W__
+
+=== "Server"
+
+    My home server runs :simple-unraid:{ .unraid } Unraid. The primary usage is for media archival and consumption. It also hosts my :simple-homeassistant:{ .homeassistant } Home Assistant, :simple-gitea:{ .gitea } Gitea, and :simple-mastodon:{ .mastodon } Mastodon instance. See [:material-server-network-outline: .wiki/self-hosted](self-hosted.md).
+
+    - __Fractal Meshify 2 XL__
+
+      I maxed out this case with 20 3.5" drives. I'll start to rotate out older and smaller capacity drives on upgrades for next few years. On the next platform upgrade (in ~5 years), I'll probably move to a rackmounted form factor.
+
+
+    - __ASRock X570 Phantom Gaming X__
+    - __AMD Ryzen 9 3950X__
+    - __Noctua NH-D15 chromax.Black__
+    - __PNY RTX 4000__
+    - __Micron 32GB DDR4-3200 ECC UDIMM 2Rx8 CL22 MTA18ASF4G72AZ-3G2R__
+    - __178TB of mixed 3.5" drives__: retail, shucked, and used
+
+      Main data array (150TB), formatted in XFS and runs with 2 drives (_2x_ 14TB) as parities.
+
+      /// tip
+      [Disk Prices (US)](https://diskprices.com/) is convenient price checking/tracking tool for WD external drives.
+      ///
+
+    - _2x_ __1TB WD SN750 NVMes__
+
+      Primary cache that holds app and configuration data. They are formmatted in :simple-openzfs:{ .openzfs } ZFS and run in RAID1
+
+    - _2x_ __2TB Crucial MX500 2.5"__
+
+      Secondary cache used for temporary data and faster decrompression. They are formated in btrfs and run in RAID0.
+
+    - __be quiet! Dark Power 12 1000W__
+
+=== "Laptops"
+
+    - __Apple 14" Macbook Pro M3 Max__, 36GB unified memory
+
+      This is my de-facto workhorse. The hardware and form factor is perfect for my use case. I plan on renewing AppleCare for it when it expires and don't intend on upgrading for the foreseeable future.
+
+    - __Lenovo Thinkpad X1C6__
+
+      This was my old laptop and used for about 6 years. It runs macOS, see [.wiki/projects/x1c6-hackintosh](projects/x1c6-hackintosh/README.md).
 
 ## Mobile
 
-<div class="grid cards" markdown>
+- __iPhone 14 Pro__
 
-- <figure markdown>
-    <p align="center">
-    ![Apple 14-inch Macbook Pro M3 Max](https://assets.tylernguyen.wiki/hardware/Apple_MacbookPro-M3.png){ loading=lazy width=250 }
-    <figcaption>Apple 14" Macbook Pro M3 Max</figcaption>
-    </p>
-    </figure>
+It's an iPhone, nothing more, nothing less. It's much more powerful than what I use it for, especially since I don't care for photos. The battery life is what matters most to me. Should Apple releases a new iPhone Mini, I'd likely swap to that.
 
-- <figure markdown>
-    <p align="center">
-    ![Thinkpad X1C6](https://assets.tylernguyen.wiki/hardware/Lenovo_ThinkPad-X1C6.png){ loading=lazy width=200 }
-    <figcaption>Lenovo Thinkpad X1C6 <a href="/projects/x1c6-hackintosh"> (macOS)</a> </figcaption>
-    </p>
-    </figure>
+- __iPad Mini 6th Gen__
 
-</div>
+I use the iPad Mini to read the web, comics, mangas, and the occasional textbooks. It's also how I watch movies and shows on the treadmill.
 
-<div class="grid cards" markdown>
+- __Kobo Clara BW__
 
-- <figure markdown>
-    <p align="center">
-    ![iPhone 14 Pro](https://assets.tylernguyen.wiki/hardware/Apple_iPhone-14Pro.png){ loading=lazy width=123 }
-    <figcaption>iPhone 14 Pro</figcaption>
-    </p>
-    </figure>
+This is my default device for reading books. And since the majority of my book-reading are before bedtime, it lives primarily on my headboard or nightstand.
 
-- <figure markdown>
-    <p align="center">
-    ![iPad Mini 6th Gen](https://assets.tylernguyen.wiki/hardware/Apple_iPad-mini6.png){ loading=lazy width=120 }
-    <figcaption>iPad Mini 6th Gen</figcaption>
-    </p>
-    </figure>
+Runs :octicons-git-branch-16:{ .foreground } [koreader/koreader](https://github.com/drduh/koreader/koreader)
+    ![GitHub Stars](https://img.shields.io/github/stars/koreader/koreader?style=flat&logo=GitHub&logoColor=073642&labelColor=eee8d5&color=859900#only-light){ .twemoji }
+    ![GitHub Forks](https://img.shields.io/github/forks/koreader/koreader?style=flat&logo=GitHub&logoColor=073642&labelColor=eee8d5&color=859900#only-light){ .twemoji }
+    ![GitHub Stars](https://img.shields.io/github/stars/koreader/koreader?style=flat&logo=GitHub&logoColor=839496&labelColor=073642&color=2aa198#only-dark){ .twemoji }
+    ![GitHub Forks](https://img.shields.io/github/forks/koreader/koreader?style=flat&logo=GitHub&logoColor=839496&labelColor=073642&color=2aa198#only-dark){ .twemoji }
 
-- <figure markdown>
-    <p align="center">
-    ![Kobo Clara BW](https://assets.tylernguyen.wiki/hardware/Kobo_ClaraBW.png){ loading=lazy width=105 }
-    <figcaption>Kobo Clara BW</figcaption>
-    </p>
-    </figure>
+## Consoles
 
-</div>
+- __Steam Deck OLED LE__
 
-## Gaming
+I love my Steam Deck OLED. I previously had a standard Steam Deck and cannot recommend the OLED model enough. I use it at my desk, in bed, and on travel. I play mostly indie and emulated titles on it.
 
-<div class="grid cards" markdown>
+- __Nintendo Switch OLED__
+- __AMBERNIC RG35XXSP__
 
-- <figure markdown>
-    <p align="center">
-    ![Steam Deck OLED Limited Edition](https://assets.tylernguyen.wiki/hardware/Steam-Deck-OLED-LE-top.png){ loading=lazy width=375 }
-    <figcaption>Steam Deck OLED LE</figcaption>
-    </p>
-    </figure>
-
-- <figure markdown>
-    <p align="center">
-    ![Nintendo Switch OLED](https://assets.tylernguyen.wiki/hardware/Nintendo_Switch-OLED.png){ loading=lazy width=250 }
-    <figcaption>Nintendo Switch OLED</figcaption>
-    </p>
-    </figure>
-
-- <figure markdown>
-    <p align="center">
-    ![AMBERNIC RG35XXSP](https://assets.tylernguyen.wiki/hardware/AMBERNIC_RG35XXSP.png){ loading=lazy width=90 }
-    <figcaption>AMBERNIC RG35XXSP[^1]</figcaption>
-    </p>
-    </figure>
-
-</div>
+  Runs [MuOS](https://muos.dev/) instead of the stock operating system.
 
 ## Miscellaneous
 
-<div class="grid cards" markdown>
+- __Apple AirTag__
+- __Yubikey 5C__
 
-- <figure markdown>
-    <p align="center">
-    ![Yubikey 5C NFC](https://assets.tylernguyen.wiki/hardware/Yubikey_5C-NFC.png){ loading=lazy width=100 }
-    <figcaption>Yubikey 5C NFC [^2]</figcaption>
-    </p>
-    </figure>
+/// tip
+Yubikey can also be used for :simple-gnuprivacyguard:{ .gnuprivacyguard } GnuPG and SSH.
 
-- <figure markdown>
-    <p align="center">
-    ![Apple AirTag](https://assets.tylernguyen.wiki/hardware/Apple_AirTag.png){ loading=lazy width=125 }
-    <figcaption>Apple AirTag</figcaption>
-    </p>
-    </figure>
-
-</div>
-
-[^1]: [MuOS](https://muos.dev/) - Replacement OS for various AMBERNIC handheld devices
-[^2]: [drduh/YubiKey-Guide](https://github.com/drduh/YubiKey-Guide):  Guide to using YubiKey for GnuPG and SSH
+See :octicons-git-branch-16:{ .foreground } [drduh/YubiKey-Guide](https://github.com/drduh/YubiKey-Guide)
+    ![GitHub Stars](https://img.shields.io/github/stars/drduh/YubiKey-Guide?style=flat&logo=GitHub&logoColor=073642&labelColor=eee8d5&color=859900#only-light){ .twemoji }
+    ![GitHub Forks](https://img.shields.io/github/forks/drduh/YubiKey-Guide?style=flat&logo=GitHub&logoColor=073642&labelColor=eee8d5&color=859900#only-light){ .twemoji }
+    ![GitHub Stars](https://img.shields.io/github/stars/drduh/YubiKey-Guide?style=flat&logo=GitHub&logoColor=839496&labelColor=073642&color=2aa198#only-dark){ .twemoji }
+    ![GitHub Forks](https://img.shields.io/github/forks/drduh/YubiKey-Guide?style=flat&logo=GitHub&logoColor=839496&labelColor=073642&color=2aa198#only-dark){ .twemoji }
+///
