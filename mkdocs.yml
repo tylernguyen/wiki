@@ -127,6 +127,7 @@ extra:
 
 extra_css:
   - stylesheets/solarized.css
+  - stylesheets/custom.css
   - stylesheets/fonts.css
   - stylesheets/simpleicons.css
   - https://unpkg.com/katex@0/dist/katex.min.css
@@ -188,6 +189,7 @@ plugins:
       minify_css: true
       css_files:
         - stylesheets/solarized.css
+        - stylesheets/custom.css
         - stylesheets/fonts.css
         - stylesheets/simpleicons.css
 
