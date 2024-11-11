@@ -269,6 +269,11 @@ markdown_extensions:
       pygments_lang_class: true # NOTE Add a CSS class to identify the language of the code block
   - pymdownx.inlinehilite
   - pymdownx.saneheaders
+  - pymdownx.tabbed:
+      alternate_style: true
+      slugify: !!python/object/apply:pymdownx.slugs.slugify
+        kwds:
+          case: lower
   - pymdownx.snippets:
       url_download: true
       auto_append:
