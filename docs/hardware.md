@@ -16,67 +16,67 @@ Similarly, I prefer air-cooling over water-cooling for better reliability and re
 And I hate RGBs.
 ///
 
-=== "Desktop PC"
+/// tab | Desktop PC
+My PC runs ![Windows 11](https://assets.tylernguyen.wiki/logos/Windows11.svg){ .twemoji } Windows 11 and is mostly use for gaming.
 
-    My PC runs ![Windows 11](https://assets.tylernguyen.wiki/logos/Windows11.svg){ .twemoji } Windows 11 and is mostly use for gaming.
+- __BenQ Zowie XL2566K__
 
-    - __BenQ Zowie XL2566K__
+  I mostly play :simple-valorant:{ .valorant } VALORANT so the 25" size and 360Hz refresh rate goes well together. I don't recommend this monitor, however, as it is 1080p and a TN panel. My dream monitor would be a 25" 1440p OLED at 360Hz.
 
-      I mostly play VALORANT so the 25" size and 360Hz refresh rate goes well together. I don't recommend this monitor, however, as it is 1080p and a TN panel. My dream monitor would be a 25" 1440p OLED at 360Hz.
+- __GIGABYTE X570S AORUS Master__
+- __AMD Ryzen 7 5800X3D__
+- __Noctua NH-D15 chromax.Black__
 
-    - __GIGABYTE X570S AORUS Master__
-    - __AMD Ryzen 7 5800X3D__
-    - __Noctua NH-D15 chromax.Black__
+  _AM4_ is more than adequate for my fidelity and performance needs right now. I don't intend to upgrade to _AM5_. The next platform upgrade would likely be AM6 or Intel's equivalent.
 
-      _AM4_ is more than adequate for my fidelity and performance needs right now. I don't intend to upgrade to _AM5_. The next platform upgrade would likely be AM6 or Intel's equivalent.
+- __Fractal Torrent__
+- __EVGA RTX 3080 Ti FTW3 Ultra__
+- __Sabrent Rocket 4.0 Plus__
+- __Crucial P3 3.0 4TB__
+- __be quiet! Dark Power 12 1000W__
+///
 
-    - __Fractal Torrent__
-    - __EVGA RTX 3080 Ti FTW3 Ultra__
-    - __Sabrent Rocket 4.0 Plus__
-    - __Crucial P3 3.0 4TB__
-    - __be quiet! Dark Power 12 1000W__
+/// tab | Server
+My home server runs :simple-unraid:{ .unraid } Unraid. The primary usage is for media archival and consumption. It also hosts my :simple-homeassistant:{ .homeassistant } Home Assistant, :simple-gitea:{ .gitea } Gitea, and :simple-mastodon:{ .mastodon } Mastodon instance. See [:material-server-network-outline: .wiki/self-hosted](self-hosted.md).
 
-=== "Server"
+- __Fractal Meshify 2 XL__
 
-    My home server runs :simple-unraid:{ .unraid } Unraid. The primary usage is for media archival and consumption. It also hosts my :simple-homeassistant:{ .homeassistant } Home Assistant, :simple-gitea:{ .gitea } Gitea, and :simple-mastodon:{ .mastodon } Mastodon instance. See [:material-server-network-outline: .wiki/self-hosted](self-hosted.md).
-
-    - __Fractal Meshify 2 XL__
-
-      I maxed out this case with 20 3.5" drives. I'll start to rotate out older and smaller capacity drives on upgrades for next few years. On the next platform upgrade (in ~5 years), I'll probably move to a rackmounted form factor.
+  I maxed out this case with 20 3.5" drives. I'll start to rotate out older and smaller capacity drives on upgrades for next few years. On the next platform upgrade (in ~5 years), I'll probably move to a rackmounted form factor.
 
 
-    - __ASRock X570 Phantom Gaming X__
-    - __AMD Ryzen 9 3950X__
-    - __Noctua NH-D15 chromax.Black__
-    - __PNY RTX 4000__
-    - __Micron 32GB DDR4-3200 ECC UDIMM 2Rx8 CL22 MTA18ASF4G72AZ-3G2R__
-    - __178TB of mixed 3.5" drives__: retail, shucked, and used
+- __ASRock X570 Phantom Gaming X__
+- __AMD Ryzen 9 3950X__
+- __Noctua NH-D15 chromax.Black__
+- __PNY RTX 4000__
+- __Micron 32GB DDR4-3200 ECC UDIMM 2Rx8 CL22 MTA18ASF4G72AZ-3G2R__
+- __178TB of mixed 3.5" drives__: retail, shucked, and used
 
-      Main data array (150TB), formatted in XFS and runs with 2 drives (_2x_ 14TB) as parities.
+  Main data array (150TB), formatted in XFS and runs with 2 drives (_2x_ 14TB) as parities.
 
-      /// tip
-      [Disk Prices (US)](https://diskprices.com/) is convenient price checking/tracking tool for WD external drives.
-      ///
+  /// tip
+  [Disk Prices (US)](https://diskprices.com/) is convenient price checking/tracking tool for WD external drives.
+  ///
 
-    - _2x_ __1TB WD SN750 NVMes__
+- _2x_ __1TB WD SN750 NVMes__
 
-      Primary cache that holds app and configuration data. They are formmatted in :simple-openzfs:{ .openzfs } ZFS and run in RAID1
+  Primary cache that holds app and configuration data. They are formmatted in :simple-openzfs:{ .openzfs } ZFS and run in RAID1
 
-    - _2x_ __2TB Crucial MX500 2.5"__
+- _2x_ __2TB Crucial MX500 2.5"__
 
-      Secondary cache used for temporary data and faster decrompression. They are formated in btrfs and run in RAID0.
+  Secondary cache used for temporary data and faster decrompression. They are formated in btrfs and run in RAID0.
 
-    - __be quiet! Dark Power 12 1000W__
+- __be quiet! Dark Power 12 1000W__
+///
 
-=== "Laptops"
+/// tab | Laptops
+- __Apple 14" Macbook Pro M3 Max__, 36GB unified memory
 
-    - __Apple 14" Macbook Pro M3 Max__, 36GB unified memory
+  This is my de-facto workhorse. The hardware and form factor is perfect for my use case. I plan on renewing AppleCare for it when it expires and don't intend on upgrading for the foreseeable future.
 
-      This is my de-facto workhorse. The hardware and form factor is perfect for my use case. I plan on renewing AppleCare for it when it expires and don't intend on upgrading for the foreseeable future.
+- __Lenovo Thinkpad X1C6__
 
-    - __Lenovo Thinkpad X1C6__
-
-      This was my old laptop and used for about 6 years. It runs macOS, see [.wiki/projects/x1c6-hackintosh](projects/x1c6-hackintosh/README.md).
+  This was my old laptop and used for about 6 years. It runs macOS, see [.wiki/projects/x1c6-hackintosh](projects/x1c6-hackintosh/README.md).
+///
 
 ## Mobile
 
