@@ -6,7 +6,7 @@ tags:
 
 # Services
 
-I hate subscriptions and actively avoid them when I can. This is mostly a financial decision but is also motivated by data privacy. The services here are mostly irreplaceable for their features and/or should not be self-hosted for security.
+I despise advertising as the primary form of commercialization for services. And I don't want to keep too many subscriptions and actively avoid them when I can. But I'll much rather pay for the services that I need rather than be subjected to advertisements.
 
 ## NextDNS
 
