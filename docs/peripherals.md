@@ -10,37 +10,49 @@ tags:
 
 - Logitech G Pro Superlight 2
 - Pulsar Supergrip
+
+I buy the uncut sheet.
+
 - EspTiger Ice DIY Dots V2
+
+I use dot mouse skates so I don't have to buy various skates for different mice.
 
 ## Mousepad
 
+I prefer textured, cloth pad.
+
 - Artisan Type-99 Soft Grey
+
+Usually, mousepad firmness does not matter to me. However, for the Type-99 specifically, I greatly prefer X-Soft or Soft.
+
 - Artisan Otsu Soft Red
 - EspTiger Tang Dao SR Orange
 
+This is my favorite mousepad texture.
+
 ## Keyboard
 
-### FC660C Build
-
+/// tab | FC660C Build
 - FC660C PCB + Plate
 - HASU QMK Controller
 - BKE Redux Grey v1 Domes
 - biip MT3 Extended 2048 Keycaps
 - Norbauer Heavy-6: Urbi et Orbi Edition
+///
 
-### Wooting 80HE
-
+/// tab | Wooting 80HE
 - Wooting 80HE PCR ABS Ghost
 - Wooting 80HE Module
 - NovelKeys GMK Kaiju Part Deux Mechabase Keycaps
 - GEON Raw HE
+///
 
-### Wooting 60HE Build
-
+/// tab | Wooting 60HE Build
 - Wilba.Tech Salvation Lightning Silver
 - Wooting 60HE+ Module
 - NovelKeys GMK Kaiju Part Deux Mechabase Keycaps
-- GEONWORKS Raptor HE Housing
+- GEONWORKS Raptor HE Housing + Lekker Stem
+///
 
 ## Audio
 
