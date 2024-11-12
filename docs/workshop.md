@@ -22,8 +22,9 @@ tags:
 ## Soldering
 
 - PACE ADS200
-- FR301
+- Hakko FR-301
 - Pine64 PINECIL V2
+- OMNIFIXO OF -M4.4
 
 ## Multimeter
 
