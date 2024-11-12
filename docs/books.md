@@ -16,18 +16,9 @@ I prefer to listen to the audiobook version when available. I've read/listened t
 ==}
 </div>
 
-<div class="grid cards" markdown>
+__Nguyễn, Việt Thanh__ - _The Sympathizer_ [:simple-goodreads:{ .goodreads }](https://www.goodreads.com/book/show/23168277-the-sympathizer "Goodreads")
 
-- ![The Sympathizer](https://assets.tylernguyen.wiki/covers/The-Sympathizer_2015.jpg){ width=140}
-  ![The Committed](https://assets.tylernguyen.wiki/covers/The-Committed_2021.jpg){ width=140 }
-
-    __Nguyễn, Việt Thanh__ - _The Sympathizer_ [:simple-goodreads:{ .goodreads }](https://www.goodreads.com/book/show/23168277-the-sympathizer "Goodreads")
-
-    __Nguyễn, Việt Thanh__ - _The Committed (Sequel to The Sympathizer)_ [:simple-goodreads:{ .goodreads }](https://www.goodreads.com/book/show/52260627-the-committed "Goodreads")
-
-</div>
-
----
+__Nguyễn, Việt Thanh__ - _The Committed (Sequel to The Sympathizer)_ [:simple-goodreads:{ .goodreads }](https://www.goodreads.com/book/show/52260627-the-committed "Goodreads")
 
 ## Art, Design & Writing
 

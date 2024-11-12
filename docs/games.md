@@ -15,53 +15,39 @@ tags:
 
 </div>
 
-<div class="grid cards" markdown>
+- __VALORANT__
+[:simple-riotgames:{ .riotgames }](https://playvalorant.com/ "Play VALORANT")
 
-- ![VALORANT](https://assets.tylernguyen.wiki/games/heroes/VALORANT.png)
-    **VALORANT**
-    [:simple-riotgames:{ .riotgames }](https://playvalorant.com/){ .card-link title="Riot Games: Play VALORANT"}
+- __Teamfight Tactics__
+[:simple-riotgames:{ .riotgames }](https://teamfighttactics.leagueoflegends.com/en-us/ "Play Teamfight Tactics")
 
-- ![Teamfight Tactics](https://assets.tylernguyen.wiki/games/heroes/Teamfight-Tactics.png)
-    **Teamfight Tactics**
-    [:simple-riotgames:{ .riotgames }](https://teamfighttactics.leagueoflegends.com/en-us/){ .card-link title="Riot Games: Teamfight Tactics"}
+- __Slay the Spire__
+[![Steam](https://assets.tylernguyen.wiki/logos/Steam.svg){ .twemoji }](https://store.steampowered.com/app/646570/Slay_the_Spire/ "Steam")
+[:simple-steamdb:{ .foreground }](https://steamdb.info/app/646570/ "SteamDB")
+[:simple-gogdotcom:{ .gog }](https://www.gog.com/game/Slay_the_Spire "GOG")
 
-- ![Slay the Spire](https://assets.tylernguyen.wiki/games/heroes/Slay-the-Spire.png)
-    **Slay the Spire**
-    [![Steam](https://assets.tylernguyen.wiki/logos/Steam.svg){ .twemoji .card-link title="Steam" }](https://store.steampowered.com/app/646570/Slay_the_Spire/)
-    [:simple-steamdb:{ .foreground }](https://steamdb.info/app/646570/){ .card-link title="SteamDB"}
-    [:simple-gogdotcom:{ .gog }](https://www.gog.com/game/Slay_the_Spire){ .card-link title="GOG"}
-
-- ![Balatro](https://assets.tylernguyen.wiki/games/heroes/Balatro.jpg)
-    **Balatro**
-    [![Steam](https://assets.tylernguyen.wiki/logos/Steam.svg){ .twemoji .card-link title="Steam" }](https://store.steampowered.com/app/2379780/Balatro/)
-    [:simple-steamdb:{ .foreground }](https://steamdb.info/app/2379780/){ .card-link title="SteamDB"}
-
-</div>
+- __Balatro__
+[![Steam](https://assets.tylernguyen.wiki/logos/Steam.svg){ .twemoji }](https://store.steampowered.com/app/2379780/Balatro/ "Steam")
+[:simple-steamdb:{ .foreground }](https://steamdb.info/app/2379780/ "SteamDB")
 
 ## Board Games
 
-<div class="grid cards" markdown>
+- __Root__
+    [:simple-boardgamegeek:{ .boardgamegeek }](<https://boardgamegeek.com/boardgame/237182/root> "Board Game Geek")
 
-- ![Root](https://assets.tylernguyen.wiki/games/Root.png)
-    **Root**
-    [:simple-boardgamegeek:{ .boardgamegeek }](https://boardgamegeek.com/boardgame/237182/root){ .card-link title="Board Games Geek"}
+    - __Root: Riverfolk Expansion__
+    [:simple-boardgamegeek:{ .boardgamegeek }](https://boardgamegeek.com/boardgame/241386/root-the-riverfolk-expansion "Board Game Geek")
 
-    **Root: Riverfolk Expansion**
-    [:simple-boardgamegeek:{ .boardgamegeek }](https://boardgamegeek.com/boardgame/241386/root-the-riverfolk-expansion){ .card-link title="Board Games Geek"}
+    - __Root: Underworld Expansion__
+    [:simple-boardgamegeek:{ .boardgamegeek }](https://boardgamegeek.com/boardgame/272637/root-the-underworld-expansion "Board Game Geek")
 
-    **Root: Underworld Expansion**
-    [:simple-boardgamegeek:{ .boardgamegeek }](https://boardgamegeek.com/boardgame/272637/root-the-underworld-expansion){ .card-link title="Board Games Geek"}
+    - __Root: Marauders Expansion__
+    [:simple-boardgamegeek:{ .boardgamegeek }](https://boardgamegeek.com/boardgame/330149/root-the-marauder-expansion "Board Game Geek")
 
-    **Root: Marauders Expansion**
-    [:simple-boardgamegeek:{ .boardgamegeek }](https://boardgamegeek.com/boardgame/330149/root-the-marauder-expansion){ .card-link title="Board Games Geek"}
+    - __Root: The Vagabond Pack__
+    [:simple-boardgamegeek:{ .boardgamegeek }](https://boardgamegeek.com/boardgame/309977/root-the-vagabond-pack "Board Game Geek")
 
-    **Root: The Vagabond Pack**
-    [:simple-boardgamegeek:{ .boardgamegeek }](https://boardgamegeek.com/boardgame/309977/root-the-vagabond-pack){ .card-link title="Board Games Geek"}
-
-- ![CATAN](https://assets.tylernguyen.wiki/games/CATAN.jpg)
-    **CATAN**
-    [:simple-boardgamegeek:{ .boardgamegeek }](https://boardgamegeek.com/boardgame/13/catan){ .card-link title="Board Games Geek"}
-
-</div>
+- __CATAN__
+[:simple-boardgamegeek:{ .boardgamegeek }](https://boardgamegeek.com/boardgame/13/catan "Board Games Geek")
 
 ## Retro
