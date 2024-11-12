@@ -22,7 +22,7 @@ Though I do prefer free (as in freedom) software, I do use proprietary software 
 </div>
 
 /// info
-1Password is a <span class="solarized-red">:material-eye-lock-outline: **properitary**</span>, <span class="solarized-green">:material-sync: **subscription**</span>-ware password manager.
+1Password is a <span class="solarized-red">:material-lock: __properitary__</span>, <span class="solarized-green">:material-sync: __subscription__</span>-ware password manager.
 ///
 
 1Password is robust, cross-platform, and well integrated. Its ease of use and wide adoption also makes sharing passwords effortless.
@@ -58,7 +58,7 @@ Though I do prefer free (as in freedom) software, I do use proprietary software 
 </div>
 
 /// info
-Firefox is an <span class="solarized-orange">:material-source-branch: **open source**</span> web browser.
+Firefox is an <span class="solarized-orange">:material-source-branch: __open source__</span> web browser.
 ///
 
 /// extension | Extensions
@@ -138,7 +138,7 @@ I use Visual Studio Code is mainly for extensions and remote capabilities.
 </div>
 
 /// info
-Material for MkDocs is a <span class="solarized-green">:material-sync: **sponsor**</span>-ware, <span class="solarized-orange">:material-source-branch: **open source**</span> static site generator intended for documentation. Sponsoring the project grants access to a private development fork called Insiders.
+Material for MkDocs is a <span class="solarized-green">:material-sync: __sponsor__</span>-ware, <span class="solarized-orange">:material-source-branch: __open source__</span> static site generator intended for documentation. Sponsoring the project grants access to a private development fork called Insiders.
 ///
 
 /// example
@@ -164,6 +164,7 @@ This website is created using Material for MkDocs Insiders.
 - ![Plexamp](https://assets.tylernguyen.wiki/logos/Plexamp.png){ .twemoji } [Plexamp](https://plexamp.com/)
 - :simple-vlcmediaplayer:{ .vlc } [VLC Media Player](https://www.videolan.org/vlc/)
 - ![OBS](https://assets.tylernguyen.wiki/logos/OBS.svg){ .twemoji } [OBS Studio](https://obsproject.com/)
+[:fontawesome-regular-file-code:](https://github.com/obsproject/obs-studio "Source Code"){ .card-link }
 
 </div>
 
@@ -174,5 +175,7 @@ This website is created using Material for MkDocs Insiders.
 - ![Mountain Duck](https://assets.tylernguyen.wiki/logos/Mountain-Duck.png){ .twemoji } [Mountain Duck](https://mountainduck.io/)
 - ![Cryptomator](https://assets.tylernguyen.wiki/logos/Cryptomator.svg){ .twemoji } [Cryptomator](https://cryptomator.org/)
 - ![Syncthing](https://assets.tylernguyen.wiki/logos/Syncthing.svg){ .twemoji } [Syncthing](https://syncthing.net/)
+[:fontawesome-regular-file-code:](https://github.com/syncthing/ "Source Code"){ .card-link }
+[:octicons-markdown-16:](https://docs.syncthing.net/ "Documentation"){ .card-link }
 
 </div>
