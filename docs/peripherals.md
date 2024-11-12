@@ -14,17 +14,19 @@ tags:
 
 ## Mousepad
 
-- Artisan Zero Mid Orange
-- Artisan Otsu Soft
+- Artisan Type-99 Soft Grey
+- Artisan Otsu Soft Red
+- EspTiger Tang Dao SR Orange
 
 ## Keyboard
 
-### Wooting 60HE Build
+### FC660C Build
 
-- Wilba.Tech Salvation Lightning Silver
-- Wooting 60HE+ Module
-- NovelKeys GMK Kaiju Part Deux Mechabase Keycaps
-- GEONWORKS Raptor HE Housing
+- FC660C PCB + Plate
+- HASU QMK Controller
+- BKE Redux Grey v1 Domes
+- biip MT3 Extended 2048 Keycaps
+- Norbauer Heavy-6: Urbi et Orbi Edition
 
 ### Wooting 80HE
 
@@ -32,6 +34,13 @@ tags:
 - Wooting 80HE Module
 - NovelKeys GMK Kaiju Part Deux Mechabase Keycaps
 - GEON Raw HE
+
+### Wooting 60HE Build
+
+- Wilba.Tech Salvation Lightning Silver
+- Wooting 60HE+ Module
+- NovelKeys GMK Kaiju Part Deux Mechabase Keycaps
+- GEONWORKS Raptor HE Housing
 
 ## Audio
 
