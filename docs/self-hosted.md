@@ -8,16 +8,20 @@ tags:
 
 ## Unraid
 
-![Unraid](https://assets.tylernguyen.wiki/logos/Unraid-light.svg#only-light){ align=right width=150 }
-![Unraid](https://assets.tylernguyen.wiki/logos/Unraid-dark.svg#only-dark){ align=right width=150 }
+<div class="grid cards" markdown>
+
+- <figure markdown>
+    <p align="center">
+    ![Unraid](https://assets.tylernguyen.wiki/logos/Unraid-light.svg#only-light){ width=250 }
+    ![Unraid](https://assets.tylernguyen.wiki/logos/Unraid-dark.svg#only-dark){ width=250 }
+    </p>
+    </figure>
+
+</div>
+
+Unraid is a <span class="solarized-red">:material-lock: __properitary__</span>, <span class="solarized-green">:material-sync: __commercial__</span> NAS operating system.
 
 Unraid has a robust redundancy system, supports virtualization, third-party plugins, and Docker. Its UI and UX is straight forward and user-friendly.
-
-The Unraid community is also very active and helpful.
-
-/// warning
-Unraid is not open source.
-///
 
 [:octicons-link-external-16: Homepage](https://unraid.net/){ .md-button }
 [:fontawesome-solid-money-bill:](https://unraid.net/pricing){ .card-link title=Pricing}
