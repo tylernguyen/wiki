@@ -119,10 +119,6 @@ body {
 }
 
 /* LINK https://github.com/squidfunk/mkdocs-material/discussions/6757#discussioncomment-10100386 */
-.md-tooltip2 {
-  top: calc(var(--md-tooltip-host-y) - 1.5rem);
-}
-
 .md-tooltip2>.md-typeset {
   color: var(--tooltip-color);
   font-family: var(--default-font);
