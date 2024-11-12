@@ -4,15 +4,13 @@ icon: material/chip
 
 # BIOS Settings
 
-Modding the machine's BIOS is **optional** and will unlock hidden advanced settings. These settings allow for better optimizations under macOS.
+## BIOS Modding
+
+Modding the machine's BIOS is __optional__ and will unlock hidden advanced settings. These settings allow for better optimizations under macOS.
 
 /// danger
-The BIOS mod will **permanently** break TPM.
-
-Only mod the BIOS if you do not need TPM under Windows or Linux.
+The BIOS patch will <span class="solarized-red">__PERMANENTLY__</span> break TPM. Patch the only BIOS if you (will) never use TPM under Windows or Linux.
 ///
-
-## BIOS Modding
 
 The CH341a SPI Programmer and SOIC8 Clip are needed to dump and flash the BIOS chip. An inexpensive one from Amazon/eBay is sufficient.
 
@@ -41,14 +39,14 @@ Thank you to `paranoidbashthot` and `\x` for creating the patches.
 
 1. Use `xx_80_patches-v*.txt`, feel free to comment out the WWAN patches if unnecessary.
 
-3. Remember to **dump the vanilla twice and use `diff` to make sure things were dumped properly**, store this backup somewhere safe.
+3. Remember to __dump the vanilla twice and use `diff` to make sure things were dumped properly__, store this backup somewhere safe.
 4. Confirmed working `BIOS-v1.45`, I cannot be sure about other BIOS versions. Though they will most likely work as well.
 5. The modded BIOS does not need to be signed by `thinkpad-eufi-sign`. Remember to replace `4C 4E 56 42 42 53 45 43 FB` with `4C 4E 56 42 42 53 45 43 FF` on the patched BIOS.
 
 6. Your BIOS chip may not be made by Winbond, but by Macronix instead. In that case, add the argument `-c MX25L12835F/MX25L12845E/MX25L12865E` to `flashrom`. See [Issue #116](https://github.com/tylernguyen/x1c6-hackintosh/issues/116#issuecomment-778654320)
 
 /// success
-Successfully modding your BIOS will reveal the `Advance Menu` tab.
+Successfully modding your BIOS will reveal the __Advanced__ tab.
 
 <p align="center">
 <img align="center" src="https://user-images.githubusercontent.com/3349081/87883767-3d2d1780-c9cf-11ea-9fb0-f250590a3f28.jpg" alt="BIOS Advance Menu" width="300">
@@ -64,7 +62,7 @@ It is safe to update the BIOS. However, the patches will have to be reapplied an
 
 ## Vanilla BIOS Settings
 
-These BIOS settings must be made to install and run macOS without any problems:
+The following settings are not all necessary, but are recommended for general compatibility and stability.
 
 - Disable TPM
 - Disable Secure Boot
@@ -73,17 +71,15 @@ These BIOS settings must be made to install and run macOS without any problems:
 - Disable CSM Support
 - Disable Wke on LAN
 
-###  Thunderbolt 3 Coldplug
+## Thunderbolt 3
 
-If you **DO NOT use Thunderbolt 3 hotplug** in macOS (don't mind shutting down the machine to connect TB3 devices), this will drastically lower power consumption:
-
-- Enabled Thunderbolt BIOS Assist Mode
-- Enable Thunderbolt Device
-
-### Thunderbolt 3 Hotplug
-
-If you **DO use Thunderbolt 3 hotplug in macOS** (at the expense of idle power consumption):
+Thunderbolt 3 hot-plug support under macOS noticeably increases the idle power consumption.
 
 - Disable Thunderbolt BIOS Assist Mode
 - Security Level to `No Security`
 - Disable Support in Pre Boot Environment
+
+If you don't use Thunderbolt 3 or prioritize power consumption, you can still cold-plug Thunderbolt 3.
+
+- Enabled Thunderbolt BIOS Assist Mode
+- Enable Thunderbolt Device
