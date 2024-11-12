@@ -31,7 +31,7 @@ My PC runs ![Windows 11](https://assets.tylernguyen.wiki/logos/Windows11.svg){ .
 
 - __Fractal Torrent__
 - __EVGA RTX 3080 Ti FTW3 Ultra__
-- __Sabrent Rocket 4.0 Plus__
+- __Sabrent Rocket 4.0 Plus 1TB__
 - __Crucial P3 3.0 4TB__
 - __be quiet! Dark Power 12 1000W__
 ///
@@ -105,9 +105,14 @@ Runs :octicons-git-branch-16:{ .foreground } [koreader/koreader](https://github.
 I love my Steam Deck OLED. I previously had a standard Steam Deck and cannot recommend the OLED model enough. I use it at my desk, in bed, and on travel. I play mostly indie and emulated titles on it.
 
 - __Nintendo Switch OLED__
-- __AMBERNIC RG35XXSP__
 
-  Runs [MuOS](https://muos.dev/) instead of the stock operating system.
+This is solely for Nintendo exclusive games.
+
+- __ANBERNIC RG35XXSP__
+
+I use this to mostly play Pokemon ROM hacks.
+
+Runs [MuOS](https://muos.dev/) instead of the stock operating system.
 
 ## Miscellaneous
 
