@@ -108,6 +108,10 @@ body {
   font-size: .7rem;
 }
 
+.md-typeset li {
+  font-size: .7rem;
+}
+
 /* NOTE Correct Nav Item font sizing on mobile */
 .md-nav--primary .md-nav__item {
   font-size: .7rem;
