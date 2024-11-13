@@ -1,7 +1,9 @@
 ---
-  icon: material/ninja
-  hide:
-    - toc
+icon: material/ninja
+hide:
+  - toc
+tags:
+  - Evergreen
 ---
 
 # Anime
