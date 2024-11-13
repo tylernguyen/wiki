@@ -5,30 +5,29 @@ hide:
 
 # About
 
-<div class="grid cards" markdown>
+/// announce | Mission Statement
+This website acts as a personal effort to establish focus, absorb information, and organize thoughts.
+
+Beyond that, I hope to create succinct writings that is both informative to people and reflective of my beliefs.
+///
+
+## Identities
+
+I'm available at the following places:
 
 - [:simple-mastodon:{ .mastodon } @tylernguyen@tylernguyen.social](https://tylernguyen.social/@tylernguyen)
 - [:simple-github:{ .foreground } @tylernguyen](https://github.com/tylernguyen)
 - [:simple-gitea:{ .gitea } tylernguyen.codes](https://tylernguyen.codes)
 
-</div>
+I also own and control the following domains:
 
-My name is Tyler Nguyễn (Nguyen `/wɪn/`).
+- __tylernguyen.email__
+- __tylernguyen.wiki__
+- __tylernguyen.codes__
+- __tylernguyen.social__
 
-/// tip
-
-Nguyễn `[ŋwiəŋ˨˩˦]`[^1], is the most common last(sur)-name of the Vietnamese people. Roughly 30 to 40% all Viet people share this name.
-
-///
-
-As the domain and TLD suggests, _tylernguyen.wiki_ is my personal encyclopedia and second brain. It's a catalog of belongings, notes, research, thoughts, and opinions; everything packed and organized.
-
-/// announce | Mission Statement
-
-This website acts is personal effort to establish focus, absorb information, and organize thoughts.
-
-Beyond that, I hope to create succinct writings that is both informative of the world and reflective of my beliefs.
-
+/// tip | Fun Fact
+Nguyễn[^1] (Nguyen `/wɪn/`), is the most common surname of Vietnamese people, roughly 30 to 40% Viet people share it.
 ///
 
 ## Disclaimer
@@ -101,4 +100,3 @@ Embedded content from other websites behaves in the exact same way as if the vis
 ///
 
 [^1]: [Wikipedia: Nguyen](https://en.wikipedia.org/wiki/Nguyen)
-[^2]: [Wikipedia: Pro Evolution Soccer](https://en.wikipedia.org/wiki/Pro_Evolution_Soccer)
