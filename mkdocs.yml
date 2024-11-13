@@ -259,6 +259,8 @@ markdown_extensions:
   - pymdownx.betterem
   - pymdownx.caret
   - pymdownx.critic
+  - pymdownx.fancylists:
+      inject_style: true
   - pymdownx.keys
   - pymdownx.mark
   - pymdownx.tilde

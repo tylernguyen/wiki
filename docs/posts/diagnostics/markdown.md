@@ -19,6 +19,13 @@ In a hole in the ground there lived a hobbit. Not a nasty, dirty, wet hole, fill
 #### H4 Heading
 ##### H5 Heading
 
+1) Item 1
+2) Item 2
+    i.  Item 1
+    ii. Item 2
+        a.  Item a
+        b.  Item b
+
 __Bold Text__
 
 _Italic Text_
