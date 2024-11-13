@@ -36,7 +36,7 @@ theme:
     - navigation.instant.prefetch # LINK https://squidfunk.github.io/mkdocs-material/setup/setting-up-navigation/#instant-prefetching
     - navigation.instant.progress # LINK https://squidfunk.github.io/mkdocs-material/setup/setting-up-navigation/#progress-indicator
     - navigation.path # LINK https://squidfunk.github.io/mkdocs-material/setup/setting-up-navigation/?h=navigation+path#navigation-path
-    - navigation.prune # LINK https://squidfunk.github.io/mkdocs-material/setup/setting-up-navigation/?h=navigation+pru#navigation-pruning
+    #- navigation.prune # NOTE Mobile navigation's top level chevron cannot be selected
     #- navigation.sections # NOTE Collapse section in projects page
     #- navigation.expand # Note Bug: this will also expand collapsed code blocks on page reload
     - navigation.tabs
