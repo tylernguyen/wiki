@@ -19,7 +19,7 @@ tags:
 
 </div>
 
-Unraid is a <span class="solarized-red">:material-lock: __properitary__</span>, <span class="solarized-green">:material-sync: __commercial__</span> NAS operating system.
+Unraid is a <span class="solarized-red">:material-lock: __proprietary__</span>, <span class="solarized-green">:fontawesome-solid-money-bill: __commercial__</span> NAS operating system.
 
 Unraid has a robust redundancy system, supports virtualization, third-party plugins, and Docker. Its UI and UX is straight forward and user-friendly.
 
