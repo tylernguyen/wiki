@@ -6,8 +6,8 @@
 
 /* NOTE Text Highlight: Pad left and right */
 .md-typeset mark {
-    padding-left: 4px;
-    padding-right: 4px;
+    padding-left: 2px;
+    padding-right: 2px;
 }
 
 /* LINK https://github.com/squidfunk/mkdocs-material/issues/4964#issuecomment-1718085465 */
