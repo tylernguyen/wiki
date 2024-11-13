@@ -72,7 +72,7 @@ This is my de-facto workhorse. The hardware and form factor is perfect for my us
 
 - __Lenovo Thinkpad X1C6__
 
-This was my old laptop and used for about 6 years. It runs macOS, see [.wiki/projects/x1c6-hackintosh](projects/x1c6-hackintosh/README.md).
+This was my old laptop and used for about 6 years. It runs :material-apple-finder: macOS, see [.wiki/projects/x1c6-hackintosh](projects/x1c6-hackintosh/README.md).
 ///
 
 ## Mobile
