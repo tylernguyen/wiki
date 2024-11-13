@@ -8,16 +8,33 @@ tags:
 
 ## 3D Printing
 
-- Bambu Lab P1S
-- Bambu Lab AMS
-- E3D ObXidian High Flow 0.6mm
-
 <div class="grid cards" markdown>
 
 - ![FreeCAD](https://assets.tylernguyen.wiki/logos/FreeCAD.png){ .twemoji } [FreeCAD](https://www.freecad.org/)
+
+    FreeCAD is an <span class="solarized-orange">:material-source-branch: __open source__</span> parametric CAD modeler.
+
 - ![Orca Slicer](https://assets.tylernguyen.wiki/logos/Orca-Slicer.png){ .twemoji } [Orca Slicer](https://github.com/SoftFever/OrcaSlicer)
 
+    Orca Slicer is an <span class="solarized-orange">:material-source-branch: __open source__</span> 3D model slicer for FDM printers.
+
 </div>
+
+<div class="grid cards" markdown>
+
+- ![OpenSCAD](https://assets.tylernguyen.wiki/logos/OpenSCAD.png){ .twemoji } [OpenSCAD](https://openscad.org/)
+
+    OpenSCAD is an <span class="solarized-orange">:material-source-branch: __open source__</span> coding-based 3D CAD modeler.
+
+    /// tip
+    There is a [fork](https://pythonscad.org/) that uses :simple-python:{ .python } Python instead of the default OpenSCAD language.
+    ///
+
+</div>
+
+- Bambu Lab P1S
+- Bambu Lab AMS
+- E3D ObXidian High Flow 0.6mm
 
 ## Soldering
 
