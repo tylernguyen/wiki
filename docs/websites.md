@@ -19,8 +19,6 @@ RSS is my preferred method of following websites. I also maintain an email alias
 - [danluu.com](https://danluu.com/) [:material-rss-box:{ .rss }](https://danluu.com/atom.xml){ .card-link title="RSS Feed"}
 - [No Mercy / No Malice](https://www.profgalloway.com/) [:material-rss-box:{ .rss }](https://www.profgalloway.com/feed/){ .card-link title="RSS Feed"}
 
----
-
 ## Aggregators
 
 - [Hacker News](https://news.ycombinator.com/)
@@ -57,11 +55,11 @@ RSS is my preferred method of following websites. I also maintain an email alias
 
 - [Joel Spolsky - The Absolute Minimum Every Software Developer Absolutely, Positively Must Know About Unicode and Character Sets (No Excuses!)](https://www.joelonsoftware.com/2003/10/08/the-absolute-minimum-every-software-developer-absolutely-positively-must-know-about-unicode-and-character-sets-no-excuses/)
 
-    /// tip
-    There is an informative follow-up to this post.
+/// tip
+There's an updated addition to the post by another author.
 
-    [tonsky.me - The Absolute Minimum Every Software Developer Must Know About Unicode in 2023 (Still No Excuses!)](https://tonsky.me/blog/unicode/)
-    ///
+[tonsky.me - The Absolute Minimum Every Software Developer Must Know About Unicode in 2023 (Still No Excuses!)](https://tonsky.me/blog/unicode/)
+///
 
 ## Cooking
 
