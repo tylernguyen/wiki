@@ -62,6 +62,13 @@ body {
   font-size: 0.65rem;
 }
 
+.md-typeset .admonition ul,
+.md-typeset .admonition ol,
+.md-typeset .admonition ul li,
+.md-typeset .admonition ol li {
+  font-size: 0.65rem;
+}
+
 .md-typeset .footnote ol li blockquote,
 .md-typeset .footnote ol li p,
 .md-typeset .footnote ul li blockquote,
