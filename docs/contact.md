@@ -6,9 +6,11 @@ hide:
 
 # Contact
 
-You can reach me quickly via the fediverse at [:simple-mastodon:{ .mastodon } @tylernguyen@tylernguyen.social](https://tylernguyen.social/@tylernguyen).
+You can reach me quickly via the fediverse [:simple-mastodon:{ .mastodon } @tylernguyen@tylernguyen.social](https://tylernguyen.social/@tylernguyen).
 
-Alternatively, my (Proton) email address is [:simple-protonmail:{ .protonmail } human@tylernguyen.email](mailto:human@tylernguyen.email).
+Alternative, I'm active on :simple-discord:{ .discord } Discord [@tylernguyen44](https://discordapp.com/users/1297622229328072704).
+
+Lastly, my (Proton) email address is [:simple-protonmail:{ .protonmail } human@tylernguyen.email](mailto:human@tylernguyen.email).
 
 Optionally,  [:simple-gnuprivacyguard:{ .gnuprivacyguard } 0x136307727d3eef96](https://github.com/tylernguyen.gpg) is my PGP key.
 
