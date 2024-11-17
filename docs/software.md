@@ -22,7 +22,7 @@ Though I do prefer free (as in freedom) software, I do use proprietary software 
 </div>
 
 /// info
-1Password is a <span class="solarized-red">:material-lock: __properitary__</span>, <span class="solarized-green">:material-sync: __subscription__</span>-ware password manager.
+1Password is a <span class="solarized-red">:material-lock: __proprietary__</span>, <span class="solarized-green">:material-sync: __subscription__</span>-ware password manager.
 ///
 
 1Password is robust, cross-platform, and well integrated. Its ease of use and wide adoption also makes sharing passwords effortless.
@@ -117,6 +117,7 @@ I use Visual Studio Code is mainly for extensions and remote capabilities.
 - :simple-1password:{ .onepassword } [1Password](https://marketplace.visualstudio.com/items?itemName=1Password.op-vscode)
 - ![Error Lens](https://assets.tylernguyen.wiki/logos/VSCode_Error-Lens.png){ .twemoji } [Error Lens](https://marketplace.visualstudio.com/items?itemName=usernamehw.errorlens)
 - ![Tailscale](https://assets.tylernguyen.wiki/logos/Tailscale.png){ .twemoji } [Tailscale](https://marketplace.visualstudio.com/items?itemName=Tailscale.vscode-tailscale)
+- :simple-docker:{ .docker } [Docker](https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-docker)
 
 </div>
 ///
