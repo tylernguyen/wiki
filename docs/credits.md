@@ -11,7 +11,7 @@ hide:
 
 - :simple-github:{ .foreground } GitHub
 [:octicons-repo-16:](https://github.com/tylernguyen/wiki){ .card-link title="Repository" }
-[:octicons-workflow-16:](){ .card-link title="Workflow" }
+[:octicons-workflow-16:](https://github.com/tylernguyen/wiki/blob/main/.github/workflows/build.yml){ .card-link title="Workflow" }
 
 </div>
 
