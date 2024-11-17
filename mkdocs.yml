@@ -221,6 +221,7 @@ markdown_extensions:
       - extension
       - setting
   - pymdownx.blocks.caption
+  - pymdownx.blocks.definition
   - pymdownx.blocks.details:
       types:
       - name: details-note
