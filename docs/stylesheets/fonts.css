@@ -125,6 +125,11 @@ body {
   line-height: 1.5;
 }
 
+/* NOTE Definition List */
+.md-typeset dl {
+  font-size: .7rem;
+}
+
 /* LINK https://github.com/squidfunk/mkdocs-material/discussions/6757#discussioncomment-10100386 */
 .md-tooltip2>.md-typeset {
   color: var(--tooltip-color);
