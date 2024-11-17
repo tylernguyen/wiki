@@ -126,6 +126,10 @@
   color: #F5C518;
 }
 
+.imgur {
+  color: #1BB76E;
+}
+
 .javascript {
   color: #F7DF1E;
 }
@@ -284,10 +288,6 @@
 
 .vim {
   color: #019733;
-}
-
-.visualstudiocode {
-  color: #007acc;
 }
 
 .vlc {
