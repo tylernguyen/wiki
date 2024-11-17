@@ -11,7 +11,6 @@ tags:
 <div class="grid cards" markdown>
 
 - :simple-steam:{ .steam } [Steam: young simon](https://steamcommunity.com/id/youngsimon/)
-- ![VALORANT Tracker.gg](https://assets.tylernguyen.wiki/logos/VALORANT.png){ .twemoji } [VALORANT: YoungSimon#tyler](https://tracker.gg/valorant/profile/riot/YoungSimon%23tyler/overview)
 
 </div>
 
