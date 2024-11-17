@@ -16,6 +16,7 @@ Beyond that, I hope to create succinct writings that is both informative to peop
 I'm available at the following places:
 
 - [:simple-mastodon:{ .mastodon } @tylernguyen@tylernguyen.social](https://tylernguyen.social/@tylernguyen)
+- [:simple-discord:{ .discord } @tylernguyen44](https://discordapp.com/users/1297622229328072704)
 - [:simple-github:{ .foreground } @tylernguyen](https://github.com/tylernguyen)
 - [:simple-gitea:{ .gitea } tylernguyen.codes](https://tylernguyen.codes)
 
@@ -42,8 +43,8 @@ Opinions expressed here are just that.
 
 The site is organized mostly into 2 parts:
 
-- **Static References** - These pages usually detail personal preferences for tools, software, services, and setups. They are continuously edited and kept up-to-date.
-- **Blog** - Blog posts can be written about basically anything. They are organized into categories and tags.
+- __Static References__ - These pages usually detail personal preferences for tools, software, services, and setups. They are continuously edited and kept up-to-date.
+- __Blog__ - Blog posts can be written about basically anything. They are organized into categories and tags.
 
 ## License
 
