@@ -27,7 +27,7 @@ No.
 
 Currently, there is no automatic solution available. For now, I recommend you create a GitHub watch alert and update the EFI as it comes along.
 
-## Basic References
+## References
 
 /// warning
 Please read, or at the least, browse through these great resources to get an idea of what's going on before proceeding. This is especially important if this is your first time (OpenCore) Hackintosh-ing.
@@ -44,5 +44,3 @@ Please read, or at the least, browse through these great resources to get an ide
 /// tip
 If I missed something here, refer to the official OpenCore docs first, then Dortania's docs. Only then, if you still haven't found what you're looking for, seek Google or forum help.
 ///
-
-- Additionally, references specific to the x1c6 are located in `docs/references/`
