@@ -8,7 +8,7 @@ hide:
 
 You can reach me quickly via the fediverse [:simple-mastodon:{ .mastodon } @tylernguyen@tylernguyen.social](https://tylernguyen.social/@tylernguyen).
 
-Alternative, I'm active on :simple-discord:{ .discord } Discord [@tylernguyen44](https://discordapp.com/users/1297622229328072704).
+Alternative, I'm active on Discord [:simple-discord:{ .discord } @tylernguyen44](https://discordapp.com/users/1297622229328072704).
 
 Lastly, my (Proton) email address is [:simple-protonmail:{ .protonmail } human@tylernguyen.email](mailto:human@tylernguyen.email).
 
