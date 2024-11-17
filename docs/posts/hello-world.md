@@ -29,7 +29,6 @@ Creating a website with React, Javascript, MDX, and Tailwind CSS all sounded lik
 <div class="grid cards" markdown>
 
 - :simple-materialformkdocs:{ .materialformkdocs } [Material for MkDocs](https://squidfunk.github.io/mkdocs-material/) [_Insiders_](https://squidfunk.github.io/mkdocs-material/insiders/)
-[:fontawesome-solid-money-bill:](https://github.com/sponsors/squidfunk){ .card-link title="Pricing" }
 [:fontawesome-regular-file-code:](https://github.com/squidfunk/mkdocs-material){ .card-link title="Source Code" }
 [:octicons-law-16:](https://github.com/squidfunk/mkdocs-material/blob/master/LICENSE){ .card-link title=License }
 
