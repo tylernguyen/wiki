@@ -22,12 +22,12 @@ I despise advertising as the primary form of commercialization for services. And
 
 - ![Google Calendar](https://assets.tylernguyen.wiki/logos/Google_Calendar.svg){ .twemoji } [Google Calendar](https://calendar.google.com/)
 
-    - <span class="solarized-red">:material-lock: **Properitary**</span>
+    - <span class="solarized-red">:material-lock: **Proprietary**</span>
     - <span class="solarized-red">:material-newspaper: **Ad**</span>-ware
 
 - :simple-todoist:{ .todoist } [Todoist](https://todoist.com/)
 
-    - <span class="solarized-red">:material-lock: **Properitary**</span>
+    - <span class="solarized-red">:material-lock: **Proprietary**</span>
     - <span class="solarized-green">:material-sync: **Subscription**</span>-ware
 
 </div>
@@ -66,7 +66,7 @@ I despise advertising as the primary form of commercialization for services. And
 
 - :simple-pocketcasts:{ .pocketcasts } [Pocket Casts](https://pocketcasts.com/)
 
-    - <span class="solarized-red">:material-lock: **Properitary**</span>
+    - <span class="solarized-red">:material-lock: **Proprietary**</span>
     - <span class="solarized-green">:material-sync: **Subscription**</span>-ware
 
     Having purchased the iOS and web app early on, I'm grandfathered into its lifetime plan[^4]. I do not think that :simple-pocketcasts:{ .pocketcasts } Pocket Casts is worth it at its current subscription price. Instead, I recommend :simple-applepodcasts:{ .applepodcast } Apple Podcast, :simple-overcast:{ .overcast } Overcast, or ![Audiobookshelf](https://assets.tylernguyen.wiki/logos/audiobookshelf.svg){ .twemoji } Audiobookshelf.
