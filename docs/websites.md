@@ -30,7 +30,7 @@ RSS is my preferred method of following websites. I also maintain an email alias
 - [Julia Evans](https://jvns.ca) [:material-rss-box:{ .rss }](https://jvns.ca/atom.xml){ .card-link title="RSS Feed"}
 - [Seirdy’s Home](https://seirdy.one/)
 - [endtimes.dev](https://endtimes.dev/) [:material-rss-box:{ .rss }](https://endtimes.dev/feed.xml){ .card-link title="RSS Feed"}
-- [Jeff Geerling](https://www.jeffgeerling.com/blog), and [@JeffGeerling](https://www.youtube.com/@JeffGeerling) :simple-youtube:{ .youtube }
+- [Jeff Geerling](https://www.jeffgeerling.com/blog), and [@JeffGeerling](https://www.youtube.com/@JeffGeerling) <span class="solarized-red">:simple-youtube:{ .youtube } __YouTube__</span>
 - [tonsky.me](https://tonsky.me/)
 
 ## Digital Gardens
@@ -39,6 +39,18 @@ RSS is my preferred method of following websites. I also maintain an email alias
 - [Andy Matuschakʼs working notes](https://notes.andymatuschak.org)
 - [Tom Critchlow](https://tomcritchlow.com/)
 
+## News
+
+- [NY Times - Visual Investigation](https://www.youtube.com/playlist?list=PL4CGYNsoW2iAZt9-UzPyPZOH-AlRMxcIE) <span class="solarized-red">:simple-youtube:{ .youtube } __YouTube__</span>
+
+## Documentaries
+
+- [@LEMMiNO](https://www.youtube.com/@LEMMiNO) <span class="solarized-red">:simple-youtube:{ .youtube } __YouTube__</span>
+
+## Education
+
+- [@3blue1brown](https://www.youtube.com/@3blue1brown) <span class="solarized-red">:simple-youtube:{ .youtube } __YouTube__</span>
+
 ## Newsletter
 
 - [Fridays' Elk](https://buttondown.email/carlzimmer) by [Carl Zimmer](https://carlzimmer.com/)
@@ -46,6 +58,7 @@ RSS is my preferred method of following websites. I also maintain an email alias
 ## Utilities
 
 - [PGTune](https://pgtune.leopard.in.ua/)
+- [Hyperglot](https://hyperglot.rosettatype.com/)
 
 ## Videos
 
@@ -64,9 +77,3 @@ There's an updated addition to the post by another author.
 ## Cooking
 
 - [Dr. Doughlas Baldwin - A Practical Guide to Sous Vide Cooking](https://douglasbaldwin.com/sous-vide.html)
-
-## YouTube :simple-youtube:{ .youtube }
-
-- [NY Times - Visual Investigation](https://www.youtube.com/playlist?list=PL4CGYNsoW2iAZt9-UzPyPZOH-AlRMxcIE) :simple-youtube:{ .youtube }
-- [@3blue1brown](https://www.youtube.com/@3blue1brown) :simple-youtube:{ .youtube }
-- [@LEMMiNO](https://www.youtube.com/@LEMMiNO) :simple-youtube:{ .youtube }
