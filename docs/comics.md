@@ -20,8 +20,6 @@ tags:
 
 - __Spy Superb (2023)__ [![Dark Horse Comics](https://assets.tylernguyen.wiki/logos/Dark_Horse_Comics.svg){ .twemoji  }](https://www.darkhorse.com/Books/3010-220/Spy-Superb-HC "Dark Horse Comics")
 
----
-
 ## Index
 
 - 100 Bullets (1999)
