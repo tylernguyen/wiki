@@ -38,7 +38,7 @@ possible {>>and comments can be added inline<<}.
 
 {--
 
-**Block of deleted text**
+__Block of deleted text__
 
 In a hole in the ground there lived a hobbit. Not a nasty, dirty, wet hole, filled with the ends of worms and an oozy smell, nor yet a dry, bare, sandy hole with nothing in it to sit down on or to eat: it was a hobbit hole, and that means comfort.
 
@@ -46,7 +46,7 @@ In a hole in the ground there lived a hobbit. Not a nasty, dirty, wet hole, fill
 
 {++
 
-**Block of added text**
+__Block of added text__
 
 In a hole in the ground there lived a hobbit. Not a nasty, dirty, wet hole, filled with the ends of worms and an oozy smell, nor yet a dry, bare, sandy hole with nothing in it to sit down on or to eat: it was a hobbit hole, and that means comfort.
 
