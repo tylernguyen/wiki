@@ -147,7 +147,7 @@ plugins:
   - meta  # NOTE Located at the beginning of the list of `plugins` so that other pluginps (including the [built-in blog plugin]) will pick up the set defaults
   - blog:
       blog_dir: .
-      blog_toc: false # NOTE TOC on blog index
+      blog_toc: false
       post_readtime: false
       archive_toc: false
       draft_if_future_date: true
