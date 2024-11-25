@@ -101,18 +101,18 @@ theme:
 extra:
   analytics:
     provider: posthog
-  consent:
-    actions:
-      - accept
-      - reject
-      - manage
-    title: Analytics Cookie
-    description: >-
-      PostHog's browser cookie gives me insights into how you interact with .wiki <br>
-      Rejecting the cookie will not affect your experience with the site. <br> <br>
-      I do however, ask that you please accept it in order to help me build a more effective website.
-    cookies:
-      analytics: PostHog
+  # consent:
+  #   actions:
+  #     - accept
+  #     - reject
+  #     - manage
+  #   title: Analytics Cookie
+  #   description: >-
+  #     PostHog's browser cookie gives me insights into how you interact with .wiki <br>
+  #     Rejecting the cookie will not affect your experience with the site. <br> <br>
+  #     I do however, ask that you please accept it in order to help me build a more effective website.
+  #   cookies:
+  #     analytics: PostHog
   generator: false
   social:
     - icon: simple/mastodon
