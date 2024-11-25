@@ -10,8 +10,13 @@ repo_url: https://github.com/tylernguyen/wiki
 edit_uri: "edit/main/docs/"
 
 copyright: >
-  Copyright &copy; 2024 Tyler Nguyen | <a href="http://tylernguyen.wiki/about/#license">LICENSE</a> <br>
-  <a href="#__consent">Manage cookie settings</a>
+  Copyright &copy; 2024 Tyler Nguyen | <a href="https://tylernguyen.wiki/about/#license">LICENSE</a> <br>
+  Analytics by
+  <span class="twemoji">
+    <img src="https://assets.tylernguyen.wiki/logos/PostHog-logomark-light.svg#only-light">
+    <img src="https://assets.tylernguyen.wiki/logos/PostHog-logomark-dark.svg#only-dark">
+  </span>
+  PostHog | <a href="https://tylernguyen.wiki/about/#privacy-policy">Privacy Policy</a>
 
 theme:
   name: material
