@@ -84,12 +84,6 @@ Analytics data are hosted on the US-instance of PostHog.
 Data is never shared with anyone.
 ///
 
-<div style="text-align:center;" markdown>
-
-[:material-cookie-settings-outline: Manage Cookies](#__consent){.md-button}
-
-</div>
-
 I do ask that you please accept it in order to help me build a more effective website. However, rejecting the cookie will not affect the website's content.
 
 ### Embedded Content
