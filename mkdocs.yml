@@ -74,6 +74,10 @@ theme:
       default: octicons/tag-16
       Evergreen: material/leaf
       MTG: material/cards
+      MkDocs: simple/materialformkdocs
+      Mastodon: simple/mastodon
+      Typography: octicons/typography-16
+      Design: octicons/paintbrush-16
   palette:
     - media: "(prefers-color-scheme)"
       scheme: default
@@ -129,6 +133,10 @@ extra:
   tags:
     Evergreen: Evergreen
     MTG : MTG
+    MkDocs: MkDocs
+    Mastodon: Mastodon
+    Typography: Typography
+    Design: Design
 
 extra_css:
   - stylesheets/solarized.css
