@@ -128,7 +128,7 @@ extra:
       link: https://tylernguyen.social/@tylernguyen
     - icon: simple/github
       link: https://github.com/tylernguyen
-    - icon: simple/gitea
+    - icon: simple/forgejo
       link: https://tylernguyen.codes/explore/repos
   tags:
     Evergreen: Evergreen

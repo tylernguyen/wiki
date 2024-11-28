@@ -65,8 +65,8 @@ I recommend the linuxserver Docker image for its [image mods](https://mods.linux
 [:octicons-container-16:{ .docker }](https://hub.docker.com/r/linuxserver/kavita){ .card-link title=Container}
 [:fontawesome-regular-file-code:](https://github.com/Kareadita/Kavita){ .card-link title="Source Code" }
 
-- [:simple-gitea: Gitea](https://gitea.io/en-us/)
-[:octicons-container-16:{ .docker }](https://hub.docker.com/r/gitea/gitea/tags){ .card-link title=Container}
+- [:simple-forgejo: Forgejo](https://forgejo.org/)
+[:octicons-container-16:{ .docker }](https://codeberg.org/forgejo/-/packages/container/forgejo/versions){ .card-link title=Container}
 
 - ![Paperless-ngx](https://assets.tylernguyen.wiki/logos/paperless-ngx.svg){ .twemoji } [Paperless-ngx](https://github.com/paperless-ngx/paperless-ngx)
 [:octicons-container-16:{ .docker }](https://github.com/paperless-ngx/paperless-ngx/pkgs/container/paperless-ngx){ .card-link title=Container}
@@ -123,7 +123,7 @@ I recommend the linuxserver Docker image for its [image mods](https://mods.linux
 
 ![Cloudflare Zero Trust](https://assets.tylernguyen.wiki/logos/Cloudflare_Zero-Trust2.svg){ align=right width=125 }
 
-I use Cloudflare Tunnel[^1] (part of the Zero Trust suite) to expose some services to the public, notably my [:simple-mastodon:{ .mastodon } Mastodon](https://tylernguyen.social/@tylernguyen) and :simple-gitea:{ .gitea } Gitea.
+I use Cloudflare Tunnel[^1] (part of the Zero Trust suite) to expose some services to the public, notably my [:simple-mastodon:{ .mastodon } Mastodon](https://tylernguyen.social/@tylernguyen) and :simple-forgejo:{ .forgejo } Gitea.
 
 <div class="grid cards" markdown>
 

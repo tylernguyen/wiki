@@ -18,7 +18,7 @@ I'm available at the following places:
 - [:simple-mastodon:{ .mastodon } @tylernguyen@tylernguyen.social](https://tylernguyen.social/@tylernguyen)
 - [:simple-discord:{ .discord } @tylernguyen44](https://discordapp.com/users/1297622229328072704)
 - [:simple-github:{ .foreground } @tylernguyen](https://github.com/tylernguyen)
-- [:simple-gitea:{ .gitea } tylernguyen.codes](https://tylernguyen.codes)
+- [:simple-forgejo:{ .forgejo } tylernguyen.codes](https://tylernguyen.codes)
 
 I also own and control the following domains:
 

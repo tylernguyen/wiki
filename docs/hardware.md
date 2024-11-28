@@ -37,7 +37,7 @@ _AM4_ is more than adequate for my fidelity and performance needs right now. I d
 ///
 
 /// tab | Server
-My home server runs :simple-unraid:{ .unraid } Unraid. The primary usage is for media archival and consumption. It also hosts my :simple-homeassistant:{ .homeassistant } Home Assistant, :simple-gitea:{ .gitea } Gitea, and :simple-mastodon:{ .mastodon } Mastodon instance. See [:material-server-network-outline: .wiki/self-hosted](self-hosted.md).
+My home server runs :simple-unraid:{ .unraid } Unraid. The primary usage is for media archival and consumption. It also hosts my :simple-homeassistant:{ .homeassistant } Home Assistant, :simple-forgejo:{ .forgejo } Forgejo, and :simple-mastodon:{ .mastodon } Mastodon instance. See [:material-server-network-outline: .wiki/self-hosted](self-hosted.md).
 
 - __Fractal Meshify 2 XL__
 
