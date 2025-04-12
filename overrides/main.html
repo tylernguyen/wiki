@@ -1,0 +1,23 @@
+<!-- LINK Inherits https://github.com/squidfunk/mkdocs-material/blob/master/src/templates/main.html
+     MIT License: Copyright (c) 2016-2024 Martin Donath <martin.donath@squidfunk.com>
+-->
+
+{% extends "base.html" %}
+
+{% block extrahead %}
+
+  <!-- NOTE Preload web fonts -->
+  <link rel="preload" href="/assets/font/BerkeleyMono/BerkeleyMonoVariable.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+
+{% endblock %}
+
+<!-- ANCHOR Announcement Bar -->
+{% block announce %}
+  This is my blog. There are many like it, but this one is mine.
+  <a rel="me" href="https://tylernguyen.wiki/feed_rss_created.xml">
+    <strong style="color:#FFA500">RSS Feed</strong>
+  </a>
+    <span class="twemoji rss">
+      {% include ".icons/octicons/rss-16.svg" %}
+    </span>
+{% endblock %}

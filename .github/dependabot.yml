@@ -1,0 +1,20 @@
+version: 2
+updates:
+
+  # Maintain dependencies for GitHub Actions
+  - package-ecosystem: "github-actions"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+    labels:
+      - "fix:github_actions"
+
+  # Maintain dependencies for pip
+  - package-ecosystem: "pip"
+    directory: "/"
+    ignore:
+      - dependency-name: "mkdocs-material"
+    schedule:
+      interval: "weekly"
+    labels:
+      - "fix:python"

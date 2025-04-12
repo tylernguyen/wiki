@@ -1,0 +1,83 @@
+<!-- LINK Modifies https://github.com/squidfunk/mkdocs-material/blob/master/src/templates/partials/post.html
+     MIT License: Copyright (c) 2016-2024 Martin Donath <martin.donath@squidfunk.com>
+-->
+
+<!-- Post excerpt -->
+<article class="md-post md-post--excerpt">
+
+    <!-- Post metadata -->
+    <div class="md-post__meta md-meta">
+      <ul class="md-meta__list">
+
+        <!-- Post date -->
+        <li class="md-meta__item">
+          <!-- SECTION Customization -->
+          <time datetime="{{ post.config.date.created }}">
+            {{ post.config.date.created.strftime("%Y-%m-%d") }}
+          </time>
+          {% if post.config.date.updated %}
+            <time datetime="{{ post.config.date.updated }}">
+            (Edited {{ post.config.date.updated.strftime("%Y-%m-%d") }})
+            </time>
+          {% endif %}
+          <!-- !SECTION Customization -->
+          {#- Collapse whitespace -#}
+        </li>
+
+        <!-- Post categories -->
+        {% if post.categories %}
+          <li class="md-meta__item">
+            {{ lang.t("blog.categories.in") }}
+            {% for category in post.categories %}
+              <a
+                href="{{ category.url | url }}"
+                class="md-meta__link"
+              >
+                {{- category.title -}}
+              </a>
+              {%- if loop.revindex > 1 %}, {% endif -%}
+            {% endfor -%}
+          </li>
+        {% endif %}
+
+        <!-- Post readtime -->
+        {% if post.config.readtime %}
+          {% set time = post.config.readtime %}
+          <li class="md-meta__item">
+            {% if time == 1 %}
+              {{ lang.t("readtime.one") }}
+            {% else %}
+              {{ lang.t("readtime.other") | replace("#", time) }}
+            {% endif %}
+          </li>
+        {% endif %}
+
+        <!-- Pin marker -->
+        {% if post.config.pin %}
+          <span class="md-pin"></span>
+        {% endif %}
+      </ul>
+
+      <!-- Draft marker -->
+      {% if post.config.draft %}
+        <span class="md-draft">
+          {{ lang.t("blog.draft") }}
+        </span>
+      {% endif %}
+    </div>
+  </header>
+
+  <!-- Post content -->
+  <div class="md-post__content md-typeset">
+    {{ post.content }}
+
+    <!-- Read more link -->
+    {% if post.more %}
+      <nav class="md-post__action">
+        <a href="{{ post.url | url }}">
+          read more ↙
+        </a>
+      </nav>
+    {% endif %}
+  </div>
+</article>

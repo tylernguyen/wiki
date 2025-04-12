@@ -1,0 +1,149 @@
+@font-face {
+  font-family: 'Berkeley Mono Variable';
+  src: url("/assets/font/BerkeleyMono/BerkeleyMonoVariable.woff2") format('woff2');
+  font-stretch: 60 100;
+  font-weight: 100 900;
+  font-style: oblique -16deg 0deg;
+  font-feature-settings: calt;
+  font-variant-ligatures: contextual;
+}
+
+:root>* {
+  --md-text-font: "Berkeley Mono Variable";
+  --md-code-font: "Berkeley Mono Variable";
+}
+
+body {
+  font-family: 'Berkeley Mono Variable', 'Cascadia Code', 'Andale Mono', 'Consolas', 'SF Mono', monospace;
+}
+
+/* LINK https://github.com/squidfunk/mkdocs-material/blob/master/src/templates/assets/stylesheets/main/_typeset.scss */
+
+.md-typeset h1 {
+  color: rgb(var(--md-default-fg-color));
+  font-weight: 900;
+  margin: 0 0 .75em;
+  text-transform: uppercase;
+}
+
+.md-typeset h2 {
+  font-size: 1rem;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+
+.md-post__content.md-typeset h2 {
+  margin: 0;
+}
+
+.md-typeset h3 {
+  font-size: 0.9rem;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+
+.md-typeset p {
+  font-size: 0.75rem;
+  font-weight: 400;
+  font-stretch: 90%;
+  word-spacing: -1px;
+}
+
+.md-post__content.md-typeset p {
+  margin-top: 0.5rem;
+}
+
+/* .md-grid {
+  font-weight: 400;
+} */
+
+.md-meta {
+  color: var(--md-default-fg-color--light);
+  font-size: small;
+  margin-bottom: 5px;
+}
+
+.md-post--excerpt .md-post__header {
+  align-items: normal;
+  gap: .6rem;
+  min-height: 1.6rem;
+}
+
+.md-search-result .md-typeset {
+  font-size: 1.2em;
+  line-height: 1.5;
+  padding-bottom: .5em;
+}
+
+.md-typeset code {
+  font-size: .6rem;
+  padding-left: .25em;
+  padding-right: .25em;
+}
+
+.md-typeset figcaption {
+  font-weight: 100;
+  font-size: .6rem;
+}
+
+.md-typeset ul {
+  font-size: .7rem;
+}
+
+.md-typeset li {
+  font-size: .7rem;
+}
+
+.md-typeset .admonition p {
+  font-size: 0.7rem;
+}
+
+.md-typeset .admonition ul,
+.md-typeset .admonition ol,
+.md-typeset .admonition ul li,
+.md-typeset .admonition ol li {
+  font-size: 0.7rem;
+}
+
+.md-typeset .footnote ol li blockquote,
+.md-typeset .footnote ol li p,
+.md-typeset .footnote ul li blockquote,
+.md-typeset .footnote ul li p {
+  font-size: .6rem;
+}
+
+/* NOTE Correct Nav Item font sizing on mobile */
+.md-nav--primary .md-nav__item {
+  font-size: .7rem;
+  line-height: 1.5;
+}
+
+/* NOTE Definition List */
+.md-typeset dl {
+  font-size: .7rem;
+}
+
+/* LINK https://github.com/squidfunk/mkdocs-material/discussions/6757#discussioncomment-10100386 */
+.md-tooltip2>.md-typeset {
+  color: var(--tooltip-color);
+  font-family: var(--default-font);
+  font-size: 0.5rem;
+  font-weight: normal;
+}
+
+.admonition-title {
+  letter-spacing: 0.5px;
+}
+
+.md-sidebar {
+  padding: 0.9rem 0;
+}
+
+.md-content__inner {
+  padding: 0;
+}
+
+.md-post__action {
+  font-style: oblique;
+  text-align: right;
+}

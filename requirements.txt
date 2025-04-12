@@ -1,0 +1,8 @@
+# NOTE Requirements for social plugin
+cairosvg>=2.7.1
+pillow>=11.1.0
+
+# NOTE Requirements for other plugins
+mkdocs-git-revision-date-localized-plugin>=1.4.5
+mkdocs-rss-plugin>=1.17.1
+mkdocs-minify-plugin>=0.7.1

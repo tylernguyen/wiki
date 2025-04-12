@@ -1,0 +1,659 @@
+:root>* {
+  --solarized-base03: 0, 43, 54;
+  --solarized-base02: 7, 54, 66;
+  --solarized-base01: 88, 110, 117;
+  --solarized-base00: 101, 123, 131;
+  --solarized-base0: 131, 148, 150;
+  --solarized-base1: 147, 161, 161;
+  --solarized-base2: 238, 232, 213;
+  --solarized-base3: 253, 246, 227;
+  --solarized-blue: 38, 139, 210;
+  --solarized-cyan: 42, 161, 152;
+  --solarized-green: 133, 153, 0;
+  --solarized-magenta: 211, 54, 130;
+  --solarized-orange: 203, 75, 22;
+  --solarized-red: 220, 50, 47;
+  --solarized-violet: 108, 113, 196;
+  --solarized-yellow: 181, 137, 0;
+  --md-search-result-icon: url('data:image/svg+xml, <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16"><path d="M11.78 4.22a.75.75 0 0 1 0 1.06l-5.26 5.26h4.2a.75.75 0 0 1 0 1.5H4.71a.75.75 0 0 1-.75-.75V5.28a.75.75 0 0 1 1.5 0v4.2l5.26-5.26a.75.75 0 0 1 1.06 0Z"></path></svg>');
+  /* LINK https://github.com/squidfunk/mkdocs-material/blob/master/src/templates/assets/stylesheets/main/_colors.scss */
+  --md-admonition-icon--extension: url('data:image/svg+xml, <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16"><path d="M1.5 3.25c0-.966.784-1.75 1.75-1.75h2.5c.966 0 1.75.784 1.75 1.75v2.5A1.75 1.75 0 0 1 5.75 7.5h-2.5A1.75 1.75 0 0 1 1.5 5.75Zm7 0c0-.966.784-1.75 1.75-1.75h2.5c.966 0 1.75.784 1.75 1.75v2.5a1.75 1.75 0 0 1-1.75 1.75h-2.5A1.75 1.75 0 0 1 8.5 5.75Zm-7 7c0-.966.784-1.75 1.75-1.75h2.5c.966 0 1.75.784 1.75 1.75v2.5a1.75 1.75 0 0 1-1.75 1.75h-2.5a1.75 1.75 0 0 1-1.75-1.75Zm7 0c0-.966.784-1.75 1.75-1.75h2.5c.966 0 1.75.784 1.75 1.75v2.5a1.75 1.75 0 0 1-1.75 1.75h-2.5a1.75 1.75 0 0 1-1.75-1.75ZM3.25 3a.25.25 0 0 0-.25.25v2.5c0 .138.112.25.25.25h2.5A.25.25 0 0 0 6 5.75v-2.5A.25.25 0 0 0 5.75 3Zm7 0a.25.25 0 0 0-.25.25v2.5c0 .138.112.25.25.25h2.5a.25.25 0 0 0 .25-.25v-2.5a.25.25 0 0 0-.25-.25Zm-7 7a.25.25 0 0 0-.25.25v2.5c0 .138.112.25.25.25h2.5a.25.25 0 0 0 .25-.25v-2.5a.25.25 0 0 0-.25-.25Zm7 0a.25.25 0 0 0-.25.25v2.5c0 .138.112.25.25.25h2.5a.25.25 0 0 0 .25-.25v-2.5a.25.25 0 0 0-.25-.25Z"></path></svg>');
+  --md-admonition-icon--setting: url('data:image/svg+xml, <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16"><path d="M8 0a8.2 8.2 0 0 1 .701.031C9.444.095 9.99.645 10.16 1.29l.288 1.107c.018.066.079.158.212.224.231.114.454.243.668.386.123.082.233.09.299.071l1.103-.303c.644-.176 1.392.021 1.82.63.27.385.506.792.704 1.218.315.675.111 1.422-.364 1.891l-.814.806c-.049.048-.098.147-.088.294.016.257.016.515 0 .772-.01.147.038.246.088.294l.814.806c.475.469.679 1.216.364 1.891a7.977 7.977 0 0 1-.704 1.217c-.428.61-1.176.807-1.82.63l-1.102-.302c-.067-.019-.177-.011-.3.071a5.909 5.909 0 0 1-.668.386c-.133.066-.194.158-.211.224l-.29 1.106c-.168.646-.715 1.196-1.458 1.26a8.006 8.006 0 0 1-1.402 0c-.743-.064-1.289-.614-1.458-1.26l-.289-1.106c-.018-.066-.079-.158-.212-.224a5.738 5.738 0 0 1-.668-.386c-.123-.082-.233-.09-.299-.071l-1.103.303c-.644.176-1.392-.021-1.82-.63a8.12 8.12 0 0 1-.704-1.218c-.315-.675-.111-1.422.363-1.891l.815-.806c.05-.048.098-.147.088-.294a6.214 6.214 0 0 1 0-.772c.01-.147-.038-.246-.088-.294l-.815-.806C.635 6.045.431 5.298.746 4.623a7.92 7.92 0 0 1 .704-1.217c.428-.61 1.176-.807 1.82-.63l1.102.302c.067.019.177.011.3-.071.214-.143.437-.272.668-.386.133-.066.194-.158.211-.224l.29-1.106C6.009.645 6.556.095 7.299.03 7.53.01 7.764 0 8 0Zm-.571 1.525c-.036.003-.108.036-.137.146l-.289 1.105c-.147.561-.549.967-.998 1.189-.173.086-.34.183-.5.29-.417.278-.97.423-1.529.27l-1.103-.303c-.109-.03-.175.016-.195.045-.22.312-.412.644-.573.99-.014.031-.021.11.059.19l.815.806c.411.406.562.957.53 1.456a4.709 4.709 0 0 0 0 .582c.032.499-.119 1.05-.53 1.456l-.815.806c-.081.08-.073.159-.059.19.162.346.353.677.573.989.02.03.085.076.195.046l1.102-.303c.56-.153 1.113-.008 1.53.27.161.107.328.204.501.29.447.222.85.629.997 1.189l.289 1.105c.029.109.101.143.137.146a6.6 6.6 0 0 0 1.142 0c.036-.003.108-.036.137-.146l.289-1.105c.147-.561.549-.967.998-1.189.173-.086.34-.183.5-.29.417-.278.97-.423 1.529-.27l1.103.303c.109.029.175-.016.195-.045.22-.313.411-.644.573-.99.014-.031.021-.11-.059-.19l-.815-.806c-.411-.406-.562-.957-.53-1.456a4.709 4.709 0 0 0 0-.582c-.032-.499.119-1.05.53-1.456l.815-.806c.081-.08.073-.159.059-.19a6.464 6.464 0 0 0-.573-.989c-.02-.03-.085-.076-.195-.046l-1.102.303c-.56.153-1.113.008-1.53-.27a4.44 4.44 0 0 0-.501-.29c-.447-.222-.85-.629-.997-1.189l-.289-1.105c-.029-.11-.101-.143-.137-.146a6.6 6.6 0 0 0-1.142 0ZM11 8a3 3 0 1 1-6 0 3 3 0 0 1 6 0ZM9.5 8a1.5 1.5 0 1 0-3.001.001A1.5 1.5 0 0 0 9.5 8Z"></path></svg>');
+  --md-admonition-icon--announce: url('data:image/svg+xml, <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16"><path d="M3.25 9a.75.75 0 0 1 .75.75c0 2.142.456 3.828.733 4.653a.122.122 0 0 0 .05.064.212.212 0 0 0 .117.033h1.31c.085 0 .18-.042.258-.152a.45.45 0 0 0 .075-.366A16.743 16.743 0 0 1 6 9.75a.75.75 0 0 1 1.5 0c0 1.588.25 2.926.494 3.85.293 1.113-.504 2.4-1.783 2.4H4.9c-.686 0-1.35-.41-1.589-1.12A16.4 16.4 0 0 1 2.5 9.75.75.75 0 0 1 3.25 9Z"></path><path d="M0 6a4 4 0 0 1 4-4h2.75a.75.75 0 0 1 .75.75v6.5a.75.75 0 0 1-.75.75H4a4 4 0 0 1-4-4Zm4-2.5a2.5 2.5 0 1 0 0 5h2v-5Z"></path><path d="M15.59.082A.75.75 0 0 1 16 .75v10.5a.75.75 0 0 1-1.189.608l-.002-.001h.001l-.014-.01a5.775 5.775 0 0 0-.422-.25 10.63 10.63 0 0 0-1.469-.64C11.576 10.484 9.536 10 6.75 10a.75.75 0 0 1 0-1.5c2.964 0 5.174.516 6.658 1.043.423.151.787.302 1.092.443V2.014c-.305.14-.669.292-1.092.443C11.924 2.984 9.713 3.5 6.75 3.5a.75.75 0 0 1 0-1.5c2.786 0 4.826-.484 6.155-.957.665-.236 1.154-.47 1.47-.64.144-.077.284-.161.421-.25l.014-.01a.75.75 0 0 1 .78-.061Z"></path></svg>');
+  /* LINK https://github.com/squidfunk/mkdocs-material/blob/master/src/templates/assets/stylesheets/main/integrations/_mermaid.scss */
+  --md-mermaid-edge-color: var(--md-primary-fg-color);
+  --md-mermaid-node-bg-color: var(--md-default-bg-color--light);
+  --md-mermaid-node-fg-color: var(--md-default-fg-color--light);
+  --md-mermaid-label-bg-color: var(--md-default-bg-color);
+  --md-mermaid-label-fg-color: var(--md-default-fg-color);
+}
+
+[data-md-color-scheme="default"] {
+  --md-default-bg-color: rgb(var(--solarized-base3));
+  --md-default-bg-color--light: rgb(var(--solarized-base2));
+  --md-default-bg-color--lighter: rgb(var(--solarized-base1));
+  --md-default-bg-color--lightest: rgb(var(--solarized-base0));
+  --md-default-fg-color: rgb(var(--solarized-base02));
+  --md-default-fg-color--light: rgb(var(--solarized-base01));
+  --md-default-fg-color--lighter: rgb(var(--solarized-base00));
+  --md-default-fg-color--lightest: rgb(var(--solarized-base0));
+  --md-primary-bg-color: rgb(var(--solarized-base02));
+  --md-primary-fg-color--dark: rgb(var(--solarized-base2));
+  --md-primary-fg-color: rgb(var(--solarized-green));
+  --md-primary-fg-color--light: rgba(var(--solarized-green), 0.3);
+  --md-accent-fg-color: rgb(var(--solarized-cyan));
+  --md-footer-fg-color: rgb(var(--solarized-base03));
+  --md-footer-fg-color--light: rgb(var(--solarized-base02));
+  --md-footer-fg-color--lighter: rgb(var(--solarized-base01));
+  --md-footer-bg-color: rgb(var(--solarized-base3));
+  --md-footer-bg-color--dark: rgb(var(--solarized-base2));
+  --md-code-fg-color: rgb(var(--solarized-base02));
+  --md-code-bg-color: rgb(var(--solarized-base2));
+  --md-code-hl-color: rgb(var(--solarized-base02));
+  --md-typeset-kbd-color: rgb(var(--solarized-base2));
+  --md-typeset-kbd-border-color: rgb(var(--solarized-green));
+  --md-typeset-kbd-accent-color: rgb(var(--solarized-base3));
+  --md-typeset-mark-color: rgba(var(--solarized-green), 0.3);
+}
+
+[data-md-color-scheme="slate"] {
+  --md-default-bg-color: rgb(var(--solarized-base03));
+  --md-default-bg-color--light: rgb(var(--solarized-base02));
+  --md-default-bg-color--lighter: rgb(var(--solarized-base01));
+  --md-default-bg-color--lightest: rgb(var(--solarized-base00));
+  --md-default-fg-color: rgb(var(--solarized-base0));
+  --md-default-fg-color--light: rgb(var(--solarized-base00));
+  --md-default-fg-color--lighter: rgb(var(--solarized-base01));
+  --md-default-fg-color--lightest: rgb(var(--solarized-base02));
+  --md-primary-bg-color: rgb(var(--solarized-base2));
+  --md-primary-fg-color--dark: rgb(var(--solarized-base02));
+  --md-primary-fg-color: rgb(var(--solarized-cyan));
+  --md-primary-fg-color--light: rgba(var(--solarized-cyan), 0.2);
+  --md-accent-fg-color: rgb(var(--solarized-green));
+  --md-footer-fg-color: rgb(var(--solarized-base2));
+  --md-footer-fg-color--light: rgb(var(--solarized-base1));
+  --md-footer-fg-color--lighter: rgb(var(--solarized-base00));
+  --md-footer-bg-color: rgb(var(--solarized-base03));
+  --md-footer-bg-color--dark: rgb(var(--solarized-base02));
+  --md-code-fg-color: rgb(var(--solarized-base2));
+  --md-code-bg-color: rgb(var(--solarized-base02));
+  --md-code-hl-color: rgb(var(--solarized-base2));
+  --md-typeset-kbd-color: rgb(var(--solarized-base02));
+  --md-typeset-kbd-border-color: rgb(var(--solarized-cyan));
+  --md-typeset-kbd-accent-color: rgb(var(--solarized-base03));
+  --md-typeset-mark-color: rgba(var(--solarized-cyan), 0.4);
+}
+
+.foreground {
+  color: var(--md-default-fg-color);
+}
+
+.solarized-yellow {
+  color: #b58900;
+}
+
+.solarized-orange {
+  color: #cb4b16;
+}
+
+.solarized-red {
+  color: #dc322f;
+}
+
+.solarized-magenta {
+  color: #d33682;
+}
+
+.solarized-violet {
+  color: #6c71c4;
+}
+
+.solarized-blue {
+  color: #268bd2;
+}
+
+.solarized-cyan {
+  color: #2aa198;
+}
+
+.solarized-green {
+  color: #859900;
+}
+
+/* ANCHOR Header Recolors */
+.md-header {
+  background-color: var(--md-default-bg-color--light);
+  border-bottom: .05rem solid var(--md-primary-fg-color);
+}
+
+.md-tabs {
+  text-transform: uppercase;
+  background-color: var(--md-primary-fg-color--light);
+}
+
+.md-tabs__item--active .md-tabs__link {
+  color: var(--md-primary-fg-color);
+  text-decoration: underline solid var(--md-primary-fg-color);
+}
+
+.md-footer {
+  border-top: .05rem solid var(--md-primary-fg-color);
+}
+
+.md-footer__title {
+  color: var(--md-footer-fg-color--light);
+}
+
+.md-footer__link {
+  margin-top: 10px;
+}
+
+.md-nav__source {
+  background-color: var(--md-primary-fg-color--light);
+  border-top: .05rem solid var(--md-primary-fg-color);
+}
+
+.md-nav--primary .md-nav__title {
+  color: var(--md-default-fg-color);
+}
+
+.md-nav--primary .md-nav__title[for="__drawer"] {
+  background-color: var(--md-default-bg-color--light);
+  color: var(--md-default-fg-color);
+  font-size: 0.9rem;
+}
+
+/* NOTE Icon Recolor */
+.md-source__icon {
+  color: var(--md-default-fg-color);
+}
+
+[dir="ltr"] .md-source__repository {
+  color: var(--md-default-fg-color);
+}
+
+.md-header__option,
+.md-header__button.md-icon {
+  color: var(--md-default-fg-color);
+}
+
+.md-social__link:nth-child(1) svg {
+  fill: #6364FF;
+}
+
+.md-social__link:nth-child(2) svg {
+  fill: #0285FF;
+}
+
+.md-social__link:nth-child(3) svg {
+  fill: var(--md-default-fg-color);
+}
+
+.md-social__link:nth-child(4) svg {
+  fill: #FB923C;
+}
+
+/* ANCHOR Search */
+.md-search__form {
+  border: 1px solid var(--md-primary-fg-color);
+  background-color: var(--md-default-bg-color) !important;
+}
+
+.md-search__icon,
+.md-search-result__icon,
+.md-search__input::placeholder {
+  color: var(--md-default-fg-color--lighter) !important;
+  scale: 95%;
+}
+
+.md-search-result__meta {
+  background-color: var(--md-default-bg-color--light);
+}
+
+/* SECTION Pygments */
+.highlight span.filename {
+  border-top-left-radius: .3rem;
+  border-top-right-radius: .3rem;
+  border-bottom: .05rem solid var(--md-primary-fg-color);
+}
+.highlight .bp { color: rgb(var(--solarized-blue)); } /* Name.Builtin.Pseudo */
+.highlight .c { color: rgb(var(--solarized-base00)); } /* Comment */
+.highlight .c1 { color: rgb(var(--solarized-base00)); } /* Comment.Single */
+.highlight .cm { color: rgb(var(--solarized-base00)); } /* Comment.Multiline */
+.highlight .cp { color: rgb(var(--solarized-green)); } /* Comment.Preproc */
+.highlight .cs { color: rgb(var(--solarized-green)); } /* Comment.Special */
+.highlight .err { color: rgb(var(--solarized-base01)); } /* Error */
+.highlight .g { color: rgb(var(--solarized-base01)); } /* Generic */
+.highlight .ge {
+  color: rgb(var(--solarized-base01));
+  font-style: italic;
+} /* Generic.Emph */
+.highlight .gd { color: rgb(var(--solarized-cyan)); } /* Generic.Deleted */
+.highlight .gh { color: rgb(var(--solarized-orange)); } /* Generic.Heading */
+.highlight .gi { color: rgb(var(--solarized-green)); } /* Generic.Inserted */
+.highlight .go { color: rgb(var(--solarized-base01)); } /* Generic.Output */
+.highlight .gp { color: rgb(var(--solarized-base01)); } /* Generic.Prompt */
+.highlight .gr { color: rgb(var(--solarized-red)); } /* Generic.Error */
+.highlight .gs {
+  color: rgb(var(--solarized-base01));
+  font-weight: bold;
+} /* Generic.Strong */
+.highlight .gt { color: rgb(var(--solarized-base01)); } /* Generic.Traceback */
+.highlight .gu { color: rgb(var(--solarized-orange)); } /* Generic.Subheading */
+.highlight .il { color: rgb(var(--solarized-cyan)); } /* Literal.Number.Integer.Long */
+.highlight .k { color: rgb(var(--solarized-green)); } /* Keyword */
+.highlight .kc { color: rgb(var(--solarized-cyan)); } /* Keyword.Constant */
+.highlight .kd { color: rgb(var(--solarized-cyan)); } /* Keyword.Declaration */
+.highlight .kn { color: rgb(var(--solarized-green)); } /* Keyword.Namespace */
+.highlight .kp { color: rgb(var(--solarized-green)); } /* Keyword.Pseudo */
+.highlight .kr { color: rgb(var(--solarized-blue)); } /* Keyword.Reserved */
+.highlight .kt { color: rgb(var(--solarized-orange)); } /* Keyword.Type */
+.highlight .l { color: rgb(var(--solarized-base01)); } /* Literal */
+.highlight .ld { color: rgb(var(--solarized-base01)); } /* Literal.Date */
+.highlight .m { color: rgb(var(--solarized-cyan)); } /* Literal.Number */
+.highlight .mf { color: rgb(var(--solarized-cyan)); } /* Literal.Number.Float */
+.highlight .mh { color: rgb(var(--solarized-cyan)); } /* Literal.Number.Hex */
+.highlight .mi { color: rgb(var(--solarized-cyan)); } /* Literal.Number.Integer */
+.highlight .mo { color: rgb(var(--solarized-cyan)); } /* Literal.Number.Oct */
+.highlight .n { color: rgb(var(--solarized-base01)); } /* Name */
+.highlight .na { color: rgb(var(--solarized-base01)); } /* Name.Attribute */
+.highlight .nb { color: rgb(var(--solarized-blue)); } /* Name.Builtin */
+.highlight .nc { color: rgb(var(--solarized-blue)); } /* Name.Class */
+.highlight .nd { color: rgb(var(--solarized-blue)); } /* Name.Decorator */
+.highlight .ne { color: rgb(var(--solarized-orange)); } /* Name.Exception */
+.highlight .nf { color: rgb(var(--solarized-blue)); } /* Name.Function */
+.highlight .ni { color: rgb(var(--solarized-orange)); } /* Name.Entity */
+.highlight .nl { color: rgb(var(--solarized-base01)); } /* Name.Label */
+.highlight .nn { color: rgb(var(--solarized-base01)); } /* Name.Namespace */
+.highlight .no { color: rgb(var(--solarized-blue)); } /* Name.Constant */
+.highlight .nt { color: rgb(var(--solarized-blue)); } /* Name.Tag */
+.highlight .nv { color: rgb(var(--solarized-blue)); } /* Name.Variable */
+.highlight .nx { color: rgb(var(--solarized-base01)); } /* Name.Other */
+.highlight .o { color: rgb(var(--solarized-base01)); } /* Operator */
+.highlight .ow { color: rgb(var(--solarized-green)); } /* Operator.Word */
+.highlight .p { color: rgb(var(--solarized-base01)); } /* Punctuation */
+.highlight .py { color: rgb(var(--solarized-base01)); } /* Name.Property */
+.highlight .s { color: rgb(var(--solarized-cyan)); } /* Literal.String */
+.highlight .s1 { color: rgb(var(--solarized-cyan)); } /* Literal.String.Single */
+.highlight .s2 { color: rgb(var(--solarized-cyan)); } /* Literal.String.Double */
+.highlight .sb { color: rgb(var(--solarized-cyan)); } /* Literal.String.Backtick */
+.highlight .sc { color: rgb(var(--solarized-cyan)); } /* Literal.String.Char */
+.highlight .sd { color: rgb(var(--solarized-base01)); } /* Literal.String.Doc */
+.highlight .se { color: rgb(var(--solarized-orange)); } /* Literal.String.Escape */
+.highlight .sh { color: rgb(var(--solarized-base01)); } /* Literal.String.Heredoc */
+.highlight .si { color: rgb(var(--solarized-cyan)); } /* Literal.String.Interpol */
+.highlight .sr { color: rgb(var(--solarized-red)); } /* Literal.String.Regex */
+.highlight .ss { color: rgb(var(--solarized-cyan)); } /* Literal.String.Symbol */
+.highlight .sx { color: rgb(var(--solarized-cyan)); } /* Literal.String.Other */
+.highlight .vc { color: rgb(var(--solarized-blue)); } /* Name.Variable.Class */
+.highlight .vg { color: rgb(var(--solarized-blue)); } /* Name.Variable.Global */
+.highlight .vi { color: rgb(var(--solarized-blue)); } /* Name.Variable.Instance */
+.highlight .w { color: rgb(var(--solarized-base01)); } /* Text.Whitespace */
+.highlight .x { color: rgb(var(--solarized-orange)); } /* Other */
+/* !SECTION Pygments */
+
+/* SECTION Admonition */
+/* NOTE Classic Admonitions */
+/* LINK https://squidfunk.github.io/mkdocs-material/reference/admonitions/?h=admoni#classic-admonitions */
+.md-typeset .admonition,
+.md-typeset details {
+  border-width: 0;
+  border-left-width: 4px;
+}
+
+/* NOTE Slate: Admonition Shadow */
+[data-md-color-scheme="slate"] .md-typeset .admonition {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 2px 10px;
+}
+
+/* NOTE Slate: Darkened Title Backgrounds */
+[data-md-color-scheme="slate"] .md-typeset .admonition-title{
+  background-color: rgba(17, 18, 23, 0.7);
+}
+
+/* ANCHOR Default Admonition Recolors */
+/* NOTE Note Admonition */
+.md-typeset .admonition.note,
+.md-typeset details.note {
+  border-color: rgb(var(--solarized-blue));
+}
+
+[data-md-color-scheme="default"] .md-typeset .note>.admonition-title,
+[data-md-color-scheme="default"] .md-typeset .note>summary {
+  background-color: rgba(var(--solarized-blue), 0.2);
+}
+
+.md-typeset .note>.admonition-title::before,
+.md-typeset .note>summary::before {
+  background-color: rgb(var(--solarized-blue));
+}
+
+/* NOTE Abstract Admonition */
+.md-typeset .admonition.abstract,
+.md-typeset details.abstract {
+  border-color: rgb(var(--solarized-blue));
+}
+
+[data-md-color-scheme="default"] .md-typeset .abstract>.admonition-title,
+[data-md-color-scheme="default"] .md-typeset .abstract>summary {
+  background-color: rgba(var(--solarized-blue), 0.2);
+}
+
+.md-typeset .abstract>.admonition-title::before,
+.md-typeset .abstract>summary::before {
+  background-color: rgb(var(--solarized-blue));
+}
+
+/* NOTE Info Admonition */
+.md-typeset .admonition.info,
+.md-typeset details.info {
+  border-color: rgb(var(--solarized-cyan));
+}
+
+[data-md-color-scheme="default"] .md-typeset .info>.admonition-title,
+[data-md-color-scheme="default"] .md-typeset .info>summary {
+  background-color: rgba(var(--solarized-cyan), 0.2);
+}
+
+.md-typeset .info>.admonition-title::before,
+.md-typeset .info>summary::before {
+  background-color: rgb(var(--solarized-cyan));
+}
+
+/* NOTE Tip Admonition */
+.md-typeset .admonition.tip,
+.md-typeset details.tip {
+  border-color: rgb(var(--solarized-yellow));
+}
+
+[data-md-color-scheme="default"] .md-typeset .tip>.admonition-title,
+[data-md-color-scheme="default"] .md-typeset .tip>summary {
+  background-color: rgba(var(--solarized-yellow), 0.2);
+}
+
+.md-typeset .tip>.admonition-title::before,
+.md-typeset .tip>summary::before {
+  background-color: rgb(var(--solarized-yellow));
+}
+
+/* NOTE Question Admonition */
+.md-typeset .admonition.question,
+.md-typeset details.question {
+  border-color: rgb(var(--solarized-cyan));
+}
+
+[data-md-color-scheme="default"] .md-typeset .question>.admonition-title,
+[data-md-color-scheme="default"] .md-typeset .question>summary {
+  background-color: rgba(var(--solarized-cyan), 0.2);
+}
+
+.md-typeset .question>.admonition-title::before,
+.md-typeset .question>summary::before {
+  background-color: rgb(var(--solarized-cyan));
+}
+
+/* NOTE Success Admonition */
+.md-typeset .admonition.success,
+.md-typeset details.success {
+  border-color: rgb(var(--solarized-green));
+}
+
+[data-md-color-scheme="default"] .md-typeset .success>.admonition-title,
+[data-md-color-scheme="default"] .md-typeset .success>summary {
+  background-color: rgba(var(--solarized-green), 0.2);
+}
+
+.md-typeset .success>.admonition-title::before,
+.md-typeset .success>summary::before {
+  background-color: rgb(var(--solarized-green));
+}
+
+/* NOTE Warning Admonition */
+.md-typeset .admonition.warning,
+.md-typeset details.warning {
+  border-color: rgb(var(--solarized-orange));
+}
+
+[data-md-color-scheme="default"] .md-typeset .warning>.admonition-title,
+[data-md-color-scheme="default"] .md-typeset .warning>summary {
+  background-color: rgba(var(--solarized-orange), 0.2);
+}
+
+.md-typeset .warning>.admonition-title::before,
+.md-typeset .warning>summary::before {
+  background-color: rgb(var(--solarized-orange));
+}
+
+/* NOTE Failure Admonition */
+.md-typeset .admonition.failure,
+.md-typeset details.failure {
+  border-color: rgb(var(--solarized-red));
+}
+
+[data-md-color-scheme="default"] .md-typeset .failure>.admonition-title,
+[data-md-color-scheme="default"] .md-typeset .failure>summary {
+  background-color: rgba(var(--solarized-red), 0.2);
+}
+
+.md-typeset .failure>.admonition-title::before,
+.md-typeset .failure>summary::before {
+  background-color: rgb(var(--solarized-red));
+}
+
+/* NOTE Danger Admonition */
+.md-typeset .admonition.danger,
+.md-typeset details.danger {
+  border-color: rgb(var(--solarized-red));
+}
+
+[data-md-color-scheme="default"] .md-typeset .danger>.admonition-title,
+[data-md-color-scheme="default"] .md-typeset .danger>summary {
+  background-color: rgba(var(--solarized-red), 0.2);
+}
+
+.md-typeset .danger>.admonition-title::before,
+.md-typeset .danger>summary::before {
+  background-color: rgb(var(--solarized-red));
+}
+
+/* NOTE Bug Admonition */
+.md-typeset .admonition.bug,
+.md-typeset details.bug {
+  border-color: rgb(var(--solarized-magenta));
+}
+
+[data-md-color-scheme="default"] .md-typeset .bug>.admonition-title,
+[data-md-color-scheme="default"] .md-typeset .bug>summary {
+  background-color: rgba(var(--solarized-magenta), 0.2);
+}
+
+.md-typeset .bug>.admonition-title::before,
+.md-typeset .bug>summary::before {
+  background-color: rgb(var(--solarized-magenta));
+}
+
+/* NOTE Example Admonition */
+.md-typeset .admonition.example,
+.md-typeset details.example {
+  border-color: rgb(var(--solarized-violet));
+}
+
+[data-md-color-scheme="default"] .md-typeset .example>.admonition-title,
+[data-md-color-scheme="default"] .md-typeset .example>summary {
+  background-color: rgba(var(--solarized-violet), 0.2);
+}
+
+.md-typeset .example>.admonition-title::before,
+.md-typeset .example>summary::before {
+  background-color: rgb(var(--solarized-violet));
+}
+
+/* NOTE Quote Admonition */
+.md-typeset .admonition.quote,
+.md-typeset details.quote {
+  border-color: rgb(var(--solarized-base01));
+}
+
+[data-md-color-scheme="default"] .md-typeset .quote>.admonition-title,
+[data-md-color-scheme="default"] .md-typeset .quote>summary {
+  background-color: rgba(var(--solarized-base01), 0.2);
+}
+
+.md-typeset .quote>.admonition-title::before,
+.md-typeset .quote>summary::before {
+  background-color: rgb(var(--solarized-base01));
+}
+
+/* ANCHOR Custom Admonitions */
+/* NOTE Extension Admonition */
+.md-typeset .admonition.extension,
+.md-typeset details.extension {
+  border-color: rgb(var(--solarized-violet));
+}
+
+[data-md-color-scheme="default"] .md-typeset .extension>.admonition-title,
+[data-md-color-scheme="default"] .md-typeset .extension>summary {
+  background-color: rgba(var(--solarized-violet), 0.2);
+}
+
+.md-typeset .extension>.admonition-title::before,
+.md-typeset .extension>summary::before {
+  background-color: rgb(var(--solarized-violet));
+  -webkit-mask-image: var(--md-admonition-icon--extension);
+  mask-image: var(--md-admonition-icon--extension);
+}
+
+/* NOTE Setting Admonition */
+.md-typeset .admonition.setting,
+.md-typeset details.setting {
+  border-color: rgb(var(--solarized-base01));
+}
+
+[data-md-color-scheme="default"] .md-typeset .setting>.admonition-title,
+[data-md-color-scheme="default"] .md-typeset .setting>summary {
+  background-color: rgba(var(--solarized-base01), 0.2);
+}
+
+.md-typeset .setting>.admonition-title::before,
+.md-typeset .setting>summary::before {
+  background-color: rgb(var(--solarized-base01));
+  -webkit-mask-image: var(--md-admonition-icon--setting);
+  mask-image: var(--md-admonition-icon--setting);
+}
+
+/* NOTE Announcement Admonition */
+.md-typeset .admonition.announce,
+.md-typeset details.announce {
+  border-color: rgb(var(--solarized-red));
+}
+
+[data-md-color-scheme="default"] .md-typeset .announce>.admonition-title,
+[data-md-color-scheme="default"] .md-typeset .announce>summary {
+  background-color: rgba(var(--solarized-red), 0.2);
+}
+
+.md-typeset .announce>.admonition-title::before,
+.md-typeset .announce>summary::before {
+  background-color: rgb(var(--solarized-red));
+  -webkit-mask-image: var(--md-admonition-icon--announce);
+    mask-image: var(--md-admonition-icon--announce);
+}
+/* !SECTION Admonitions */
+
+/* ANCHOR Grids  */
+
+.md-typeset .grid.cards> :is(ul, ol)>li,
+.md-typeset .grid>.card {
+  /* Firefox */
+  color: var(--md-typeset-color);
+  background: var(--md-default-bg-color);
+  border: 1px solid var(--md-primary-fg-color);
+  border-radius: 6px;
+  box-shadow: rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px,
+    rgba(0, 0, 0, 0.05) 0px 1px 3px 0px, rgba(0, 0, 0, 0.05) 0px 1px 2px -1px;
+  transition: none;
+  position: relative;
+}
+
+.md-typeset .grid.cards> :-webkit-any(ul, ol)>li,
+.md-typeset .grid>.card {
+  /* Webkit */
+  color: var(--md-typeset-color);
+  background: var(--md-default-bg-color);
+  border: 1px solid var(--md-primary-fg-color);
+  border-radius: 6px;
+  box-shadow: rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px,
+    rgba(0, 0, 0, 0.05) 0px 1px 3px 0px, rgba(0, 0, 0, 0.05) 0px 1px 2px -1px;
+  transition: none;
+  position: relative;
+}
+
+.md-typeset .grid.cards> :is(ul, ol)>li:is(:focus-within, :hover),
+.md-typeset .grid>.card:is(:focus-within, :hover) {
+  /* Firefox */
+  box-shadow: rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px,
+    rgba(0, 0, 0, 0.05) 0px 1px 3px 0px, rgba(0, 0, 0, 0.05) 0px 1px 2px -1px;
+  border-color: var(--md-accent-fg-color);
+}
+
+.md-typeset .grid.cards> :-webkit-any(ul, ol)>li:-webkit-any(:focus-within, :hover) {
+  /* Webkit */
+  box-shadow: rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px,
+    rgba(0, 0, 0, 0.05) 0px 1px 3px 0px, rgba(0, 0, 0, 0.05) 0px 1px 2px -1px;
+  border-color: var(--md-accent-fg-color);
+}
+
+/* NOTE Card links */
+.md-typeset .card-link {
+  color: var(--md-default-fg-color--light);
+}
+
+.md-typeset .card-link:hover {
+  color: var(--md-accent-fg-color);
+}
+
+.md-typeset .card-link,
+.card-link.twemoji:not(:first-child) {
+  padding-left: 0.5em;
+}
+
+/* NOTE Select/Copy Button on Code Blocks */
+.md-code__button {
+  color: var(--md-default-fg-color--light);
+}
+
+.md-typeset .md-button--primary {
+  background-color: var(--md-primary-fg-color--light);
+}
+
+:hover>.md-code__nav,
+.md-code__nav:hover,
+.md-code__nav {
+  background-color: var(--md-default-bg-color--light);
+  font-size: 0.75rem;
+}
+
+/* NOTE Tag */
+.md-typeset .md-tag {
+  color: var(--md-default-fg-color);
+  background-color: var(--md-primary-fg-color--light);
+  border-radius: .125em;
+  margin-right: 0.5em;
+  font-weight: 100;
+  font-size: small;
+}
+
+.md-post__back {
+  border-bottom: 0;
+  margin-bottom: 0;
+}
+
+.md-post {
+  margin-left: 0;
+  margin-bottom: 3em;
+}
+
+.md-pin {
+  background: var(--md-primary-fg-color);
+  color: black;
+}
