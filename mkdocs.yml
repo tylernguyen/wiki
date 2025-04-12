@@ -10,7 +10,7 @@ repo_url: https://github.com/tylernguyen/wiki
 edit_uri: "edit/main/docs/"
 
 copyright: >
-  Copyright &copy; 2025 Tyler Nguyen | <a href="https://tylernguyen.wiki/about/#license">LICENSE</a> <br>
+  Copyright &copy; 2025 Tyler Nguyen | <a href="https://tylernguyen.wiki/license/">LICENSE</a> <br>
   Analytics by
   <span class="twemoji">
     <img src="https://assets.tylernguyen.wiki/logos/PostHog-logomark-light.svg#only-light">
