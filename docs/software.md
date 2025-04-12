@@ -101,7 +101,7 @@ I use Visual Studio Code is mainly for extensions and remote capabilities.
 
 ```json title="settings.json"
 
---8<-- "https://gist.githubusercontent.com/tylernguyen/fd3271d4d2ab037e9a4bd43270866684/raw/b65f342c04b88800e16f0bdf8929ea51805af041/vscode_settings.json"
+--8<-- "https://gist.githubusercontent.com/tylernguyen/fd3271d4d2ab037e9a4bd43270866684/raw/d4b8d2b7926f57f89c16ea04ccb051de3b441f93/vscode_settings.json"
 
 ```
 
