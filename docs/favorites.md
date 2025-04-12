@@ -141,6 +141,10 @@ The Wind Rises (2013)
 ![Vagabond](https://assets.tylernguyen.wiki/favorites/Manga_Vagabond.jpg){ loading-lazy width=125 }
 ![Goodnight Punpun](https://assets.tylernguyen.wiki/favorites/Manga_Goodnight-Punpun.jpg){ loading-lazy width=125}
 
+- Vagabond [:simple-anilist:{ .anilist }](https://anilist.co/manga/30656/Vagabond "AniList") [![Viz](https://assets.tylernguyen.wiki/logos/Viz.png){ .twemoji  }](<https://www.viz.com/vagabond> "VIZ")
+
+- Goodnight Punpun [:simple-anilist:{ .anilist }](https://anilist.co/manga/34632/Oyasumi-Punpun "AniList") [![Viz](https://assets.tylernguyen.wiki/logos/Viz.png){ .twemoji  }](https://www.viz.com/goodnight-punpun "VIZ")
+
 <div class="grid cards" markdown>
 
 - ### [:simple-anilist:{ .anilist } AniList :octicons-arrow-up-right-16:](https://anilist.co/user/tylernguyen/animelist)
@@ -148,16 +152,6 @@ The Wind Rises (2013)
     I use :simple-anilist:{ .anilist } AniList to exclusively track anime and manga.
 
 </div>
-
-- Vagabond [:simple-anilist:{ .anilist }](https://anilist.co/manga/30656/Vagabond "AniList") [![Viz](https://assets.tylernguyen.wiki/logos/Viz.png){ .twemoji  }](<https://www.viz.com/vagabond> "VIZ")
-
-- Goodnight Punpun [:simple-anilist:{ .anilist }](https://anilist.co/manga/34632/Oyasumi-Punpun "AniList") [![Viz](https://assets.tylernguyen.wiki/logos/Viz.png){ .twemoji  }](https://www.viz.com/goodnight-punpun "VIZ")
-
-## Comics :octicons-comment-16:
-
-- The Department of Truth (2020) [![Image Comics](https://assets.tylernguyen.wiki/logos/Image_Comics.svg){ .twemoji  }](https://imagecomics.com/comics/series/the-department-of-truth "Image Comics")
-
-- Spy Superb (2023) [![Dark Horse Comics](https://assets.tylernguyen.wiki/logos/Dark_Horse_Comics.svg){ .twemoji  }](https://www.darkhorse.com/Books/3010-220/Spy-Superb-HC "Dark Horse Comics")
 
 ## Podcasts :material-microphone-outline:
 
