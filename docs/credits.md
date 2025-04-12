@@ -13,9 +13,6 @@ hide:
 [:octicons-repo-16:](https://github.com/tylernguyen/wiki){ .card-link title="Repository" }
 [:octicons-workflow-16:](https://github.com/tylernguyen/wiki/blob/main/.github/workflows/build.yml){ .card-link title="Workflow" }
 
-- [Giscus :octicons-arrow-up-right-16:](https://giscus.app/)
-[:octicons-repo-16:](https://github.com/giscus/giscus){ .card-link title="Repository" }
-
 - :simple-cloudflare:{ .cloudflare } [Cloudflare R2 :octicons-arrow-up-right-16:](https://www.cloudflare.com/products/r2/)
 [:fontawesome-solid-money-bill:](https://developers.cloudflare.com/r2/pricing/){ .card-link title="Pricing" }
 [:fontawesome-regular-eye:](https://www.cloudflare.com/privacypolicy/){ .card-link title="Privacy Policy" }
@@ -38,6 +35,9 @@ hide:
 [:octicons-markdown-16:](https://facelessuser.github.io/pymdown-extensions/){ .card-link title=Documentation}
 [:fontawesome-regular-file-code:](https://github.com/facelessuser/pymdown-extensions/tree/main){ .card-link title="Source Code" }
 [:octicons-law-16:](https://github.com/facelessuser/pymdown-extensions/blob/main/LICENSE.md){ .card-link title=License }
+
+- [giscus :octicons-arrow-up-right-16:](https://giscus.app/)
+[:octicons-repo-16:](https://github.com/giscus/giscus){ .card-link title="Repository" }
 
 </div>
 
