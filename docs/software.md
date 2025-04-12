@@ -36,7 +36,7 @@ Though I do prefer free (as in freedom) software, I do use proprietary software 
 - [Visual Studio Code](https://developer.1password.com/docs/vscode/) integration for editing secrets
 
 /// success | Security
-1Password is [audited](https://support.onepassword.com/security-assessments/) on a regular basis and also documents their security in the [security white paper](https://1passwordstatic.com/files/security/1password-white-paper.pdf).
+1Password is [audited :octicons-arrow-up-right-16:](https://support.1password.com/security-assessments/) on a regular basis and also documents their security in the [security white paper :octicons-arrow-up-right-16:](https://1passwordstatic.com/files/security/1password-white-paper.pdf).
 ///
 
 [Homepage :octicons-arrow-up-right-16:](https://1password.com/){ .md-button }
