@@ -152,7 +152,7 @@ I use Cloudflare Tunnel[^1] (part of the Zero Trust suite) to expose some servic
 
 </div>
 
-Tailscale is my preferred remote solution for accessing the home network.
+Tailscale is my preferred solution for remote accessing the home network.
 
 <div class="grid cards" markdown>
 
