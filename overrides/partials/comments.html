@@ -26,8 +26,8 @@
     var palette = __md_get("__palette")
     if (palette && typeof palette.color === "object") {
       var theme = palette.color.scheme === "slate"
-        ? "transparent_dark"
-        : "light"
+        ? "cobalt"
+        : "gruvbox_light"
 
       // Instruct Giscus to set theme
       giscus.setAttribute("data-theme", theme)
@@ -40,8 +40,8 @@
         var palette = __md_get("__palette")
         if (palette && typeof palette.color === "object") {
           var theme = palette.color.scheme === "slate"
-            ? "transparent_dark"
-            : "light"
+            ? "cobalt"
+            : "gruvbox_light"
 
           // Instruct Giscus to change theme
           var frame = document.querySelector(".giscus-frame")
