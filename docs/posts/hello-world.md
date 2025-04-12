@@ -28,7 +28,7 @@ Creating a website with React, Javascript, MDX, and Tailwind CSS all sounded lik
 
 <div class="grid cards" markdown>
 
-- :simple-materialformkdocs:{ .materialformkdocs } [Material for MkDocs](https://squidfunk.github.io/mkdocs-material/) [_Insiders_](https://squidfunk.github.io/mkdocs-material/insiders/)
+- :simple-materialformkdocs:{ .materialformkdocs } [Material for MkDocs :octicons-arrow-up-right-16:](https://squidfunk.github.io/mkdocs-material/) [_Insiders_](https://squidfunk.github.io/mkdocs-material/insiders/)
 [:fontawesome-regular-file-code:](https://github.com/squidfunk/mkdocs-material){ .card-link title="Source Code" }
 [:octicons-law-16:](https://github.com/squidfunk/mkdocs-material/blob/master/LICENSE){ .card-link title=License }
 
@@ -40,9 +40,9 @@ Since I have no specific needs for MDX and other JavaScript elements anyway, I'm
 
 <div class="grid cards" markdown>
 
-- :simple-docker:{ .docker } [Docker Desktop](https://www.docker.com/products/docker-desktop/)
+- :simple-docker:{ .docker } [Docker Desktop :octicons-arrow-up-right-16:](https://www.docker.com/products/docker-desktop/)
 [:fontawesome-solid-money-bill:](https://www.docker.com/pricing/){ .card-link title="Pricing" }
-- ![OrbStack](https://assets.tylernguyen.wiki/logos/OrbStack.png){ .twemoji } [OrbStack](https://orbstack.dev/)
+- ![OrbStack](https://assets.tylernguyen.wiki/logos/OrbStack.png){ .twemoji } [OrbStack :octicons-arrow-up-right-16:](https://orbstack.dev/)
 [:fontawesome-solid-money-bill:](https://orbstack.dev/pricing){ .card-link title="Pricing" }
 
 </div>
@@ -60,7 +60,7 @@ The site is built locally for previewing with a Docker image of Material for MkD
 
 </div>
 
-As a passion project, I wanted to limit costs as much as possible. Cloudflare Domain Registar offers [at-cost pricing](https://www.cloudflare.com/products/registrar/), and the free tiers on R2 and Pages are more than enough for starting out.
+As a passion project, I wanted to limit costs as much as possible. Cloudflare Domain Registar offers [at-cost pricing :octicons-arrow-up-right-16:](https://www.cloudflare.com/products/registrar/), and the free tiers on R2 and Pages are more than enough for starting out.
 
 Importantly, since Cloudflare basically powers the entire internet nowadays, I don't think there is a more reliable party for hosting.
 
