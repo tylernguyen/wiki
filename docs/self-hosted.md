@@ -39,7 +39,7 @@ Unraid has a robust redundancy system, supports virtualization, third-party plug
 ## Containers
 
 /// note
-I recommend the [LinuxServer.io :octicons-arrow-up-right-16:](https://www.linuxserver.io/our-images) images for their [image mods :octicons-arrow-up-right-16:](https://mods.linuxserver.io/).
+I recommend the [:simple-linuxserver:{ .linuxserver } LinuxServer.io :octicons-arrow-up-right-16:](https://www.linuxserver.io/our-images) images for their [image mods :octicons-arrow-up-right-16:](https://mods.linuxserver.io/).
 ///
 
 <div class="grid cards" markdown>
