@@ -90,7 +90,7 @@ I use the iPad Mini to read the web, comics, mangas, and the occasional textbook
 
 This is my default device for reading books. And since the majority of my book-reading are before bedtime, it lives primarily on my headboard or nightstand.
 
-Runs :octicons-git-branch-16:{ .foreground } [koreader/koreader](https://github.com/koreader/koreader)
+Runs :octicons-git-branch-16:{ .foreground } [koreader/koreader :octicons-arrow-up-right-16:](https://github.com/koreader/koreader)
     ![GitHub Stars](https://img.shields.io/github/stars/koreader/koreader?style=flat&logo=GitHub&logoColor=073642&labelColor=eee8d5&color=859900#only-light){ .twemoji }
     ![GitHub Forks](https://img.shields.io/github/forks/koreader/koreader?style=flat&logo=GitHub&logoColor=073642&labelColor=eee8d5&color=859900#only-light){ .twemoji }
     ![GitHub Stars](https://img.shields.io/github/stars/koreader/koreader?style=flat&logo=GitHub&logoColor=839496&labelColor=073642&color=2aa198#only-dark){ .twemoji }
@@ -110,7 +110,7 @@ This is solely for Nintendo exclusive games.
 
 I use this to mostly play Pokemon ROM hacks.
 
-Runs [MuOS](https://muos.dev/) instead of the stock operating system.
+Runs [MuOS :octicons-arrow-up-right-16:](https://muos.dev/) instead of the stock operating system.
 
 ## Miscellaneous
 
