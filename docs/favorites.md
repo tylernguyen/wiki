@@ -206,5 +206,5 @@ The Podcast subscriptions is available as an OPML file on [:simple-github:{ .for
 - Root
     [:simple-boardgamegeek:{ .boardgamegeek }](<https://boardgamegeek.com/boardgame/237182/root> "Board Game Geek")
 
-- CATAN
-[:simple-boardgamegeek:{ .boardgamegeek }](https://boardgamegeek.com/boardgame/13/catan "Board Games Geek")
+- [Pokemon Crystal Clear :octicons-arrow-up-right-16:](https://shockslayer.com/crystal-clear/)
+[:octicons-markdown-16:](https://github.com/ShockSlayer/ccdocs/blob/master/docs/FAQ.md){ .card-link title=Documentation}
