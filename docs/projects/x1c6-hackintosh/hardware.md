@@ -14,7 +14,7 @@ Replace it with an aftermarket NVMe for easily installation and better macOS com
 
 For installation on the factory drive `PM981`, please refer to [Issue #43](https://github.com/tylernguyen/x1c6-hackintosh/issues/43). I do, however, recommend against this.
 
-Consult the [dortania/Anti-Hackintosh-Buyers-Guide](https://dortania.github.io/Anti-Hackintosh-Buyers-Guide/Storage.html) for up-to-date storage recommendations.
+See [dortania/Anti-Hackintosh-Buyers-Guide :octicons-arrow-up-right-16:](https://dortania.github.io/Anti-Hackintosh-Buyers-Guide/Storage.html) for up-to-date storage recommendations.
 
 /// tip
 You can install an additional M.2 2242 NVMe drive in the WWAN card slot.

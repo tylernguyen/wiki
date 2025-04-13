@@ -33,12 +33,12 @@ Currently, there is no automatic solution available. For now, I recommend you cr
 Please read, or at the least, browse through these great resources to get an idea of what's going on before proceeding. This is especially important if this is your first time (OpenCore) Hackintosh-ing.
 ///
 
-- [dortania's Hackintosh guides](https://github.com/dortania)
-- [dortania's OpenCore Install Guide](https://dortania.github.io/OpenCore-Install-Guide/)
-- [dortania's OpenCore Post Install Guide](https://dortania.github.io/OpenCore-Post-Install/)
-- [dortania/ Getting Started with ACPI](https://dortania.github.io/Getting-Started-With-ACPI/)
-- [dortania/ opencore `multiboot`](https://dortania.github.io/OpenCore-Multiboot/)
-- [dortania/ `USB map` guide](https://dortania.github.io/OpenCore-Post-Install/usb/)
+- [dortania's Hackintosh guides :octicons-arrow-up-right-16:](https://github.com/dortania)
+- [dortania's OpenCore Install Guide :octicons-arrow-up-right-16:](https://dortania.github.io/OpenCore-Install-Guide/)
+- [dortania's OpenCore Post Install Guide :octicons-arrow-up-right-16:](https://dortania.github.io/OpenCore-Post-Install/)
+- [dortania/ Getting Started with ACPI :octicons-arrow-up-right-16:](https://dortania.github.io/Getting-Started-With-ACPI/)
+- [dortania/ opencore `multiboot` :octicons-arrow-up-right-16:](https://dortania.github.io/OpenCore-Multiboot/)
+- [dortania/ `USB map` guide :octicons-arrow-up-right-16:](https://dortania.github.io/OpenCore-Post-Install/usb/)
 - `Configuration.pdf` and `Differences.pdf` in each `OpenCore` releases.
 
 /// tip
