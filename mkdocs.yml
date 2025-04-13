@@ -34,15 +34,16 @@ theme:
     - content.code.select # LINK https://squidfunk.github.io/mkdocs-material/reference/code-blocks/?h=code#code-selection-button
     - content.tooltips # LINK https://squidfunk.github.io/mkdocs-material/reference/tooltips/#improved-tooltips
     - navigation.footer # LINK https://squidfunk.github.io/mkdocs-material/setup/setting-up-the-footer/?h=footer#navigation
-    - navigation.indexes # LINK https://squidfunk.github.io/mkdocs-material/setup/setting-up-navigation/#section-index-pages INCOMPATIBLE with toc.integrate (Attach Top Level Doc to Section )
-    #- navigation.instant # LINK https://squidfunk.github.io/mkdocs-material/setup/setting-up-navigation/#instant-loading
+    - navigation.indexes # ALERT INCOMPATIBLE with toc.integrate (Attach Top Level Doc to Section )
+    # LINK https://squidfunk.github.io/mkdocs-material/setup/setting-up-navigation/#section-index-pages
+    #- navigation.instant  # ALERT Giscus will not load until page is refreshed.
+    # LINK https://squidfunk.github.io/mkdocs-material/setup/setting-up-navigation/#instant-loading
     #- navigation.instant.prefetch # LINK https://squidfunk.github.io/mkdocs-material/setup/setting-up-navigation/#instant-prefetching
     #- navigation.instant.progress # LINK https://squidfunk.github.io/mkdocs-material/setup/setting-up-navigation/#progress-indicator
-    # NOTE navigation.instant bugs Giscus. Comments section will not load until page is refreshed
     - navigation.path # LINK https://squidfunk.github.io/mkdocs-material/setup/setting-up-navigation/?h=navigation+path#navigation-path
-    #- navigation.prune # NOTE Mobile navigation's top level chevron cannot be selected
+    #- navigation.prune # ALERT Mobile navigation's top level chevron cannot be selected
     #- navigation.sections # NOTE Collapse section in projects page
-    #- navigation.expand # Note Bug: this will also expand collapsed code blocks on page reload
+    #- navigation.expand # ALERT This will also expand collapsed code blocks on page reload
     - navigation.tabs
     #- navigation.tabs.sticky
     #- navigation.top # LINK https://squidfunk.github.io/mkdocs-material/setup/setting-up-navigation/?h=navigation#back-to-top-button
