@@ -51,7 +51,7 @@ theme:
     - search.highlight # LINK https://squidfunk.github.io/mkdocs-material/setup/setting-up-site-search/?h=search+high#search-highlighting
     - search.suggest # LINK https://squidfunk.github.io/mkdocs-material/setup/setting-up-site-search/?h=search+high#search-suggestions
     - toc.follow # LINK https://squidfunk.github.io/mkdocs-material/setup/setting-up-navigation/?h=navigation#anchor-following
-    #- toc.integrate # NOTE Table of Contents as part of Navigation INCOMPATIBLE with navigation.indexes
+    #- toc.integrate # ALERT INCOMPATIBLE with navigation.indexes
   icon:
     repo: simple/refinedgithub
     annotation: octicons/comment-24
