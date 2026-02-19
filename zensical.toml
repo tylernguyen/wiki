@@ -54,7 +54,7 @@ extra_css = [
     "stylesheets/simpleicons.css",
 ]
 extra_javascript = [
-    "javascripts/consent.js",
+    #"javascripts/consent.js",
     "https://unpkg.com/tablesort@5.3.0/dist/tablesort.min.js",
     "javascripts/tablesort.js"
 ]
@@ -137,18 +137,18 @@ generator = false
 [project.extra.analytics]
 provider = "posthog"
 
-[project.extra.consent]
-actions = [
-    "accept",
-    "reject",
-    "manage"
-]
-title = "Analytics Cookie"
-description = """
-  PostHog's browser cookie gives me insights into how you interact with .wiki <br>
-  Rejecting the cookie will not affect your experience with the site. <br> <br>
-  I do however, ask that you please accept it in order to help me build a more effective website.
-"""
+#[project.extra.consent]
+#actions = [
+#    "accept",
+#    "reject",
+#    "manage"
+#]
+#title = "Analytics Cookie"
+#description = """
+#  PostHog's browser cookie gives me insights into how you interact with .wiki <br>
+#  Rejecting the cookie will not affect your experience with the site. <br> <br>
+#  I do however, ask that you please accept it in order to help me build a more effective website.
+#"""
 
 [[project.extra.social]]
 icon = "simple/mastodon"
