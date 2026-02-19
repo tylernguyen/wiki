@@ -1,8 +1,5 @@
 ---
 icon: material/alert-outline
-date:
-  created: 2025-01-01
-  updated: 2025-04-11
 ---
 
 # Admonitions

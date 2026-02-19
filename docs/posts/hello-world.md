@@ -1,13 +1,3 @@
----
-date:
-  created: 2025-04-11
-  updated: 2025-04-11
-categories:
-  - Update
-slug: hello-world
-pin: false
----
-
 # Hello, World!
 
 Building a knowledge base and maintaining a blog has always been something I've always wanted to do. So after an extended period of on and off development, I'm now proud to say that my personal wiki is now public. The following is a quick overview of the stack used in creating this website.
