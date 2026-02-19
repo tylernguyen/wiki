@@ -1,0 +1,30 @@
+<!-- LINK Modifies https://github.com/zensical/ui/blob/master/src/partials/content.html
+     Copyright (c) 2025 Zensical and contributors
+     SPDX-License-Identifier: MIT
+-->
+
+<!-- Actions -->
+{% include "partials/actions.html" %}
+
+<!-- Tags -->
+{% include "partials/tags.html" %}
+
+<!--
+  Hack: check whether the content contains a h1 headline. If it doesn't, the
+  page title (or respectively site name) is used as the main headline.
+-->
+{% if "\u003ch1" not in page.content %}
+  <h1>{{ page.title | d(config.site_name, true)}}</h1>
+{% endif %}
+
+<!-- Page content -->
+{{ page.content }}
+
+<!-- Source file information -->
+{% include "partials/source-file.html" %}
+
+<!-- Was this page helpful? -->
+{% include "partials/feedback.html" %}
+
+<!-- Comment system -->
+{% include "partials/comments.html" %}
