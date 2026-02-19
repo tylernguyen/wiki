@@ -152,13 +152,16 @@ description = """
 
 [[project.extra.social]]
 icon = "simple/mastodon"
+link = "https://tylernguyen.social/@tylernguyen"
 [[project.extra.social]]
 icon = "simple/bluesky"
+link = "https://bsky.app/profile/bsky.tylernguyen.social"
 [[project.extra.social]]
 icon = "simple/refinedgithub"
-link = "https://github.com/user/repo"
+link = "https://github.com/tylernguyen"
 [[project.extra.social]]
 icon = "simple/forgejo"
+link = "https://tylernguyen.codes/"
 
 [project.extra.tags]
 evergreen = "evergreen"
