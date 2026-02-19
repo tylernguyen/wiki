@@ -17,19 +17,27 @@ body {
   font-family: 'Berkeley Mono Variable', 'Cascadia Code', 'Andale Mono', 'Consolas', 'SF Mono', monospace;
 }
 
-/* LINK https://github.com/squidfunk/mkdocs-material/blob/master/src/templates/assets/stylesheets/main/_typeset.scss */
+/* LINK https://github.com/zensical/ui/blob/master/src/assets/stylesheets/modern/main/_typeset.scss */
+
+.md-typeset h1,
+.md-typeset h2,
+.md-typeset h3 {
+  color: var(--md-default-fg-color);
+}
 
 .md-typeset h1 {
-  color: rgb(var(--md-default-fg-color));
   font-weight: 900;
   margin: 0 0 .75em;
-  text-transform: uppercase;
+}
+
+.md-typeset h2,
+.md-typeset h3 {
+  font-weight: 800;
 }
 
 .md-typeset h2 {
   font-size: 1rem;
-  font-weight: 800;
-  text-transform: uppercase;
+  margin-top: 24px;
 }
 
 .md-post__content.md-typeset h2 {
@@ -38,8 +46,6 @@ body {
 
 .md-typeset h3 {
   font-size: 0.9rem;
-  font-weight: 800;
-  text-transform: uppercase;
 }
 
 .md-typeset p {
@@ -52,10 +58,6 @@ body {
 .md-post__content.md-typeset p {
   margin-top: 0.5rem;
 }
-
-/* .md-grid {
-  font-weight: 400;
-} */
 
 .md-meta {
   color: var(--md-default-fg-color--light);
@@ -86,41 +88,18 @@ body {
   font-size: .6rem;
 }
 
-.md-typeset ul {
+.md-typeset ul,
+.md-typeset li,
+.md-typeset dl {
   font-size: .7rem;
 }
 
-.md-typeset li {
-  font-size: .7rem;
-}
-
-.md-typeset .admonition p {
-  font-size: 0.7rem;
-}
-
+.md-typeset .admonition p,
 .md-typeset .admonition ul,
 .md-typeset .admonition ol,
 .md-typeset .admonition ul li,
 .md-typeset .admonition ol li {
   font-size: 0.7rem;
-}
-
-.md-typeset .footnote ol li blockquote,
-.md-typeset .footnote ol li p,
-.md-typeset .footnote ul li blockquote,
-.md-typeset .footnote ul li p {
-  font-size: .6rem;
-}
-
-/* NOTE Correct Nav Item font sizing on mobile */
-.md-nav--primary .md-nav__item {
-  font-size: .7rem;
-  line-height: 1.5;
-}
-
-/* NOTE Definition List */
-.md-typeset dl {
-  font-size: .7rem;
 }
 
 /* LINK https://github.com/squidfunk/mkdocs-material/discussions/6757#discussioncomment-10100386 */
@@ -129,10 +108,6 @@ body {
   font-family: var(--default-font);
   font-size: 0.5rem;
   font-weight: normal;
-}
-
-.admonition-title {
-  letter-spacing: 0.5px;
 }
 
 .md-sidebar {
@@ -146,4 +121,24 @@ body {
 .md-post__action {
   font-style: oblique;
   text-align: right;
+}
+
+.md-typeset a {
+    text-decoration: underline;
+    text-decoration-style: wavy;
+    text-decoration-thickness: 1px;
+    text-decoration-color: var(--md-default-fg-color--lighter);
+    text-underline-offset: 0.15em;
+}
+
+.md-typeset a:hover {
+    text-decoration-color: var(--md-accent-fg-color);
+}
+
+[data-md-color-scheme="default"] .md-typeset a {
+    color: rgb(var(--solarized-base02));
+}
+
+[data-md-color-scheme="slate"] .md-typeset a {
+    color: rgb(var(--solarized-base1));
 }
