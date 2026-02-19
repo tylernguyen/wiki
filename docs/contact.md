@@ -6,13 +6,13 @@ icon: octicons/mail-16
 
 You can reach me quickly via the fediverse [:simple-mastodon:{ .mastodon } @tylernguyen@tylernguyen.social](https://tylernguyen.social/@tylernguyen).
 
-Alternative, I'm active on Discord [:simple-discord:{ .discord } @tylernguyen44](https://discordapp.com/users/1297622229328072704) for direct messaging.
+Alternatively, I'm active on Discord [:simple-discord:{ .discord } @tylernguyen44](https://discordapp.com/users/1297622229328072704) for direct messaging.
 
-Lastly, my (Proton) email address is [:simple-protonmail:{ .protonmail } human@tylernguyen.email](mailto:human@tylernguyen.email).
+Lastly, my email address is [human@tylernguyen.email](mailto:human@tylernguyen.email).
 
-Optionally,  [:simple-gnuprivacyguard:{ .gnuprivacyguard } 0x136307727d3eef96](https://github.com/tylernguyen.gpg) is my PGP key.
+Optionally, [:simple-gnuprivacyguard:{ .gnuprivacyguard } 0x136307727d3eef96](https://github.com/tylernguyen.gpg) is my PGP key.
 
-See [/ident :octicons-arrow-down-left-16:](/ident)
+See [/ident :octicons-arrow-down-left-16:](ident.md)
 
 /// warning
 I do not have a Twitter[^1], Facebook[^2], Instagram, nor Threads.
@@ -30,7 +30,7 @@ I do not have a Twitter[^1], Facebook[^2], Instagram, nor Threads.
 - Ex: "Please look into X, I've found to be very useful in dealing with Y situation and is a better solution than Z." or "Please write about X topic, I read your previous Y page and the two seems connected. So it would be great to see a new perspective on the two together."
 ///
 
-/// question | What I MAY or MAY NOT respond to.
+/// note | What I MAY or MAY NOT respond to.
 
 - I try and respond to technical queries but would prefer and suggest you try Google first.
 
