@@ -21,13 +21,6 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v6
-        with:
-          fetch-depth: 0
-          sparse-checkout: |
-            docs
-            includes
-            overrides
-            tools
 
       - name: Setup Python runtime
         uses: actions/setup-python@v6
