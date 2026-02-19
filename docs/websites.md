@@ -1,7 +1,7 @@
 ---
 icon: material/earth
 tags:
-  - Evergreen
+  - evergreen
 ---
 
 # Websites
@@ -15,14 +15,15 @@ RSS is my preferred method of following websites. I also maintain an email alias
 
 ## Blogs
 
-- [danluu.com :octicons-arrow-up-right-16:](https://danluu.com/) [<span class="rss"> __RSS__ :octicons-rss-16:{ .rss } </span>](https://danluu.com/atom.xml "RSS Feed")
-- [No Mercy / No Malice :octicons-arrow-up-right-16:](https://www.profgalloway.com/) [<span class="rss"> __RSS__ :octicons-rss-16:{ .rss } </span>](https://www.profgalloway.com/feed/ "RSS Feed")
-- [Schneier on Security :octicons-arrow-up-right-16:](https://www.schneier.com/) [<span class="rss"> __RSS__ :octicons-rss-16:{ .rss } </span>](https://www.schneier.com/feed/ "RSS Feed")
-- [Julia Evans :octicons-arrow-up-right-16:](https://jvns.ca) [<span class="rss"> __RSS__ :octicons-rss-16:{ .rss } </span>](https://jvns.ca/atom.xml "RSS Feed")
+- [danluu.com :octicons-arrow-up-right-16:](https://danluu.com/) [:fontawesome-solid-square-rss:](https://danluu.com/atom.xml){ title="RSS Feed" }
+- [No Mercy / No Malice :octicons-arrow-up-right-16:](https://www.profgalloway.com/) [:fontawesome-solid-square-rss:](https://www.profgalloway.com/feed/){ title="RSS Feed" }
+- [Schneier on Security :octicons-arrow-up-right-16:](https://www.schneier.com/) [:fontawesome-solid-square-rss:](https://www.schneier.com/feed/ ){ title="RSS Feed" }
+- [Julia Evans :octicons-arrow-up-right-16:](https://jvns.ca) [:fontawesome-solid-square-rss:](https://jvns.ca/atom.xml){ title="RSS Feed" }
 - [Seirdy’s Home :octicons-arrow-up-right-16:](https://seirdy.one/)
-- [Jeff Geerling :octicons-arrow-up-right-16:](https://www.jeffgeerling.com/blog) [<span class="rss"> __RSS__ :octicons-rss-16:{ .rss } </span>](https://www.jeffgeerling.com/blog.xml "RSS Feed") / [@JeffGeerling](https://www.youtube.com/@JeffGeerling) <span class="solarized-red">:simple-youtube:{ .youtube } __YouTube__</span>
-- [tonsky.me :octicons-arrow-up-right-16:](https://tonsky.me/)[<span class="rss"> __RSS__ :octicons-rss-16:{ .rss } </span>](https://tonsky.me/atom.xml "RSS Feed")
-- [LMNT :octicons-arrow-up-right-16:](https://lmnt.me/)[<span class="rss"> __RSS__ :octicons-rss-16:{ .rss } </span>](https://lmnt.me/feed.xml "RSS Feed")
+- [Jeff Geerling :octicons-arrow-up-right-16:](https://www.jeffgeerling.com/blog) [:fontawesome-solid-square-rss:](https://www.jeffgeerling.com/blog.xml){ title="RSS Feed" } / [@JeffGeerling](https://www.youtube.com/@JeffGeerling)
+- [tonsky.me :octicons-arrow-up-right-16:](https://tonsky.me/) [:fontawesome-solid-square-rss:](https://tonsky.me/atom.xml){ title="RSS Feed" }
+- [LMNT :octicons-arrow-up-right-16:](https://lmnt.me/) [:fontawesome-solid-square-rss:](https://lmnt.me/feed.xml){ title="RSS Feed" }
+- [Articles & Experiments by Roman Komarov :octicons-arrow-up-right-16:](https://kizu.dev/) [:fontawesome-solid-square-rss:](https://feeds.feedburner.com/kizuruen){ title="RSS Feed" }
 
 ## Digital Gardens
 
@@ -32,15 +33,14 @@ RSS is my preferred method of following websites. I also maintain an email alias
 
 ## News
 
-- [NY Times - Visual Investigation](https://www.youtube.com/playlist?list=PL4CGYNsoW2iAZt9-UzPyPZOH-AlRMxcIE) <span class="solarized-red">:simple-youtube:{ .youtube } __YouTube__</span>
-
+- [NY Times - Visual Investigation](https://www.youtube.com/playlist?list=PL4CGYNsoW2iAZt9-UzPyPZOH-AlRMxcIE)
 ## Documentaries
 
-- [@LEMMiNO](https://www.youtube.com/@LEMMiNO) <span class="solarized-red">:simple-youtube:{ .youtube } __YouTube__</span>
+- [@LEMMiNO](https://www.youtube.com/@LEMMiNO)
 
 ## Education
 
-- [@3blue1brown](https://www.youtube.com/@3blue1brown) <span class="solarized-red">:simple-youtube:{ .youtube } __YouTube__</span>
+- [@3blue1brown](https://www.youtube.com/@3blue1brown)
 
 ## Newsletter
 
@@ -53,7 +53,7 @@ RSS is my preferred method of following websites. I also maintain an email alias
 
 ## Videos
 
-- [Josel Spolsky - You Suck at Excel](https://www.youtube.com/watch?v=0nbkaYsR94c)
+- [Joel Spolsky - You Suck at Excel](https://www.youtube.com/watch?v=0nbkaYsR94c)
 
 ## Posts
 
@@ -67,4 +67,4 @@ There's an updated addition to the post by another author.
 
 ## Cooking
 
-- [Dr. Doughlas Baldwin - A Practical Guide to Sous Vide Cooking](https://douglasbaldwin.com/sous-vide.html)
+- [Dr. Douglas Baldwin - A Practical Guide to Sous Vide Cooking](https://douglasbaldwin.com/sous-vide.html)

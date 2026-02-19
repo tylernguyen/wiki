@@ -1,10 +1,11 @@
 ---
 icon: simple/gnubash
 tags:
-    - Evergreen
+    - evergreen
+    - uses
 ---
 
-# dotfiles
+# dotfiles <span class="caret"></span>
 
 <div class="grid cards" markdown>
 
@@ -19,9 +20,9 @@ tags:
 <div class="grid cards" markdown>
 
 - ![chezmoi](https://assets.tylernguyen.wiki/logos/chezmoi.svg){ .twemoji } [chezmoi :octicons-arrow-up-right-16:](https://github.com/twpayne/chezmoi/)
-[:octicons-markdown-16:](https://www.chezmoi.io/){ .card-link title=Documentation}
-[:fontawesome-regular-file-code:](https://github.com/twpayne/chezmoi){ .card-link title="Source Code" }
-[:octicons-law-16:](https://github.com/twpayne/chezmoi/blob/master/LICENSE){ .card-link title=License }
+[:octicons-markdown-16:](https://www.chezmoi.io/){ title=Documentation}
+[:lucide-file-code-corner:](https://github.com/twpayne/chezmoi){ title="Source Code" }
+[:lucide-scale:](https://github.com/twpayne/chezmoi/blob/master/LICENSE){ title=License }
 
     ``` bash
 
@@ -34,33 +35,27 @@ tags:
 <div class="grid cards" markdown>
 
 - :simple-1password:{ .onepassword } [1Password :octicons-arrow-up-right-16:](https://1password.com/)
-[:fontawesome-solid-money-bill:](https://1password.com/sign-up/){ .card-link title=Pricing }
-[:fontawesome-regular-eye:](https://support.onepassword.com/1password-privacy/){ .card-link title="Privacy Policy" }
-[:octicons-markdown-16:](https://developer.onepassword.com/){ .card-link title="Developer Documentation" }
+[:lucide-circle-dollar-sign:](https://1password.com/sign-up/){ title=Pricing }
+[:lucide-hat-glasses:](https://support.onepassword.com/1password-privacy/){ title="Privacy Policy" }
+[:octicons-markdown-16:](https://developer.onepassword.com/){ title="Developer Documentation" }
 
-- :simple-wezterm:{ .wezterm } [wezterm :octicons-arrow-up-right-16:](https://wezfurlong.org/wezterm/index.html)
-[:octicons-markdown-16:](https://wezfurlong.org/wezterm/){ .card-link title=Documentation}
-[:fontawesome-regular-file-code:](https://github.com/wez/wezterm){ .card-link title="Source Code" }
-[:octicons-law-16:](https://github.com/wez/wezterm/blob/main/LICENSE.md){ .card-link title=License }
+- :simple-ghostty:{ .ghostty } [ghostty :octicons-arrow-up-right-16:](https://ghostty.org/)
+[:octicons-markdown-16:](https://ghostty.org/docs){ title=Documentation}
+[:lucide-file-code-corner:](https://github.com/ghostty-org/ghostty){ title="Source Code" }
+[:lucide-scale:](https://github.com/ghostty-org/ghostty/blob/main/LICENSE){ title=License }
 
 </div>
 
 <div class="grid cards" markdown>
 
 - :simple-zsh:{ .zsh } [zsh :octicons-arrow-up-right-16:](https://zsh.sourceforge.io/)
-[:octicons-markdown-16:](https://zsh.sourceforge.io/Doc/){ .card-link title=Documentation}
+[:octicons-markdown-16:](https://zsh.sourceforge.io/Doc/){ title=Documentation}
 
     :octicons-git-branch-16:{ .foreground } [zimfw/zimfw :octicons-arrow-up-right-16:](<https://github.com/zimfw/zimfw>)
         ![GitHub Stars](https://img.shields.io/github/stars/zimfw/zimfw?style=flat&logo=GitHub&logoColor=073642&labelColor=eee8d5&color=859900#only-light){ .twemoji }
         ![GitHub Forks](https://img.shields.io/github/forks/zimfw/zimfw?style=flat&logo=GitHub&logoColor=073642&labelColor=eee8d5&color=859900#only-light){ .twemoji }
         ![GitHub Stars](https://img.shields.io/github/stars/zimfw/zimfw?style=flat&logo=GitHub&logoColor=839496&labelColor=073642&color=2aa198#only-dark){ .twemoji }
         ![GitHub Forks](https://img.shields.io/github/forks/zimfw/zimfw?style=flat&logo=GitHub&logoColor=839496&labelColor=073642&color=2aa198#only-dark){ .twemoji }
-
-    :octicons-git-branch-16:{ .foreground } [romkatv/powerlevel10k :octicons-arrow-up-right-16:](<https://github.com/romkatv/powerlevel10k>)
-        ![GitHub Stars](https://img.shields.io/github/stars/romkatv/powerlevel10k?style=flat&logo=GitHub&logoColor=073642&labelColor=eee8d5&color=859900#only-light){ .twemoji }
-        ![GitHub Forks](https://img.shields.io/github/forks/romkatv/powerlevel10k?style=flat&logo=GitHub&logoColor=073642&labelColor=eee8d5&color=859900#only-light){ .twemoji }
-        ![GitHub Stars](https://img.shields.io/github/stars/romkatv/powerlevel10k?style=flat&logo=GitHub&logoColor=839496&labelColor=073642&color=2aa198#only-dark){ .twemoji }
-        ![GitHub Forks](https://img.shields.io/github/forks/romkatv/powerlevel10k?style=flat&logo=GitHub&logoColor=839496&labelColor=073642&color=2aa198#only-dark){ .twemoji }
 
     :octicons-git-branch-16:{ .foreground } [atuinsh/atuin :octicons-arrow-up-right-16:](<https://github.com/atuinsh/atuin>)
         ![GitHub Stars](https://img.shields.io/github/stars/atuinsh/atuin?style=flat&logo=GitHub&logoColor=073642&labelColor=eee8d5&color=859900#only-light){ .twemoji }
@@ -86,7 +81,7 @@ dotfiles is designed with maximum cross-platform compatibility, minimal componen
 
 1Password handles SSH authentication and signing.
 
-Projects live under `src/` and are associated with their respective SSH signing key, i.e. `src/tylernguyen@GitHub`, `src/tylernguyen@GitLab`, `tylernguyen.codes`
+Projects live under `src/` and are associated with their respective SSH signing key, i.e. `src/tylernguyen@GitHub`, `src/tylernguyen@GitLab`, `tylernguyen.codes`.
 
 I prefer to rebase by default, unless there is very specific reason to merge.
 
@@ -96,7 +91,7 @@ I prefer to rebase by default, unless there is very specific reason to merge.
 
 - :simple-gnubash:{ .gnubash } [winget :octicons-arrow-up-right-16:](https://github.com/microsoft/winget-cli)
 - :simple-flatpak:{ .flatpak } [Flatpak :octicons-arrow-up-right-16:](<https://flatpak.org/>)
-- [:simple-homebrew:{ .homebrew } homebrew :octicons-arrow-up-right-16:](https://brew.sh/)
+- :simple-homebrew:{ .homebrew } [homebrew :octicons-arrow-up-right-16:](https://brew.sh/)
 
 </div>
 
