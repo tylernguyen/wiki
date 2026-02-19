@@ -1,7 +1,8 @@
 ---
-icon: material/mouse-outline
+icon: lucide/usb
 tags:
-  - Evergreen
+  - evergreen
+  - uses
 ---
 
 # Peripherals
@@ -51,9 +52,9 @@ Usually, mousepad firmness does not matter to me. However, for the Type-99 speci
 
 - MOTU UltraLite Mk5
 - Shure SM7dB
-- __Sennheiser HD 490 PRO__
+- Sennheiser HD 490 PRO
 - Sennheiser IE600
-- Apple AirPods Pro 2
+- Apple AirPods Pro 3
 
 ## Music
 

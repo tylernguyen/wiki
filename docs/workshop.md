@@ -1,7 +1,8 @@
 ---
-icon: octicons/tools-16
+icon: lucide/ruler
 tags:
-  - Evergreen
+  - evergreen
+  - uses
 ---
 
 # Workshop
@@ -10,31 +11,30 @@ tags:
 
 <div class="grid cards" markdown>
 
-- ![FreeCAD](https://assets.tylernguyen.wiki/logos/FreeCAD.png){ .twemoji } [FreeCAD :octicons-arrow-up-right-16:](https://www.freecad.org/)
+- :simple-bambulab:{ .bambulab } [__Bambu Lab P1S__ :octicons-arrow-up-right-16:](https://us.store.bambulab.com/products/p1s?id=583855874739507213) and [__AMS__ 1st Gen :octicons-arrow-up-right-16:](https://us.store.bambulab.com/products/ams-multicolor-printing)
 
-    FreeCAD is an <span class="solarized-orange">:material-source-branch: __open source__</span> parametric CAD modeler.
+    - [E3D ObXidian High Flow 0.6mm :octicons-arrow-up-right-16:](https://e3d-online.com/products/full-hf-obx-bambu?variant=41701000839227)
+    - [Polymaker PolyDryer :octicons-arrow-up-right-16:](https://us.polymaker.com/products/polydryer)
 
-- ![Orca Slicer](https://assets.tylernguyen.wiki/logos/Orca-Slicer.png){ .twemoji } [Orca Slicer :octicons-arrow-up-right-16:](https://github.com/SoftFever/OrcaSlicer)
-
-    Orca Slicer is an <span class="solarized-orange">:material-source-branch: __open source__</span> 3D model slicer for FDM printers.
+    The :simple-bambulab:{ .bambulab } Bambu Lab P1S runs on <span class="solarized-red">:material-lock: __proprietary__</span> firmware.
 
 </div>
 
 <div class="grid cards" markdown>
 
-- ![OpenSCAD](https://assets.tylernguyen.wiki/logos/OpenSCAD.png){ .twemoji } [OpenSCAD :octicons-arrow-up-right-16:](https://openscad.org/)
+- :simple-bambulab:{ .bambulab } [Bambu Studio :octicons-arrow-up-right-16:](https://bambulab.com/en/download/studio)
 
-    OpenSCAD is an <span class="solarized-orange">:material-source-branch: __open source__</span> coding-based 3D CAD modeler.
-
-    /// tip
-    There is a [fork :octicons-arrow-up-right-16:](https://pythonscad.org/) that uses :simple-python:{ .python } Python instead of the default OpenSCAD language.
-    ///
+    Bambu Studio is a <span class="solarized-red">:material-lock: __proprietary__</span> 3D model slicer for FDM printers.
 
 </div>
 
-- Bambu Lab P1S
-- Bambu Lab AMS
-- E3D ObXidian High Flow 0.6mm
+<div class="grid cards" markdown>
+
+- ![FreeCAD](https://assets.tylernguyen.wiki/logos/FreeCAD.svg){ .twemoji } [FreeCAD :octicons-arrow-up-right-16:](https://www.freecad.org/)
+
+    FreeCAD is an <span class="solarized-orange">:material-source-branch: __open source__</span> parametric CAD modeler.
+
+</div>
 
 ## Soldering
 
@@ -49,6 +49,7 @@ tags:
 
 ## Screwdrivers
 
+- LinusTechTips Transparent Screwdriver
 - Wera Kraftform ESD Micro PH#00
 - Wera Kraftform ESD Micro PH#0
 - Wera Kraftform ESD Micro PH#1

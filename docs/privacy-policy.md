@@ -28,11 +28,11 @@ Analytics data are hosted on the official :flag_us: US-instance of PostHog.
 
 ///
 
-Tracking events are routed through a reverse proxy before reaching PostHog. You may opt out of analytics by adding ___"<https://hedgehog.tylernguyen.wiki/>"___ to your content blocker.
+Tracking events are routed through a reverse proxy before reaching PostHog. You may <span class="solarized-red">__OPT-OUT__</span> of analytics by adding ___"<https://hedgehog.tylernguyen.wiki/>"___ to your content blocker.
 
 ## Assets
 
-I serve most assets from this domain, courtesy of [MkDocs for Material: Privacy Plugin :octicons-arrow-up-right-16:](https://squidfunk.github.io/mkdocs-material/plugins/privacy/).
+I serve most assets from this domain, courtesy of [MkDocs for Material: Privacy Plugin :octicons-arrow-up-right-16:](https://zensical.org/plugins/privacy/).
 
 There will be a notice on individual components that are externally hosted.
 

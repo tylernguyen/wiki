@@ -1,10 +1,11 @@
 ---
-icon: material/server-network-outline
+icon: lucide/server
 tags:
-  - Evergreen
+  - evergreen
+  - uses
 ---
 
-# Self-Hosted
+# Self-hosted
 
 ## Unraid
 
@@ -19,155 +20,188 @@ tags:
 
 </div>
 
-Unraid is a <span class="solarized-red">:material-lock: __proprietary__</span>, <span class="solarized-green">:fontawesome-solid-money-bill: __commercial__</span> NAS operating system.
-
-Unraid has a robust redundancy system, supports virtualization, third-party plugins, and Docker. Its UI and UX is straight forward and user-friendly.
+Unraid is a <span class="solarized-red">:material-lock: __proprietary__</span>, <span class="solarized-green">:lucide-circle-dollar-sign: __commercial__</span> NAS operating system.
 
 [Homepage :octicons-arrow-up-right-16:](https://unraid.net/){ .md-button }
-[:fontawesome-solid-money-bill:](https://unraid.net/pricing){ .card-link title=Pricing}
-[:octicons-markdown-16:](https://wiki.unraid.net/Documentation){ .card-link title=Documentation}
+[:lucide-circle-dollar-sign:](https://unraid.net/pricing){ title=Pricing}
+[:octicons-markdown-16:](https://wiki.unraid.net/Documentation){ title=Documentation}
 
-## Virtual Machines
+Primary usage is media archival, its consumption, and sharing. The data stored is __non-personal and easily replaceable__.
+
+Thus is the primary reason I chose :simple-unraid:{ .unraid } [Unraid :octicons-arrow-up-right-16:](https://unraid.net/) over :simple-truenas:{ .truenas } [TrueNas :octicons-arrow-up-right-16:](https://www.truenas.com/). Unraid's parity function is also better at maximizing usable storage, and dealing with mixed drive capacities.
+
+__See [.wiki/hardware/#server :octicons-arrow-down-left-16:](hardware.md/#server) for server hardware specs.__
+
+## Public Instances
+
+<div class="grid cards" markdown>
+
+- :simple-mastodon:{ .mastodon } [__Mastodon__: _tylernguyen.social_ :octicons-arrow-up-right-16:](https://tylernguyen.social/@tylernguyen)
+[:octicons-container-16:{ .docker }](https://github.com/mastodon/mastodon/pkgs/container/mastodon){ title=Container}
+[:lucide-file-code-corner:](https://github.com/mastodon/mastodon){ title="Source Code" }
+
+</div>
+
+<div class="grid cards" markdown>
+
+- :simple-forgejo:{ .forgejo } [__Forgejo__: _tylernguyen.codes_ :octicons-arrow-up-right-16:](https://tylernguyen.codes/)
+[:octicons-container-16:{ .docker }](https://codeberg.org/forgejo/-/packages/container/forgejo/versions){ title=Container}
+
+</div>
+
+<div class="grid cards" markdown>
+
+- ![Koito](https://assets.tylernguyen.wiki/logos/Koito.png){ .twemoji } [__Koito__: _koito.tylernguyen.app_](https://koito.tylernguyen.app)
+[:octicons-container-16:{ .docker }](https://hub.docker.com/r/gabehf/koito){ title=Container}
+[:lucide-file-code-corner:](https://github.com/gabehf/Koito/){ title="Source Code" }
+
+</div>
+
+## Home :lucide-house-wifi:
 
 <div class="grid cards" markdown>
 
 - :simple-homeassistant:{ .homeassistant } [Home Assistant :octicons-arrow-up-right-16:](https://www.home-assistant.io/)
-[:fontawesome-regular-file-code:](https://github.com/home-assistant/core){ .card-link title="Source Code" }
+[:lucide-file-code-corner:](https://github.com/home-assistant/core){ title="Source Code" }
 
 </div>
 
-## Containers
+## Network :material-server-network-outline:
 
-/// note
-I recommend the [:simple-linuxserver:{ .linuxserver } LinuxServer.io :octicons-arrow-up-right-16:](https://www.linuxserver.io/our-images) images for their [image mods :octicons-arrow-up-right-16:](https://mods.linuxserver.io/).
-///
+<div class="grid cards" markdown>
+
+- :simple-cloudflare:{ .cloudflare } [Cloudflare :octicons-arrow-up-right-16:](https://www.cloudflare.com/)
+[:octicons-container-16:{ .docker }](https://hub.docker.com/r/cloudflare/cloudflared){ title=Container}
+
+- ![Tailscale](https://assets.tylernguyen.wiki/logos/Tailscale.png){ .twemoji } [Tailscale :octicons-arrow-up-right-16:](https://tailscale.com/)
+
+- ![Pocket ID](https://assets.tylernguyen.wiki/logos/pocket-id-light.svg#only-light){ .twemoji } ![Pocket ID](https://assets.tylernguyen.wiki/logos/pocket-id-dark.svg#only-dark){ .twemoji } [Pocket ID :octicons-arrow-up-right-16:](https://pocket-id.org/)
+[:octicons-container-16:{ .docker }](https://hub.docker.com/r/linuxserver/plex){ title=Container}
+
+</div>
+
+## Indexing :material-file-table-box-multiple-outline:
+
+<div class="grid cards" markdown>
+
+- ![Prowlarr](https://assets.tylernguyen.wiki/logos/prowlarr.svg){ .twemoji } [Prowlarr :octicons-arrow-up-right-16:](https://prowlarr.com/)
+[:octicons-container-16:{ .docker }](https://hub.docker.com/r/linuxserver/prowlarr){ title=Container}
+
+- ![autobrr](https://assets.tylernguyen.wiki/logos/autobrr.svg){ .twemoji } [autobrr :octicons-arrow-up-right-16:](https://github.com/autobrr/autobrr)
+[:octicons-container-16:{ .docker }](https://github.com/autobrr/autobrr/pkgs/container/autobrr){ title=Container}
+
+</div>
+
+## Archiving :material-folder-download-outline:
+
+<div class="grid cards" markdown>
+
+- ![qBittorrent](https://assets.tylernguyen.wiki/logos/qbittorrent.svg){ .twemoji } [qBittorrent :octicons-arrow-up-right-16:](https://www.qbittorrent.org/)
+[:octicons-container-16:{ .docker }](https://github.com/hotio/qbittorrent/pkgs/container/qbittorrent){ title=Container}
+
+- ![qui](https://assets.tylernguyen.wiki/logos/autobrr.svg){ .twemoji } [qui :octicons-arrow-up-right-16:](https://github.com/autobrr/qui)
+[:octicons-container-16:{ .docker }](https://github.com/autobrr/qui/pkgs/container/qui){ title=Container}
+
+- ![SABnzbd](https://assets.tylernguyen.wiki/logos/sabnzbd-light.svg#only-light){ .twemoji } ![SABnzbd](https://assets.tylernguyen.wiki/logos/sabnzbd-dark.svg#only-dark){ .twemoji } [SABnzbd:octicons-arrow-up-right-16:](https://sabnzbd.org/)
+[:octicons-container-16:{ .docker }](https://hub.docker.com/r/linuxserver/sabnzbd){ title=Container}
+
+- ![rmcrackan/Libation](https://assets.tylernguyen.wiki/logos/Libation.svg){ .twemoji } [rmcrackan/Libation :octicons-arrow-up-right-16:](https://github.com/rmcrackan/Libation)
+[:octicons-container-16:{ .docker }](https://hub.docker.com/r/rmcrackan/libation/tags){ title=Container}
+[:lucide-file-code-corner:](https://github.com/rmcrackan/Libation){ title="Source Code" }
+
+</div>
+
+I prefer Hotio's image for ![qBittorrent](https://assets.tylernguyen.wiki/logos/qbittorrent.svg){ .twemoji } qBittorrent as :simple-protonvpn:{ .protonvpn } ProtonVPN support is built-in. Otherwise, the process for port forwarding through a VPN can be bothersome [^1].
+
+I never interface with ![qBittorrent](https://assets.tylernguyen.wiki/logos/qbittorrent.svg){ .twemoji } qBittorrent through the stock WebUI. Instead, I use ![autobrr/qui](https://assets.tylernguyen.wiki/logos/autobrr.svg){ .twemoji } qui for everything.
+
+[^1]: [ProtonVPN: How to manually set up port forwarding :octicons-arrow-up-right-16:](https://protonvpn.com/support/port-forwarding-manual-setup).
+
+## Media :material-multimedia:
 
 <div class="grid cards" markdown>
 
 - ![plex](https://assets.tylernguyen.wiki/logos/plex.svg){ .twemoji } [Plex Media Server :octicons-arrow-up-right-16:](https://www.plex.tv/)
-[:octicons-container-16:{ .docker }](https://hub.docker.com/r/linuxserver/plex){ .card-link title=Container}
+[:octicons-container-16:{ .docker }](https://hub.docker.com/r/linuxserver/plex){ title=Container}
 
 - ![Audiobookshelf](https://assets.tylernguyen.wiki/logos/audiobookshelf.svg){ .twemoji } [Audiobookshelf :octicons-arrow-up-right-16:](https://www.audiobookshelf.org/)
-[:octicons-container-16:{ .docker }](https://github.com/advplyr/audiobookshelf/pkgs/container/audiobookshelf){ .card-link title=Container}
-[:fontawesome-regular-file-code:](https://github.com/advplyr/audiobookshelf){ .card-link title="Source Code" }
-
-- ![Kometa](https://assets.tylernguyen.wiki/logos/Kometa.png){ .twemoji } [Kometa :octicons-arrow-up-right-16:](https://github.com/meisnate12/Plex-Meta-Manager)
-[:octicons-container-16:{ .docker }](https://hub.docker.com/r/kometateam/kometa){ .card-link title=Container}
-[:fontawesome-regular-file-code:](https://github.com/Kometa-Team/Kometa){ .card-link title="Source Code" }
-
-- ![Kometa/ImageMaid](https://assets.tylernguyen.wiki/logos/Kometa.png){ .twemoji } [Kometa/ImageMaid :octicons-arrow-up-right-16:](https://github.com/meisnate12/Plex-Meta-Manager)
-[:octicons-container-16:{ .docker }](https://hub.docker.com/r/kometateam/imagemaid){ .card-link title=Container}
-
-- ![Calibre](https://assets.tylernguyen.wiki/logos/calibre.svg){ .twemoji } [Calibre :octicons-arrow-up-right-16:](https://calibre-ebook.com/)
-[:octicons-container-16:{ .docker }](https://hub.docker.com/r/linuxserver/calibre){ .card-link title=Container}
+[:octicons-container-16:{ .docker }](https://github.com/advplyr/audiobookshelf/pkgs/container/audiobookshelf){ title=Container}
+[:lucide-file-code-corner:](https://github.com/advplyr/audiobookshelf){ title="Source Code" }
 
 - ![Kavita](https://assets.tylernguyen.wiki/logos/kavita.svg){ .twemoji } [Kavita :octicons-arrow-up-right-16:](https://www.kavitareader.com/)
-[:octicons-container-16:{ .docker }](https://hub.docker.com/r/linuxserver/kavita){ .card-link title=Container}
-[:fontawesome-regular-file-code:](https://github.com/Kareadita/Kavita){ .card-link title="Source Code" }
+[:octicons-container-16:{ .docker }](https://hub.docker.com/r/linuxserver/kavita){ title=Container}
+[:lucide-file-code-corner:](https://github.com/Kareadita/Kavita){ title="Source Code" }
 
-- [:simple-forgejo:{ .forgejo } Forgejo :octicons-arrow-up-right-16:](https://forgejo.org/)
-[:octicons-container-16:{ .docker }](https://codeberg.org/forgejo/-/packages/container/forgejo/versions){ .card-link title=Container}
-
-- ![Paperless-ngx](https://assets.tylernguyen.wiki/logos/paperless-ngx.svg){ .twemoji } [Paperless-ngx :octicons-arrow-up-right-16:](https://github.com/paperless-ngx/paperless-ngx)
-[:octicons-container-16:{ .docker }](https://github.com/paperless-ngx/paperless-ngx/pkgs/container/paperless-ngx){ .card-link title=Container}
-[:fontawesome-regular-file-code:](https://github.com/paperless-ngx/paperless-ngx){ .card-link title="Source Code" }
-
-- ![FreshRSS](https://assets.tylernguyen.wiki/logos/freshrss.svg){ .twemoji } [FreshRSS :octicons-arrow-up-right-16:](https://freshrss.org/)
-[:octicons-container-16:{ .docker }](https://hub.docker.com/r/linuxserver/freshrss){ .card-link title=Container}
-[:fontawesome-regular-file-code:](https://github.com/FreshRSS/FreshRSS){ .card-link title="Source Code" }
-
-- ![rmcrackan/Libation](https://assets.tylernguyen.wiki/logos/libation.png){ .twemoji } [rmcrackan/Libation :octicons-arrow-up-right-16:](https://github.com/rmcrackan/Libation)
-[:octicons-container-16:{ .docker }](https://hub.docker.com/r/rmcrackan/libation/tags){ .card-link title=Container}
-[:fontawesome-regular-file-code:](https://github.com/rmcrackan/Libation){ .card-link title="Source Code" }
-
-- [giorgi-o/SkinPeek :octicons-arrow-up-right-16:](https://github.com/giorgi-o/SkinPeek)
-[:octicons-container-16:{ .docker }](https://github.com/users/giorgi-o/packages/container/package/skinpeek%2Fskinpeek){ .card-link title=Container}
-[:fontawesome-regular-file-code:](https://github.com/giorgi-o/SkinPeek){ .card-link title="Source Code" }
-
-- [:simple-syncthing:{ .syncthing } Syncthing :octicons-arrow-up-right-16:](https://syncthing.net/)
-[:octicons-container-16:{ .docker }](https://github.com/linuxserver/docker-syncthing/pkgs/container/syncthing){ .card-link title=Container}
-[:fontawesome-regular-file-code:](https://github.com/syncthing/syncthing){ .card-link title="Source Code" }
-
-- :simple-mastodon:{ .mastodon } [Mastodon :octicons-arrow-up-right-16:](https://joinmastodon.org/)
-[:octicons-container-16:{ .docker }](https://github.com/mastodon/mastodon/pkgs/container/mastodon){ .card-link title=Container}
-[:fontawesome-regular-file-code:](https://github.com/mastodon/mastodon){ .card-link title="Source Code" }
+- :simple-freshrss:{ .freshrss } [FreshRSS :octicons-arrow-up-right-16:](https://freshrss.org/)
+[:octicons-container-16:{ .docker }](https://hub.docker.com/r/linuxserver/freshrss){ title=Container}
+[:lucide-file-code-corner:](https://github.com/FreshRSS/FreshRSS){ title="Source Code" }
 
 </div>
 
-### Support Stack
+### Media Management :lucide-tag:
 
 <div class="grid cards" markdown>
 
-- ![PostgreSQL](https://assets.tylernguyen.wiki/logos/PostgreSQL.svg){ .twemoji } [PostgreSQL :octicons-arrow-up-right-16:](https://www.postgresql.org/)
-[:octicons-container-16:{ .docker }](https://hub.docker.com/_/postgres){ .card-link title=Container}
+- :simple-sonarr:{ .sonarr } [Sonarr :octicons-arrow-up-right-16:](https://sonarr.tv/)
+[:octicons-container-16:{ .docker }](https://hub.docker.com/r/linuxserver/sonarr){ title=Container}
 
-    /// note
-    I prefer ![SQLite](https://assets.tylernguyen.wiki/logos/SQLite.svg){ .twemoji } [SQLite :octicons-arrow-up-right-16:](https://sqlite.org/) when possible.
-    ///
+- :simple-radarr:{ .radarr } [Radarr :octicons-arrow-up-right-16:](https://radarr.video/)
+[:octicons-container-16:{ .docker }](https://hub.docker.com/r/linuxserver/radarr){ title=Container}
+
+- ![Calibre](https://assets.tylernguyen.wiki/logos/calibre.svg){ .twemoji } [Calibre :octicons-arrow-up-right-16:](https://calibre-ebook.com/)
+[:octicons-container-16:{ .docker }](https://hub.docker.com/r/linuxserver/calibre){ title=Container}
+
+- ![Kometa](https://assets.tylernguyen.wiki/logos/Kometa.svg){ .twemoji } [Kometa :octicons-arrow-up-right-16:](https://github.com/meisnate12/Plex-Meta-Manager)
+[:octicons-container-16:{ .docker }](https://hub.docker.com/r/kometateam/kometa){ title=Container}
+[:lucide-file-code-corner:](https://github.com/Kometa-Team/Kometa){ title="Source Code" }
+
+- ![Kometa/ImageMaid](https://assets.tylernguyen.wiki/logos/Kometa.svg){ .twemoji } [Kometa/ImageMaid :octicons-arrow-up-right-16:](https://github.com/meisnate12/Plex-Meta-Manager)
+[:octicons-container-16:{ .docker }](https://hub.docker.com/r/kometateam/imagemaid){ title=Container}
 
 </div>
 
+### Media Scrobblers :lucide-rss:
+
 <div class="grid cards" markdown>
 
-- ![Redis](https://assets.tylernguyen.wiki/logos/Redis.svg){ .twemoji } [Redis :octicons-arrow-up-right-16:](https://redis.io/)
-[:octicons-container-16:{ .docker }](https://hub.docker.com/_/redis){ .card-link title=Container}
+- ![plexanibridge](https://assets.tylernguyen.wiki/logos/plexanibridge.svg){ .twemoji } [PlexAniBridge :octicons-arrow-up-right-16:](https://github.com/eliasbenb/PlexAniBridge)
+[:octicons-container-16:{ .docker }](https://github.com/eliasbenb/PlexAniBridge/pkgs/container/plexanibridge){ title=Container}
 
-- :simple-elasticsearch:{ .elasticsearch } [Elasticsearch :octicons-arrow-up-right-16:](https://www.elastic.co/elasticsearch)
-[:octicons-container-16:{ .docker }](https://hub.docker.com/_/elasticsearch/tags){ .card-link title=Container}
+- ![FoxxMD/multi-scrobbler](https://assets.tylernguyen.wiki/logos/Multi-scrobbler.svg){ .twemoji } [FoxxMD/multi-scrobbler :octicons-arrow-up-right-16:](https://github.com/foxxmd/multi-scrobbler)
+[:octicons-container-16:{ .docker }](https://github.com/FoxxMD/multi-scrobbler/pkgs/container/multi-scrobbler){ title=Container}
+
+- ![Koito](https://assets.tylernguyen.wiki/logos/Koito.png){ .twemoji } [Koito :octicons-arrow-up-right-16:](https://github.com/gabehf/koito)
+[:octicons-container-16:{ .docker }](https://hub.docker.com/r/gabehf/koito){ title=Container}
 
 </div>
 
-## Cloudflare Zero Trust
-
-![Cloudflare Zero Trust](https://assets.tylernguyen.wiki/logos/Cloudflare_Zero-Trust2.svg){ align=right width=125 }
-
-I use Cloudflare Tunnel[^1] (part of the Zero Trust suite) to expose some services to the public. Notably,
-
-- [:simple-mastodon:{ .mastodon } Mastodon _@tylernguyen.social_ :octicons-arrow-up-right-16:](https://tylernguyen.social/@tylernguyen)
-- :simple-forgejo:{ .forgejo } [Forgejo _@tylernguyen.codes_ :octicons-arrow-up-right-16:](https://tylernguyen.codes/).
+## Utilities :lucide-pocket-knife:
 
 <div class="grid cards" markdown>
 
-- :simple-cloudflare:{ .cloudflare } [cloudflare/cloudflared :octicons-arrow-up-right-16:](https://github.com/cloudflare/cloudflared)
-[:octicons-container-16:{ .docker }](https://hub.docker.com/r/cloudflare/cloudflared){ .card-link title=Container}
-
-</div>
-
-[^1]: [Cloudflare Docs: How Cloudflare Tunnel Works :octicons-arrow-up-right-16:](https://developers.cloudflare.com/cloudflare-one/connections/connect-apps).
-
-[Homepage :octicons-arrow-up-right-16:](https://www.cloudflare.com/products/zero-trust/){ .md-button }
-[:fontawesome-solid-money-bill:](https://www.cloudflare.com/plans/zero-trust-services/#overview){ .card-link title=Pricing}
-[:fontawesome-regular-eye:](https://www.cloudflare.com/privacypolicy/){ .card-link title="Privacy Policy" }
-
-## Tailscale
-
-<div class="grid cards" markdown>
-
-- <figure markdown>
-    <p align="center">
-    ![Tailscale](https://assets.tylernguyen.wiki/logos/Tailscale-light.svg#only-light){ loading-lazy width=300 }
-    ![Tailscale](https://assets.tylernguyen.wiki/logos/Tailscale-dark.svg#only-dark){ loading-lazy width=300 }
-    </p>
-    </figure>
-
-</div>
-
-Tailscale is my preferred solution for remote accessing the home network.
-
-<div class="grid cards" markdown>
+- :simple-syncthing:{ .syncthing } [Syncthing :octicons-arrow-up-right-16:](https://syncthing.net/)
+[:octicons-container-16:{ .docker }](https://github.com/linuxserver/docker-syncthing/pkgs/container/syncthing){ title=Container}
+[:lucide-file-code-corner:](https://github.com/syncthing/syncthing){ title="Source Code" }
 
 - ![tailscale/golink](https://assets.tylernguyen.wiki/logos/Tailscale.png){ .twemoji } [tailscale/golink :octicons-arrow-up-right-16:](https://github.com/tailscale/golink)
-[:octicons-container-16:{ .docker }](https://github.com/tailscale/golink/pkgs/container/golink){ .card-link title=Container}
-
-- ![tailscale-dev/tclip](https://assets.tylernguyen.wiki/logos/Tailscale.png){ .twemoji } [tailscale-dev/tclip :octicons-arrow-up-right-16:](https://github.com/tailscale-dev/tclip)
-[:octicons-container-16:{ .docker }](https://github.com/tailscale-dev/tclip/pkgs/container/tclip){ .card-link title=Container}
+[:octicons-container-16:{ .docker }](https://github.com/tailscale/golink/pkgs/container/golink){ title=Container}
 
 - ![taildrive](https://assets.tylernguyen.wiki/logos/Tailscale.png){ .twemoji } [taildrive :octicons-arrow-up-right-16:](https://tailscale.com/kb/1369/taildrive)
 
 </div>
 
-[Homepage :octicons-arrow-up-right-16:](https://tailscale.com/){ .md-button }
-[:fontawesome-solid-money-bill:](https://tailscale.com/pricing){ .card-link title=Pricing}
-[:fontawesome-regular-eye:](https://tailscale.com/privacy-policy){ .card-link title="Privacy Policy" }
-[:octicons-markdown-16:](https://tailscale.com/kb/1017/install?slug=kb&slug=1017&slug=install){ .card-link title=Documentation}
-[:fontawesome-regular-file-code:](https://github.com/tailscale/tailscale){ .card-link title="Source Code" }
+## Databases :lucide-database:
+
+<div class="grid cards" markdown>
+
+- ![SQLite](https://assets.tylernguyen.wiki/logos/SQLite.svg){ .twemoji } [SQLite :octicons-arrow-up-right-16:](https://sqlite.org/)
+
+- ![PostgreSQL](https://assets.tylernguyen.wiki/logos/PostgreSQL.svg){ .twemoji } [PostgreSQL :octicons-arrow-up-right-16:](https://www.postgresql.org/)
+
+- ![Redis](https://assets.tylernguyen.wiki/logos/Redis.svg){ .twemoji } [Redis :octicons-arrow-up-right-16:](https://redis.io/)
+
+- :simple-elasticsearch:{ .elasticsearch } [Elasticsearch :octicons-arrow-up-right-16:](https://www.elastic.co/elasticsearch)
+
+</div>
+
+Whenever possible, I much prefer ![SQLite](https://assets.tylernguyen.wiki/logos/SQLite.svg){ .twemoji } [SQLite :octicons-arrow-up-right-16:](https://sqlite.org/) over ![PostgreSQL](https://assets.tylernguyen.wiki/logos/PostgreSQL.svg){ .twemoji } PostgreSQL.
