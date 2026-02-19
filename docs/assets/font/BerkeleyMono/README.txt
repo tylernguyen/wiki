@@ -12,15 +12,15 @@
 │                                 ~~ INFO ~~                                  │
 ├──────────────┬──────────────────────────────────────────────────────────────┤
 │ TYPEFACE     │ TX-02 Berkeley Mono™ Typeface Family                         │
-│ VERSION      │ 2.002                                                        │
-│ RELEASED ON  │ 2024-12-31                                                   │
+│ VERSION      │ 2.004                                                        │
+│ RELEASED ON  │ 2025-11-03                                                   │
 │ TICKET No.   │ 00000000                                                     │
-│ BUILD DATE   │ 2025-04-06 00:04:31 UTC                                      │
+│ BUILD DATE   │ 2025-11-21 00:01:47 UTC                                      │
 │ FONT COUNT   │ 1 Fonts                                                      │
-│ GLYPH COUNT  │ 644 Glyphs                                                   │
-│ BUILD TIME   │ 7.31 seconds                                                 │
+│ GLYPH COUNT  │ 645 Glyphs                                                   │
+│ BUILD TIME   │ 7.59 seconds                                                 │
 │ SERVICE No.  │ 0000000000                                                   │
-│ SERVICE      │ TS-025 Berkeley Mono™ SuperType™ Compiler                    │
+│ SERVICE      │ TS-025 Berkeley Mono™ Supertype™ Compiler                    │
 │ SERVICE TIER │ SUPERTYPE                                                    │
 │ LICENSE No.  │ 0000-0000-0000-0000                                          │
 │ LICENSE      │ LT-02 Developer Font License                                 │
@@ -49,7 +49,7 @@
 ├─────────────────────────────────────────────────────────────────────────────┤
 │ Berkeley Mono Variable.ttf                                                  │
 │ README.txt                                                                  │
-├─────────────────────────────────────────────────────────────────────────────┤
+├──────────────┴──────────────────────────────────────────────────────────────┤
 │                                ~~ LEGAL ~~                                  │
 ├──────────────┬──────────────────────────────────────────────────────────────┤
 │ COPYRIGHT    │ Copyright 2022-2025. All Rights Reserved.                    │
