@@ -30,7 +30,7 @@ Primary usage is media archival, its consumption, and sharing. The data stored i
 
 Thus is the primary reason I chose :simple-unraid:{ .unraid } [Unraid :octicons-arrow-up-right-16:](https://unraid.net/) over :simple-truenas:{ .truenas } [TrueNas :octicons-arrow-up-right-16:](https://www.truenas.com/). Unraid's parity function is also better at maximizing usable storage, and dealing with mixed drive capacities.
 
-__See [.wiki/hardware/#server :octicons-arrow-down-left-16:](hardware.md/#server) for server hardware specs.__
+__See [.wiki/hardware :octicons-arrow-down-left-16:](hardware.md) for server hardware specs.__
 
 ## Public Instances
 
