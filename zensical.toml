@@ -1,0 +1,245 @@
+[project]
+site_name = "Dot Wiki"
+site_description = """
+  .wiki/ is Tyler Nguyen's digital garden and blog.
+"""
+site_author = "Tyler Nguyen"
+repo_url = "https://github.com/tylernguyen/wiki"
+repo_name = "tylernguyen/wiki"
+edit_uri = "edit/main/docs/"
+
+copyright = """
+  Copyright &copy; 2025 Tyler Nguyen | <a href="https://tylernguyen.wiki/license/">LICENSE</a> <br>
+  Analytics by
+  <span class="twemoji">
+    <img src="https://assets.tylernguyen.wiki/logos/PostHog-logomark-light.svg#only-light">
+    <img src="https://assets.tylernguyen.wiki/logos/PostHog-logomark-dark.svg#only-dark">
+  </span>
+  PostHog | <a href="https://tylernguyen.wiki/privacy-policy/">Privacy Policy</a>
+"""
+
+nav = [
+  {"Home" = "index.md"},
+  {"Catalog" = [
+     "favorites.md",
+     "websites.md"
+  ]},
+  {"Uses" = [
+     "dotfiles.md",
+     "hardware.md",
+     "fitness.md",
+     "peripherals.md",
+     "workshop.md",
+     "stationary.md",
+     "software.md",
+     "services.md",
+     "self-hosted.md",
+  ]},
+  {"About" = [
+     "about.md",
+     "contact.md",
+     "ident.md",
+     "license.md",
+     "privacy-policy.md"
+  ]},
+  {"Support" = "https://github.com/sponsors/tylernguyen"},
+  {"Credits" = "credits.md"}
+]
+
+extra_css = [
+    "stylesheets/solarized.css",
+    "stylesheets/custom.css",
+    "stylesheets/typeface.css",
+    "stylesheets/mahjong.css",
+    "stylesheets/simpleicons.css",
+    "https://unpkg.com/katex@0/dist/katex.min.css"
+]
+extra_javascript = [
+    "javascripts/consent.js",
+    "javascripts/katex.js",
+    "https://unpkg.com/katex@0/dist/katex.min.js",
+    "https://unpkg.com/katex@0/dist/contrib/auto-render.min.js",
+    "https://unpkg.com/tablesort@5.3.0/dist/tablesort.min.js",
+    "javascripts/tablesort.js"
+]
+
+[project.theme]
+#variant = "classic" # NOTE classic is the traditional Zensical look.
+custom_dir = "overrides"
+language = "en"
+logo = "assets/logo.png"
+favicon = "assets/favicon.png"
+font = false # NOTE Disable Google Fonts
+
+features = [
+    "announce.dismiss",
+    #"content.action.edit",
+    "content.action.view",
+    "content.code.annotate",
+    "content.code.copy",
+    "content.code.select",
+    "content.footnote.tooltips",
+    "content.tabs.link",
+    "content.tooltips",
+    # "header.autohide",
+    # "navigation.expand", # ALERT This will also expand collapsed code blocks on page reload
+    #"navigation.footer",
+    "navigation.indexes",
+    #"navigation.instant", # ALERT Giscus will not load until page is refreshed.
+    #"navigation.instant.prefetch",
+    #"navigation.instant.progress",
+    #"navigation.path",
+    #"navigation.prune",
+    "navigation.sections",
+    "navigation.tabs",
+    #"navigation.tabs.sticky",
+    "navigation.top",
+    "navigation.tracking",
+    "search.highlight",
+    "toc.follow",
+    #"toc.integrate",
+]
+
+[[project.theme.palette]]
+media = "(prefers-color-scheme)"
+toggle.icon = "material/lightbulb-night-outline"
+toggle.name = "Automatic Mode Enabled. Click to Toggle Light Mode."
+[[project.theme.palette]]
+media = "(prefers-color-scheme: light)"
+scheme = "default"
+toggle.icon = "material/lightbulb-outline"
+toggle.name = "Light Mode Enabled. Click to Toggle Dark Mode."
+[[project.theme.palette]]
+media = "(prefers-color-scheme: dark)"
+scheme = "slate"
+toggle.icon = "material/lightbulb-auto-outline"
+toggle.name = "Dark Mode Enabled. Click to Toggle Automatic Mode."
+
+[project.theme.icon]
+repo = "simple/refinedgithub"
+#edit = "material/pencil"
+view = "octicons/markdown-16"
+top = "lucide/arrow-up-to-line"
+
+[project.theme.icon.admonition]
+note = "octicons/tag-16"
+abstract = "octicons/checklist-16"
+info = "octicons/info-16"
+tip = "octicons/squirrel-16"
+success = "octicons/check-16"
+question = "lucide/message-circle-question-mark"
+warning = "octicons/alert-16"
+failure = "octicons/x-circle-16"
+danger = "octicons/zap-16"
+bug = "octicons/bug-16"
+example = "octicons/beaker-16"
+quote = "octicons/quote-16"
+
+[project.extra]
+generator = false
+
+[project.extra.analytics]
+provider = "posthog"
+
+[project.extra.consent]
+actions = [
+    "accept",
+    "reject",
+    "manage"
+]
+title = "Analytics Cookie"
+description = """
+  PostHog's browser cookie gives me insights into how you interact with .wiki <br>
+  Rejecting the cookie will not affect your experience with the site. <br> <br>
+  I do however, ask that you please accept it in order to help me build a more effective website.
+"""
+
+[[project.extra.social]]
+icon = "simple/mastodon"
+[[project.extra.social]]
+icon = "simple/bluesky"
+[[project.extra.social]]
+icon = "simple/refinedgithub"
+link = "https://github.com/user/repo"
+[[project.extra.social]]
+icon = "simple/forgejo"
+
+[project.extra.tags]
+evergreen = "evergreen"
+uses = "uses"
+workflow = "workflow"
+
+[project.theme.icon.tag]
+evergreen = "material/leaf"
+uses = "lucide/hand"
+workflow = "lucide/blocks"
+
+# SECTION Plugins and Extensions
+[project.plugins.offline]
+[project.markdown_extensions.pymdownx.emoji]
+emoji_index = "zensical.extensions.emoji.twemoji"
+emoji_generator = "zensical.extensions.emoji.to_svg"
+options.custom_icons = ["overrides/.icons"]
+[project.markdown_extensions.abbr]
+[project.markdown_extensions.attr_list] # NOTE Grid, Annotations, Images, Buttons
+[project.markdown_extensions.md_in_html] # NOTE Grid, Annotations, Images, Buttons
+[project.markdown_extensions.footnotes]
+[project.markdown_extensions.tables]
+[project.markdown_extensions.toc]
+permalink =  true
+[project.markdown_extensions.pymdownx.blocks.admonition]
+types = [
+  "abstract",
+  "announce",
+  "bug",
+  "danger",
+  "example",
+  "extension",
+  "failure",
+  "info",
+  "note",
+  "question",
+  "quote",
+  "setting",
+  "success",
+  "tip",
+  "warning"
+]
+[project.markdown_extensions.pymdownx.blocks.caption]
+[project.markdown_extensions.pymdownx.blocks.definition]
+[project.markdown_extensions.pymdownx.blocks.details]
+types = [
+  "",
+]
+[project.markdown_extensions.pymdownx.blocks.tab]
+alternate_style = true
+#[project.markdown_extensions.pymdownx.quotes]
+#callouts = true
+[project.markdown_extensions.pymdownx.caret]
+[project.markdown_extensions.pymdownx.critic]
+[project.markdown_extensions.pymdownx.mark]
+[project.markdown_extensions.pymdownx.tilde]
+[project.markdown_extensions.pymdownx.saneheaders]
+[project.markdown_extensions.pymdownx.keys]
+[project.markdown_extensions.pymdownx.smartsymbols]
+[project.markdown_extensions.pymdownx.arithmatex]
+generic = true
+[project.markdown_extensions.pymdownx.highlight]
+anchor_linenums = true
+line_spans = "__span"
+pygments_lang_class = true
+[project.markdown_extensions.pymdownx.inlinehilite]
+[project.markdown_extensions.pymdownx.snippets]
+url_download= true
+auto_append = [
+  "includes/abbreviations.md",
+  "includes/definitions.md"
+]
+#[project.markdown_extensions.pymdownx_mahjong]
+[project.markdown_extensions.pymdownx.superfences]
+#custom_fences = [
+#  { name = "mahjong", class = "mahjong", format = "pymdownx_mahjong.superfences_formatter" }
+#]
+[project.markdown_extensions.pymdownx.betterem]
+smart_enable = "all"
+# !SECTION
