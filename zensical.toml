@@ -50,15 +50,11 @@ extra_css = [
     "stylesheets/solarized.css",
     "stylesheets/custom.css",
     "stylesheets/typeface.css",
-    "stylesheets/mahjong.css",
+    #"stylesheets/mahjong.css",
     "stylesheets/simpleicons.css",
-    "https://unpkg.com/katex@0/dist/katex.min.css"
 ]
 extra_javascript = [
     "javascripts/consent.js",
-    "javascripts/katex.js",
-    "https://unpkg.com/katex@0/dist/katex.min.js",
-    "https://unpkg.com/katex@0/dist/contrib/auto-render.min.js",
     "https://unpkg.com/tablesort@5.3.0/dist/tablesort.min.js",
     "javascripts/tablesort.js"
 ]
@@ -222,8 +218,6 @@ alternate_style = true
 [project.markdown_extensions.pymdownx.saneheaders]
 [project.markdown_extensions.pymdownx.keys]
 [project.markdown_extensions.pymdownx.smartsymbols]
-[project.markdown_extensions.pymdownx.arithmatex]
-generic = true
 [project.markdown_extensions.pymdownx.highlight]
 anchor_linenums = true
 line_spans = "__span"
