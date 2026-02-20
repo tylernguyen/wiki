@@ -24,6 +24,9 @@ nav = [
      "favorites.md",
      "websites.md"
   ]},
+  {"Workflows" = [
+     "read.md",
+  ]},
   {"Uses" = [
      "dotfiles.md",
      "hardware.md",
