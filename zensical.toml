@@ -234,6 +234,9 @@ auto_append = [
 ]
 #[project.markdown_extensions.pymdownx_mahjong]
 [project.markdown_extensions.pymdownx.superfences]
+custom_fences = [
+  { name = "mermaid", class = "mermaid", format = "pymdownx.superfences.fence_code_format" }
+]
 #custom_fences = [
 #  { name = "mahjong", class = "mahjong", format = "pymdownx_mahjong.superfences_formatter" }
 #]
