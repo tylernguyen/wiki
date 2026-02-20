@@ -47,6 +47,6 @@ __Gentler Streak__ is especially nice as a simpler companion to a more data-heav
 
 - ![MacroFactor](https://assets.tylernguyen.wiki/logos/MacroFactor.jpg){ .twemoji } [MacroFactor :octicons-arrow-up-right-16:](https://macrofactorapp.com/)
 - ![Train](https://assets.tylernguyen.wiki/logos/Motra.jpg){ .twemoji } [Motra (formerly Train) :octicons-arrow-up-right-16:](https://trainfitness.ai/)
-- ![Garmin Connect](https://assets.tylernguyen.wiki/logos/Garmin_Connect.webp){ .twemoji } [Garmin Connect :octicons-arrow-up-right-16:](https://connect.garmin.com/)
+- ![Garmin Connect](https://assets.tylernguyen.wiki/logos/GarminConnect.webp){ .twemoji } [Garmin Connect :octicons-arrow-up-right-16:](https://connect.garmin.com/)
 
 </div>
