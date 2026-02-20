@@ -81,7 +81,7 @@ features = [
     "content.tabs.link",
     "content.tooltips",
     # "header.autohide",
-    # "navigation.expand", # ALERT This will also expand collapsed code blocks on page reload
+    "navigation.expand", # ALERT This will also expand collapsed code blocks on page reload
     #"navigation.footer",
     "navigation.indexes",
     #"navigation.instant", # ALERT Giscus will not load until page is refreshed.
