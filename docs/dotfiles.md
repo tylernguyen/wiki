@@ -19,15 +19,13 @@ tags:
 
 <div class="grid cards" markdown>
 
-- ![chezmoi](https://assets.tylernguyen.wiki/logos/chezmoi.svg){ .twemoji } [chezmoi :octicons-arrow-up-right-16:](https://github.com/twpayne/chezmoi/)
+- ![chezmoi](https://assets.tylernguyen.wiki/logos/chezmoi.svg){ .twemoji } [chezmoi :octicons-arrow-up-right-16:](https://github.com/twpayne/chezmoi/) manages the dotfiles.
 [:octicons-markdown-16:](https://www.chezmoi.io/){ title=Documentation}
 [:lucide-file-code-corner:](https://github.com/twpayne/chezmoi){ title="Source Code" }
 [:lucide-scale:](https://github.com/twpayne/chezmoi/blob/master/LICENSE){ title=License }
 
     ``` bash
-
     chezmoi init --ssh tylernguyen
-
     ```
 
 </div>
@@ -70,10 +68,6 @@ tags:
         ![GitHub Release Date](https://img.shields.io/github/release-date/Aloxaf/fzf-tab?style=flat&logo=refinedgithub&logoColor=839496&labelColor=073642&color=2aa198#only-dark){ .twemoji }
 
 </div>
-
-/// abstract
-dotfiles is designed with maximum cross-platform compatibility, minimal components, and universal behaviors in mind.
-///
 
 ## Git :simple-git:{ .git }
 

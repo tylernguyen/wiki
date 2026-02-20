@@ -51,8 +51,6 @@ body {
 }
 
 .md-typeset p {
-  font-size: 0.75rem;
-  font-weight: 400;
   font-stretch: 90%;
   word-spacing: -1px;
 }
@@ -79,29 +77,9 @@ body {
   padding-bottom: .5em;
 }
 
-.md-typeset code {
-  font-size: .6rem;
-  padding-left: .25em;
-  padding-right: .25em;
-}
-
 .md-typeset figcaption {
   font-weight: 100;
   font-size: .6rem;
-}
-
-.md-typeset ul,
-.md-typeset li,
-.md-typeset dl {
-  font-size: .7rem;
-}
-
-.md-typeset .admonition p,
-.md-typeset .admonition ul,
-.md-typeset .admonition ol,
-.md-typeset .admonition ul li,
-.md-typeset .admonition ol li {
-  font-size: 0.7rem;
 }
 
 /* LINK https://github.com/squidfunk/mkdocs-material/discussions/6757#discussioncomment-10100386 */

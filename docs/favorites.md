@@ -12,7 +12,7 @@ The following are my personal favorite content of all mediums. I try to keep it 
 
 - [No Mercy / No Malice :octicons-arrow-up-right-16:](https://www.profgalloway.com/) [:fontawesome-solid-square-rss:](https://www.profgalloway.com/feed/){ title="RSS Feed" }
 
-- [Articles & Experiments by Roman Komarov :octicons-arrow-up-right-16:](https://kizu.dev/) [:fontawesome-solid-square-rss:](https://feeds.feedburner.com/kizuruen){ title="RSS Feed" }
+- [Articles & Experiments :octicons-arrow-up-right-16:](https://kizu.dev/) [:fontawesome-solid-square-rss:](https://feeds.feedburner.com/kizuruen){ title="RSS Feed" }
 
 [See more websites... :octicons-arrow-down-left-16:](websites.md)
 
