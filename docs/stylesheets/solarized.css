@@ -133,6 +133,10 @@
   background-color: var(--md-primary-fg-color--light);
 }
 
+.md-tabs__link {
+	letter-spacing: .5px;
+}
+
 .md-footer {
   border-top: .05rem solid var(--md-primary-fg-color);
 }
