@@ -82,16 +82,20 @@ body {
   font-size: .6rem;
 }
 
+.md-typeset .admonition p,
+.md-typeset .admonition ul,
+.md-typeset .admonition ol,
+.md-typeset .admonition ul li,
+.md-typeset .admonition ol li {
+  font-size: 0.65rem;
+}
+
 /* LINK https://github.com/squidfunk/mkdocs-material/discussions/6757#discussioncomment-10100386 */
 .md-tooltip2>.md-typeset {
   color: var(--tooltip-color);
   font-family: var(--default-font);
   font-size: 0.5rem;
   font-weight: normal;
-}
-
-.md-sidebar {
-  padding: 0.9rem 0;
 }
 
 .md-content__inner {
