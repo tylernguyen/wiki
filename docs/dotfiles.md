@@ -10,8 +10,8 @@ tags:
 <div class="grid cards" markdown>
 
 - :octicons-git-branch-16:{ .foreground } [tylernguyen/dotfiles :octicons-arrow-up-right-16:](https://github.com/tylernguyen/dotfiles)
-    ![GitHub Stars](https://img.shields.io/github/stars/tylernguyen/dotfiles?style=flat&logo=refinedgithub&logoColor=073642&labelColor=eee8d5&color=859900#only-light){ .twemoji }
-    ![GitHub Last Commit](https://img.shields.io/github/last-commit/tylernguyen/dotfiles?style=flat&logo=refinedgithub&logoColor=073642&labelColor=eee8d5&color=859900#only-light){ .twemoji }
+    ![GitHub Stars](https://img.shields.io/github/stars/tylernguyen/dotfiles?style=flat&logo=refinedgithub&logoColor=073642&labelColor=eee8d5&color=657b83#only-light){ .twemoji }
+    ![GitHub Last Commit](https://img.shields.io/github/last-commit/tylernguyen/dotfiles?style=flat&logo=refinedgithub&logoColor=073642&labelColor=eee8d5&color=657b83#only-light){ .twemoji }
     ![GitHub Stars](https://img.shields.io/github/stars/tylernguyen/dotfiles?style=flat&logo=refinedgithub&logoColor=839496&labelColor=073642&color=2aa198#only-dark){ .twemoji }
     ![GitHub Last Commit](https://img.shields.io/github/last-commit/tylernguyen/dotfiles?style=flat&logo=refinedgithub&logoColor=839496&labelColor=073642&color=2aa198#only-dark){ .twemoji }
 
@@ -52,20 +52,20 @@ tags:
 [:octicons-markdown-16:](https://zsh.sourceforge.io/Doc/){ title=Documentation}
 
     :octicons-git-branch-16:{ .foreground } [zimfw/zimfw :octicons-arrow-up-right-16:](<https://github.com/zimfw/zimfw>)
-        ![GitHub Stars](https://img.shields.io/github/stars/zimfw/zimfw?style=flat&logo=refinedgithub&logoColor=073642&labelColor=eee8d5&color=859900#only-light){ .twemoji }
-        ![GitHub Release Date](https://img.shields.io/github/release-date/zimfw/zimfw?style=flat&logo=refinedgithub&logoColor=073642&labelColor=eee8d5&color=859900#only-light){ .twemoji }
+        ![GitHub Stars](https://img.shields.io/github/stars/zimfw/zimfw?style=flat&logo=refinedgithub&logoColor=073642&labelColor=eee8d5&color=657b83#only-light){ .twemoji }
+        ![GitHub Release Date](https://img.shields.io/github/release-date/zimfw/zimfw?style=flat&logo=refinedgithub&logoColor=073642&labelColor=eee8d5&color=657b83#only-light){ .twemoji }
         ![GitHub Stars](https://img.shields.io/github/stars/zimfw/zimfw?style=flat&logo=refinedgithub&logoColor=839496&labelColor=073642&color=2aa198#only-dark){ .twemoji }
         ![GitHub Release Date](https://img.shields.io/github/release-date/zimfw/zimfw?style=flat&logo=refinedgithub&logoColor=839496&labelColor=073642&color=2aa198#only-dark){ .twemoji }
 
     :octicons-git-branch-16:{ .foreground } [atuinsh/atuin :octicons-arrow-up-right-16:](<https://github.com/atuinsh/atuin>)
-        ![GitHub Stars](https://img.shields.io/github/stars/atuinsh/atuin?style=flat&logo=refinedgithub&logoColor=073642&labelColor=eee8d5&color=859900#only-light){ .twemoji }
-        ![GitHub Release Date](https://img.shields.io/github/release-date/atuinsh/atuin?style=flat&logo=refinedgithub&logoColor=073642&labelColor=eee8d5&color=859900#only-light){ .twemoji }
+        ![GitHub Stars](https://img.shields.io/github/stars/atuinsh/atuin?style=flat&logo=refinedgithub&logoColor=073642&labelColor=eee8d5&color=657b83#only-light){ .twemoji }
+        ![GitHub Release Date](https://img.shields.io/github/release-date/atuinsh/atuin?style=flat&logo=refinedgithub&logoColor=073642&labelColor=eee8d5&color=657b83#only-light){ .twemoji }
         ![GitHub Stars](https://img.shields.io/github/stars/atuinsh/atuin?style=flat&logo=refinedgithub&logoColor=839496&labelColor=073642&color=2aa198#only-dark){ .twemoji }
         ![GitHub Release Date](https://img.shields.io/github/release-date/atuinsh/atuin?style=flat&logo=refinedgithub&logoColor=839496&labelColor=073642&color=2aa198#only-dark){ .twemoji }
 
     :octicons-git-branch-16:{ .foreground } [Aloxaf/fzf-tab :octicons-arrow-up-right-16:](https://github.com/Aloxaf/fzf-tab)
-        ![GitHub Stars](https://img.shields.io/github/stars/Aloxaf/fzf-tab?style=flat&logo=refinedgithub&logoColor=073642&labelColor=eee8d5&color=859900#only-light){ .twemoji }
-        ![GitHub Release Date](https://img.shields.io/github/release-date/Aloxaf/fzf-tab?style=flat&logo=refinedgithub&logoColor=073642&labelColor=eee8d5&color=859900#only-light){ .twemoji }
+        ![GitHub Stars](https://img.shields.io/github/stars/Aloxaf/fzf-tab?style=flat&logo=refinedgithub&logoColor=073642&labelColor=eee8d5&color=657b83#only-light){ .twemoji }
+        ![GitHub Release Date](https://img.shields.io/github/release-date/Aloxaf/fzf-tab?style=flat&logo=refinedgithub&logoColor=073642&labelColor=eee8d5&color=657b83#only-light){ .twemoji }
         ![GitHub Stars](https://img.shields.io/github/stars/Aloxaf/fzf-tab?style=flat&logo=refinedgithub&logoColor=839496&labelColor=073642&color=2aa198#only-dark){ .twemoji }
         ![GitHub Release Date](https://img.shields.io/github/release-date/Aloxaf/fzf-tab?style=flat&logo=refinedgithub&logoColor=839496&labelColor=073642&color=2aa198#only-dark){ .twemoji }
 

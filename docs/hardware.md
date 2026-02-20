@@ -106,8 +106,8 @@ This is solely for Nintendo exclusive games.
 Yubikey can also be used for :simple-gnuprivacyguard:{ .gnuprivacyguard } GnuPG and SSH.
 
 See :octicons-git-branch-16:{ .foreground } [drduh/YubiKey-Guide](https://github.com/drduh/YubiKey-Guide)
-    ![GitHub Stars](https://img.shields.io/github/stars/drduh/YubiKey-Guide?&style=flat&logo=refinedgithub&logoColor=073642&labelColor=eee8d5&color=859900#only-light){ .twemoji }
-    ![GitHub Last Commit](https://img.shields.io/github/last-commit/drduh/YubiKey-Guide?&style=flat&logo=refinedgithub&logoColor=073642&labelColor=eee8d5&color=859900#only-light){ .twemoji }
+    ![GitHub Stars](https://img.shields.io/github/stars/drduh/YubiKey-Guide?&style=flat&logo=refinedgithub&logoColor=073642&labelColor=eee8d5&color=657b83#only-light){ .twemoji }
+    ![GitHub Last Commit](https://img.shields.io/github/last-commit/drduh/YubiKey-Guide?&style=flat&logo=refinedgithub&logoColor=073642&labelColor=eee8d5&color=657b83#only-light){ .twemoji }
     ![GitHub Stars](https://img.shields.io/github/stars/drduh/YubiKey-Guide?&style=flat&logo=refinedgithub&logoColor=839496&labelColor=073642&color=2aa198#only-dark){ .twemoji }
     ![GitHub Last Commit](https://img.shields.io/github/last-commit/drduh/YubiKey-Guide?&style=flat&logo=refinedgithub&logoColor=839496&labelColor=073642&color=2aa198#only-dark){ .twemoji }
 ///
