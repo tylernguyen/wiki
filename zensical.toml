@@ -117,7 +117,7 @@ toggle.name = "Dark Mode Enabled. Click to Toggle Automatic Mode."
 [project.theme.icon]
 repo = "simple/refinedgithub"
 #edit = "material/pencil"
-view = "octicons/markdown-16"
+#view = "lucide/markdown-16"
 top = "lucide/arrow-up-to-line"
 
 [project.theme.icon.admonition]
