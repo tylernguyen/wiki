@@ -41,7 +41,7 @@ I use __Intervals.icu__ for planning and analysis. It's free, powerful, and high
 
 </div>
 
-__Gentler Streak__ is especially nice as a simpler companion to more data-heavy fitness tracker. I recommend you use the app and wait until you are targeted for a discounted lifetime offer.
+__Gentler Streak__ is especially nice as a simpler companion to a more data-heavy fitness tracker. I recommend you use the app and wait until you are targeted for a discounted lifetime offer.
 
 <div class="grid cards" markdown>
 

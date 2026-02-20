@@ -42,7 +42,7 @@ __See [.wiki/self-hosted :octicons-arrow-down-left-16:](self-hosted.md) for more
 
 - __Fractal Meshify 2 XL__
 
-I maxed out this case with 20 3.5" drives. I'll start to rotate out older and smaller capacity drives on upgrades for next few years. On the next platform upgrade (in ~5 years), I'll probably move to a rackmounted form factor.
+I maxed out this case with 20 3.5" drives. I'll start to rotate out older and smaller-capacity drives over the next few years. On the next platform upgrade (in ~5 years), I'll probably move to a rackmounted form factor.
 
 - __ASRock X570 Phantom Gaming X__
 - __AMD Ryzen 9 3950X__
@@ -75,7 +75,7 @@ This is my de-facto workhorse. The hardware and form factor is perfect for my us
 
 - __iPhone 14 Pro__
 
-It's an iPhone: nothing more, nothing less. It's much more powerful than what I use it for, especially since I don't care for photos. The battery life is what matters most to me. Should Apple releases a new iPhone Mini, I'd likely swap to that.
+It's an iPhone: nothing more, nothing less. It's much more powerful than what I use it for, especially since I don't care for photos. The battery life is what matters most to me. Should Apple release a new iPhone Mini, I'd likely swap to that.
 
 - __iPad Mini 6th Gen__
 

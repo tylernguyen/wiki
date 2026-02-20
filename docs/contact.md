@@ -19,7 +19,7 @@ I do not have a Twitter[^1], Facebook[^2], Instagram, nor Threads.
 ///
 
 [^1]: [Richard Stallman: Twitter](https://stallman.org/twitter.html)
-[^2]: [Richard Stallman: Reasons not be used by Facebook](https://stallman.org/facebook.html)
+[^2]: [Richard Stallman: Reasons Not to be Used by Facebook](https://stallman.org/facebook.html)
 
 /// success | What I'll DEFINITELY respond to.
 

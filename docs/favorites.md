@@ -149,7 +149,7 @@ The Wind Rises (2013)
 
 - ### :simple-anilist:{ .anilist } [AniList :octicons-arrow-up-right-16:](https://anilist.co/user/tylernguyen/animelist)
 
-    AniList is used exclusively track anime and manga.
+    AniList is used exclusively to track anime and manga.
 
 </div>
 
