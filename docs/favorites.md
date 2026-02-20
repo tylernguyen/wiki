@@ -18,8 +18,8 @@ The following are my personal favorite content of all mediums. I try to keep it 
 
 ## Books :lucide-library-big:
 
-![The Committed](https://assets.tylernguyen.wiki/favorites/Book_The-Committed.jpg){ loading-lazy width=125 }
-![The Sympathizer](https://assets.tylernguyen.wiki/favorites/Book_The-Sympathizer.jpg){ loading-lazy width=125}
+![The Committed](https://assets.tylernguyen.wiki/favorites/TheCommitted.webp){ loading-lazy width=125 }
+![The Sympathizer](https://assets.tylernguyen.wiki/favorites/TheSympathizer.webp){ loading-lazy width=125}
 
 - Nguyễn, Việt Thanh - _The Sympathizer_
     [![Hardcover](https://assets.tylernguyen.wiki/logos/Hardcover.svg){ .twemoji }](https://hardcover.app/books/the-sympathizer/ "Hardcover")
@@ -43,26 +43,26 @@ The following are my personal favorite content of all mediums. I try to keep it 
 
 <div class="grid cards" markdown>
 
-- ![The Matrix (1999)](https://image.tmdb.org/t/p/original/rAuQat3vtDgWwKLwSXqnJAuvFRL.jpg){ loading-lazy width=400 }
+- ![The Matrix (1999)](https://assets.tylernguyen.wiki/favorites/TheMatrix.webp){ loading-lazy width=400 }
 
     The Matrix
     [:simple-rottentomatoes:{ .rottentomatoes }](https://www.rottentomatoes.com/m/matrix){ title="Rotten Tomatoes"}
     [:simple-themoviedatabase:{ .tmdb }](https://www.themoviedb.org/movie/603-the-matrix){ title="TMDB"}
 
-- ![Infernal Affairs (2002)](https://image.tmdb.org/t/p/original/iiDGA97Kqt2dVU1deXQF06USBRu.jpg){ loading-lazy width=400 }
+- ![Infernal Affairs (2002)](https://assets.tylernguyen.wiki/favorites/InfernalAffairs.webp){ loading-lazy width=400 }
 
     Infernal Affairs
     [:simple-rottentomatoes:{ .rottentomatoes }](https://www.rottentomatoes.com/m/infernal_affairs){ title="Rotten Tomatoes"}
     [:simple-themoviedatabase:{ .tmdb }](https://www.themoviedb.org/movie/10775){ title="TMDB"}
     [![The Criterion Collection](https://assets.tylernguyen.wiki/logos/The-Criterion-Collection.svg){ .twemoji title="The Criterion Collection" }](https://www.criterion.com/boxsets/6276-the-infernal-affairs-trilogy)
 
-- ![Heat (1995)](https://image.tmdb.org/t/p/original/rfEXNlql4CafRmtgp2VFQrBC4sh.jpg){ loading-lazy width=400 }
+- ![Heat (1995)](https://assets.tylernguyen.wiki/favorites/Heat.webp){ loading-lazy width=400 }
 
     Heat
     [:simple-rottentomatoes:{ .rottentomatoes }](https://www.rottentomatoes.com/m/heat_1995){ title="Rotten Tomatoes"}
     [:simple-themoviedatabase:{ .tmdb }](https://www.themoviedb.org/movie/949-heat){ title="TMDB"}
 
-- ![The Sweet Hereafter (1997)](https://assets.tylernguyen.wiki/favorites/Movie_The-Sweet-Hereafter.png){ loading-lazy width=400 }
+- ![The Sweet Hereafter (1997)](https://assets.tylernguyen.wiki/favorites/TheSweetHereafter.webp){ loading-lazy width=400 }
 
     The Sweet Hereafter
     [:simple-rottentomatoes:{ .rottentomatoes }](https://www.rottentomatoes.com/m/sweet_hereafter){ title="Rotten Tomatoes"}
@@ -83,25 +83,25 @@ The following are my personal favorite content of all mediums. I try to keep it 
 
 <div class="grid cards" markdown>
 
-- ![Mr. Robot](https://image.tmdb.org/t/p/original/uJUe985oIuRiD3hmHQYskIMc2WU.jpg){ loading-lazy width=400 }
+- ![Mr. Robot](https://assets.tylernguyen.wiki/favorites/MrRobot.webp){ loading-lazy width=400 }
 
     Mr. Robot
     [:simple-rottentomatoes:{ .rottentomatoes }](https://www.rottentomatoes.com/tv/mr_robot){ title="Rotten Tomatoes"}
     [:simple-themoviedatabase:{ .tmdb }](https://www.themoviedb.org/tv/62560-mr-robot){ title="TMDB"}
 
-- ![Severance](https://image.tmdb.org/t/p/original/npD65vPa4vvn1ZHpp3o05A5vdKT.jpg){ loading-lazy width=400 }
+- ![Severance](https://assets.tylernguyen.wiki/favorites/Severance.webp){ loading-lazy width=400 }
 
     Severance
     [:simple-rottentomatoes:{ .rottentomatoes }](https://www.rottentomatoes.com/tv/severance/s01){ title="Rotten Tomatoes"}
     [:simple-themoviedatabase:{ .tmdb }](https://www.themoviedb.org/tv/95396-severance){ title="TMDB"}
 
-- ![Barry](https://image.tmdb.org/t/p/original/6joedhuoHO4wCM3iUYXdA0XdNi4.jpg){ loading-lazy width=400 }
+- ![Barry](https://assets.tylernguyen.wiki/favorites/Barry.webp){ loading-lazy width=400 }
 
     Barry
     [:simple-rottentomatoes:{ .rottentomatoes }](https://www.rottentomatoes.com/tv/barry){ title="Rotten Tomatoes"}
     [:simple-themoviedatabase:{ .tmdb }](https://www.themoviedb.org/tv/73107-barry){ title="TMDB"}
 
-- ![Utopia (2013)](https://image.tmdb.org/t/p/original/tynEoLA2cYONcUSz2OrCU0wSp6K.jpg){ loading-lazy width=400 }
+- ![Utopia (2013)](https://assets.tylernguyen.wiki/favorites/Utopia.webp){ loading-lazy width=400 }
 
     Utopia
     [:simple-rottentomatoes:{ .rottentomatoes }](https://www.rottentomatoes.com/tv/utopia_2013){ title="Rotten Tomatoes"}
@@ -113,22 +113,22 @@ The following are my personal favorite content of all mediums. I try to keep it 
 
 <div class="grid cards" markdown>
 
-- ![Cowboy Bebop](https://image.tmdb.org/t/p/original/A4PHx94G7mvM3b8vsDJ5HEaQ6uv.jpg){ loading-lazy width=400 }
+- ![Cowboy Bebop](https://assets.tylernguyen.wiki/favorites/CowboyBebop.webp){ loading-lazy width=400 }
 Cowboy Bebop
 [:simple-anilist:{ .anilist }](https://anilist.co/anime/1/Cowboy-Bebop/){ title="AniList"}
-[![aniDB](https://assets.tylernguyen.wiki/logos/aniDB.png){ .twemoji title="aniDB" }](https://anidb.net/anime/23)
+[![aniDB](https://assets.tylernguyen.wiki/logos/aniDB.webp){ .twemoji title="aniDB" }](https://anidb.net/anime/23)
 
-- ![Frieren: Beyond Journey's End](https://image.tmdb.org/t/p/original/96RT2A47UdzWlUfvIERFyBsLhL2.jpg){ loading-lazy width=400 }
+- ![Frieren: Beyond Journey's End](https://assets.tylernguyen.wiki/favorites/Frieren.webp){ loading-lazy width=400 }
 Frieren: Beyond Journey's End
 [:simple-anilist:{ .anilist }](https://anilist.co/anime/154587/Sousou-no-Frieren){ title="AniList"}
-[![aniDB](https://assets.tylernguyen.wiki/logos/aniDB.png){ .twemoji title="aniDB" }](https://anidb.net/anime/17617)
+[![aniDB](https://assets.tylernguyen.wiki/logos/aniDB.webp){ .twemoji title="aniDB" }](https://anidb.net/anime/17617)
 
-- ![Nichijou](https://image.tmdb.org/t/p/original/7gzFoYs1N97cD53E7jPAer9UNlg.jpg){ loading-lazy width=400 }
+- ![Nichijou](https://assets.tylernguyen.wiki/favorites/Nichijou.webp){ loading-lazy width=400 }
 Nichijou
 [:simple-anilist:{ .anilist }](https://anilist.co/anime/10165/Nichijou--My-Ordinary-Life/){ title="AniList"}
-[![aniDB](https://assets.tylernguyen.wiki/logos/aniDB.png){ .twemoji title="aniDB" }](https://anidb.net/anime/8168)
+[![aniDB](https://assets.tylernguyen.wiki/logos/aniDB.webp){ .twemoji title="aniDB" }](https://anidb.net/anime/8168)
 
-- ![The Wind Rises (2013)](https://image.tmdb.org/t/p/original/zZiflZpuaZerugtfdyXcg6dcylD.jpg){ loading-lazy width=400 }
+- ![The Wind Rises (2013)](https://assets.tylernguyen.wiki/favorites/TheWindRises.webp){ loading-lazy width=400 }
 The Wind Rises (2013)
 [:simple-anilist:{ .anilist }](https://anilist.co/anime/16662/The-Wind-Rises/){ title="AniList"}
 [:simple-rottentomatoes:{ .rottentomatoes }](https://www.rottentomatoes.com/m/the_wind_rises){ title="Rotten Tomatoes"}
@@ -141,9 +141,9 @@ The Wind Rises (2013)
 ![Vagabond](https://assets.tylernguyen.wiki/favorites/Manga_Vagabond.jpg){ loading-lazy width=125 }
 ![Goodnight Punpun](https://assets.tylernguyen.wiki/favorites/Manga_Goodnight-Punpun.jpg){ loading-lazy width=125}
 
-- Vagabond [:simple-anilist:{ .anilist }](https://anilist.co/manga/30656/Vagabond "AniList") [![Viz](https://assets.tylernguyen.wiki/logos/Viz.png){ .twemoji  }](<https://www.viz.com/vagabond> "VIZ")
+- Vagabond [:simple-anilist:{ .anilist }](https://anilist.co/manga/30656/Vagabond "AniList") [![Viz](https://assets.tylernguyen.wiki/logos/Viz.webp){ .twemoji  }](<https://www.viz.com/vagabond> "VIZ")
 
-- Goodnight Punpun [:simple-anilist:{ .anilist }](https://anilist.co/manga/34632/Oyasumi-Punpun "AniList") [![Viz](https://assets.tylernguyen.wiki/logos/Viz.png){ .twemoji  }](https://www.viz.com/goodnight-punpun "VIZ")
+- Goodnight Punpun [:simple-anilist:{ .anilist }](https://anilist.co/manga/34632/Oyasumi-Punpun "AniList") [![Viz](https://assets.tylernguyen.wiki/logos/Viz.webp){ .twemoji  }](https://www.viz.com/goodnight-punpun "VIZ")
 
 <div class="grid cards" markdown>
 
@@ -159,7 +159,7 @@ The Wind Rises (2013)
 The Podcast subscriptions is available as an :simple-xml:{ .xml } OPML file on [:simple-refinedgithub:{ .foreground } GitHub Gist :octicons-arrow-up-right-16:.](https://gist.github.com/tylernguyen/25422313a19b73e6caa2f689b0dd9526)
 ///
 
-![This American Life](https://assets.tylernguyen.wiki/favorites/Podcast_This-American-Life.png){ loading-lazy width=25% align=left }
+![This American Life](https://assets.tylernguyen.wiki/favorites/ThisAmericanLife.webp){ loading-lazy width=25% align=left }
 
 [__This American Life__ :octicons-arrow-up-right-16:](https://www.thisamericanlife.org/){ title="Homepage"}
 [:fontawesome-solid-square-rss:](https://www.thisamericanlife.org/podcast/rss.xml){ title="RSS Feed"}
@@ -175,7 +175,7 @@ Alternative [RSS feed :octicons-arrow-up-right-16:](https://github.com/dcadata/t
 
 <div style="clear: both;"></div>
 
-![99% Invisible](https://assets.tylernguyen.wiki/favorites/Podcast_99-Invisible.png){ loading-lazy width=25% align=left }
+![99% Invisible](https://assets.tylernguyen.wiki/favorites/99PercentInvisible.webp){ loading-lazy width=25% align=left }
 
 [__99% Invisible__ :octicons-arrow-up-right-16:](https://99percentinvisible.org/){ title="Homepage"}
 [:fontawesome-solid-square-rss:](https://feeds.99percentinvisible.org/99percentinvisible){ title="RSS Feed"}

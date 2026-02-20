@@ -32,7 +32,7 @@ Since I have no specific needs for MDX and other JavaScript elements anyway, I'm
 
 - :simple-docker:{ .docker } [Docker Desktop :octicons-arrow-up-right-16:](https://www.docker.com/products/docker-desktop/)
 [:fontawesome-solid-money-bill:](https://www.docker.com/pricing/){ .card-link title="Pricing" }
-- ![OrbStack](https://assets.tylernguyen.wiki/logos/OrbStack.png){ .twemoji } [OrbStack :octicons-arrow-up-right-16:](https://orbstack.dev/)
+- ![OrbStack](https://assets.tylernguyen.wiki/logos/OrbStack.webp){ .twemoji } [OrbStack :octicons-arrow-up-right-16:](https://orbstack.dev/)
 [:fontawesome-solid-money-bill:](https://orbstack.dev/pricing){ .card-link title="Pricing" }
 
 </div>

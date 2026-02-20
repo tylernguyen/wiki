@@ -45,7 +45,7 @@ hide:
 
 <div class="grid cards" markdown>
 
-- ![Solarized](https://assets.tylernguyen.wiki/logos/solarized.png){ .twemoji } [Solarized :octicons-arrow-up-right-16:](https://ethanschoonover.com/solarized/) by Ethan Schoonover
+- ![Solarized](https://assets.tylernguyen.wiki/logos/solarized.webp){ .twemoji } [Solarized :octicons-arrow-up-right-16:](https://ethanschoonover.com/solarized/) by Ethan Schoonover
 [:fontawesome-regular-file-code:](https://github.com/altercation/solarized){ .card-link title="Source Code" }
 [:octicons-law-16:](https://github.com/altercation/solarized/blob/master/LICENSE){ .card-link title=License }
 
@@ -77,7 +77,7 @@ hide:
 
 <div class="grid cards" markdown>
 
-- ![U.S. Graphics Company](https://assets.tylernguyen.wiki/logos/Berkeley-Graphics.png){ .twemoji } [Berkeley Mono :octicons-arrow-up-right-16:](https://usgraphics.com/products/berkeley-mono) by U.S. Graphics Company
+- ![U.S. Graphics Company](https://assets.tylernguyen.wiki/logos/Berkeley-Graphics.webp){ .twemoji } [Berkeley Mono :octicons-arrow-up-right-16:](https://usgraphics.com/products/berkeley-mono) by U.S. Graphics Company
 [:fontawesome-solid-money-bill:](https://berkeleygraphics.com/products/){ .card-link title="Pricing" }
 [:octicons-law-16:](https://berkeleygraphics.com/legal/license/){ .card-link title=License }
 

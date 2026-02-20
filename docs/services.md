@@ -79,7 +79,7 @@ I despise advertising as the primary form of monetization for services. And I do
 
 <div class="grid cards" markdown>
 
-- ![Libby](https://assets.tylernguyen.wiki/logos/Libby.png){ .twemoji } [Libby :octicons-arrow-up-right-16:](https://libbyapp.com)
+- ![Libby](https://assets.tylernguyen.wiki/logos/Libby.webp){ .twemoji } [Libby :octicons-arrow-up-right-16:](https://libbyapp.com)
 
     /// warning
     Libby is a product of OverDrive, which is owned by :simple-rakuten:{ .rakuten } Rakuten.

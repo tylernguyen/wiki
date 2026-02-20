@@ -7,7 +7,7 @@ tags:
 
 # Read
 
-## ![Calibre](https://assets.tylernguyen.wiki/logos/Calibre2.png){ .twemoji } [Calibre :octicons-arrow-up-right-16:](https://github.com/kovidgoyal/calibre)
+## ![Calibre](https://assets.tylernguyen.wiki/logos/Calibre2.webp){ .twemoji } [Calibre :octicons-arrow-up-right-16:](https://github.com/kovidgoyal/calibre)
 
 ## ![Kavita](https://assets.tylernguyen.wiki/logos/kavita.svg){ .twemoji } [Kavita :octicons-arrow-up-right-16:](https://github.com/Kareadita/Kavita)
 

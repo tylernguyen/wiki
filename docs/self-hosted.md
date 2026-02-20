@@ -51,7 +51,7 @@ __See [.wiki/hardware :octicons-arrow-down-left-16:](hardware.md) for server har
 
 <div class="grid cards" markdown>
 
-- ![Koito](https://assets.tylernguyen.wiki/logos/Koito.png){ .twemoji } [__Koito__: _koito.tylernguyen.app_](https://koito.tylernguyen.app)
+- ![Koito](https://assets.tylernguyen.wiki/logos/Koito.webp){ .twemoji } [__Koito__: _koito.tylernguyen.app_](https://koito.tylernguyen.app)
 [:octicons-container-16:{ .docker }](https://hub.docker.com/r/gabehf/koito){ title=Container}
 [:lucide-file-code-corner:](https://github.com/gabehf/Koito/){ title="Source Code" }
 
@@ -73,7 +73,7 @@ __See [.wiki/hardware :octicons-arrow-down-left-16:](hardware.md) for server har
 - :simple-cloudflare:{ .cloudflare } [Cloudflare :octicons-arrow-up-right-16:](https://www.cloudflare.com/)
 [:octicons-container-16:{ .docker }](https://hub.docker.com/r/cloudflare/cloudflared){ title=Container}
 
-- ![Tailscale](https://assets.tylernguyen.wiki/logos/Tailscale.png){ .twemoji } [Tailscale :octicons-arrow-up-right-16:](https://tailscale.com/)
+- ![Tailscale](https://assets.tylernguyen.wiki/logos/Tailscale.webp){ .twemoji } [Tailscale :octicons-arrow-up-right-16:](https://tailscale.com/)
 
 - ![Pocket ID](https://assets.tylernguyen.wiki/logos/pocket-id-light.svg#only-light){ .twemoji } ![Pocket ID](https://assets.tylernguyen.wiki/logos/pocket-id-dark.svg#only-dark){ .twemoji } [Pocket ID :octicons-arrow-up-right-16:](https://pocket-id.org/)
 [:octicons-container-16:{ .docker }](https://hub.docker.com/r/linuxserver/plex){ title=Container}
@@ -170,7 +170,7 @@ I never interface with ![qBittorrent](https://assets.tylernguyen.wiki/logos/qbit
 - ![FoxxMD/multi-scrobbler](https://assets.tylernguyen.wiki/logos/Multi-scrobbler.svg){ .twemoji } [FoxxMD/multi-scrobbler :octicons-arrow-up-right-16:](https://github.com/foxxmd/multi-scrobbler)
 [:octicons-container-16:{ .docker }](https://github.com/FoxxMD/multi-scrobbler/pkgs/container/multi-scrobbler){ title=Container}
 
-- ![Koito](https://assets.tylernguyen.wiki/logos/Koito.png){ .twemoji } [Koito :octicons-arrow-up-right-16:](https://github.com/gabehf/koito)
+- ![Koito](https://assets.tylernguyen.wiki/logos/Koito.webp){ .twemoji } [Koito :octicons-arrow-up-right-16:](https://github.com/gabehf/koito)
 [:octicons-container-16:{ .docker }](https://hub.docker.com/r/gabehf/koito){ title=Container}
 
 </div>
@@ -183,10 +183,10 @@ I never interface with ![qBittorrent](https://assets.tylernguyen.wiki/logos/qbit
 [:octicons-container-16:{ .docker }](https://github.com/linuxserver/docker-syncthing/pkgs/container/syncthing){ title=Container}
 [:lucide-file-code-corner:](https://github.com/syncthing/syncthing){ title="Source Code" }
 
-- ![tailscale/golink](https://assets.tylernguyen.wiki/logos/Tailscale.png){ .twemoji } [tailscale/golink :octicons-arrow-up-right-16:](https://github.com/tailscale/golink)
+- ![tailscale/golink](https://assets.tylernguyen.wiki/logos/Tailscale.webp){ .twemoji } [tailscale/golink :octicons-arrow-up-right-16:](https://github.com/tailscale/golink)
 [:octicons-container-16:{ .docker }](https://github.com/tailscale/golink/pkgs/container/golink){ title=Container}
 
-- ![taildrive](https://assets.tylernguyen.wiki/logos/Tailscale.png){ .twemoji } [taildrive :octicons-arrow-up-right-16:](https://tailscale.com/kb/1369/taildrive)
+- ![taildrive](https://assets.tylernguyen.wiki/logos/Tailscale.webp){ .twemoji } [taildrive :octicons-arrow-up-right-16:](https://tailscale.com/kb/1369/taildrive)
 
 </div>
 

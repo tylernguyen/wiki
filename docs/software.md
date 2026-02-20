@@ -60,7 +60,7 @@ Firefox is an <span class="solarized-orange">:material-source-branch: __open sou
 - :simple-ublockorigin:{ .ublockorigin } [uBlock Origin :octicons-arrow-up-right-16:](https://addons.mozilla.org/en-US/firefox/addon/ublock-origin/)
 [:lucide-file-code-corner:](https://github.com/gorhill/uBlock){ title="Source Code" }
 - ![SponsorBlock](https://assets.tylernguyen.wiki/logos/SponsorBlock.svg){ .twemoji } [SponsorBlock :octicons-arrow-up-right-16:](https://addons.mozilla.org/en-US/firefox/addon/sponsorblock/)
-- ![TTV LOL Pro](https://assets.tylernguyen.wiki/logos/Firefox_TTV-LOL-Pro.png){ .twemoji } [TTV LOL Pro :octicons-arrow-up-right-16:](https://addons.mozilla.org/en-US/firefox/addon/ttv-lol-pro/?utm_source=addons.mozilla.org&utm_medium=referral&utm_content=search)
+- ![TTV LOL Pro](https://assets.tylernguyen.wiki/logos/Firefox_TTV-LOL-Pro.webp){ .twemoji } [TTV LOL Pro :octicons-arrow-up-right-16:](https://addons.mozilla.org/en-US/firefox/addon/ttv-lol-pro/?utm_source=addons.mozilla.org&utm_medium=referral&utm_content=search)
 [:lucide-file-code-corner:](https://github.com/younesaassila/ttv-lol-pro){ title="Source Code" }
 - :simple-1password:{ .onepassword } [1Password :octicons-arrow-up-right-16:](https://addons.mozilla.org/en-US/firefox/addon/1password-x-password-manager/)
 
@@ -91,7 +91,7 @@ Firefox is an <span class="solarized-orange">:material-source-branch: __open sou
 
 <div class="grid cards" markdown>
 
-- ![Zensical](https://assets.tylernguyen.wiki/logos/Zensical.png){ .twemoji }  [Zensical :octicons-arrow-up-right-16:](https://zensical.org/)
+- ![Zensical](https://assets.tylernguyen.wiki/logos/Zensical.webp){ .twemoji }  [Zensical :octicons-arrow-up-right-16:](https://zensical.org/)
 [:lucide-file-code-corner:](https://github.com/zensical/zensical){ title="Source Code" }
 [:lucide-scale:](https://github.com/zensical/zensical/blob/master/LICENSE.md){ title=License }
 
@@ -109,7 +109,7 @@ This website is created using Zensical.
 
 - :simple-docker:{ .docker } [Docker Desktop :octicons-arrow-up-right-16:](https://www.docker.com/products/docker-desktop/)
 [:lucide-circle-dollar-sign:](https://www.docker.com/pricing/){ title="Pricing" }
-- ![OrbStack](https://assets.tylernguyen.wiki/logos/OrbStack.png){ .twemoji } [OrbStack :octicons-arrow-up-right-16:](https://orbstack.dev/)
+- ![OrbStack](https://assets.tylernguyen.wiki/logos/OrbStack.webp){ .twemoji } [OrbStack :octicons-arrow-up-right-16:](https://orbstack.dev/)
 [:lucide-circle-dollar-sign:](https://orbstack.dev/pricing){ title="Pricing" }
 
 </div>
@@ -118,7 +118,7 @@ This website is created using Zensical.
 
 <div class="grid cards" markdown>
 
-- ![NetNewsWire](https://assets.tylernguyen.wiki/logos/NetNewsWire.png){ .twemoji } [NetNewsWire :octicons-arrow-up-right-16:](https://netnewswire.com/)
+- ![NetNewsWire](https://assets.tylernguyen.wiki/logos/NetNewsWire.webp){ .twemoji } [NetNewsWire :octicons-arrow-up-right-16:](https://netnewswire.com/)
 - ![OBS](https://assets.tylernguyen.wiki/logos/OBS.svg){ .twemoji } [OBS Studio :octicons-arrow-up-right-16:](https://obsproject.com/)
 [:lucide-file-code-corner:](https://github.com/obsproject/obs-studio "Source Code")
 
@@ -128,7 +128,7 @@ This website is created using Zensical.
 
 <div class="grid cards" markdown>
 
-- ![Mountain Duck](https://assets.tylernguyen.wiki/logos/Mountain-Duck.png){ .twemoji } [Mountain Duck :octicons-arrow-up-right-16:](https://mountainduck.io/)
+- ![Mountain Duck](https://assets.tylernguyen.wiki/logos/Mountain-Duck.webp){ .twemoji } [Mountain Duck :octicons-arrow-up-right-16:](https://mountainduck.io/)
 - :simple-cryptomator:{ .cryptomator} [Cryptomator :octicons-arrow-up-right-16:](https://cryptomator.org/)
 - ![Syncthing](https://assets.tylernguyen.wiki/logos/Syncthing.svg){ .twemoji } [Syncthing :octicons-arrow-up-right-16:](https://syncthing.net/)
 [:lucide-file-code-corner:](https://github.com/syncthing/ "Source Code")
