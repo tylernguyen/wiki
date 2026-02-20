@@ -539,6 +539,10 @@
   border-radius: 6px;
 }
 
+.md-typeset .md-content__button {
+	background: var(--md-primary-fg-color--light);
+}
+
 .md-banner {
   background-color: var(--md-default-bg-color);
 }
