@@ -118,18 +118,18 @@ view = "octicons/markdown-16"
 top = "lucide/arrow-up-to-line"
 
 [project.theme.icon.admonition]
-note = "octicons/tag-16"
-abstract = "octicons/checklist-16"
-info = "octicons/info-16"
+note = "lucide/pencil-line"
+abstract = "lucide/scroll"
+info = "lucide/badge-info"
 tip = "octicons/squirrel-16"
-success = "octicons/check-16"
+success = "lucide/circle-check"
 question = "lucide/message-circle-question-mark"
-warning = "octicons/alert-16"
-failure = "octicons/x-circle-16"
-danger = "octicons/zap-16"
-bug = "octicons/bug-16"
-example = "octicons/beaker-16"
-quote = "octicons/quote-16"
+warning = "lucide/message-square-warning"
+failure = "lucide/circle-x"
+danger = "lucide/skull"
+bug = "lucide/bug"
+example = "lucide/beaker"
+quote = "lucide/message-square-quote"
 
 [project.extra]
 generator = false
@@ -171,7 +171,7 @@ workflow = "workflow"
 [project.theme.icon.tag]
 evergreen = "material/leaf"
 uses = "lucide/hand"
-workflow = "lucide/blocks"
+workflow = "octicons/workflow-16"
 
 # SECTION Plugins and Extensions
 [project.plugins.offline]
