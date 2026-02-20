@@ -8,9 +8,9 @@ Building a knowledge base and maintaining a blog has always been something I've 
 
 [Markdown](https://en.wikipedia.org/wiki/Markdown) is the de-facto markup language. The standard is open, simple, and widely supported. Files written in Markdown are human-readable without a WYSIWYG editor. So I see no particular reasons to use anything else.
 
-Markdown, however, is conservative in its syntax, features, and specifications. Implementations(flavors) of Markdown would take advantage its barebone-design to add components, integrations, and features.
+Markdown, however, is conservative in its syntax, features, and specifications. Implementations (flavors) of Markdown would take advantage of its barebones design to add components, integrations, and features.
 
-Having used several different interations in Markdown, I still don't have a strong preference for any particular implementation. So I paid no mind to the choices of Markdown flavors, and would be okay with whichever is defaulted to by the website framework.
+Having used several different iterations of Markdown, I still don't have a strong preference for any particular implementation. So I paid no mind to the choices of Markdown flavors, and would be okay with whichever is defaulted to by the website framework.
 
 ## Static Site Generator
 
@@ -43,14 +43,14 @@ The site is built locally for previewing with a Docker image of Material for MkD
 
 <div class="grid cards" markdown>
 
-- :simple-cloudflare:{ .cloudflare } [Cloudflare Domain Registar :octicons-arrow-up-right-16:](https://www.cloudflare.com/products/registrar/)
+- :simple-cloudflare:{ .cloudflare } [Cloudflare Domain Registrar :octicons-arrow-up-right-16:](https://www.cloudflare.com/products/registrar/)
 - :simple-cloudflare:{ .cloudflare } [Cloudflare DNS :octicons-arrow-up-right-16:](https://www.cloudflare.com/)
 - :simple-cloudflare:{ .cloudflare } [Cloudflare R2 :octicons-arrow-up-right-16:](https://www.cloudflare.com/products/r2/)
 - :simple-cloudflarepages:{ .cloudflarepages } [Cloudflare Pages :octicons-arrow-up-right-16:](https://pages.cloudflare.com/)
 
 </div>
 
-As a passion project, I wanted to limit costs as much as possible. Cloudflare Domain Registar offers [at-cost pricing :octicons-arrow-up-right-16:](https://www.cloudflare.com/products/registrar/), and the free tiers on R2 and Pages are more than enough for starting out.
+As a passion project, I wanted to limit costs as much as possible. Cloudflare Domain Registrar offers [at-cost pricing :octicons-arrow-up-right-16:](https://www.cloudflare.com/products/registrar/), and the free tiers on R2 and Pages are more than enough for starting out.
 
 Importantly, since Cloudflare basically powers the entire internet nowadays, I don't think there is a more reliable party for hosting.
 
@@ -58,7 +58,7 @@ Importantly, since Cloudflare basically powers the entire internet nowadays, I d
 
 I want to use analytics as a form of automated feedbacks, __NOT__ as a tool to create better advertisements and convert higher ROI.
 
-Google Analytics was designed for the latter purpose, not the mention being a privacy-invasive product. It's something I block in every browser, ad-block extension, and DNS-blocker. So the thought of using it myself feels hypocritical.
+Google Analytics was designed for the latter purpose, not to mention being a privacy-invasive product. It's something I block in every browser, ad-block extension, and DNS-blocker. So the thought of using it myself feels hypocritical.
 
 I briefly considered [Plausible Analytics :octicons-arrow-up-right-16:](https://plausible.io/), but the analytics data it gives is not something that I find actionable nor particularly useful. The same issue arises with Cloudflare's built in web analytics.
 
@@ -73,4 +73,4 @@ I briefly considered [Plausible Analytics :octicons-arrow-up-right-16:](https://
 
 </div>
 
-Enters PostHog, which seems perfect for what I want analytics to do. Aside from the standard [web analytics :octicons-arrow-up-right-16:](https://posthog.com/web-analytics) tookit, PostHog's [session replay :octicons-arrow-up-right-16:](https://posthog.com/session-replay) seems like the perfect non-interactive feedback that I was looking for.
+Enters PostHog, which seems perfect for what I want analytics to do. Aside from the standard [web analytics :octicons-arrow-up-right-16:](https://posthog.com/web-analytics) toolkit, PostHog's [session replay :octicons-arrow-up-right-16:](https://posthog.com/session-replay) seems like the perfect non-interactive feedback that I was looking for.
