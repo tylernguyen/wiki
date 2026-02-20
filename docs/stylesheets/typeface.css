@@ -3,7 +3,7 @@
   src: url("/assets/font/BerkeleyMono/BerkeleyMonoVariable.woff2") format('woff2');
   font-stretch: 60 100;
   font-weight: 100 900;
-  font-style: oblique -16deg 0deg;
+  font-style: oblique 0deg 16deg;
   font-feature-settings: calt;
   font-variant-ligatures: contextual;
 }
