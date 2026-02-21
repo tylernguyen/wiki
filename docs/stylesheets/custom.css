@@ -25,6 +25,12 @@
     .md-sidebar--primary {
         border-radius: 0;
     }
+
+    .md-nav__source .md-source {
+        border: 1px solid var(--md-default-fg-color);
+        border-radius: 6px;
+        background-color: var(--md-default-bg-color--light);
+    }
 }
 
 /* NOTE Cursor: Terminal blinking block */
