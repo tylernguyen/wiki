@@ -19,6 +19,10 @@ body {
 
 /* LINK https://github.com/zensical/ui/blob/master/src/assets/stylesheets/modern/main/_typeset.scss */
 
+.md-typeset {
+  line-height: 1.2rem;
+}
+
 .md-typeset h1,
 .md-typeset h2,
 .md-typeset h3 {
@@ -52,8 +56,6 @@ body {
 
 .md-typeset p {
   font-stretch: 90%;
-  word-spacing: -1px;
-  line-height: 1.25rem;
 }
 
 .md-post__content.md-typeset p {
@@ -77,20 +79,12 @@ body {
   font-size: .6rem;
 }
 
-.md-typeset ul,
-.md-typeset ol,
-.md-typeset ul li,
-.md-typeset ol li {
-  line-height: 1.25rem;
-}
-
 .md-typeset .admonition p,
 .md-typeset .admonition ul,
 .md-typeset .admonition ol,
 .md-typeset .admonition ul li,
 .md-typeset .admonition ol li {
   font-size: 0.65rem;
-  line-height: 1.25rem;
 }
 
 /* LINK https://github.com/squidfunk/mkdocs-material/discussions/6757#discussioncomment-10100386 */
