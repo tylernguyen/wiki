@@ -9,15 +9,13 @@ tags:
 
 <div class="grid cards" markdown>
 
-- :octicons-git-branch-16:{ .foreground } [tylernguyen/dotfiles :octicons-arrow-up-right-16:](https://github.com/tylernguyen/dotfiles)
+- :simple-refinedgithub:{ .foreground } [tylernguyen/dotfiles :octicons-arrow-up-right-16:](https://github.com/tylernguyen/dotfiles)
     ![GitHub Stars](https://img.shields.io/github/stars/tylernguyen/dotfiles?style=flat&logo=refinedgithub&logoColor=073642&labelColor=eee8d5&color=657b83#only-light){ .twemoji }
     ![GitHub Last Commit](https://img.shields.io/github/last-commit/tylernguyen/dotfiles?style=flat&logo=refinedgithub&logoColor=073642&labelColor=eee8d5&color=657b83#only-light){ .twemoji }
     ![GitHub Stars](https://img.shields.io/github/stars/tylernguyen/dotfiles?style=flat&logo=refinedgithub&logoColor=839496&labelColor=073642&color=2aa198#only-dark){ .twemoji }
     ![GitHub Last Commit](https://img.shields.io/github/last-commit/tylernguyen/dotfiles?style=flat&logo=refinedgithub&logoColor=839496&labelColor=073642&color=2aa198#only-dark){ .twemoji }
 
 </div>
-
-<div class="grid cards" markdown>
 
 - ![chezmoi](https://assets.tylernguyen.wiki/logos/chezmoi.svg){ .twemoji } [chezmoi :octicons-arrow-up-right-16:](https://github.com/twpayne/chezmoi/) manages the dotfiles.
 [:octicons-markdown-16:](https://www.chezmoi.io/){ title=Documentation}
@@ -28,9 +26,26 @@ tags:
     chezmoi init --ssh tylernguyen
     ```
 
-</div>
+- :simple-zsh:{ .zsh } [zsh :octicons-arrow-up-right-16:](https://zsh.sourceforge.io/)
+[:octicons-markdown-16:](https://zsh.sourceforge.io/Doc/){ title=Documentation}
 
-<div class="grid cards" markdown>
+    - :octicons-git-branch-16:{ .foreground } [zimfw/zimfw :octicons-arrow-up-right-16:](<https://github.com/zimfw/zimfw>)
+        ![GitHub Stars](https://img.shields.io/github/stars/zimfw/zimfw?style=flat&logo=refinedgithub&logoColor=073642&labelColor=eee8d5&color=657b83#only-light){ .twemoji }
+        ![GitHub Release Date](https://img.shields.io/github/release-date/zimfw/zimfw?style=flat&logo=refinedgithub&logoColor=073642&labelColor=eee8d5&color=657b83#only-light){ .twemoji }
+        ![GitHub Stars](https://img.shields.io/github/stars/zimfw/zimfw?style=flat&logo=refinedgithub&logoColor=839496&labelColor=073642&color=2aa198#only-dark){ .twemoji }
+        ![GitHub Release Date](https://img.shields.io/github/release-date/zimfw/zimfw?style=flat&logo=refinedgithub&logoColor=839496&labelColor=073642&color=2aa198#only-dark){ .twemoji }
+
+    - :octicons-git-branch-16:{ .foreground } [atuinsh/atuin :octicons-arrow-up-right-16:](<https://github.com/atuinsh/atuin>)
+        ![GitHub Stars](https://img.shields.io/github/stars/atuinsh/atuin?style=flat&logo=refinedgithub&logoColor=073642&labelColor=eee8d5&color=657b83#only-light){ .twemoji }
+        ![GitHub Release Date](https://img.shields.io/github/release-date/atuinsh/atuin?style=flat&logo=refinedgithub&logoColor=073642&labelColor=eee8d5&color=657b83#only-light){ .twemoji }
+        ![GitHub Stars](https://img.shields.io/github/stars/atuinsh/atuin?style=flat&logo=refinedgithub&logoColor=839496&labelColor=073642&color=2aa198#only-dark){ .twemoji }
+        ![GitHub Release Date](https://img.shields.io/github/release-date/atuinsh/atuin?style=flat&logo=refinedgithub&logoColor=839496&labelColor=073642&color=2aa198#only-dark){ .twemoji }
+
+    - :octicons-git-branch-16:{ .foreground } [Aloxaf/fzf-tab :octicons-arrow-up-right-16:](https://github.com/Aloxaf/fzf-tab)
+        ![GitHub Stars](https://img.shields.io/github/stars/Aloxaf/fzf-tab?style=flat&logo=refinedgithub&logoColor=073642&labelColor=eee8d5&color=657b83#only-light){ .twemoji }
+        ![GitHub Release Date](https://img.shields.io/github/release-date/Aloxaf/fzf-tab?style=flat&logo=refinedgithub&logoColor=073642&labelColor=eee8d5&color=657b83#only-light){ .twemoji }
+        ![GitHub Stars](https://img.shields.io/github/stars/Aloxaf/fzf-tab?style=flat&logo=refinedgithub&logoColor=839496&labelColor=073642&color=2aa198#only-dark){ .twemoji }
+        ![GitHub Release Date](https://img.shields.io/github/release-date/Aloxaf/fzf-tab?style=flat&logo=refinedgithub&logoColor=839496&labelColor=073642&color=2aa198#only-dark){ .twemoji }
 
 - :simple-1password:{ .onepassword } [1Password :octicons-arrow-up-right-16:](https://1password.com/)
 [:lucide-circle-dollar-sign:](https://1password.com/sign-up/){ title=Pricing }
@@ -41,33 +56,6 @@ tags:
 [:octicons-markdown-16:](https://ghostty.org/docs){ title=Documentation}
 [:lucide-file-code-corner:](https://github.com/ghostty-org/ghostty){ title="Source Code" }
 [:lucide-scale:](https://github.com/ghostty-org/ghostty/blob/main/LICENSE){ title=License }
-
-</div>
-
-<div class="grid cards" markdown>
-
-- :simple-zsh:{ .zsh } [zsh :octicons-arrow-up-right-16:](https://zsh.sourceforge.io/)
-[:octicons-markdown-16:](https://zsh.sourceforge.io/Doc/){ title=Documentation}
-
-    :octicons-git-branch-16:{ .foreground } [zimfw/zimfw :octicons-arrow-up-right-16:](<https://github.com/zimfw/zimfw>)
-        ![GitHub Stars](https://img.shields.io/github/stars/zimfw/zimfw?style=flat&logo=refinedgithub&logoColor=073642&labelColor=eee8d5&color=657b83#only-light){ .twemoji }
-        ![GitHub Release Date](https://img.shields.io/github/release-date/zimfw/zimfw?style=flat&logo=refinedgithub&logoColor=073642&labelColor=eee8d5&color=657b83#only-light){ .twemoji }
-        ![GitHub Stars](https://img.shields.io/github/stars/zimfw/zimfw?style=flat&logo=refinedgithub&logoColor=839496&labelColor=073642&color=2aa198#only-dark){ .twemoji }
-        ![GitHub Release Date](https://img.shields.io/github/release-date/zimfw/zimfw?style=flat&logo=refinedgithub&logoColor=839496&labelColor=073642&color=2aa198#only-dark){ .twemoji }
-
-    :octicons-git-branch-16:{ .foreground } [atuinsh/atuin :octicons-arrow-up-right-16:](<https://github.com/atuinsh/atuin>)
-        ![GitHub Stars](https://img.shields.io/github/stars/atuinsh/atuin?style=flat&logo=refinedgithub&logoColor=073642&labelColor=eee8d5&color=657b83#only-light){ .twemoji }
-        ![GitHub Release Date](https://img.shields.io/github/release-date/atuinsh/atuin?style=flat&logo=refinedgithub&logoColor=073642&labelColor=eee8d5&color=657b83#only-light){ .twemoji }
-        ![GitHub Stars](https://img.shields.io/github/stars/atuinsh/atuin?style=flat&logo=refinedgithub&logoColor=839496&labelColor=073642&color=2aa198#only-dark){ .twemoji }
-        ![GitHub Release Date](https://img.shields.io/github/release-date/atuinsh/atuin?style=flat&logo=refinedgithub&logoColor=839496&labelColor=073642&color=2aa198#only-dark){ .twemoji }
-
-    :octicons-git-branch-16:{ .foreground } [Aloxaf/fzf-tab :octicons-arrow-up-right-16:](https://github.com/Aloxaf/fzf-tab)
-        ![GitHub Stars](https://img.shields.io/github/stars/Aloxaf/fzf-tab?style=flat&logo=refinedgithub&logoColor=073642&labelColor=eee8d5&color=657b83#only-light){ .twemoji }
-        ![GitHub Release Date](https://img.shields.io/github/release-date/Aloxaf/fzf-tab?style=flat&logo=refinedgithub&logoColor=073642&labelColor=eee8d5&color=657b83#only-light){ .twemoji }
-        ![GitHub Stars](https://img.shields.io/github/stars/Aloxaf/fzf-tab?style=flat&logo=refinedgithub&logoColor=839496&labelColor=073642&color=2aa198#only-dark){ .twemoji }
-        ![GitHub Release Date](https://img.shields.io/github/release-date/Aloxaf/fzf-tab?style=flat&logo=refinedgithub&logoColor=839496&labelColor=073642&color=2aa198#only-dark){ .twemoji }
-
-</div>
 
 ## Git :simple-git:{ .git }
 
@@ -81,13 +69,9 @@ I prefer to rebase by default, unless there is very specific reason to merge.
 
 ## Package Managers
 
-<div class="grid cards" markdown>
-
 - :simple-gnubash:{ .gnubash } [winget :octicons-arrow-up-right-16:](https://github.com/microsoft/winget-cli)
 - :simple-flatpak:{ .flatpak } [Flatpak :octicons-arrow-up-right-16:](<https://flatpak.org/>)
 - :simple-homebrew:{ .homebrew } [homebrew :octicons-arrow-up-right-16:](https://brew.sh/)
-
-</div>
 
 /// note
 

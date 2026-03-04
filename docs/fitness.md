@@ -24,29 +24,17 @@ I'm very satisfied with the Apple Watch Ultra 1st Gen. It's a great balance betw
 
 ## Software
 
-<div class="grid cards" markdown>
-
 - ![Intervals.icu](https://assets.tylernguyen.wiki/logos/Intervals.icu.webp){ .twemoji } [Intervals.icu :octicons-arrow-up-right-16:](https://intervals.icu)
 - ![HealthFit](https://assets.tylernguyen.wiki/logos/HealthFit.webp){ .twemoji } [HealthFit :octicons-arrow-up-right-16:](https://apps.apple.com/us/app/healthfit/id1202650514)
 - ![Intervals.icu Companion](https://assets.tylernguyen.wiki/logos/Intervals.icuCompanion.jpg){ .twemoji } [Intervals.icu Companion :octicons-arrow-up-right-16:](https://apps.apple.com/us/app/intervals-icu-companion/id6739638454)
 
-</div>
-
 I use __Intervals.icu__ for planning and analysis. It's free, powerful, and highly customizable. The developer, [David :octicons-arrow-up-right-16:](https://forum.intervals.icu/u/david/summary), is accessible and responsive. It's web-only, so I use __HealthFit__ as the ![Apple HealthKit](https://assets.tylernguyen.wiki/logos/Apple_HealthKit.webp){ .twemoji } Apple HealthKit bridge.
 
-<div class="grid cards" markdown>
-
-- ![Gentler Streak](https://assets.tylernguyen.wiki/logos/GentlerStreak.jpg){ .twemoji } [Gentler Streak :octicons-arrow-up-right-16:](https://gentler.app/)
-- ![The Outsiders](https://assets.tylernguyen.wiki/logos/TheOutsiders.jpg){ .twemoji } [The Outsiders :octicons-arrow-up-right-16:](https://www.theoutsiders.app/)
-
-</div>
+- ![Gentler Streak](https://assets.tylernguyen.wiki/logos/GentlerStreak.webp){ .twemoji } [Gentler Streak :octicons-arrow-up-right-16:](https://gentler.app/)
+- ![The Outsiders](https://assets.tylernguyen.wiki/logos/TheOutsiders.webp){ .twemoji } [The Outsiders :octicons-arrow-up-right-16:](https://www.theoutsiders.app/)
 
 __Gentler Streak__ is especially nice as a simpler companion to a more data-heavy fitness tracker. I recommend you use the app and wait until you are targeted for a discounted lifetime offer.
-
-<div class="grid cards" markdown>
 
 - ![MacroFactor](https://assets.tylernguyen.wiki/logos/MacroFactor.jpg){ .twemoji } [MacroFactor :octicons-arrow-up-right-16:](https://macrofactorapp.com/)
 - ![Train](https://assets.tylernguyen.wiki/logos/Motra.jpg){ .twemoji } [Motra (formerly Train) :octicons-arrow-up-right-16:](https://trainfitness.ai/)
 - ![Garmin Connect](https://assets.tylernguyen.wiki/logos/GarminConnect.webp){ .twemoji } [Garmin Connect :octicons-arrow-up-right-16:](https://connect.garmin.com/)
-
-</div>

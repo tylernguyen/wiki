@@ -4,7 +4,7 @@ icon: octicons/mail-16
 
 # Contact
 
-You can reach me quickly via the fediverse :simple-mastodon:{ .mastodon } [@tylernguyen@tylernguyen.social :octicons-arrow-up-right-16:](https://tylernguyen.social/@tylernguyen).
+Reach me quickly via the fediverse :simple-mastodon:{ .mastodon } [@tylernguyen@tylernguyen.social :octicons-arrow-up-right-16:](https://tylernguyen.social/@tylernguyen).
 
 Alternatively, I'm active on Discord :simple-discord:{ .discord } [@tylernguyen44 :octicons-arrow-up-right-16:](https://discordapp.com/users/1297622229328072704) for direct messaging.
 

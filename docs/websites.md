@@ -34,6 +34,7 @@ RSS is my preferred method of following websites. I also maintain an email alias
 ## News
 
 - [NY Times - Visual Investigation](https://www.youtube.com/playlist?list=PL4CGYNsoW2iAZt9-UzPyPZOH-AlRMxcIE)
+
 ## Documentaries
 
 - [@LEMMiNO](https://www.youtube.com/@LEMMiNO)
