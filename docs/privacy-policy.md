@@ -32,7 +32,7 @@ Tracking events are routed through a reverse proxy before reaching PostHog. You 
 
 ## Assets
 
-I serve most assets from this domain, courtesy of [MkDocs for Material: Privacy Plugin :octicons-arrow-up-right-16:](https://zensical.org/plugins/privacy/).
+I serve most assets from the subdomain ___"assets.tylernguyen.wiki"___.
 
 There will be a notice on individual components that are externally hosted.
 
