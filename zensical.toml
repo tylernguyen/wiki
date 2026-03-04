@@ -223,7 +223,6 @@ pygments_lang_class = true
 url_download= true
 auto_append = [
   "includes/abbreviations.md",
-  "includes/definitions.md"
 ]
 #[project.markdown_extensions.pymdownx_mahjong]
 [project.markdown_extensions.pymdownx.superfences]

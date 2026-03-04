@@ -35,7 +35,7 @@ The following are my personal favorite content of all mediums. I try to keep it 
 
     I use Hardcover to catalog my book collection and history. It's a new platform with many bugs and missing features. But I still much prefer it over GoodReads.
 
-    I like to listen to the audiobook version when possible; likely due to fact that I tend to listen to audiobooks during treadmill or swim sessions.
+    I like to listen to the audiobook version when possible; likely due to the fact that I tend to listen to audiobooks during treadmill or swim sessions.
 
 </div>
 
