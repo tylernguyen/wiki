@@ -6,7 +6,7 @@ icon: lucide/stamp
 
 ## Platforms
 
-<div style="text-align:center;" class="grid cards" markdown>
+<div class="grid cards" markdown>
 
 - :simple-github:{ .foreground } [GitHub :octicons-arrow-up-right-16:](https://github.com/)
 [:octicons-repo-16:](https://github.com/tylernguyen/wiki){ .card-link title="Repository" }
