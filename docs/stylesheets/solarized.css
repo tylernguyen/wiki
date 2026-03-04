@@ -146,6 +146,10 @@
   background-color: var(--md-default-bg-color--light);
 }
 
+.md-footer-meta__inner {
+	padding: 0;
+}
+
 .md-nav--primary .md-nav__item .md-nav__link--active {
   background: var(--md-primary-fg-color--light);
   color: var(--md-default-fg-color);
