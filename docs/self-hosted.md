@@ -30,7 +30,7 @@ Primary usage is media archival, its consumption, and sharing. The data stored i
 
 Thus is the primary reason I chose :simple-unraid:{ .unraid } [Unraid :octicons-arrow-up-right-16:](https://unraid.net/) over :simple-truenas:{ .truenas } [TrueNas :octicons-arrow-up-right-16:](https://www.truenas.com/). Unraid's parity function is also better at maximizing usable storage, and dealing with mixed drive capacities.
 
-__See [.wiki/hardware :octicons-arrow-down-left-16:](hardware.md) for server hardware specs.__
+__See [.wiki/hardware#server :octicons-arrow-down-left-16:](hardware.md#server) for hardware specs.__
 
 ## Public Instances
 
@@ -73,14 +73,14 @@ __See [.wiki/hardware :octicons-arrow-down-left-16:](hardware.md) for server har
 - ![qBittorrent](https://assets.tylernguyen.wiki/logos/qbittorrent.svg){ .twemoji } [qBittorrent :octicons-arrow-up-right-16:](https://www.qbittorrent.org/)
 [:octicons-container-16:{ .docker }](https://github.com/hotio/qbittorrent/pkgs/container/qbittorrent){ title=Container}
 
-    I prefer Hotio's Docker image as :simple-protonvpn:{ .protonvpn } ProtonVPN support is built-in. Otherwise, port forwarding for ProtonVPN can be troublesome[^1].
+I prefer Hotio's Docker image as :simple-protonvpn:{ .protonvpn } ProtonVPN support is built-in. Otherwise, port forwarding for ProtonVPN can be troublesome[^1].
 
-    [^1]: [ProtonVPN: How to manually set up port forwarding :octicons-arrow-up-right-16:](https://protonvpn.com/support/port-forwarding-manual-setup).
+[^1]: [ProtonVPN: How to manually set up port forwarding :octicons-arrow-up-right-16:](https://protonvpn.com/support/port-forwarding-manual-setup).
 
 - ![qui](https://assets.tylernguyen.wiki/logos/autobrr.svg){ .twemoji } [qui :octicons-arrow-up-right-16:](https://github.com/autobrr/qui)
 [:octicons-container-16:{ .docker }](https://github.com/autobrr/qui/pkgs/container/qui){ title=Container}
 
-    I never interface with ![qBittorrent](https://assets.tylernguyen.wiki/logos/qbittorrent.svg){ .twemoji } qBittorrent through the stock WebUI.
+I never interface with ![qBittorrent](https://assets.tylernguyen.wiki/logos/qbittorrent.svg){ .twemoji } qBittorrent through the stock WebUI.
 
 - ![SABnzbd](https://assets.tylernguyen.wiki/logos/sabnzbd-light.svg#only-light){ .twemoji } ![SABnzbd](https://assets.tylernguyen.wiki/logos/sabnzbd-dark.svg#only-dark){ .twemoji } [SABnzbd :octicons-arrow-up-right-16:](https://sabnzbd.org/)
 [:octicons-container-16:{ .docker }](https://hub.docker.com/r/linuxserver/sabnzbd){ title=Container}

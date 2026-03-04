@@ -11,34 +11,34 @@ tags:
 I hate decorative RGBs. They're a distraction, waste of money and energy.
 ///
 
-## Computers
+## Desktop
 
-/// tab | Desktop :lucide-monitor:{ style="margin-right: 0" }:lucide-pc-case:{ style="margin-left: 0" }
-My PC runs ![Windows 11](https://assets.tylernguyen.wiki/logos/Windows11.svg){ .twemoji } Windows 11 and is mostly used for gaming.
+Runs ![Windows 11](https://assets.tylernguyen.wiki/logos/Windows11.svg){ .twemoji } Windows 11 and is mostly used for gaming.
 
 - __BenQ Zowie XL2566K__
 
 I typically play :simple-valorant:{ .valorant } VALORANT so the 25" size and 360Hz refresh rate goes well together. I don't recommend this monitor, however, as it is 1080p and a TN panel. My dream monitor would be a 25" 1440p OLED at 360Hz.
 
 - __Fractal Torrent__
+
 I like full-sized form factor builds for expandability, ease of maintenance, and generally cheaper and more available used parts.
 
 - __GIGABYTE X570S AORUS Master__
 - __AMD Ryzen 7 5800X3D__
-- __Noctua NH-D15 chromax.Black__
 
 _AM4_ is more than adequate for my fidelity and performance needs right now. I don't intend to upgrade to _AM5_. The next platform upgrade would likely be AM6 or Intel's equivalent.
 
+- __Noctua NH-D15 chromax.Black__
 - __EVGA RTX 3080 Ti FTW3 Ultra__
 - __Sabrent Rocket 4.0 Plus 1TB__
 - __Crucial P3 3.0 4TB__
 - __be quiet! Dark Power 12 1000W__
-///
 
-/// tab | Server :lucide-server:
-My home server runs :simple-unraid:{ .unraid } Unraid. The primary usage is for media archival and consumption.
+## Server
 
-__See [.wiki/self-hosted :octicons-arrow-down-left-16:](self-hosted.md) for more details on my self-hosted stack.__
+Runs :simple-unraid:{ .unraid } Unraid, the primary usage is for media archival and consumption.
+
+__See [.wiki/self-hosted :octicons-arrow-down-left-16:](self-hosted.md) for my software stack.__
 
 - __Fractal Meshify 2 XL__
 
@@ -62,16 +62,12 @@ Primary cache that holds app and configuration data. They are formatted in :simp
 Secondary cache used for temporary data and faster decompression. They are formatted in btrfs and run in RAID0.
 
 - __be quiet! Dark Power 12 1000W__
-///
 
-/// tab | Laptop :lucide-laptop:
+## Mobile
 
 - __Apple 14" Macbook Pro M3 Max__, 36GB unified memory
 
 This is my de-facto workhorse. The hardware and form factor is perfect for my use case. I plan on renewing AppleCare for it when it expires and don't intend on upgrading for the foreseeable future.
-///
-
-## Mobile
 
 - __iPhone 14 Pro__
 

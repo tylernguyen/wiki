@@ -41,14 +41,14 @@ I despise advertising as the primary form of monetization for services. And I do
     [:lucide-hat-glasses:](https://proton.me/legal/privacy){ title="Privacy Policy" }
     <span class="solarized-red">:lucide-skull: **VPNs do not provide anonymity**</span>
 
-    I use ProtonVPN strictly for P2P traffic as it's one of the few VPN services that supports [port forwarding :octicons-arrow-up-right-16:](https://protonvpn.com/support/port-forwarding).
+I use ProtonVPN strictly for P2P traffic as it's one of the few VPN services that supports [port forwarding :octicons-arrow-up-right-16:](https://protonvpn.com/support/port-forwarding).
 
 - ![Postmark](https://assets.tylernguyen.wiki/logos/Postmark.svg){ .twemoji } [Postmark :octicons-arrow-up-right-16:](https://postmarkapp.com/)
     [:lucide-circle-dollar-sign:](https://postmarkapp.com/pricing){ title="Pricing" }
     [:lucide-hat-glasses:](https://postmarkapp.com/privacy-policy){ title="Privacy Policy" }
     [:octicons-markdown-16:](https://postmarkapp.com/manual){ title=Documentation }
 
-    I mainly need transactional email for self-hosted apps, which send a very low volume. Postmark's free plan has been perfect for this.
+I mainly need transactional email for self-hosted apps, which send a very low volume. Postmark's free plan has been perfect for this.
 
 - :simple-nextdns:{ .nextdns } [NextDNS :octicons-arrow-up-right-16:](https://nextdns.io/)
     [:lucide-circle-dollar-sign:](https://nextdns.io/pricing){ title="Pricing" }
@@ -66,13 +66,13 @@ I despise advertising as the primary form of monetization for services. And I do
 - :simple-audible:{ .audible } [Audible :octicons-arrow-up-right-16:](https://www.audible.com/)
     <span class="solarized-orange">:lucide-triangle-alert: **Subsidiary of Amazon**</span>[^1]
 
-    Audible is only used for exclusives.
+Audible is only used for exclusives.
 
-    eBooks and audiobooks are sold by Amazon with DRM. Buy directly from publisher and your local bookstore when possible!
+eBooks and audiobooks are sold by Amazon with DRM. Buy directly from publisher and your local bookstore when possible!
 
-    /// tip
-    Archive your Audible library in a DRM-free format. See :octicons-git-branch-16:{ .foreground } [rmcrackan/Libation :octicons-arrow-up-right-16:](https://github.com/rmcrackan/Libation).
-    ///
+/// tip
+Archive your Audible library in a DRM-free format. See :octicons-git-branch-16:{ .foreground } [rmcrackan/Libation :octicons-arrow-up-right-16:](https://github.com/rmcrackan/Libation).
+///
 
 - ![Libby](https://assets.tylernguyen.wiki/logos/Libby.webp){ .twemoji } [Libby :octicons-arrow-up-right-16:](https://libbyapp.com)
 
@@ -80,9 +80,9 @@ I despise advertising as the primary form of monetization for services. And I do
     <span class="solarized-red">:material-lock: **Proprietary**</span>
     <span class="solarized-green">:material-sync: **Subscription**</span>-ware
 
-    Having purchased the iOS and web app early on, I'm grandfathered into its lifetime plan[^4]. I do not think that :simple-pocketcasts:{ .pocketcasts } Pocket Casts is worth it at its current subscription price.
+Having purchased the iOS and web app early on, I'm grandfathered into its lifetime plan[^4]. I do not think that :simple-pocketcasts:{ .pocketcasts } Pocket Casts is worth it at its current subscription price.
 
-    Instead, I recommend :simple-overcast:{ .overcast } [Overcast :octicons-arrow-up-right-16:](https://overcast.fm/), or ![Audiobookshelf](https://assets.tylernguyen.wiki/logos/audiobookshelf.svg){ .twemoji } [Audiobookshelf :octicons-arrow-up-right-16:](https://www.audiobookshelf.org/).
+Instead, I recommend :simple-overcast:{ .overcast } [Overcast :octicons-arrow-up-right-16:](https://overcast.fm/), or ![Audiobookshelf](https://assets.tylernguyen.wiki/logos/audiobookshelf.svg){ .twemoji } [Audiobookshelf :octicons-arrow-up-right-16:](https://www.audiobookshelf.org/).
 
 ## Steam
 
