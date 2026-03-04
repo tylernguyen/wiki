@@ -31,12 +31,11 @@ nav = [
   {"About" = [
      "about.md",
      "contact.md",
-     "ident.md",
+     "colophon.md",
      "license.md",
      "privacy-policy.md"
   ]},
-  {"Support" = "https://github.com/sponsors/tylernguyen"},
-  {"Credits" = "credits.md"}
+  "ident.md"
 ]
 
 extra_css = [

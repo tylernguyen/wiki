@@ -22,7 +22,7 @@ tags:
 
 - ![FreeCAD](https://assets.tylernguyen.wiki/logos/FreeCAD.svg){ .twemoji } [FreeCAD :octicons-arrow-up-right-16:](https://www.freecad.org/)
 
-    FreeCAD is an <span class="solarized-orange">:material-source-branch: __open source__</span> parametric CAD modeler.
+    FreeCAD is an <span class="solarized-orange">:lucide-folder-git-2: __open source__</span> parametric CAD modeler.
 
 ## Soldering
 

@@ -71,7 +71,7 @@ Audible is only used for exclusives.
 eBooks and audiobooks are sold by Amazon with DRM. Buy directly from publisher and your local bookstore when possible!
 
 /// tip
-Archive your Audible library in a DRM-free format. See :octicons-git-branch-16:{ .foreground } [rmcrackan/Libation :octicons-arrow-up-right-16:](https://github.com/rmcrackan/Libation).
+Archive your Audible library in a DRM-free format. See :lucide-folder-git-2:{ .foreground } [rmcrackan/Libation :octicons-arrow-up-right-16:](https://github.com/rmcrackan/Libation).
 ///
 
 - ![Libby](https://assets.tylernguyen.wiki/logos/Libby.webp){ .twemoji } [Libby :octicons-arrow-up-right-16:](https://libbyapp.com)

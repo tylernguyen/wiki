@@ -1,9 +1,8 @@
 ---
-hide:
-  - navigation
+icon: lucide/stamp
 ---
 
-# Credits
+# Colophon
 
 ## Platforms
 
@@ -68,7 +67,7 @@ hide:
 [:lucide-scale:](https://lucide.dev/license){ title=License }
 
 
-- :simple-materialdesignicons:{ .materialdesignicons } [Material Design Icons :octicons-arrow-up-right-16:](https://pictogrammers.com/library/mdi/) by Pictogrammers
+- :simple-materialdesignicons:{ .materialdesignicons } [Material Design Icons :octicons-arrow-up-right-16:](https://pictogrammers.com/library/mdi/)
 
 </div>
 

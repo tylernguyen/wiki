@@ -22,7 +22,7 @@ Though I do prefer free (as in freedom) software, I do use proprietary software 
 
 </div>
 
-Firefox is an <span class="solarized-orange">:material-source-branch: __open source__</span> web browser.
+Firefox is an <span class="solarized-orange">:lucide-folder-git-2: __open source__</span> web browser.
 
 __Extensions__:
 
@@ -56,7 +56,7 @@ __Extensions__:
 [:lucide-file-code-corner:](https://github.com/zensical/zensical){ title="Source Code" }
 [:lucide-scale:](https://github.com/zensical/zensical/blob/master/LICENSE.md){ title=License }
 
-    Zensical is an <span class="solarized-orange">:material-source-branch: __open source__</span> static site generator intended for documentation. It is the successor to :simple-materialformkdocs:{ .materialformkdocs } Material for MkDocs, built by the same creator.
+    Zensical is an <span class="solarized-orange">:lucide-folder-git-2: __open source__</span> static site generator intended for documentation. It is the successor to :simple-materialformkdocs:{ .materialformkdocs } Material for MkDocs, built by the same creator.
 
 </div>
 

@@ -80,7 +80,7 @@ graph LR
 
 ### :simple-koreader:{ .koreader } [KOReader :octicons-arrow-up-right-16:](https://github.com/koreader/koreader)
 
-KOReader is an <span class="solarized-orange">:material-source-branch: __open source__</span> and extensible reader for e-ink devices.
+KOReader is an <span class="solarized-orange">:lucide-folder-git-2: __open source__</span> and extensible reader for e-ink devices.
 
 Aside from my computer, I mostly read eBooks on my [__Kobo Clara BW__](https://us.kobobooks.com/products/kobo-clara-bw).
 
