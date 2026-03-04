@@ -26,10 +26,9 @@ hide:
 
 <div class="grid cards" markdown>
 
-- :simple-materialformkdocs:{ .materialformkdocs } [Material for MkDocs :octicons-arrow-up-right-16:](https://squidfunk.github.io/mkdocs-material/) [*Insiders*](https://squidfunk.github.io/mkdocs-material/insiders/)
-[:fontawesome-solid-money-bill:](https://github.com/sponsors/squidfunk){ .card-link title="Pricing" }
-[:fontawesome-regular-file-code:](https://github.com/squidfunk/mkdocs-material){ .card-link title="Source Code" }
-[:octicons-law-16:](https://github.com/squidfunk/mkdocs-material/blob/master/LICENSE){ .card-link title=License }
+- ![Zensical](https://assets.tylernguyen.wiki/logos/Zensical.webp){ .twemoji }  [Zensical :octicons-arrow-up-right-16:](https://zensical.org/)
+[:lucide-file-code-corner:](https://github.com/zensical/zensical){ title="Source Code" }
+[:lucide-scale:](https://github.com/zensical/zensical/blob/master/LICENSE.md){ title=License }
 
 - [PyMdown Extensions :octicons-arrow-up-right-16:](https://facelessuser.github.io/pymdown-extensions/)
 [:octicons-markdown-16:](https://facelessuser.github.io/pymdown-extensions/){ .card-link title=Documentation}
@@ -65,9 +64,9 @@ hide:
 [:octicons-law-16:](https://github.com/primer/octicons/blob/main/LICENSE){ .card-link title=License }
 [:fontawesome-regular-eye:](https://docs.github.com/en/site-policy/privacy-policies/github-privacy-statement){ .card-link title="Privacy Policy" }
 
-</div>
+- :simple-lucide:{ .lucidelogo } [Lucide :octicons-arrow-up-right-16:](https://lucide.dev/)
+[:lucide-scale:](https://lucide.dev/license){ title=License }
 
-<div class="grid cards" markdown>
 
 - :simple-materialdesignicons:{ .materialdesignicons } [Material Design Icons :octicons-arrow-up-right-16:](https://pictogrammers.com/library/mdi/) by Pictogrammers
 
