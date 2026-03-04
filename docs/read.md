@@ -12,10 +12,10 @@ tags:
 <div class="grid cards" markdown>
 
 - ![Calibre](https://assets.tylernguyen.wiki/logos/calibre.svg){ .twemoji } [Calibre :octicons-arrow-up-right-16:](https://calibre-ebook.com/)
-[:octicons-container-16:{ .docker }](https://hub.docker.com/r/linuxserver/calibre){ .card-link title=Container}
+[:lucide-container:](https://hub.docker.com/r/linuxserver/calibre){ .card-link title=Container}
 
 - ![Kavita](https://assets.tylernguyen.wiki/logos/kavita.svg){ .twemoji } [Kavita :octicons-arrow-up-right-16:](https://www.kavitareader.com/)
-[:octicons-container-16:{ .docker }](https://hub.docker.com/r/linuxserver/kavita){ .card-link title=Container}
+[:lucide-container:](https://hub.docker.com/r/linuxserver/kavita){ .card-link title=Container}
 [:fontawesome-regular-file-code:](https://github.com/Kareadita/Kavita){ .card-link title="Source Code" }
 
 - :simple-koreader:{ .koreader } [KOReader :octicons-arrow-up-right-16:](https://github.com/koreader/koreader)
@@ -106,11 +106,11 @@ KOReader is __VERY__ customizable and integrates well with Calibre. Anecdotally,
 <div class="grid cards" markdown>
 
 - ![rmcrackan/Libation](https://assets.tylernguyen.wiki/logos/Libation.svg){ .twemoji } [Libation :octicons-arrow-up-right-16:](https://github.com/rmcrackan/Libation)
-[:octicons-container-16:{ .docker }](https://hub.docker.com/r/rmcrackan/libation/tags){ title=Container}
+[:lucide-container:](https://hub.docker.com/r/rmcrackan/libation/tags){ title=Container}
 [:lucide-file-code-corner:](https://github.com/rmcrackan/Libation){ title="Source Code" }
 
 - ![Audiobookshelf](https://assets.tylernguyen.wiki/logos/audiobookshelf.svg){ .twemoji } [Audiobookshelf :octicons-arrow-up-right-16:](https://www.audiobookshelf.org/)
-[:octicons-container-16:{ .docker }](https://github.com/advplyr/audiobookshelf/pkgs/container/audiobookshelf){ .card-link title=Container}
+[:lucide-container:](https://github.com/advplyr/audiobookshelf/pkgs/container/audiobookshelf){ .card-link title=Container}
 [:fontawesome-regular-file-code:](https://github.com/advplyr/audiobookshelf){ .card-link title="Source Code" }
 
 - ![Prologue](https://assets.tylernguyen.wiki/logos/Prologue.webp){ .twemoji } [Prologue (iOS) :octicons-arrow-up-right-16:](https://apps.apple.com/us/app/prologue-audiobook-player/id1459223267)
