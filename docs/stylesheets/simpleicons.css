@@ -14,10 +14,6 @@
   color: #82612C;
 }
 
-.archlinux {
-  color: #1793D1;
-}
-
 .bambulab {
   color: #00AE42;
 }
@@ -136,6 +132,10 @@
 
 .javascript {
   color: #F7DF1E;
+}
+
+.kagi {
+  color: #FFB319;
 }
 
 .koreader {

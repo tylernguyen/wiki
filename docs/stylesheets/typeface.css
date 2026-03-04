@@ -96,23 +96,10 @@ body {
   text-align: right;
 }
 
-.md-typeset a {
-    text-decoration: underline;
-    text-decoration-style: wavy;
-    text-decoration-thickness: 1px;
-    text-decoration-inset: 0 10px;
-    text-decoration-color: var(--md-default-fg-color--lighter);
-    text-underline-offset: 0.15em;
-}
-
-.md-typeset a:hover {
-    text-decoration-color: rgb(var(--solarized-cyan));
-}
-
 [data-md-color-scheme="default"] .md-typeset a {
-    color: rgb(var(--solarized-base02));
+  color: rgb(var(--solarized-base02));
 }
 
 [data-md-color-scheme="slate"] .md-typeset a {
-    color: rgb(var(--solarized-base1));
+  color: rgb(var(--solarized-base1));
 }

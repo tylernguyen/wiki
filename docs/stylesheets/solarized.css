@@ -122,19 +122,12 @@
   color: rgb(var(--solarized-green));
 }
 
-/* ANCHOR Header Recolors */
-.md-header {
-  background-color: var(--md-default-bg-color--light);
-  border-bottom: .05rem solid var(--md-primary-fg-color);
-}
-
 .md-tabs {
   text-transform: uppercase;
-  background-color: var(--md-primary-fg-color--light);
 }
 
 .md-tabs__link {
-	letter-spacing: .5px;
+  letter-spacing: .5px;
 }
 
 .md-footer {
@@ -211,10 +204,14 @@
   border-top-right-radius: .3rem;
   border-bottom: .05rem solid var(--md-primary-fg-color);
 }
+
 /* Comments */
 .highlight .c,
 .highlight .c1,
-.highlight .cm { color: rgb(var(--solarized-base00)); }
+.highlight .cm {
+  color: rgb(var(--solarized-base00));
+}
+
 /* Keywords, Inserted, Word Operators */
 .highlight .cp,
 .highlight .cs,
@@ -222,7 +219,10 @@
 .highlight .k,
 .highlight .kn,
 .highlight .kp,
-.highlight .ow { color: rgb(var(--solarized-green)); }
+.highlight .ow {
+  color: rgb(var(--solarized-green));
+}
+
 /* Constants, Declarations, Numbers, Strings */
 .highlight .gd,
 .highlight .il,
@@ -240,7 +240,10 @@
 .highlight .sc,
 .highlight .si,
 .highlight .ss,
-.highlight .sx { color: rgb(var(--solarized-cyan)); }
+.highlight .sx {
+  color: rgb(var(--solarized-cyan));
+}
+
 /* Types, Headings, Exceptions, Escapes */
 .highlight .gh,
 .highlight .gu,
@@ -248,10 +251,16 @@
 .highlight .ne,
 .highlight .ni,
 .highlight .se,
-.highlight .x { color: rgb(var(--solarized-orange)); }
+.highlight .x {
+  color: rgb(var(--solarized-orange));
+}
+
 /* Errors, Regex */
 .highlight .gr,
-.highlight .sr { color: rgb(var(--solarized-red)); }
+.highlight .sr {
+  color: rgb(var(--solarized-red));
+}
+
 /* Builtins, Classes, Decorators, Functions, Tags, Variables */
 .highlight .bp,
 .highlight .kr,
@@ -264,7 +273,10 @@
 .highlight .nv,
 .highlight .vc,
 .highlight .vg,
-.highlight .vi { color: rgb(var(--solarized-blue)); }
+.highlight .vi {
+  color: rgb(var(--solarized-blue));
+}
+
 /* Default / Misc */
 .highlight .err,
 .highlight .g,
@@ -283,9 +295,22 @@
 .highlight .py,
 .highlight .sd,
 .highlight .sh,
-.highlight .w { color: rgb(var(--solarized-base01)); }
-.highlight .ge { color: rgb(var(--solarized-base01)); font-style: italic; } /* Generic.Emph */
-.highlight .gs { color: rgb(var(--solarized-base01)); font-weight: bold; }  /* Generic.Strong */
+.highlight .w {
+  color: rgb(var(--solarized-base01));
+}
+
+.highlight .ge {
+  color: rgb(var(--solarized-base01));
+  font-style: italic;
+}
+
+/* Generic.Emph */
+.highlight .gs {
+  color: rgb(var(--solarized-base01));
+  font-weight: bold;
+}
+
+/* Generic.Strong */
 /* !SECTION Pygments */
 
 /* SECTION Admonition */
@@ -297,7 +322,7 @@
 
 [data-md-color-scheme="slate"] .md-typeset .admonition,
 [data-md-color-scheme="slate"] .md-typeset details {
-	background: rgba(14, 26, 32, 0.7) !important;
+  background: rgba(14, 26, 32, 0.7) !important;
 }
 
 /* ANCHOR Default Admonition Recolors */
@@ -353,9 +378,9 @@
 }
 
 /* NOTE Right-align contents of question admonition */
-.md-typeset .admonition.question > :not(.admonition-title),
-.md-typeset details.question > :not(summary) {
-    text-align: right;
+.md-typeset .admonition.question> :not(.admonition-title),
+.md-typeset details.question> :not(summary) {
+  text-align: right;
 }
 
 .md-typeset .admonition.success,
@@ -472,6 +497,7 @@
   -webkit-mask-image: var(--md-admonition-icon--announce);
   mask-image: var(--md-admonition-icon--announce);
 }
+
 /* !SECTION Admonitions */
 
 /* ANCHOR Grids  */
@@ -483,7 +509,6 @@
   border: 1px solid var(--md-primary-fg-color);
   border-radius: 6px;
   box-shadow: rgba(0, 0, 0, 0.05) 0px 1px 3px 0px, rgba(0, 0, 0, 0.05) 0px 1px 2px -1px;
-  transition: none;
   position: relative;
 }
 
@@ -540,7 +565,7 @@
 }
 
 .md-typeset .md-content__button {
-	background: var(--md-primary-fg-color--light);
+  background: var(--md-primary-fg-color--light);
 }
 
 .md-banner {
@@ -550,4 +575,17 @@
 /* ANCHOR Search */
 .md-search__button {
   background-color: var(--md-primary-fg-color--light);
+}
+
+.md-typeset a {
+  text-decoration: underline;
+  text-decoration-style: wavy;
+  text-decoration-thickness: 1px;
+  text-decoration-inset: 0 10px;
+  text-decoration-color: var(--md-default-fg-color--lighter);
+  text-underline-offset: 0.15em;
+}
+
+.md-typeset a:hover {
+  text-decoration-color: rgb(var(--solarized-cyan));
 }
