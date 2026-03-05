@@ -26,27 +26,27 @@ Usually, mousepad firmness does not matter to me. However, for the Type-99 speci
 
 ## Keyboard
 
-/// tab | FC660C Build
+### FC660C Build
+
 - FC660C PCB + Plate
 - HASU QMK Controller
 - BKE Redux Grey v1 Domes
 - biip MT3 Extended 2048 Keycaps
 - Norbauer Heavy-6: Urbi et Orbi Edition
-///
 
-/// tab | Wooting 80HE
+### Wooting 80HE
+
 - Wooting 80HE PCR ABS Ghost
 - Wooting 80HE Module
 - NovelKeys GMK Kaiju Part Deux Mechabase Keycaps
 - GEON Raw HE
-///
 
-/// tab | Wooting 60HE Build
+### Wooting 60HE Build
+
 - Wilba.Tech Salvation Lightning Silver
 - Wooting 60HE+ Module
 - NovelKeys GMK Kaiju Part Deux Mechabase Keycaps
 - GEONWORKS Raptor HE Housing + Lekker Stem
-///
 
 ## Audio
 
