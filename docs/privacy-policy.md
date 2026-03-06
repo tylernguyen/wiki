@@ -22,7 +22,7 @@ __Dot Wiki__ uses [PostHog :octicons-arrow-up-right-16:](https://posthog.com/) f
 
 Analytics data are used to improve and grow the website. __Data will never be shared, sold, nor used for advertisements/commercial purposes.__
 
-/// danger | Notice
+/// warning | Notice
 
 Analytics data are hosted on the official :flag_us: US-instance of PostHog.
 
