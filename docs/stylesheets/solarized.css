@@ -122,10 +122,6 @@
   color: rgb(var(--solarized-green));
 }
 
-.md-tabs {
-  text-transform: uppercase;
-}
-
 .md-tabs__link {
   letter-spacing: .5px;
 }

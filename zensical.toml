@@ -9,15 +9,15 @@ repo_name = "tylernguyen/wiki"
 edit_uri = "edit/main/docs/"
 
 nav = [
-  {"Home" = "index.md"},
-  {"Catalog" = [
+  {"BLOG" = "index.md"},
+  {"CATALOG" = [
      "favorites.md",
      "websites.md"
   ]},
-  {"Workflows" = [
+  {"WORKFLOWS" = [
      "read.md",
   ]},
-  {"Uses" = [
+  {"USES" = [
      "dotfiles.md",
      "hardware.md",
      "fitness.md",
@@ -28,7 +28,7 @@ nav = [
      "services.md",
      "self-hosted.md",
   ]},
-  {"About" = [
+  {"ABOUT" = [
      "about.md",
      "contact.md",
      "colophon.md",
@@ -81,7 +81,7 @@ features = [
     "navigation.sections",
     #"navigation.tabs",
     #"navigation.tabs.sticky",
-    "navigation.top",
+    "navigation.top", # NOTE Return to Top
     "navigation.tracking",
     "search.highlight",
     "toc.follow",

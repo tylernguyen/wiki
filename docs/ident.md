@@ -1,7 +1,5 @@
 ---
 icon: octicons/verified-16
-hide:
-  - navigation
 ---
 
 # Identities
