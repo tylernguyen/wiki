@@ -79,7 +79,7 @@ features = [
     #"navigation.path",
     #"navigation.prune",
     "navigation.sections",
-    "navigation.tabs",
+    #"navigation.tabs",
     #"navigation.tabs.sticky",
     "navigation.top",
     "navigation.tracking",
