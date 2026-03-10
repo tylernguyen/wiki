@@ -53,13 +53,13 @@ I maxed out this case with 20 3.5" drives. I'll start to rotate out older and sm
 
 Main data array (158TB usable) is formatted in XFS and runs with 2 drives (_2x_ 14TB) as parities.
 
-- __NVMe Cache__: _2x_ 1TB WD SN750
+- __NVMe Cache__: 2x 1TB WD SN750
 
-Primary cache that holds app and configuration data. They are formatted in :simple-openzfs:{ .openzfs } ZFS and run in RAID1.
+Primary cache for Docker appdata, formatted in :simple-openzfs:{ .openzfs } ZFS and run in RAID1.
 
-- __SATA Cache__: _2x_ 2TB Crucial MX500 2.5"
+- __SATA Cache__: 2x 2TB Crucial MX500 2.5"
 
-Secondary cache used for temporary data and faster decompression. They are formatted in btrfs and run in RAID0.
+Secondary cache used for temporary data and faster decompression, formatted in btrfs and run in RAID0.
 
 - __PSU__: be quiet! Dark Power 12 1000W
 
@@ -87,20 +87,13 @@ Runs :simple-koreader:{ .koreader } [KOReader :octicons-arrow-up-right-16:](http
 
 - __Steam Deck OLED LE__
 
-I love my Steam Deck OLED. I previously had a standard Steam Deck and cannot recommend the OLED model enough. I use it at my desk, in bed, and on travel. I play mostly indie and emulated titles on it.
+I love my Steam Deck OLED. I previously had a standard Steam Deck and cannot recommend the OLED model enough. I often use it in bed, and during travel. On it, I mostly play roguelikes and emulated titles.
 
 - __Nintendo Switch OLED__
 
-This is solely for Nintendo exclusive games.
+This is solely for Nintendo exclusive games. Nintendo games are particularly good for
 
-## Miscellaneous
-
-- __Apple AirTag__
-- __Yubikey 5C NFC__
-
-:simple-1password:{ .onepassword } 1Password handles most of my daily security, but I still use the Yubikey as 2FA and/or passkey for a few critical accounts. It's also apart of my GnuPG workflow.
-
-See :lucide-folder-git-2:{ .foreground } [drduh/YubiKey-Guide :octicons-arrow-up-right-16:](https://github.com/drduh/YubiKey-Guide).
+See [/favorites#games :octicons-arrow-down-left-16:](favorites.md#games)
 
 ## Home Network
 
@@ -119,3 +112,12 @@ This switch is mostly used for gaming devices. They usually saturate the speed d
 - __Ubiquiti UniFi USW-Lite-8-PoE__
 
 The majority of my PoE devices are low bandwidth. As long as my setup doesn't include a PoE device that needs more than 1 gigabit. There are no reasons to upgrade.
+
+## Miscellaneous
+
+- __Apple AirTag__
+- __Yubikey 5C NFC__
+
+:simple-1password:{ .onepassword } 1Password handles most of my daily security, but I still use the Yubikey as 2FA and/or passkey for a few critical accounts. It's also apart of my GnuPG workflow.
+
+See :lucide-folder-git-2:{ .foreground } [drduh/YubiKey-Guide :octicons-arrow-up-right-16:](https://github.com/drduh/YubiKey-Guide).
