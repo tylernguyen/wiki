@@ -13,17 +13,10 @@ I despise advertising as the primary form of monetization for services. And I do
 
 - ![Google Calendar](https://assets.tylernguyen.wiki/logos/Google_Calendar.svg){ .twemoji } [Google Calendar :octicons-arrow-up-right-16:](https://calendar.google.com/)
     <span class="solarized-red">:material-lock: **Proprietary**</span>
-
 - :simple-todoist:{ .todoist } [Todoist :octicons-arrow-up-right-16:](https://todoist.com/)
     <span class="solarized-red">:material-lock: **Proprietary**</span>
     <span class="solarized-green">:material-sync: **Subscription**</span>-ware
-
 - :simple-icloud:{ .icloud } [iCloud+ :octicons-arrow-up-right-16:](https://www.icloud.com/)
-- ![Kagi Search](https://assets.tylernguyen.wiki/logos/Kagi_search.svg){ .twemoji } [Kagi Search :octicons-arrow-up-right-16:](https://kagi.com/)
-    [:lucide-circle-dollar-sign:](https://kagi.com/pricing){ title="Pricing" }
-
-- ![Kagi Translate](https://assets.tylernguyen.wiki/logos/Kagi_translate.svg){ .twemoji } [Kagi Translate :octicons-arrow-up-right-16:](https://translate.kagi.com/)
-- ![Kagi Assistant](https://assets.tylernguyen.wiki/logos/Kagi_assistant.svg){ .twemoji } [Kagi Assistant :octicons-arrow-up-right-16:](https://kagi.com/assistant)
 - :simple-claude:{ .claude } [Claude :octicons-arrow-up-right-16:](https://claude.ai/)
 
 ## Utility
