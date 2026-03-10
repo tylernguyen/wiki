@@ -2,10 +2,6 @@
   color: #02a9ff;
 }
 
-.applepodcast {
-  color: #9933CC;
-}
-
 .audible {
   color: #f8991c;
 }
@@ -58,10 +54,6 @@
   color: #005571;
 }
 
-.flathub {
-  color: #4a86cf;
-}
-
 .flatpak {
   color: #4A90D9;
 }
@@ -86,14 +78,6 @@
   color: #181717;
 }
 
-.githubactions {
-  color: #2088FF;
-}
-
-.githubsponsors {
-  color: #EA4AAA;
-}
-
 .gnubash {
   color: #4eaa25;
 }
@@ -104,10 +88,6 @@
 
 .gog {
   color: #86328A;
-}
-
-.googlecalendar {
-  color: #4285F4;
 }
 
 .homeassistant {
@@ -126,10 +106,6 @@
   color: #3693f3;
 }
 
-.ifixit {
-  color: #0071CE;
-}
-
 .javascript {
   color: #F7DF1E;
 }
@@ -140,14 +116,6 @@
 
 .koreader {
   color: #00A89C;
-}
-
-.linuxserver {
-  color: #DA3B8A;
-}
-
-.lua {
-  color: #2C2D72;
 }
 
 .lucidelogo {
@@ -164,14 +132,6 @@
 
 .materialformkdocs {
   color: #526CFE;
-}
-
-.mermaid {
-  color: #FF3670;
-}
-
-.neovim {
-  color: #57A143;
 }
 
 .nextdns {
@@ -210,28 +170,8 @@
   color: #3776AB;
 }
 
-.r {
-  color: #276DC3;
-}
-
 .radarr {
   color: #FFCB3D;
-}
-
-.rakuten {
-  color: #BF0000;
-}
-
-.raycast {
-  color: #FF6363;
-}
-
-.reddit {
-  color: #FF4500;
-}
-
-.redis {
-  color: #DC382D;
 }
 
 .riotgames {
@@ -240,18 +180,6 @@
 
 .rottentomatoes {
   color: #fa320a;
-}
-
-.rss {
-  color: #ffa500;
-}
-
-.sidekiq {
-  color: #B1003E;
-}
-
-.simplelogin {
-  color: #EA319F;
 }
 
 .sonarr {
@@ -270,20 +198,12 @@
   color: #e44332;
 }
 
-.torproject {
-  color: #7e4798;
-}
-
 .truenas {
   color: #0095D5;
 }
 
 .ublockorigin {
   color: #800000;
-}
-
-.ubiquiti {
-  color: #0559C9;
 }
 
 .unraid {
@@ -294,24 +214,12 @@
   color: #FA4454;
 }
 
-.vim {
-  color: #019733;
-}
-
-.wireguard {
-  color: #88171A;
-}
-
 .xml {
   color: #005FAD;
 }
 
 .yaml {
   color: #CB171E;
-}
-
-.youtube {
-  color: #FF0000;
 }
 
 .zsh {
