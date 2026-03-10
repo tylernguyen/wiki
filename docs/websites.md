@@ -33,19 +33,19 @@ RSS is my preferred method of following websites. I also maintain an email alias
 
 ## News
 
-- [NY Times - Visual Investigation](https://www.youtube.com/playlist?list=PL4CGYNsoW2iAZt9-UzPyPZOH-AlRMxcIE)
+- [NY Times - Visual Investigation :octicons-arrow-up-right-16:](https://www.youtube.com/playlist?list=PL4CGYNsoW2iAZt9-UzPyPZOH-AlRMxcIE)
 
 ## Documentaries
 
-- [@LEMMiNO](https://www.youtube.com/@LEMMiNO)
+- [@LEMMiNO :octicons-arrow-up-right-16:](https://www.youtube.com/@LEMMiNO)
 
 ## Education
 
-- [@3blue1brown](https://www.youtube.com/@3blue1brown)
+- [@3blue1brown :octicons-arrow-up-right-16:](https://www.youtube.com/@3blue1brown)
 
 ## Newsletter
 
-- [Fridays' Elk](https://buttondown.email/carlzimmer) by [Carl Zimmer](https://carlzimmer.com/)
+- [Fridays' Elk :octicons-arrow-up-right-16:](https://buttondown.email/carlzimmer)
 
 ## Utilities
 
@@ -58,7 +58,7 @@ RSS is my preferred method of following websites. I also maintain an email alias
 
 ## Posts
 
-- [Joel Spolsky - The Absolute Minimum Every Software Developer Absolutely, Positively Must Know About Unicode and Character Sets (No Excuses!)](https://www.joelonsoftware.com/2003/10/08/the-absolute-minimum-every-software-developer-absolutely-positively-must-know-about-unicode-and-character-sets-no-excuses/)
+- [Joel Spolsky - The Absolute Minimum Every ... Must Know About Unicode and Character Sets (No Excuses!) :octicons-arrow-up-right-16:](https://www.joelonsoftware.com/2003/10/08/the-absolute-minimum-every-software-developer-absolutely-positively-must-know-about-unicode-and-character-sets-no-excuses/)
 
 /// tip
 There's an updated addition to the post by another author.
@@ -68,4 +68,4 @@ There's an updated addition to the post by another author.
 
 ## Cooking
 
-- [Dr. Douglas Baldwin - A Practical Guide to Sous Vide Cooking](https://douglasbaldwin.com/sous-vide.html)
+- [Dr. Douglas Baldwin - A Practical Guide to Sous Vide Cooking :octicons-arrow-up-right-16:](https://douglasbaldwin.com/sous-vide.html)
