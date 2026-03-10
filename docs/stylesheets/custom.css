@@ -1,0 +1,97 @@
+/* NOTE Inline Code */
+.md-typeset :not(pre) > code {
+    padding: 2px 6px;
+    border-radius: 4px;
+    border: 1px solid var(--md-default-bg-color--lighter);
+    font-size: 85%;
+}
+
+/* NOTE Text Highlight: Pad left and right */
+.md-typeset mark {
+    padding-left: 2px;
+    padding-right: 2px;
+}
+
+/* NOTE Back to Top: Match site button radius, position bottom left */
+.md-top {
+    border-radius: 4px;
+    margin-right: 0 !important;
+    right: 1rem !important;
+    transform: none !important;
+}
+
+/* NOTE Mobile navigation drawer: remove rounded corners */
+@media screen and (max-width: 76.1875em) {
+    .md-sidebar--primary {
+        border-radius: 0;
+    }
+
+    .md-nav__source .md-source {
+        border: 1px solid var(--md-default-fg-color);
+        border-radius: 4px;
+        background-color: var(--md-default-bg-color--light);
+    }
+}
+
+/* NOTE Header: site title matches body text color */
+.md-header__topic {
+    font-style: oblique 2deg;
+    font-weight: 500;
+    color: var(--md-default-fg-color);
+}
+
+/* NOTE Main content: reduce top space */
+.md-main__inner {
+    margin-top: 0.25rem;
+}
+
+/* NOTE Navigation: reduce spacing and margins */
+.md-sidebar {
+    padding: 0;
+}
+
+.md-nav__item {
+    padding: 0;
+}
+
+.md-nav__link {
+    border-radius: 4px;
+    margin-top: 0;
+    padding-top: 0.25rem;
+    padding-bottom: 0.25rem;
+}
+
+.md-nav__title {
+    padding-top: 0.4rem;
+    padding-bottom: 0.4rem;
+}
+
+.md-sidebar__scrollwrap {
+    padding: 1rem 0;
+}
+
+.md-typeset .md-content__button {
+    border-radius: 4px;
+    background: var(--md-primary-fg-color--light);
+}
+
+.md-search__button {
+    border-radius: 4px;
+    background-color: var(--md-primary-fg-color--light);
+}
+
+/* NOTE Cursor: Terminal blinking block */
+@keyframes blink {
+    0%, 100% { background-color: currentColor; }
+    50% { background-color: transparent; }
+}
+
+.caret {
+    display: inline-block;
+    width: 0.6em;
+    height: 1em;
+    vertical-align: -0.1em;
+    margin-left: -0.25em;
+    background-color: currentColor;
+    animation: blink 1s step-start infinite;
+}

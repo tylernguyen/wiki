@@ -1,0 +1,603 @@
+:root>* {
+  --solarized-base03: 0, 43, 54;
+  --solarized-base02: 7, 54, 66;
+  --solarized-base01: 88, 110, 117;
+  --solarized-base00: 101, 123, 131;
+  --solarized-base0: 131, 148, 150;
+  --solarized-base1: 147, 161, 161;
+  --solarized-base2: 238, 232, 213;
+  --solarized-base3: 253, 246, 227;
+  --solarized-blue: 38, 139, 210;
+  --solarized-cyan: 42, 161, 152;
+  --solarized-green: 133, 153, 0;
+  --solarized-magenta: 211, 54, 130;
+  --solarized-orange: 203, 75, 22;
+  --solarized-red: 220, 50, 47;
+  --solarized-violet: 108, 113, 196;
+  --solarized-yellow: 181, 137, 0;
+  --md-search-result-icon: url('data:image/svg+xml, <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16"><path d="M11.78 4.22a.75.75 0 0 1 0 1.06l-5.26 5.26h4.2a.75.75 0 0 1 0 1.5H4.71a.75.75 0 0 1-.75-.75V5.28a.75.75 0 0 1 1.5 0v4.2l5.26-5.26a.75.75 0 0 1 1.06 0Z"></path></svg>');
+  /* LINK https://github.com/squidfunk/mkdocs-material/blob/master/src/templates/assets/stylesheets/main/_colors.scss */
+  --md-admonition-icon--extension: url('data:image/svg+xml, <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16"><path d="M1.5 3.25c0-.966.784-1.75 1.75-1.75h2.5c.966 0 1.75.784 1.75 1.75v2.5A1.75 1.75 0 0 1 5.75 7.5h-2.5A1.75 1.75 0 0 1 1.5 5.75Zm7 0c0-.966.784-1.75 1.75-1.75h2.5c.966 0 1.75.784 1.75 1.75v2.5a1.75 1.75 0 0 1-1.75 1.75h-2.5A1.75 1.75 0 0 1 8.5 5.75Zm-7 7c0-.966.784-1.75 1.75-1.75h2.5c.966 0 1.75.784 1.75 1.75v2.5a1.75 1.75 0 0 1-1.75 1.75h-2.5a1.75 1.75 0 0 1-1.75-1.75Zm7 0c0-.966.784-1.75 1.75-1.75h2.5c.966 0 1.75.784 1.75 1.75v2.5a1.75 1.75 0 0 1-1.75 1.75h-2.5a1.75 1.75 0 0 1-1.75-1.75ZM3.25 3a.25.25 0 0 0-.25.25v2.5c0 .138.112.25.25.25h2.5A.25.25 0 0 0 6 5.75v-2.5A.25.25 0 0 0 5.75 3Zm7 0a.25.25 0 0 0-.25.25v2.5c0 .138.112.25.25.25h2.5a.25.25 0 0 0 .25-.25v-2.5a.25.25 0 0 0-.25-.25Zm-7 7a.25.25 0 0 0-.25.25v2.5c0 .138.112.25.25.25h2.5a.25.25 0 0 0 .25-.25v-2.5a.25.25 0 0 0-.25-.25Zm7 0a.25.25 0 0 0-.25.25v2.5c0 .138.112.25.25.25h2.5a.25.25 0 0 0 .25-.25v-2.5a.25.25 0 0 0-.25-.25Z"></path></svg>');
+  --md-admonition-icon--setting: url('data:image/svg+xml, <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-settings-icon lucide-settings"><path d="M9.671 4.136a2.34 2.34 0 0 1 4.659 0 2.34 2.34 0 0 0 3.319 1.915 2.34 2.34 0 0 1 2.33 4.033 2.34 2.34 0 0 0 0 3.831 2.34 2.34 0 0 1-2.33 4.033 2.34 2.34 0 0 0-3.319 1.915 2.34 2.34 0 0 1-4.659 0 2.34 2.34 0 0 0-3.32-1.915 2.34 2.34 0 0 1-2.33-4.033 2.34 2.34 0 0 0 0-3.831A2.34 2.34 0 0 1 6.35 6.051a2.34 2.34 0 0 0 3.319-1.915"/><circle cx="12" cy="12" r="3"/></svg>');
+  --md-admonition-icon--announce: url('data:image/svg+xml, <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-megaphone-icon lucide-megaphone"><path d="M11 6a13 13 0 0 0 8.4-2.8A1 1 0 0 1 21 4v12a1 1 0 0 1-1.6.8A13 13 0 0 0 11 14H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2z"/><path d="M6 14a12 12 0 0 0 2.4 7.2 2 2 0 0 0 3.2-2.4A8 8 0 0 1 10 14"/><path d="M8 6v8"/></svg>');
+  /* LINK https://github.com/squidfunk/mkdocs-material/blob/master/src/templates/assets/stylesheets/main/integrations/_mermaid.scss */
+  --md-mermaid-edge-color: var(--md-primary-fg-color);
+  --md-mermaid-node-bg-color: var(--md-default-bg-color--light);
+  --md-mermaid-node-fg-color: var(--md-default-fg-color--light);
+  --md-mermaid-label-bg-color: var(--md-default-bg-color);
+  --md-mermaid-label-fg-color: var(--md-default-fg-color);
+}
+
+[data-md-color-scheme="default"] {
+  --md-default-bg-color: rgb(var(--solarized-base3));
+  --md-default-bg-color--light: rgba(var(--solarized-base2), 0.8);
+  --md-default-bg-color--lighter: rgb(var(--solarized-base1));
+  --md-default-bg-color--lightest: rgb(var(--solarized-base0));
+  --md-default-fg-color: rgb(var(--solarized-base02));
+  --md-default-fg-color--light: rgb(var(--solarized-base01));
+  --md-default-fg-color--lighter: rgb(var(--solarized-base00));
+  --md-default-fg-color--lightest: rgb(var(--solarized-base0));
+  --md-primary-bg-color: rgb(var(--solarized-base02));
+  --md-primary-fg-color--dark: rgb(var(--solarized-base2));
+  --md-primary-fg-color: rgb(var(--solarized-base03));
+  --md-primary-fg-color--light: rgba(var(--solarized-base03), 0.2);
+  --md-accent-fg-color: rgb(var(--solarized-orange));
+  --md-accent-fg-color--transparent: rgba(var(--solarized-orange), 0.1);
+  --md-footer-fg-color: rgb(var(--solarized-base03));
+  --md-footer-fg-color--light: rgb(var(--solarized-base02));
+  --md-footer-fg-color--lighter: rgb(var(--solarized-base01));
+  --md-footer-bg-color: rgb(var(--solarized-base3));
+  --md-footer-bg-color--dark: rgb(var(--solarized-base2));
+  --md-code-fg-color: rgb(var(--solarized-base02));
+  --md-code-bg-color: rgb(var(--solarized-base2));
+  --md-code-hl-color: rgb(var(--solarized-base02));
+  --md-typeset-kbd-color: rgb(var(--solarized-base2));
+  --md-typeset-kbd-border-color: rgb(var(--solarized-green));
+  --md-typeset-kbd-accent-color: rgb(var(--solarized-base3));
+  --md-typeset-mark-color: rgba(var(--solarized-green), 0.3);
+}
+
+[data-md-color-scheme="slate"] {
+  --md-default-bg-color: rgb(var(--solarized-base03));
+  --md-default-bg-color--light: rgba(var(--solarized-base02), 0.8);
+  --md-default-bg-color--lighter: rgb(var(--solarized-base01));
+  --md-default-bg-color--lightest: rgb(var(--solarized-base00));
+  --md-default-fg-color: rgb(var(--solarized-base0));
+  --md-default-fg-color--light: rgb(var(--solarized-base00));
+  --md-default-fg-color--lighter: rgb(var(--solarized-base01));
+  --md-default-fg-color--lightest: rgb(var(--solarized-base02));
+  --md-primary-bg-color: rgb(var(--solarized-base2));
+  --md-primary-fg-color--dark: rgb(var(--solarized-base02));
+  --md-primary-fg-color: rgb(var(--solarized-cyan));
+  --md-primary-fg-color--light: rgba(var(--solarized-cyan), 0.2);
+  --md-accent-fg-color: rgb(var(--solarized-green));
+  --md-accent-fg-color--transparent: rgba(var(--solarized-green), 0.1);
+  --md-footer-fg-color: rgb(var(--solarized-base2));
+  --md-footer-fg-color--light: rgb(var(--solarized-base1));
+  --md-footer-fg-color--lighter: rgb(var(--solarized-base00));
+  --md-footer-bg-color: rgb(var(--solarized-base03));
+  --md-footer-bg-color--dark: rgb(var(--solarized-base02));
+  --md-code-fg-color: rgb(var(--solarized-base1));
+  --md-code-bg-color: rgb(var(--solarized-base02));
+  --md-code-hl-color: rgb(var(--solarized-base2));
+  --md-typeset-kbd-color: rgb(var(--solarized-base02));
+  --md-typeset-kbd-border-color: rgb(var(--solarized-cyan));
+  --md-typeset-kbd-accent-color: rgb(var(--solarized-base03));
+  --md-typeset-mark-color: rgba(var(--solarized-cyan), 0.4);
+}
+
+.foreground {
+  color: var(--md-default-fg-color);
+}
+
+.solarized-yellow {
+  color: rgb(var(--solarized-yellow));
+}
+
+.solarized-orange {
+  color: rgb(var(--solarized-orange));
+}
+
+.solarized-red {
+  color: rgb(var(--solarized-red));
+}
+
+.solarized-magenta {
+  color: rgb(var(--solarized-magenta));
+}
+
+.solarized-violet {
+  color: rgb(var(--solarized-violet));
+}
+
+.solarized-blue {
+  color: rgb(var(--solarized-blue));
+}
+
+.solarized-cyan {
+  color: rgb(var(--solarized-cyan));
+}
+
+.solarized-green {
+  color: rgb(var(--solarized-green));
+}
+
+.md-tabs__link {
+  letter-spacing: .5px;
+}
+
+.md-footer {
+  border-top: .05rem solid var(--md-primary-fg-color);
+}
+
+.md-footer__title {
+  color: var(--md-footer-fg-color--light);
+}
+
+.md-footer__link {
+  margin-top: 10px;
+}
+
+.md-footer-meta {
+  background-color: var(--md-default-bg-color--light);
+}
+
+.md-footer-meta__inner {
+	padding: 0;
+}
+
+.md-nav--primary .md-nav__item .md-nav__link--active {
+  border-radius: 4px;
+  background: var(--md-default-fg-color);
+  color: var(--md-default-bg-color);
+}
+
+.md-nav__link:hover {
+    background-color: var(--md-default-fg-color--light) !important;
+    color: var(--md-default-bg-color) !important;
+}
+
+/* NOTE Icon Recolor */
+.md-source__icon {
+  color: var(--md-default-fg-color);
+}
+
+[dir="ltr"] .md-source__repository {
+  color: var(--md-default-fg-color);
+}
+
+.md-header__option,
+.md-header__button.md-icon {
+  color: var(--md-default-fg-color);
+}
+
+.md-social__link:nth-child(1) svg {
+  fill: #6364FF;
+}
+
+.md-social__link:nth-child(2) svg {
+  fill: #0285FF;
+}
+
+.md-social__link:nth-child(3) svg {
+  fill: var(--md-default-fg-color);
+}
+
+.md-social__link:nth-child(4) svg {
+  fill: #FB923C;
+}
+
+/* ANCHOR Search */
+[data-md-color-scheme] .md-search__form {
+  border: 1px solid var(--md-primary-fg-color);
+  background-color: var(--md-default-bg-color);
+}
+
+[data-md-color-scheme] .md-search__icon,
+[data-md-color-scheme] .md-search-result__icon,
+[data-md-color-scheme] .md-search__input::placeholder {
+  color: var(--md-default-fg-color--lighter);
+  scale: 0.95;
+}
+
+.md-search-result__meta {
+  background-color: var(--md-default-bg-color--light);
+}
+
+/* SECTION Pygments */
+.highlight span.filename {
+  border-top-left-radius: .3rem;
+  border-top-right-radius: .3rem;
+  border-bottom: .05rem solid var(--md-primary-fg-color);
+}
+
+/* Comments */
+.highlight .c,
+.highlight .c1,
+.highlight .cm {
+  color: rgb(var(--solarized-base00));
+}
+
+/* Keywords, Inserted, Word Operators */
+.highlight .cp,
+.highlight .cs,
+.highlight .gi,
+.highlight .k,
+.highlight .kn,
+.highlight .kp,
+.highlight .ow {
+  color: rgb(var(--solarized-green));
+}
+
+/* Constants, Declarations, Numbers, Strings */
+.highlight .gd,
+.highlight .il,
+.highlight .kc,
+.highlight .kd,
+.highlight .m,
+.highlight .mf,
+.highlight .mh,
+.highlight .mi,
+.highlight .mo,
+.highlight .s,
+.highlight .s1,
+.highlight .s2,
+.highlight .sb,
+.highlight .sc,
+.highlight .si,
+.highlight .ss,
+.highlight .sx {
+  color: rgb(var(--solarized-cyan));
+}
+
+/* Types, Headings, Exceptions, Escapes */
+.highlight .gh,
+.highlight .gu,
+.highlight .kt,
+.highlight .ne,
+.highlight .ni,
+.highlight .se,
+.highlight .x {
+  color: rgb(var(--solarized-orange));
+}
+
+/* Errors, Regex */
+.highlight .gr,
+.highlight .sr {
+  color: rgb(var(--solarized-red));
+}
+
+/* Builtins, Classes, Decorators, Functions, Tags, Variables */
+.highlight .bp,
+.highlight .kr,
+.highlight .nb,
+.highlight .nc,
+.highlight .nd,
+.highlight .nf,
+.highlight .no,
+.highlight .nt,
+.highlight .nv,
+.highlight .vc,
+.highlight .vg,
+.highlight .vi {
+  color: rgb(var(--solarized-blue));
+}
+
+/* Default / Misc */
+.highlight .err,
+.highlight .g,
+.highlight .go,
+.highlight .gp,
+.highlight .gt,
+.highlight .l,
+.highlight .ld,
+.highlight .n,
+.highlight .na,
+.highlight .nl,
+.highlight .nn,
+.highlight .nx,
+.highlight .o,
+.highlight .p,
+.highlight .py,
+.highlight .sd,
+.highlight .sh,
+.highlight .w {
+  color: rgb(var(--solarized-base01));
+}
+
+.highlight .ge {
+  color: rgb(var(--solarized-base01));
+  font-style: italic;
+}
+
+/* Generic.Emph */
+.highlight .gs {
+  color: rgb(var(--solarized-base01));
+  font-weight: bold;
+}
+
+/* Generic.Strong */
+/* !SECTION Pygments */
+
+/* SECTION Admonition */
+.md-typeset .admonition,
+.md-typeset details {
+  border-radius: 4px;
+  border-width: 2px;
+  border-style: solid;
+}
+
+[data-md-color-scheme="slate"] .md-typeset .admonition,
+[data-md-color-scheme="slate"] .md-typeset details {
+  background: rgba(14, 26, 32, 0.7) !important;
+}
+
+/* ANCHOR Default Admonition Recolors */
+.md-typeset .admonition.note,
+.md-typeset details.note {
+  border-color: rgb(var(--solarized-blue));
+}
+
+.md-typeset .note>.admonition-title::before,
+.md-typeset .note>summary::before {
+  background-color: rgb(var(--solarized-blue));
+}
+
+.md-typeset .admonition.abstract,
+.md-typeset details.abstract {
+  border-color: rgb(var(--solarized-blue));
+}
+
+.md-typeset .abstract>.admonition-title::before,
+.md-typeset .abstract>summary::before {
+  background-color: rgb(var(--solarized-blue));
+}
+
+.md-typeset .admonition.info,
+.md-typeset details.info {
+  border-color: rgb(var(--solarized-cyan));
+}
+
+.md-typeset .info>.admonition-title::before,
+.md-typeset .info>summary::before {
+  background-color: rgb(var(--solarized-cyan));
+}
+
+.md-typeset .admonition.tip,
+.md-typeset details.tip {
+  border-color: rgb(var(--solarized-yellow));
+  background: rgba(var(--solarized-yellow), 0.1);
+}
+
+.md-typeset .tip>.admonition-title::before,
+.md-typeset .tip>summary::before {
+  background-color: rgb(var(--solarized-yellow));
+}
+
+.md-typeset .admonition.question,
+.md-typeset details.question {
+  border-color: rgb(var(--solarized-green));
+}
+
+.md-typeset .question>.admonition-title::before,
+.md-typeset .question>summary::before {
+  background-color: rgb(var(--solarized-green));
+}
+
+/* NOTE Right-align contents of question admonition */
+.md-typeset .admonition.question> :not(.admonition-title),
+.md-typeset details.question> :not(summary) {
+  text-align: right;
+}
+
+.md-typeset .admonition.success,
+.md-typeset details.success {
+  border-color: rgb(var(--solarized-green));
+}
+
+.md-typeset .success>.admonition-title::before,
+.md-typeset .success>summary::before {
+  background-color: rgb(var(--solarized-green));
+}
+
+.md-typeset .admonition.warning,
+.md-typeset details.warning {
+  border-color: rgb(var(--solarized-orange));
+  background: rgba(var(--solarized-orange), 0.1);
+}
+
+.md-typeset .warning>.admonition-title::before,
+.md-typeset .warning>summary::before {
+  background-color: rgb(var(--solarized-orange));
+}
+
+.md-typeset .admonition.failure,
+.md-typeset details.failure {
+  border-color: rgb(var(--solarized-red));
+}
+
+.md-typeset .failure>.admonition-title::before,
+.md-typeset .failure>summary::before {
+  background-color: rgb(var(--solarized-red));
+}
+
+.md-typeset .admonition.danger,
+.md-typeset details.danger {
+  border-color: rgb(var(--solarized-red));
+  background: rgba(var(--solarized-red), 0.1);
+}
+
+.md-typeset .danger>.admonition-title::before,
+.md-typeset .danger>summary::before {
+  background-color: rgb(var(--solarized-red));
+}
+
+.md-typeset .admonition.bug,
+.md-typeset details.bug {
+  border-color: rgb(var(--solarized-magenta));
+}
+
+.md-typeset .bug>.admonition-title::before,
+.md-typeset .bug>summary::before {
+  background-color: rgb(var(--solarized-magenta));
+}
+
+.md-typeset .admonition.example,
+.md-typeset details.example {
+  border-color: rgb(var(--solarized-violet));
+}
+
+.md-typeset .example>.admonition-title::before,
+.md-typeset .example>summary::before {
+  background-color: rgb(var(--solarized-violet));
+}
+
+.md-typeset .admonition.quote,
+.md-typeset details.quote {
+  border-color: rgb(var(--solarized-base01));
+}
+
+.md-typeset .quote>.admonition-title::before,
+.md-typeset .quote>summary::before {
+  background-color: rgb(var(--solarized-base01));
+}
+
+/* ANCHOR Custom Admonitions */
+/* NOTE Extension Admonition */
+.md-typeset .admonition.extension,
+.md-typeset details.extension {
+  border-color: rgb(var(--solarized-violet));
+  background: rgba(var(--solarized-violet), 0.1);
+}
+
+.md-typeset .extension>.admonition-title::before,
+.md-typeset .extension>summary::before {
+  background-color: rgb(var(--solarized-violet));
+  -webkit-mask-image: var(--md-admonition-icon--extension);
+  mask-image: var(--md-admonition-icon--extension);
+}
+
+/* NOTE Setting Admonition */
+.md-typeset .admonition.setting,
+.md-typeset details.setting {
+  border-color: rgb(var(--solarized-base01));
+  background: rgba(var(--solarized-base01), 0.1);
+}
+
+.md-typeset .setting>.admonition-title::before,
+.md-typeset .setting>summary::before {
+  background-color: rgb(var(--solarized-base01));
+  -webkit-mask-image: var(--md-admonition-icon--setting);
+  mask-image: var(--md-admonition-icon--setting);
+}
+
+/* NOTE Announcement Admonition */
+.md-typeset .admonition.announce,
+.md-typeset details.announce {
+  border-color: rgb(var(--solarized-red));
+  background: rgba(var(--solarized-red), 0.1);
+}
+
+.md-typeset .announce>.admonition-title::before,
+.md-typeset .announce>summary::before {
+  background-color: rgb(var(--solarized-red));
+  -webkit-mask-image: var(--md-admonition-icon--announce);
+  mask-image: var(--md-admonition-icon--announce);
+}
+
+/* !SECTION Admonitions */
+
+/* ANCHOR Grids  */
+
+.md-typeset .grid.cards> :is(ul, ol)>li,
+.md-typeset .grid>.card {
+  color: var(--md-typeset-color);
+  background: var(--md-default-bg-color);
+  border: 1px solid var(--md-primary-fg-color);
+  border-radius: 4px;
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 1px 3px 0px, rgba(0, 0, 0, 0.05) 0px 1px 2px -1px;
+  position: relative;
+  padding: 0.6rem 0.8rem;
+}
+
+.md-typeset .grid.cards> :is(ul, ol)>li>ul,
+.md-typeset .grid.cards> :is(ul, ol)>li>ol {
+  margin: 0;
+}
+
+.md-typeset .grid.cards> :is(ul, ol)>li>*:first-child,
+.md-typeset .grid>.card>*:first-child {
+  margin-top: 0;
+}
+
+.md-typeset .grid.cards> :is(ul, ol)>li>*:last-child,
+.md-typeset .grid>.card>*:last-child {
+  margin-bottom: 0;
+}
+
+.md-typeset .grid.cards> :is(ul, ol)>li:is(:focus-within, :hover),
+.md-typeset .grid>.card:is(:focus-within, :hover) {
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 1px 3px 0px, rgba(0, 0, 0, 0.05) 0px 1px 2px -1px;
+  border-color: var(--md-accent-fg-color);
+}
+
+/* NOTE Select/Copy Button on Code Blocks */
+.md-code__button {
+  color: var(--md-default-fg-color--light);
+}
+
+.md-typeset .md-button--primary {
+  background-color: var(--md-primary-fg-color--light);
+}
+
+.md-code__nav {
+  background-color: var(--md-default-bg-color--light);
+  font-size: 0.75rem;
+}
+
+/* NOTE Tag */
+.md-typeset .md-tag {
+  color: var(--md-default-fg-color);
+  background-color: var(--md-primary-fg-color--light);
+  border-radius: 4px;
+  margin-right: 0.5em;
+  margin-top: 0.25em;
+  font-weight: 300;
+}
+
+.md-post__back {
+  border-bottom: 0;
+  margin-bottom: 0;
+}
+
+.md-post {
+  margin-left: 0;
+  margin-bottom: 3em;
+}
+
+.md-pin {
+  background: var(--md-primary-fg-color);
+  color: black;
+}
+
+.md-typeset .md-button {
+  background-color: var(--md-primary-fg-color--light);
+  border-radius: 4px;
+}
+
+.md-banner {
+  background-color: var(--md-default-bg-color);
+}
+
+.md-typeset a {
+  text-decoration: underline;
+  text-decoration-style: wavy;
+  text-decoration-thickness: 1px;
+  text-decoration-inset: 0 10px;
+  text-decoration-color: var(--md-default-fg-color--lighter);
+  text-underline-offset: 0.15em;
+}
+
+.md-typeset a:hover {
+  text-decoration-color: rgb(var(--solarized-cyan));
+}
