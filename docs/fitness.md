@@ -31,7 +31,6 @@ I'm very satisfied with the Apple Watch Ultra 1st Gen. It's a great balance betw
 I use __Intervals.icu__ for planning and analysis. It's free, powerful, and highly customizable. The developer, [David :octicons-arrow-up-right-16:](https://forum.intervals.icu/u/david/summary), is accessible and responsive. It's web-only, so I use __HealthFit__ to sync data.
 
 - ![The Outsiders](https://assets.tylernguyen.wiki/logos/TheOutsiders.webp){ .twemoji } [The Outsiders :octicons-arrow-up-right-16:](https://www.theoutsiders.app/)
-
 - ![Gentler Streak](https://assets.tylernguyen.wiki/logos/GentlerStreak.webp){ .twemoji } [Gentler Streak :octicons-arrow-up-right-16:](https://gentler.app/)
 
 __Gentler Streak__ is especially nice as a simpler companion the other, more data-intensive platforms. I recommend you use the app and wait until you are targeted for a discounted lifetime offer.

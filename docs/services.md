@@ -19,14 +19,11 @@ I despise advertising as the primary form of monetization for services. And I do
     <span class="solarized-green">:material-sync: **Subscription**</span>-ware
 
 - :simple-icloud:{ .icloud } [iCloud+ :octicons-arrow-up-right-16:](https://www.icloud.com/)
-
 - ![Kagi Search](https://assets.tylernguyen.wiki/logos/Kagi_search.svg){ .twemoji } [Kagi Search :octicons-arrow-up-right-16:](https://kagi.com/)
     [:lucide-circle-dollar-sign:](https://kagi.com/pricing){ title="Pricing" }
 
 - ![Kagi Translate](https://assets.tylernguyen.wiki/logos/Kagi_translate.svg){ .twemoji } [Kagi Translate :octicons-arrow-up-right-16:](https://translate.kagi.com/)
-
 - ![Kagi Assistant](https://assets.tylernguyen.wiki/logos/Kagi_assistant.svg){ .twemoji } [Kagi Assistant :octicons-arrow-up-right-16:](https://kagi.com/assistant)
-
 - :simple-claude:{ .claude } [Claude :octicons-arrow-up-right-16:](https://claude.ai/)
 
 ## Utility
@@ -75,7 +72,6 @@ Archive your Audible library in a DRM-free format. See :lucide-folder-git-2:{ .f
 ///
 
 - ![Libby](https://assets.tylernguyen.wiki/logos/Libby.webp){ .twemoji } [Libby :octicons-arrow-up-right-16:](https://libbyapp.com)
-
 - :simple-pocketcasts:{ .pocketcasts } [Pocket Casts :octicons-arrow-up-right-16:](https://pocketcasts.com/)
     <span class="solarized-red">:material-lock: **Proprietary**</span>
     <span class="solarized-green">:material-sync: **Subscription**</span>-ware

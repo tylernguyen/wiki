@@ -9,7 +9,6 @@ Samples of Admonitions in :simple-materialformkdocs:{ .materialformkdocs } Mater
 Inherits:
 
 - [mkdocs-material/reference/admonitions/ :octicons-arrow-up-right-16:](https://squidfunk.github.io/mkdocs-material/reference/admonitions/)
-
 - [pymdown-extensions/extensions/blocks/plugins/admonition/ :octicons-arrow-up-right-16:](https://facelessuser.github.io/pymdown-extensions/extensions/blocks/plugins/admonition/)
 
 <!-- more -->
