@@ -17,8 +17,6 @@ body {
   font-family: 'Berkeley Mono Variable', 'Cascadia Code', 'Andale Mono', 'Consolas', 'SF Mono', monospace;
 }
 
-/* LINK https://github.com/zensical/ui/blob/master/src/assets/stylesheets/modern/main/_typeset.scss */
-
 .md-typeset {
   line-height: 1.2rem;
 }
@@ -49,28 +47,8 @@ body {
   margin-top: 1rem;
 }
 
-.md-post__content.md-typeset h2 {
-  margin: 0;
-}
-
 .md-typeset p {
   font-stretch: 90%;
-}
-
-.md-post__content.md-typeset p {
-  margin-top: 0.5rem;
-}
-
-.md-meta {
-  color: var(--md-default-fg-color--light);
-  font-size: small;
-  margin-bottom: 5px;
-}
-
-.md-post--excerpt .md-post__header {
-  align-items: normal;
-  gap: .6rem;
-  min-height: 1.6rem;
 }
 
 .md-typeset figcaption {
@@ -80,14 +58,35 @@ body {
 
 .md-typeset .admonition p,
 .md-typeset .admonition ul,
-.md-typeset .admonition ol,
-.md-typeset .admonition ul li,
-.md-typeset .admonition ol li {
+.md-typeset .admonition ol {
   font-size: 0.65rem;
 }
 
-.md-content__inner {
-  padding: 0;
+.md-typeset a {
+  text-decoration: underline;
+  text-decoration-style: wavy;
+  text-decoration-thickness: 1px;
+  text-decoration-inset: 0 10px;
+  text-decoration-color: var(--md-default-fg-color--lighter);
+  text-underline-offset: 0.15em;
+}
+
+.md-header__topic {
+  font-style: oblique 2deg;
+  font-weight: 500;
+  color: var(--md-default-fg-color);
+}
+
+.md-tabs__link {
+  letter-spacing: .5px;
+}
+
+.md-post__content.md-typeset h2 {
+  margin: 0;
+}
+
+.md-post__content.md-typeset p {
+  margin-top: 0.5rem;
 }
 
 .md-post__action {
@@ -95,10 +94,14 @@ body {
   text-align: right;
 }
 
-[data-md-color-scheme="default"] .md-typeset a {
-  color: rgb(var(--solarized-base02));
+.md-post--excerpt .md-post__header {
+  align-items: normal;
+  gap: .6rem;
+  min-height: 1.6rem;
 }
 
-[data-md-color-scheme="slate"] .md-typeset a {
-  color: rgb(var(--solarized-base1));
+.md-meta {
+  color: var(--md-default-fg-color--light);
+  font-size: small;
+  margin-bottom: 5px;
 }

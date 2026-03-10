@@ -1,97 +1,222 @@
-/* NOTE Inline Code */
-.md-typeset :not(pre) > code {
-    padding: 2px 6px;
-    border-radius: 4px;
-    border: 1px solid var(--md-default-bg-color--lighter);
-    font-size: 85%;
+.md-content__inner {
+  padding: 0;
 }
 
-/* NOTE Text Highlight: Pad left and right */
-.md-typeset mark {
-    padding-left: 2px;
-    padding-right: 2px;
-}
-
-/* NOTE Back to Top: Match site button radius, position bottom left */
-.md-top {
-    border-radius: 4px;
-    margin-right: 0 !important;
-    right: 1rem !important;
-    transform: none !important;
-}
-
-/* NOTE Mobile navigation drawer: remove rounded corners */
-@media screen and (max-width: 76.1875em) {
-    .md-sidebar--primary {
-        border-radius: 0;
-    }
-
-    .md-nav__source .md-source {
-        border: 1px solid var(--md-default-fg-color);
-        border-radius: 4px;
-        background-color: var(--md-default-bg-color--light);
-    }
-}
-
-/* NOTE Header: site title matches body text color */
-.md-header__topic {
-    font-style: oblique 2deg;
-    font-weight: 500;
-    color: var(--md-default-fg-color);
-}
-
-/* NOTE Main content: reduce top space */
 .md-main__inner {
-    margin-top: 0.25rem;
+  margin-top: 0.25rem;
 }
 
-/* NOTE Navigation: reduce spacing and margins */
+.md-source__icon,
+[dir="ltr"] .md-source__repository,
+.md-header__option,
+.md-header__button.md-icon {
+  color: var(--md-default-fg-color);
+}
+
+.md-banner {
+  background-color: var(--md-default-bg-color);
+}
+
 .md-sidebar {
-    padding: 0;
+  padding: 0;
 }
 
 .md-nav__item {
-    padding: 0;
+  padding: 0;
 }
 
 .md-nav__link {
-    border-radius: 4px;
-    margin-top: 0;
-    padding-top: 0.25rem;
-    padding-bottom: 0.25rem;
+  border-radius: 4px;
+  margin-top: 0;
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
 }
 
 .md-nav__title {
-    padding-top: 0.4rem;
-    padding-bottom: 0.4rem;
+  padding-top: 0.4rem;
+  padding-bottom: 0.4rem;
 }
 
 .md-sidebar__scrollwrap {
-    padding: 1rem 0;
+  padding: 1rem 0;
 }
 
-.md-typeset .md-content__button {
+.md-nav--primary .md-nav__item .md-nav__link--active {
+  border-radius: 4px;
+  background: var(--md-default-fg-color);
+  color: var(--md-default-bg-color);
+}
+
+.md-nav__link:hover {
+  background-color: var(--md-default-fg-color--light) !important;
+  color: var(--md-default-bg-color) !important;
+}
+
+@media screen and (max-width: 76.1875em) {
+  .md-sidebar--primary {
+    border-radius: 0;
+  }
+
+  .md-nav__source .md-source {
+    border: 1px solid var(--md-default-fg-color);
     border-radius: 4px;
-    background: var(--md-primary-fg-color--light);
+    background-color: var(--md-default-bg-color--light);
+  }
+}
+
+[data-md-color-scheme] .md-search__form {
+  border: 1px solid var(--md-primary-fg-color);
+  background-color: var(--md-default-bg-color);
+}
+
+[data-md-color-scheme] .md-search__icon,
+[data-md-color-scheme] .md-search-result__icon,
+[data-md-color-scheme] .md-search__input::placeholder {
+  color: var(--md-default-fg-color--lighter);
+  scale: 0.95;
+}
+
+.md-search-result__meta {
+  background-color: var(--md-default-bg-color--light);
 }
 
 .md-search__button {
-    border-radius: 4px;
-    background-color: var(--md-primary-fg-color--light);
+  border-radius: 4px;
+  background-color: var(--md-primary-fg-color--light);
 }
 
-/* NOTE Cursor: Terminal blinking block */
+.md-footer {
+  border-top: .05rem solid var(--md-primary-fg-color);
+}
+
+.md-footer__title {
+  color: var(--md-footer-fg-color--light);
+}
+
+.md-footer__link {
+  margin-top: 10px;
+}
+
+.md-footer-meta {
+  background-color: var(--md-default-bg-color--light);
+}
+
+.md-footer-meta__inner {
+  padding: 0;
+}
+
+.md-social__link:nth-child(1) svg { fill: #6364FF; }
+.md-social__link:nth-child(2) svg { fill: #0285FF; }
+.md-social__link:nth-child(3) svg { fill: var(--md-default-fg-color); }
+.md-social__link:nth-child(4) svg { fill: #FB923C; }
+
+.highlight span.filename {
+  border-top-left-radius: .3rem;
+  border-top-right-radius: .3rem;
+  border-bottom: .05rem solid var(--md-primary-fg-color);
+}
+
+.md-code__button {
+  color: var(--md-default-fg-color--light);
+}
+
+.md-code__nav {
+  background-color: var(--md-default-bg-color--light);
+  font-size: 0.75rem;
+}
+
+.md-typeset :not(pre) > code {
+  padding: 2px 6px;
+  border-radius: 4px;
+  border: 1px solid var(--md-default-bg-color--lighter);
+  font-size: 85%;
+}
+
+.md-typeset .grid.cards> :is(ul, ol)>li,
+.md-typeset .grid>.card {
+  color: var(--md-typeset-color);
+  background: var(--md-default-bg-color);
+  border: 1px solid var(--md-primary-fg-color);
+  border-radius: 4px;
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 1px 3px 0px, rgba(0, 0, 0, 0.05) 0px 1px 2px -1px;
+  position: relative;
+  padding: 0.6rem 0.8rem;
+}
+
+.md-typeset .grid.cards> :is(ul, ol)>li>ul,
+.md-typeset .grid.cards> :is(ul, ol)>li>ol {
+  margin: 0;
+}
+
+.md-typeset .grid.cards> :is(ul, ol)>li>*:first-child,
+.md-typeset .grid>.card>*:first-child {
+  margin-top: 0;
+}
+
+.md-typeset .grid.cards> :is(ul, ol)>li>*:last-child,
+.md-typeset .grid>.card>*:last-child {
+  margin-bottom: 0;
+}
+
+.md-typeset .grid.cards> :is(ul, ol)>li:is(:focus-within, :hover),
+.md-typeset .grid>.card:is(:focus-within, :hover) {
+  border-color: var(--md-accent-fg-color);
+}
+
+.md-typeset .md-button,
+.md-typeset .md-button--primary,
+.md-typeset .md-content__button {
+  background-color: var(--md-primary-fg-color--light);
+  border-radius: 4px;
+}
+
+.md-typeset .md-tag {
+  color: var(--md-default-fg-color);
+  background-color: var(--md-primary-fg-color--light);
+  border-radius: 4px;
+  margin-right: 0.5em;
+  margin-top: 0.25em;
+  font-weight: 300;
+}
+
+.md-typeset mark {
+  padding-left: 2px;
+  padding-right: 2px;
+}
+
+.md-post__back {
+  border-bottom: 0;
+  margin-bottom: 0;
+}
+
+.md-post {
+  margin-left: 0;
+  margin-bottom: 3em;
+}
+
+.md-pin {
+  background: var(--md-primary-fg-color);
+  color: black;
+}
+
+.md-top {
+  border-radius: 4px;
+  margin-right: 0 !important;
+  right: 1rem !important;
+  transform: none !important;
+}
+
 @keyframes blink {
-    0%, 100% { background-color: currentColor; }
-    50% { background-color: transparent; }
+  0%, 100% { background-color: currentColor; }
+  50% { background-color: transparent; }
 }
 
 .caret {
-    display: inline-block;
-    width: 0.6em;
-    height: 1em;
-    vertical-align: -0.1em;
-    margin-left: -0.25em;
-    background-color: currentColor;
-    animation: blink 1s step-start infinite;
+  display: inline-block;
+  width: 0.6em;
+  height: 1em;
+  vertical-align: -0.1em;
+  margin-left: -0.25em;
+  background-color: currentColor;
+  animation: blink 1s step-start infinite;
 }
