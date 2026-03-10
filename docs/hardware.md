@@ -98,15 +98,9 @@ This is solely for Nintendo exclusive games.
 - __Apple AirTag__
 - __Yubikey 5C NFC__
 
-/// tip
-Yubikey can also be used for :simple-gnuprivacyguard:{ .gnuprivacyguard } GnuPG and SSH.
+:simple-1password:{ .onepassword } 1Password handles most of my daily security, but I still use the Yubikey as 2FA and/or passkey for a few critical accounts. It's also apart of my GnuPG workflow.
 
-See :lucide-folder-git-2:{ .foreground } [drduh/YubiKey-Guide](https://github.com/drduh/YubiKey-Guide)
-    ![GitHub Stars](https://img.shields.io/github/stars/drduh/YubiKey-Guide?&style=flat&logo=refinedgithub&logoColor=073642&labelColor=eee8d5&color=657b83#only-light){ .twemoji }
-    ![GitHub Last Commit](https://img.shields.io/github/last-commit/drduh/YubiKey-Guide?&style=flat&logo=refinedgithub&logoColor=073642&labelColor=eee8d5&color=657b83#only-light){ .twemoji }
-    ![GitHub Stars](https://img.shields.io/github/stars/drduh/YubiKey-Guide?&style=flat&logo=refinedgithub&logoColor=839496&labelColor=073642&color=2aa198#only-dark){ .twemoji }
-    ![GitHub Last Commit](https://img.shields.io/github/last-commit/drduh/YubiKey-Guide?&style=flat&logo=refinedgithub&logoColor=839496&labelColor=073642&color=2aa198#only-dark){ .twemoji }
-///
+See :lucide-folder-git-2:{ .foreground } [drduh/YubiKey-Guide :octicons-arrow-up-right-16:](https://github.com/drduh/YubiKey-Guide).
 
 ## Home Network
 
