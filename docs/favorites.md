@@ -123,6 +123,10 @@ The official RSS feed only has recently published episodes. See [dcadata/this-am
     [:simple-steamdb:{ .foreground }](https://steamdb.info/app/646570/ "SteamDB")
     [:simple-gogdotcom:{ .gog }](https://www.gog.com/game/Slay_the_Spire "GOG")
 
+- Slay the Spire 2
+    [![Steam](https://assets.tylernguyen.wiki/logos/Steam.svg){ .twemoji }](https://store.steampowered.com/app/2868840/Slay_the_Spire_2/ "Steam")
+    [:simple-steamdb:{ .foreground }](https://steamdb.info/app/2868840/ "SteamDB")
+
 - Balatro
     [![Steam](https://assets.tylernguyen.wiki/logos/Steam.svg){ .twemoji }](https://store.steampowered.com/app/2379780/Balatro/ "Steam")
     [:simple-steamdb:{ .foreground }](https://steamdb.info/app/2379780/ "SteamDB")
@@ -137,4 +141,4 @@ The official RSS feed only has recently published episodes. See [dcadata/this-am
     - Riichi City
     [![Steam](https://assets.tylernguyen.wiki/logos/Steam.svg){ .twemoji }](https://store.steampowered.com/app/1954420/ "Steam")
     [:simple-steamdb:{ .foreground }](https://steamdb.info/app/1954420/ "SteamDB")
-    - Tenhou
+    - [Tenhou :octicons-arrow-up-right-16:](https://tenhou.net/4/)
