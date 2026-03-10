@@ -40,30 +40,11 @@ graph LR
 
 /// extension | Plugins
 - [janlarres/apple-books-covers :octicons-arrow-up-right-16:](https://github.com/janlarres/apple-books-covers)
-  ![GitHub Stars](https://img.shields.io/github/stars/janlarres/apple-books-covers?style=flat&logo=refinedgithub&logoColor=073642&labelColor=eee8d5&color=657b83#only-light){ .twemoji }
-  ![GitHub Release Date](https://img.shields.io/github/release-date/janlarres/apple-books-covers?style=flat&logo=refinedgithub&logoColor=073642&labelColor=eee8d5&color=657b83#only-light){ .twemoji }
-  ![GitHub Stars](https://img.shields.io/github/stars/janlarres/apple-books-covers?style=flat&logo=refinedgithub&logoColor=839496&labelColor=073642&color=2aa198#only-dark){ .twemoji }
-  ![GitHub Release Date](https://img.shields.io/github/release-date/janlarres/apple-books-covers?style=flat&logo=refinedgithub&logoColor=839496&labelColor=073642&color=2aa198#only-dark){ .twemoji }
 - [Hardcover by RobBrazier :octicons-arrow-up-right-16:](https://github.com/RobBrazier/calibre-plugins/tree/main/plugins/hardcover)
-  ![GitHub Stars](https://img.shields.io/github/stars/RobBrazier/calibre-plugins?style=flat&logo=refinedgithub&logoColor=073642&labelColor=eee8d5&color=657b83#only-light){ .twemoji }
-  ![GitHub Release Date](https://img.shields.io/github/release-date/RobBrazier/calibre-plugins?style=flat&logo=refinedgithub&logoColor=073642&labelColor=eee8d5&color=657b83#only-light){ .twemoji }
-  ![GitHub Stars](https://img.shields.io/github/stars/RobBrazier/calibre-plugins?style=flat&logo=refinedgithub&logoColor=839496&labelColor=073642&color=2aa198#only-dark){ .twemoji }
-  ![GitHub Release Date](https://img.shields.io/github/release-date/RobBrazier/calibre-plugins?style=flat&logo=refinedgithub&logoColor=839496&labelColor=073642&color=2aa198#only-dark){ .twemoji }
 - [NotSimone/Kobo-Metadata :octicons-arrow-up-right-16:](https://github.com/NotSimone/Kobo-Metadata)
-  ![GitHub Stars](https://img.shields.io/github/stars/NotSimone/Kobo-Metadata?style=flat&logo=refinedgithub&logoColor=073642&labelColor=eee8d5&color=657b83#only-light){ .twemoji }
-  ![GitHub Release Date](https://img.shields.io/github/release-date/NotSimone/Kobo-Metadata?style=flat&logo=refinedgithub&logoColor=073642&labelColor=eee8d5&color=657b83#only-light){ .twemoji }
-  ![GitHub Stars](https://img.shields.io/github/stars/NotSimone/Kobo-Metadata?style=flat&logo=refinedgithub&logoColor=839496&labelColor=073642&color=2aa198#only-dark){ .twemoji }
-  ![GitHub Release Date](https://img.shields.io/github/release-date/NotSimone/Kobo-Metadata?style=flat&logo=refinedgithub&logoColor=839496&labelColor=073642&color=2aa198#only-dark){ .twemoji }
 - [jbhul/Audiobookshelf-calibre-plugin :octicons-arrow-up-right-16:](https://github.com/jbhul/Audiobookshelf-calibre-plugin)
-  ![GitHub Stars](https://img.shields.io/github/stars/jbhul/Audiobookshelf-calibre-plugin?style=flat&logo=refinedgithub&logoColor=073642&labelColor=eee8d5&color=657b83#only-light){ .twemoji }
-  ![GitHub Release Date](https://img.shields.io/github/release-date/jbhul/Audiobookshelf-calibre-plugin?style=flat&logo=refinedgithub&logoColor=073642&labelColor=eee8d5&color=657b83#only-light){ .twemoji }
-  ![GitHub Stars](https://img.shields.io/github/stars/jbhul/Audiobookshelf-calibre-plugin?style=flat&logo=refinedgithub&logoColor=839496&labelColor=073642&color=2aa198#only-dark){ .twemoji }
-  ![GitHub Release Date](https://img.shields.io/github/release-date/jbhul/Audiobookshelf-calibre-plugin?style=flat&logo=refinedgithub&logoColor=839496&labelColor=073642&color=2aa198#only-dark){ .twemoji }
 - [harmtemolder/koreader-calibre-plugin :octicons-arrow-up-right-16:](https://github.com/harmtemolder/koreader-calibre-plugin)
-  ![GitHub Stars](https://img.shields.io/github/stars/harmtemolder/koreader-calibre-plugin?style=flat&logo=refinedgithub&logoColor=073642&labelColor=eee8d5&color=657b83#only-light){ .twemoji }
-  ![GitHub Release Date](https://img.shields.io/github/release-date/harmtemolder/koreader-calibre-plugin?style=flat&logo=refinedgithub&logoColor=073642&labelColor=eee8d5&color=657b83#only-light){ .twemoji }
-  ![GitHub Stars](https://img.shields.io/github/stars/harmtemolder/koreader-calibre-plugin?style=flat&logo=refinedgithub&logoColor=839496&labelColor=073642&color=2aa198#only-dark){ .twemoji }
-  ![GitHub Release Date](https://img.shields.io/github/release-date/harmtemolder/koreader-calibre-plugin?style=flat&logo=refinedgithub&logoColor=839496&labelColor=073642&color=2aa198#only-dark){ .twemoji }
+
 ///
 
 /// setting | Settings
