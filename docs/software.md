@@ -29,8 +29,9 @@ __Extensions__:
 - :simple-ublockorigin:{ .ublockorigin } [uBlock Origin :octicons-arrow-up-right-16:](https://addons.mozilla.org/en-US/firefox/addon/ublock-origin/)
   [:lucide-file-code-corner:](https://github.com/gorhill/uBlock){ title="Source Code" }
 - ![SponsorBlock](https://assets.tylernguyen.wiki/logos/SponsorBlock.svg){ .twemoji } [SponsorBlock :octicons-arrow-up-right-16:](https://addons.mozilla.org/en-US/firefox/addon/sponsorblock/)
-- ![TTV LOL Pro](https://assets.tylernguyen.wiki/logos/Firefox_TTV-LOL-Pro.webp){ .twemoji } [TTV LOL Pro :octicons-arrow-up-right-16:](https://addons.mozilla.org/en-US/firefox/addon/ttv-lol-pro/?utm_source=addons.mozilla.org&utm_medium=referral&utm_content=search)
+- ![TTV LOL Pro](https://assets.tylernguyen.wiki/logos/Firefox_TTV-LOL-Pro.webp){ .twemoji } [TTV LOL Pro :octicons-arrow-up-right-16:](https://addons.mozilla.org/en-US/firefox/addon/ttv-lol-pro/)
   [:lucide-file-code-corner:](https://github.com/younesaassila/ttv-lol-pro){ title="Source Code" }
+- ![ViolentMonkey](https://assets.tylernguyen.wiki/logos/ViolentMonkey.webp){ .twemoji } [Violentmonkey :octicons-arrow-up-right-16:](https://addons.mozilla.org/en-US/firefox/addon/violentmonkey/)
 - :simple-1password:{ .onepassword } [1Password :octicons-arrow-up-right-16:](https://addons.mozilla.org/en-US/firefox/addon/1password-x-password-manager/)
 
 [^1]: [gorhill/uBlock: uBlock Origin Works Best on Firefox](https://github.com/gorhill/uBlock/wiki/uBlock-Origin-works-best-on-Firefox)
