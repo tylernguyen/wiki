@@ -12,10 +12,10 @@ tags:
 <div class="grid cards" markdown>
 
 - ![Calibre](https://assets.tylernguyen.wiki/logos/calibre.svg){ .twemoji } [Calibre :octicons-arrow-up-right-16:](https://calibre-ebook.com/)
-[:lucide-container:](https://hub.docker.com/r/linuxserver/calibre){ .card-link title=Container}
+  [:lucide-container:](https://hub.docker.com/r/linuxserver/calibre){ .card-link title=Container}
 - ![Kavita](https://assets.tylernguyen.wiki/logos/kavita.svg){ .twemoji } [Kavita :octicons-arrow-up-right-16:](https://www.kavitareader.com/)
-[:lucide-container:](https://hub.docker.com/r/linuxserver/kavita){ .card-link title=Container}
-[:fontawesome-regular-file-code:](https://github.com/Kareadita/Kavita){ .card-link title="Source Code" }
+  [:lucide-container:](https://hub.docker.com/r/linuxserver/kavita){ .card-link title=Container}
+  [:fontawesome-regular-file-code:](https://github.com/Kareadita/Kavita){ .card-link title="Source Code" }
 - :simple-koreader:{ .koreader } [KOReader :octicons-arrow-up-right-16:](https://github.com/koreader/koreader)
 
 </div>
@@ -23,7 +23,6 @@ tags:
 ### ![Calibre](https://assets.tylernguyen.wiki/logos/calibre.svg){ .twemoji } [Calibre :octicons-arrow-up-right-16:](https://calibre-ebook.com/)
 
 <div align="center">
-
 ```mermaid
 graph LR
   standardebooks.org -- Yes --> READY
@@ -33,7 +32,6 @@ graph LR
   QC -- Fail --> n2["Manual Edits"]
   n2 --> READY
 ```
-
 </div>
 
 /// extension | Plugins
@@ -42,7 +40,6 @@ graph LR
 - [NotSimone/Kobo-Metadata :octicons-arrow-up-right-16:](https://github.com/NotSimone/Kobo-Metadata)
 - [jbhul/Audiobookshelf-calibre-plugin :octicons-arrow-up-right-16:](https://github.com/jbhul/Audiobookshelf-calibre-plugin)
 - [harmtemolder/koreader-calibre-plugin :octicons-arrow-up-right-16:](https://github.com/harmtemolder/koreader-calibre-plugin)
-
 ///
 
 /// setting | Settings

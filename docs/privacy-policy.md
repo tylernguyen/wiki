@@ -15,7 +15,6 @@ icon: octicons/eye-16
     ![PostHog](https://assets.tylernguyen.wiki/logos/PostHog-dark.svg#only-dark){ loading-lazy width=250 }
     </p>
     </figure>
-
 </div>
 
 __Dot Wiki__ uses [PostHog :octicons-arrow-up-right-16:](https://posthog.com/) for analytics. This includes, but is not limited to, traffic and interaction analytics.
@@ -23,9 +22,7 @@ __Dot Wiki__ uses [PostHog :octicons-arrow-up-right-16:](https://posthog.com/) f
 Analytics data are used to improve and grow the website. __Data will never be shared, sold, nor used for advertisements/commercial purposes.__
 
 /// warning | Notice
-
 Analytics data are hosted on the official :flag_us: US-instance of PostHog.
-
 ///
 
 Tracking events are routed through a reverse proxy before reaching PostHog. You may <span class="solarized-red">__OPT-OUT__</span> of analytics by adding ___"<https://hedgehog.tylernguyen.wiki/>"___ to your content blocker.
