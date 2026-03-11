@@ -112,8 +112,8 @@ I never interface with ![qBittorrent](https://assets.tylernguyen.wiki/logos/qbit
 
 ### Media Scrobblers
 
-- ![plexanibridge](https://assets.tylernguyen.wiki/logos/plexanibridge.svg){ .twemoji } [PlexAniBridge :octicons-arrow-up-right-16:](https://github.com/eliasbenb/PlexAniBridge)
-  [:lucide-container:](https://github.com/eliasbenb/PlexAniBridge/pkgs/container/plexanibridge){ title=Container}
+- ![anibridge](https://assets.tylernguyen.wiki/logos/plexanibridge.svg){ .twemoji } [AniBridge :octicons-arrow-up-right-16:](https://github.com/anibridge/anibridge)
+  [:lucide-container:](https://github.com/anibridge/anibridge/pkgs/container/anibridge){ title=Container}
 - ![FoxxMD/multi-scrobbler](https://assets.tylernguyen.wiki/logos/Multi-scrobbler.svg){ .twemoji } [FoxxMD/multi-scrobbler :octicons-arrow-up-right-16:](https://github.com/foxxmd/multi-scrobbler)
   [:lucide-container:](https://github.com/FoxxMD/multi-scrobbler/pkgs/container/multi-scrobbler){ title=Container}
 - ![Koito](https://assets.tylernguyen.wiki/logos/Koito.webp){ .twemoji } [Koito :octicons-arrow-up-right-16:](https://github.com/gabehf/koito)
