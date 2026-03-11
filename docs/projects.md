@@ -21,3 +21,11 @@ macOS on the Lenovo ThinkPad X1 Carbon 6th Gen, built with OpenCore and ASL.
   [:lucide-flip-horizontal-2:](https://tylernguyen.codes/tylernguyen/pymdownx-mahjong){ title="Mirror" }
 
 Python Markdown extension to render and stylize mahjong tiles. I use this to write riichi mahjong content on the wiki.
+
+- :simple-refinedgithub:{ .foreground } [NAGAen.user.js :octicons-arrow-up-right-16:](https://gist.github.com/tylernguyen/9c37f09cfd331633982d7ef2a507691a)
+
+Userscript to translate ![NAGA](https://assets.tylernguyen.wiki/logos/NAGA.webp){ .twemoji } [NAGA Mahjong AI :octicons-arrow-up-right-16:](https://naga.dmv.nico/naga_report/top/) user interface to English.
+
+/// tip
+I use ![ViolentMonkey](https://assets.tylernguyen.wiki/logos/ViolentMonkey.webp){ .twemoji } [Violentmonkey :octicons-arrow-up-right-16:](https://addons.mozilla.org/en-US/firefox/addon/violentmonkey/) on :simple-firefox:{ .firefox } Firefox for Javascripts management.
+///
