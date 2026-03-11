@@ -16,6 +16,7 @@ Source code for this website.
 macOS on the Lenovo ThinkPad X1 Carbon 6th Gen, built with OpenCore and ASL.
 
 - :simple-refinedgithub:{ .foreground } [tylernguyen/pymdownx-mahjong :octicons-arrow-up-right-16:](https://github.com/tylernguyen/pymdownx-mahjong)
+    :simple-pypi:{ .pypi } [PyPI :octicons-arrow-up-right-16:](https://pypi.org/project/pymdownx-mahjong/)
   [:lucide-house:](https://pymdownx-mahjong.tylernguyen.codes/){ title="MHomepage" }
   [:lucide-flip-horizontal-2:](https://tylernguyen.codes/tylernguyen/pymdownx-mahjong){ title="Mirror" }
 
