@@ -1,5 +1,5 @@
 ---
-icon: octicons/verified-16
+icon: lucide/fingerprint-pattern
 ---
 
 # Identities

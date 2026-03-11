@@ -1,5 +1,5 @@
 ---
-icon: octicons/mail-16
+icon: lucide/mailbox
 ---
 
 # Contact

@@ -1,5 +1,5 @@
 ---
-icon: lucide/pencil-ruler
+icon: lucide/drafting-compass
 tags:
   - evergreen
   - uses
