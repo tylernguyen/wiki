@@ -1,5 +1,5 @@
 ---
-icon: octicons/law-16
+icon: lucide/scale
 ---
 
 # License

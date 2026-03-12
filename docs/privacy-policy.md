@@ -1,5 +1,5 @@
 ---
-icon: octicons/eye-16
+icon: lucide/eye
 ---
 
 

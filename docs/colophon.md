@@ -9,13 +9,12 @@ icon: lucide/stamp
 <div class="grid cards" markdown>
 
 - :simple-github:{ .foreground } [GitHub :lucide-arrow-up-right:](https://github.com/)
-  [:octicons-repo-16:](https://github.com/tylernguyen/wiki){ .card-link title="Repository" }
-  [:octicons-workflow-16:](https://github.com/tylernguyen/wiki/blob/main/.github/workflows/build.yml){ .card-link title="Workflow" }
+  [:lucide-workflow:](https://github.com/tylernguyen/wiki/blob/main/.github/workflows/build.yml){ .card-link title="Workflow" }
 - :simple-cloudflare:{ .cloudflare } [Cloudflare R2 :lucide-arrow-up-right:](https://www.cloudflare.com/products/r2/)
-  [:fontawesome-solid-money-bill:](https://developers.cloudflare.com/r2/pricing/){ .card-link title="Pricing" }
-  [:fontawesome-regular-eye:](https://www.cloudflare.com/privacypolicy/){ .card-link title="Privacy Policy" }
+  [:lucide-circle-dollar-sign:](https://developers.cloudflare.com/r2/pricing/){ .card-link title="Pricing" }
+  [:lucide-eye:](https://www.cloudflare.com/privacypolicy/){ .card-link title="Privacy Policy" }
 - :simple-cloudflarepages:{ .cloudflarepages } [Cloudflare Pages :lucide-arrow-up-right:](https://pages.cloudflare.com/)
-  [:fontawesome-regular-eye:](https://www.cloudflare.com/privacypolicy/){ .card-link title="Privacy Policy" }
+  [:lucide-eye:](https://www.cloudflare.com/privacypolicy/){ .card-link title="Privacy Policy" }
 
 </div>
 
@@ -27,11 +26,10 @@ icon: lucide/stamp
   [:lucide-file-code-corner:](https://github.com/zensical/zensical){ title="Source Code" }
   [:lucide-scale:](https://github.com/zensical/zensical/blob/master/LICENSE.md){ title=License }
 - [PyMdown Extensions :lucide-arrow-up-right:](https://facelessuser.github.io/pymdown-extensions/)
-  [:octicons-markdown-16:](https://facelessuser.github.io/pymdown-extensions/){ .card-link title=Documentation}
-  [:fontawesome-regular-file-code:](https://github.com/facelessuser/pymdown-extensions/tree/main){ .card-link title="Source Code" }
-  [:octicons-law-16:](https://github.com/facelessuser/pymdown-extensions/blob/main/LICENSE.md){ .card-link title=License }
+  [:lucide-file-code-corner:](https://github.com/facelessuser/pymdown-extensions/tree/main){ .card-link title="Source Code" }
+  [:lucide-scale:](https://github.com/facelessuser/pymdown-extensions/blob/main/LICENSE.md){ .card-link title=License }
 - [giscus :lucide-arrow-up-right:](https://giscus.app/)
-  [:octicons-repo-16:](https://github.com/giscus/giscus){ .card-link title="Repository" }
+  [:lucide-file-code-corner:](https://github.com/giscus/giscus){ .card-link title="Source Code" }
 
 </div>
 
@@ -40,8 +38,8 @@ icon: lucide/stamp
 <div class="grid cards" markdown>
 
 - ![Solarized](https://assets.tylernguyen.wiki/logos/solarized.webp){ .twemoji } [Solarized :lucide-arrow-up-right:](https://ethanschoonover.com/solarized/) by Ethan Schoonover
-  [:fontawesome-regular-file-code:](https://github.com/altercation/solarized){ .card-link title="Source Code" }
-  [:octicons-law-16:](https://github.com/altercation/solarized/blob/master/LICENSE){ .card-link title=License }
+  [:lucide-file-code-corner:](https://github.com/altercation/solarized){ .card-link title="Source Code" }
+  [:lucide-scale:](https://github.com/altercation/solarized/blob/master/LICENSE){ .card-link title=License }
 
 </div>
 
@@ -50,13 +48,13 @@ icon: lucide/stamp
 <div class="grid cards" markdown>
 
 - :simple-simpleicons:{ .foreground } [Simple Icons :lucide-arrow-up-right:](https://simpleicons.org/)
-  [:fontawesome-regular-file-code:](https://github.com/simple-icons/simple-icons){ .card-link title="Source Code" }
-  [:octicons-law-16:](https://github.com/simple-icons/simple-icons/blob/develop/LICENSE.md){ .card-link title=License }
-  [:fontawesome-regular-heart:](https://opencollective.com/simple-icons){ .card-link title=Support }
+  [:lucide-file-code-corner:](https://github.com/simple-icons/simple-icons){ .card-link title="Source Code" }
+  [:lucide-scale:](https://github.com/simple-icons/simple-icons/blob/develop/LICENSE.md){ .card-link title=License }
+  [:lucide-heart:](https://opencollective.com/simple-icons){ .card-link title=Support }
 - :simple-refinedgithub:{ .foreground } [Octicons :lucide-arrow-up-right:](https://primer.style/foundations/icons) by GitHub
-  [:fontawesome-regular-file-code:](https://github.com/primer/octicons){ .card-link title="Source Code" }
-  [:octicons-law-16:](https://github.com/primer/octicons/blob/main/LICENSE){ .card-link title=License }
-  [:fontawesome-regular-eye:](https://docs.github.com/en/site-policy/privacy-policies/github-privacy-statement){ .card-link title="Privacy Policy" }
+  [:lucide-file-code-corner:](https://github.com/primer/octicons){ .card-link title="Source Code" }
+  [:lucide-scale:](https://github.com/primer/octicons/blob/main/LICENSE){ .card-link title=License }
+  [:lucide-eye:](https://docs.github.com/en/site-policy/privacy-policies/github-privacy-statement){ .card-link title="Privacy Policy" }
 - :simple-lucide:{ .lucidelogo } [Lucide :lucide-arrow-up-right:](https://lucide.dev/)
   [:lucide-scale:](https://lucide.dev/license){ title=License }
 - :simple-materialdesignicons:{ .materialdesignicons } [Material Design Icons :lucide-arrow-up-right:](https://pictogrammers.com/library/mdi/)
@@ -68,8 +66,8 @@ icon: lucide/stamp
 <div class="grid cards" markdown>
 
 - ![U.S. Graphics Company](https://assets.tylernguyen.wiki/logos/Berkeley-Graphics.webp){ .twemoji } [Berkeley Mono :lucide-arrow-up-right:](https://usgraphics.com/products/berkeley-mono) by U.S. Graphics Company
-  [:fontawesome-solid-money-bill:](https://berkeleygraphics.com/products/){ .card-link title="Pricing" }
-  [:octicons-law-16:](https://berkeleygraphics.com/legal/license/){ .card-link title=License }
+  [:lucide-circle-dollar-sign:](https://berkeleygraphics.com/products/){ .card-link title="Pricing" }
+  [:lucide-scale:](https://berkeleygraphics.com/legal/license/){ .card-link title=License }
 
 </div>
 

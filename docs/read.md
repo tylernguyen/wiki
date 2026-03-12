@@ -15,7 +15,7 @@ tags:
   [:lucide-container:](https://hub.docker.com/r/linuxserver/calibre){ .card-link title=Container}
 - ![Kavita](https://assets.tylernguyen.wiki/logos/kavita.svg){ .twemoji } [Kavita :lucide-arrow-up-right:](https://www.kavitareader.com/)
   [:lucide-container:](https://hub.docker.com/r/linuxserver/kavita){ .card-link title=Container}
-  [:fontawesome-regular-file-code:](https://github.com/Kareadita/Kavita){ .card-link title="Source Code" }
+  [:lucide-file-code-corner:](https://github.com/Kareadita/Kavita){ .card-link title="Source Code" }
 - :simple-koreader:{ .koreader } [KOReader :lucide-arrow-up-right:](https://github.com/koreader/koreader)
 
 </div>
@@ -86,7 +86,7 @@ KOReader is __VERY__ customizable and integrates well with Calibre. Anecdotally,
 [:lucide-file-code-corner:](https://github.com/rmcrackan/Libation){ title="Source Code" }
 - ![Audiobookshelf](https://assets.tylernguyen.wiki/logos/audiobookshelf.svg){ .twemoji } [Audiobookshelf :lucide-arrow-up-right:](https://www.audiobookshelf.org/)
 [:lucide-container:](https://github.com/advplyr/audiobookshelf/pkgs/container/audiobookshelf){ .card-link title=Container}
-[:fontawesome-regular-file-code:](https://github.com/advplyr/audiobookshelf){ .card-link title="Source Code" }
+[:lucide-file-code-corner:](https://github.com/advplyr/audiobookshelf){ .card-link title="Source Code" }
 - ![Prologue](https://assets.tylernguyen.wiki/logos/Prologue.webp){ .twemoji } [Prologue (iOS) :lucide-arrow-up-right:](https://apps.apple.com/us/app/prologue-audiobook-player/id1459223267)
 
 </div>

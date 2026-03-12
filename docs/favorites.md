@@ -104,7 +104,7 @@ The following are my personal favorite content of all mediums. I try to keep it 
 
 - [__This American Life__ :lucide-arrow-up-right:](https://www.thisamericanlife.org/){ title="Homepage"}
   [:fontawesome-solid-square-rss:](https://www.thisamericanlife.org/podcast/rss.xml){ title="RSS Feed"}
-  [:octicons-archive-16:](https://www.thisamericanlife.org/archive){ title=Archive}
+  [:lucide-archive:](https://www.thisamericanlife.org/archive){ title=Archive}
 
 The official RSS feed only has recently published episodes. See [dcadata/this-american-life-archive :lucide-arrow-up-right:](https://github.com/dcadata/this-american-life-archive) for an RSS feed of archived episodes.
 

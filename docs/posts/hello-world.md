@@ -19,8 +19,8 @@ Creating a website with React, Javascript, MDX, and Tailwind CSS all sounded lik
 <div class="grid cards" markdown>
 
 - :simple-materialformkdocs:{ .materialformkdocs } [Material for MkDocs :lucide-arrow-up-right:](https://squidfunk.github.io/mkdocs-material/) [_Insiders_](https://squidfunk.github.io/mkdocs-material/insiders/)
-[:fontawesome-regular-file-code:](https://github.com/squidfunk/mkdocs-material){ .card-link title="Source Code" }
-[:octicons-law-16:](https://github.com/squidfunk/mkdocs-material/blob/master/LICENSE){ .card-link title=License }
+[:lucide-file-code-corner:](https://github.com/squidfunk/mkdocs-material){ .card-link title="Source Code" }
+[:lucide-scale:](https://github.com/squidfunk/mkdocs-material/blob/master/LICENSE){ .card-link title=License }
 
 </div>
 
@@ -31,9 +31,9 @@ Since I have no specific needs for MDX and other JavaScript elements anyway, I'm
 <div class="grid cards" markdown>
 
 - :simple-docker:{ .docker } [Docker Desktop :lucide-arrow-up-right:](https://www.docker.com/products/docker-desktop/)
-[:fontawesome-solid-money-bill:](https://www.docker.com/pricing/){ .card-link title="Pricing" }
+[:lucide-circle-dollar-sign:](https://www.docker.com/pricing/){ .card-link title="Pricing" }
 - ![OrbStack](https://assets.tylernguyen.wiki/logos/OrbStack.webp){ .twemoji } [OrbStack :lucide-arrow-up-right:](https://orbstack.dev/)
-[:fontawesome-solid-money-bill:](https://orbstack.dev/pricing){ .card-link title="Pricing" }
+[:lucide-circle-dollar-sign:](https://orbstack.dev/pricing){ .card-link title="Pricing" }
 
 </div>
 
