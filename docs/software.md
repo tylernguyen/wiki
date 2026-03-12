@@ -89,3 +89,4 @@ This website is created using Zensical.
 ## Design
 
 - ![FreeCAD](https://assets.tylernguyen.wiki/logos/FreeCAD.svg){ .twemoji } [FreeCAD :octicons-arrow-up-right-16:](https://www.freecad.org/)
+- ![Affinity](https://assets.tylernguyen.wiki/logos/Affinity.svg){ .twemoji } [Affinity :octicons-arrow-up-right-16:](https://www.affinity.studio/)
