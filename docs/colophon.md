@@ -12,9 +12,9 @@ icon: lucide/stamp
   [:lucide-workflow:](https://github.com/tylernguyen/wiki/blob/main/.github/workflows/pages.yml){ .card-link title="Workflow" }
 - :simple-cloudflare:{ .cloudflare } [Cloudflare R2 :lucide-arrow-up-right:](https://www.cloudflare.com/products/r2/)
   [:lucide-circle-dollar-sign:](https://developers.cloudflare.com/r2/pricing/){ .card-link title="Pricing" }
-  [:lucide-eye:](https://www.cloudflare.com/privacypolicy/){ .card-link title="Privacy Policy" }
+  [:lucide-hat-glasses:](https://www.cloudflare.com/privacypolicy/){ .card-link title="Privacy Policy" }
 - :simple-cloudflarepages:{ .cloudflarepages } [Cloudflare Pages :lucide-arrow-up-right:](https://pages.cloudflare.com/)
-  [:lucide-eye:](https://www.cloudflare.com/privacypolicy/){ .card-link title="Privacy Policy" }
+  [:lucide-hat-glasses:](https://www.cloudflare.com/privacypolicy/){ .card-link title="Privacy Policy" }
 
 </div>
 
@@ -54,7 +54,7 @@ icon: lucide/stamp
 - :simple-refinedgithub:{ .foreground } [Octicons :lucide-arrow-up-right:](https://primer.style/foundations/icons) by GitHub
   [:lucide-file-code-corner:](https://github.com/primer/octicons){ .card-link title="Source Code" }
   [:lucide-scale:](https://github.com/primer/octicons/blob/main/LICENSE){ .card-link title=License }
-  [:lucide-eye:](https://docs.github.com/en/site-policy/privacy-policies/github-privacy-statement){ .card-link title="Privacy Policy" }
+  [:lucide-hat-glasses:](https://docs.github.com/en/site-policy/privacy-policies/github-privacy-statement){ .card-link title="Privacy Policy" }
 - :simple-lucide:{ .lucidelogo } [Lucide :lucide-arrow-up-right:](https://lucide.dev/)
   [:lucide-scale:](https://lucide.dev/license){ title=License }
 - :simple-materialdesignicons:{ .materialdesignicons } [Material Design Icons :lucide-arrow-up-right:](https://pictogrammers.com/library/mdi/)

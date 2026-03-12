@@ -1,7 +1,6 @@
 ---
-icon: lucide/eye
+icon: lucide/hat-glasses
 ---
-
 
 # Privacy Policy
 
