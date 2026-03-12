@@ -12,8 +12,6 @@ Inherits [mkdocs-material/reference/code-blocks/ :lucide-arrow-up-right:](https:
 
 ## JavaScript :simple-javascript:{ .javascript }
 
-//// collapse-code
-
 ``` js title="JS"
 /**
 * JSDoc example
@@ -41,11 +39,7 @@ function $initHighlight(block, cls) {
 }
 ```
 
-////
-
-## CSS :simple-css3:{ .css3 }
-
-//// collapse-code
+## CSS :simple-css:{ .css }
 
 ``` css title="CSS"
 @font-face {
@@ -66,11 +60,7 @@ body, .usertext {
 }
 ```
 
-////
-
 ## HTML :simple-html5:{ .html5 }
-
-//// collapse-code
 
 ``` html title="HTML"
 <!DOCTYPE html>
@@ -88,11 +78,7 @@ body, .usertext {
 </body>
 ```
 
-////
-
 ## Python :simple-python:{ .python }
-
-//// collapse-code
 
 ``` python title="Python"
 import asyncio
@@ -128,11 +114,7 @@ end = time.time()
 print(f"Total time: {end - start}")
 ```
 
-////
-
 ## YAML :simple-yaml:{ .yaml }
-
-//// collapse-code
 
 ```yaml title="YAML"
 variables:
@@ -175,11 +157,7 @@ variables:
     - Three
 ```
 
-////
-
 ## JSON :simple-json:{ .foreground }
-
-//// collapse-code
 
 ```json title="JSON"
 {
@@ -225,5 +203,3 @@ variables:
     }
 }
 ```
-
-////
