@@ -21,7 +21,7 @@ Enable [Advanced Data Protection :lucide-arrow-up-right:](https://support.apple.
 
 - ![Tweek](https://assets.tylernguyen.wiki/logos/tweek.so.webp){ .twemoji } [Tweek :lucide-arrow-up-right:](https://tweek.so/)
 
-I've been loving Tweek as a minimal calendar/to-do/planner. On the backend, it syncs with ![Apple Calendar](https://assets.tylernguyen.wiki/logos/Apple_Calendar.svg){ .twemoji } Apple Calendar :lucide-arrow-up-right:.
+I've been loving Tweek as a minimal calendar/to-do/planner. On the backend, it syncs with Apple Calendar via the iOS app.
 
 - :simple-todoist:{ .todoist } [Todoist :lucide-arrow-up-right:](https://todoist.com/)
   <span class="solarized-red">:material-lock: **Proprietary**</span>
