@@ -18,7 +18,7 @@ Creating a website with React, Javascript, MDX, and Tailwind CSS all sounded lik
 
 <div class="grid cards" markdown>
 
-- :simple-materialformkdocs:{ .materialformkdocs } [Material for MkDocs :octicons-arrow-up-right-16:](https://squidfunk.github.io/mkdocs-material/) [_Insiders_](https://squidfunk.github.io/mkdocs-material/insiders/)
+- :simple-materialformkdocs:{ .materialformkdocs } [Material for MkDocs :lucide-arrow-up-right:](https://squidfunk.github.io/mkdocs-material/) [_Insiders_](https://squidfunk.github.io/mkdocs-material/insiders/)
 [:fontawesome-regular-file-code:](https://github.com/squidfunk/mkdocs-material){ .card-link title="Source Code" }
 [:octicons-law-16:](https://github.com/squidfunk/mkdocs-material/blob/master/LICENSE){ .card-link title=License }
 
@@ -30,9 +30,9 @@ Since I have no specific needs for MDX and other JavaScript elements anyway, I'm
 
 <div class="grid cards" markdown>
 
-- :simple-docker:{ .docker } [Docker Desktop :octicons-arrow-up-right-16:](https://www.docker.com/products/docker-desktop/)
+- :simple-docker:{ .docker } [Docker Desktop :lucide-arrow-up-right:](https://www.docker.com/products/docker-desktop/)
 [:fontawesome-solid-money-bill:](https://www.docker.com/pricing/){ .card-link title="Pricing" }
-- ![OrbStack](https://assets.tylernguyen.wiki/logos/OrbStack.webp){ .twemoji } [OrbStack :octicons-arrow-up-right-16:](https://orbstack.dev/)
+- ![OrbStack](https://assets.tylernguyen.wiki/logos/OrbStack.webp){ .twemoji } [OrbStack :lucide-arrow-up-right:](https://orbstack.dev/)
 [:fontawesome-solid-money-bill:](https://orbstack.dev/pricing){ .card-link title="Pricing" }
 
 </div>
@@ -43,14 +43,14 @@ The site is built locally for previewing with a Docker image of Material for MkD
 
 <div class="grid cards" markdown>
 
-- :simple-cloudflare:{ .cloudflare } [Cloudflare Domain Registrar :octicons-arrow-up-right-16:](https://www.cloudflare.com/products/registrar/)
-- :simple-cloudflare:{ .cloudflare } [Cloudflare DNS :octicons-arrow-up-right-16:](https://www.cloudflare.com/)
-- :simple-cloudflare:{ .cloudflare } [Cloudflare R2 :octicons-arrow-up-right-16:](https://www.cloudflare.com/products/r2/)
-- :simple-cloudflarepages:{ .cloudflarepages } [Cloudflare Pages :octicons-arrow-up-right-16:](https://pages.cloudflare.com/)
+- :simple-cloudflare:{ .cloudflare } [Cloudflare Domain Registrar :lucide-arrow-up-right:](https://www.cloudflare.com/products/registrar/)
+- :simple-cloudflare:{ .cloudflare } [Cloudflare DNS :lucide-arrow-up-right:](https://www.cloudflare.com/)
+- :simple-cloudflare:{ .cloudflare } [Cloudflare R2 :lucide-arrow-up-right:](https://www.cloudflare.com/products/r2/)
+- :simple-cloudflarepages:{ .cloudflarepages } [Cloudflare Pages :lucide-arrow-up-right:](https://pages.cloudflare.com/)
 
 </div>
 
-As a passion project, I wanted to limit costs as much as possible. Cloudflare Domain Registrar offers [at-cost pricing :octicons-arrow-up-right-16:](https://www.cloudflare.com/products/registrar/), and the free tiers on R2 and Pages are more than enough for starting out.
+As a passion project, I wanted to limit costs as much as possible. Cloudflare Domain Registrar offers [at-cost pricing :lucide-arrow-up-right:](https://www.cloudflare.com/products/registrar/), and the free tiers on R2 and Pages are more than enough for starting out.
 
 Importantly, since Cloudflare basically powers the entire internet nowadays, I don't think there is a more reliable party for hosting.
 
@@ -60,7 +60,7 @@ I want to use analytics as a form of automated feedbacks, __NOT__ as a tool to c
 
 Google Analytics was designed for the latter purpose, not to mention being a privacy-invasive product. It's something I block in every browser, ad-block extension, and DNS-blocker. So the thought of using it myself feels hypocritical.
 
-I briefly considered [Plausible Analytics :octicons-arrow-up-right-16:](https://plausible.io/), but the analytics data it gives is not something that I find actionable nor particularly useful. The same issue arises with Cloudflare's built in web analytics.
+I briefly considered [Plausible Analytics :lucide-arrow-up-right:](https://plausible.io/), but the analytics data it gives is not something that I find actionable nor particularly useful. The same issue arises with Cloudflare's built in web analytics.
 
 <div class="grid cards" markdown>
 
@@ -73,4 +73,4 @@ I briefly considered [Plausible Analytics :octicons-arrow-up-right-16:](https://
 
 </div>
 
-Enters PostHog, which seems perfect for what I want analytics to do. Aside from the standard [web analytics :octicons-arrow-up-right-16:](https://posthog.com/web-analytics) toolkit, PostHog's [session replay :octicons-arrow-up-right-16:](https://posthog.com/session-replay) seems like the perfect non-interactive feedback that I was looking for.
+Enters PostHog, which seems perfect for what I want analytics to do. Aside from the standard [web analytics :lucide-arrow-up-right:](https://posthog.com/web-analytics) toolkit, PostHog's [session replay :lucide-arrow-up-right:](https://posthog.com/session-replay) seems like the perfect non-interactive feedback that I was looking for.

@@ -17,7 +17,7 @@ icon: octicons/eye-16
     </figure>
 </div>
 
-__Dot Wiki__ uses [PostHog :octicons-arrow-up-right-16:](https://posthog.com/) for analytics. This includes, but is not limited to, traffic and interaction analytics.
+__Dot Wiki__ uses [PostHog :lucide-arrow-up-right:](https://posthog.com/) for analytics. This includes, but is not limited to, traffic and interaction analytics.
 
 Analytics data are used to improve and grow the website. __Data will never be shared, sold, nor used for advertisements/commercial purposes.__
 
@@ -35,7 +35,7 @@ There will be a notice on individual components that are externally hosted.
 
 ## External Links
 
-External links are denoted by the icon {==:octicons-arrow-up-right-16:==}. I have no control over the behaviors and privacy policies of external websites. As always, I recommend using a content blocker of some kind, i.e. [:simple-ublockorigin:{ .ublockorigin } uBlock Origin :octicons-arrow-up-right-16:](https://ublockorigin.com/).
+External links are denoted by the icon {==:lucide-arrow-up-right:==}. I have no control over the behaviors and privacy policies of external websites. As always, I recommend using a content blocker of some kind, i.e. [:simple-ublockorigin:{ .ublockorigin } uBlock Origin :lucide-arrow-up-right:](https://ublockorigin.com/).
 
 ## Embedded Content
 

@@ -9,18 +9,18 @@ tags:
 
 ## 3D Printing
 
-- :simple-bambulab:{ .bambulab } [__Bambu Lab P1S__ :octicons-arrow-up-right-16:](https://us.store.bambulab.com/products/p1s?id=583855874739507213) and [__AMS__ 1st Gen :octicons-arrow-up-right-16:](https://us.store.bambulab.com/products/ams-multicolor-printing)
+- :simple-bambulab:{ .bambulab } [__Bambu Lab P1S__ :lucide-arrow-up-right:](https://us.store.bambulab.com/products/p1s?id=583855874739507213) and [__AMS__ 1st Gen :lucide-arrow-up-right:](https://us.store.bambulab.com/products/ams-multicolor-printing)
 
-    - [__E3D ObXidian High Flow 0.6mm :octicons-arrow-up-right-16:__](https://e3d-online.com/products/full-hf-obx-bambu?variant=41701000839227)
-    - [__Polymaker PolyDryer :octicons-arrow-up-right-16:__](https://us.polymaker.com/products/polydryer)
+    - [__E3D ObXidian High Flow 0.6mm :lucide-arrow-up-right:__](https://e3d-online.com/products/full-hf-obx-bambu?variant=41701000839227)
+    - [__Polymaker PolyDryer :lucide-arrow-up-right:__](https://us.polymaker.com/products/polydryer)
 
     The :simple-bambulab:{ .bambulab } Bambu Lab P1S runs on <span class="solarized-red">:material-lock: __proprietary__</span> firmware.
 
-- :simple-bambulab:{ .bambulab } [Bambu Studio :octicons-arrow-up-right-16:](https://bambulab.com/en/download/studio)
+- :simple-bambulab:{ .bambulab } [Bambu Studio :lucide-arrow-up-right:](https://bambulab.com/en/download/studio)
 
     Bambu Studio is a <span class="solarized-red">:material-lock: __proprietary__</span> 3D model slicer for FDM printers.
 
-- ![FreeCAD](https://assets.tylernguyen.wiki/logos/FreeCAD.svg){ .twemoji } [FreeCAD :octicons-arrow-up-right-16:](https://www.freecad.org/)
+- ![FreeCAD](https://assets.tylernguyen.wiki/logos/FreeCAD.svg){ .twemoji } [FreeCAD :lucide-arrow-up-right:](https://www.freecad.org/)
 
     FreeCAD is an <span class="solarized-orange">:lucide-folder-git-2: __open source__</span> parametric CAD modeler.
 

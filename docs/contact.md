@@ -4,15 +4,15 @@ icon: lucide/mailbox
 
 # Contact
 
-Reach me quickly via the fediverse :simple-mastodon:{ .mastodon } [@tylernguyen@tylernguyen.social :octicons-arrow-up-right-16:](https://tylernguyen.social/@tylernguyen).
+Reach me quickly via the fediverse :simple-mastodon:{ .mastodon } [@tylernguyen@tylernguyen.social :lucide-arrow-up-right:](https://tylernguyen.social/@tylernguyen).
 
-Alternatively, I'm active on Discord :simple-discord:{ .discord } [@tylernguyen44 :octicons-arrow-up-right-16:](https://discordapp.com/users/1297622229328072704) for direct messaging.
+Alternatively, I'm active on Discord :simple-discord:{ .discord } [@tylernguyen44 :lucide-arrow-up-right:](https://discordapp.com/users/1297622229328072704) for direct messaging.
 
-Lastly, my email address is [human@tylernguyen.email :octicons-arrow-up-right-16:](mailto:human@tylernguyen.email).
+Lastly, my email address is [human@tylernguyen.email :lucide-arrow-up-right:](mailto:human@tylernguyen.email).
 
-Optionally, :simple-gnuprivacyguard:{ .gnuprivacyguard } [0x136307727d3eef96 :octicons-arrow-up-right-16:](https://github.com/tylernguyen.gpg) is my PGP key.
+Optionally, :simple-gnuprivacyguard:{ .gnuprivacyguard } [0x136307727d3eef96 :lucide-arrow-up-right:](https://github.com/tylernguyen.gpg) is my PGP key.
 
-See [/ident :octicons-arrow-down-left-16:](ident.md)
+See [/ident :lucide-arrow-down-left:](ident.md)
 
 /// warning
 I do not have a Twitter[^1], Facebook[^2], Instagram, nor Threads.

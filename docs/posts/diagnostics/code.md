@@ -6,7 +6,7 @@ icon: material/code-braces
 
 Samples of [Pygments](https://pygments.org/) Syntax Highlighting in :simple-materialformkdocs:{ .materialformkdocs } Material for MkDocs.
 
-Inherits [mkdocs-material/reference/code-blocks/ :octicons-arrow-up-right-16:](https://squidfunk.github.io/mkdocs-material/reference/code-blocks/)
+Inherits [mkdocs-material/reference/code-blocks/ :lucide-arrow-up-right:](https://squidfunk.github.io/mkdocs-material/reference/code-blocks/)
 
 <!-- more -->
 

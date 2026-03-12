@@ -38,7 +38,7 @@ _AM4_ is more than adequate for my fidelity and performance needs right now. I d
 
 Runs :simple-unraid:{ .unraid } Unraid, the primary usage is for media archival and consumption.
 
-__See [.wiki/self-hosted :octicons-arrow-down-left-16:](self-hosted.md) for my software stack.__
+__See [.wiki/self-hosted :lucide-arrow-down-left:](self-hosted.md) for my software stack.__
 
 - __Case__: Fractal Meshify 2 XL
 
@@ -81,7 +81,7 @@ I use the iPad Mini to read the web, comics, mangas, and the occasional textbook
 
 This is my default device for reading books. And since the majority of my book-reading are before bedtime, it lives primarily on my headboard or nightstand.
 
-Runs :simple-koreader:{ .koreader } [KOReader :octicons-arrow-up-right-16:](https://github.com/koreader/koreader).
+Runs :simple-koreader:{ .koreader } [KOReader :lucide-arrow-up-right:](https://github.com/koreader/koreader).
 
 ## Consoles
 
@@ -93,7 +93,7 @@ I love my Steam Deck OLED. I previously had a standard Steam Deck and cannot rec
 
 This is solely for Nintendo exclusive games. Nintendo games are particularly good for
 
-See [/favorites#games :octicons-arrow-down-left-16:](favorites.md#games)
+See [/favorites#games :lucide-arrow-down-left:](favorites.md#games)
 
 ## Home Network
 
@@ -120,4 +120,4 @@ The majority of my PoE devices are low bandwidth. As long as my setup doesn't in
 
 :simple-1password:{ .onepassword } 1Password handles most of my daily security, but I still use the Yubikey as 2FA and/or passkey for a few critical accounts. It's also apart of my GnuPG workflow.
 
-See :lucide-folder-git-2:{ .foreground } [drduh/YubiKey-Guide :octicons-arrow-up-right-16:](https://github.com/drduh/YubiKey-Guide).
+See :lucide-folder-git-2:{ .foreground } [drduh/YubiKey-Guide :lucide-arrow-up-right:](https://github.com/drduh/YubiKey-Guide).

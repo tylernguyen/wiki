@@ -22,22 +22,22 @@ tags:
 
 Unraid is a <span class="solarized-red">:material-lock: __proprietary__</span>, <span class="solarized-green">:lucide-circle-dollar-sign: __commercial__</span> NAS operating system.
 
-[Homepage :octicons-arrow-up-right-16:](https://unraid.net/){ .md-button }
+[Homepage :lucide-arrow-up-right:](https://unraid.net/){ .md-button }
 [:lucide-circle-dollar-sign:](https://unraid.net/pricing){ title=Pricing}
 [:octicons-markdown-16:](https://wiki.unraid.net/Documentation){ title=Documentation}
 
 Primary usage is media archival, its consumption, and sharing. The data stored is __non-personal and easily replaceable__.
 
-Thus is the primary reason I chose :simple-unraid:{ .unraid } [Unraid :octicons-arrow-up-right-16:](https://unraid.net/) over :simple-truenas:{ .truenas } [TrueNas :octicons-arrow-up-right-16:](https://www.truenas.com/). Unraid's parity function is also better at maximizing usable storage, and dealing with mixed drive capacities.
+Thus is the primary reason I chose :simple-unraid:{ .unraid } [Unraid :lucide-arrow-up-right:](https://unraid.net/) over :simple-truenas:{ .truenas } [TrueNas :lucide-arrow-up-right:](https://www.truenas.com/). Unraid's parity function is also better at maximizing usable storage, and dealing with mixed drive capacities.
 
-__See [/hardware#server :octicons-arrow-down-left-16:](hardware.md#server) for hardware specs.__
+__See [/hardware#server :lucide-arrow-down-left:](hardware.md#server) for hardware specs.__
 
 ## Public Instances
 
-- :simple-mastodon:{ .mastodon } [__Mastodon__: _tylernguyen.social_ :octicons-arrow-up-right-16:](https://tylernguyen.social/@tylernguyen)
+- :simple-mastodon:{ .mastodon } [__Mastodon__: _tylernguyen.social_ :lucide-arrow-up-right:](https://tylernguyen.social/@tylernguyen)
   [:lucide-container:](https://github.com/mastodon/mastodon/pkgs/container/mastodon){ title=Container}
   [:lucide-file-code-corner:](https://github.com/mastodon/mastodon){ title="Source Code" }
-- :simple-forgejo:{ .forgejo } [__Forgejo__: _tylernguyen.codes_ :octicons-arrow-up-right-16:](https://tylernguyen.codes/)
+- :simple-forgejo:{ .forgejo } [__Forgejo__: _tylernguyen.codes_ :lucide-arrow-up-right:](https://tylernguyen.codes/)
   [:lucide-container:](https://codeberg.org/forgejo/-/packages/container/forgejo/versions){ title=Container}
 - ![Koito](https://assets.tylernguyen.wiki/logos/Koito.webp){ .twemoji } [__Koito__: _koito.tylernguyen.app_](https://koito.tylernguyen.app)
   [:lucide-container:](https://hub.docker.com/r/gabehf/koito){ title=Container}
@@ -45,94 +45,94 @@ __See [/hardware#server :octicons-arrow-down-left-16:](hardware.md#server) for h
 
 ## Home
 
-- :simple-homeassistant:{ .homeassistant } [Home Assistant :octicons-arrow-up-right-16:](https://www.home-assistant.io/)
+- :simple-homeassistant:{ .homeassistant } [Home Assistant :lucide-arrow-up-right:](https://www.home-assistant.io/)
   [:lucide-file-code-corner:](https://github.com/home-assistant/core){ title="Source Code" }
 
 ## Network
 
-- :simple-cloudflare:{ .cloudflare } [Cloudflare Tunnel :octicons-arrow-up-right-16:](https://www.cloudflare.com/)
+- :simple-cloudflare:{ .cloudflare } [Cloudflare Tunnel :lucide-arrow-up-right:](https://www.cloudflare.com/)
   [:lucide-container:](https://hub.docker.com/r/cloudflare/cloudflared){ title=Container}
-- ![Tailscale](https://assets.tylernguyen.wiki/logos/Tailscale.webp){ .twemoji } [Tailscale :octicons-arrow-up-right-16:](https://tailscale.com/)
-- ![Pocket ID](https://assets.tylernguyen.wiki/logos/pocket-id-light.svg#only-light){ .twemoji } ![Pocket ID](https://assets.tylernguyen.wiki/logos/pocket-id-dark.svg#only-dark){ .twemoji } [Pocket ID :octicons-arrow-up-right-16:](https://pocket-id.org/)
+- ![Tailscale](https://assets.tylernguyen.wiki/logos/Tailscale.webp){ .twemoji } [Tailscale :lucide-arrow-up-right:](https://tailscale.com/)
+- ![Pocket ID](https://assets.tylernguyen.wiki/logos/pocket-id-light.svg#only-light){ .twemoji } ![Pocket ID](https://assets.tylernguyen.wiki/logos/pocket-id-dark.svg#only-dark){ .twemoji } [Pocket ID :lucide-arrow-up-right:](https://pocket-id.org/)
   [:lucide-container:](https://github.com/pocket-id/pocket-id/pkgs/container/pocket-id){ title=Container}
 
 ## Indexing
 
-- ![Prowlarr](https://assets.tylernguyen.wiki/logos/prowlarr.svg){ .twemoji } [Prowlarr :octicons-arrow-up-right-16:](https://prowlarr.com/)
+- ![Prowlarr](https://assets.tylernguyen.wiki/logos/prowlarr.svg){ .twemoji } [Prowlarr :lucide-arrow-up-right:](https://prowlarr.com/)
   [:lucide-container:](https://hub.docker.com/r/linuxserver/prowlarr){ title=Container}
-- ![autobrr](https://assets.tylernguyen.wiki/logos/autobrr.svg){ .twemoji } [autobrr :octicons-arrow-up-right-16:](https://github.com/autobrr/autobrr)
+- ![autobrr](https://assets.tylernguyen.wiki/logos/autobrr.svg){ .twemoji } [autobrr :lucide-arrow-up-right:](https://github.com/autobrr/autobrr)
   [:lucide-container:](https://github.com/autobrr/autobrr/pkgs/container/autobrr){ title=Container}
 
 ## Archiving
 
-- ![qBittorrent](https://assets.tylernguyen.wiki/logos/qbittorrent.svg){ .twemoji } [qBittorrent :octicons-arrow-up-right-16:](https://www.qbittorrent.org/)
+- ![qBittorrent](https://assets.tylernguyen.wiki/logos/qbittorrent.svg){ .twemoji } [qBittorrent :lucide-arrow-up-right:](https://www.qbittorrent.org/)
   [:lucide-container:](https://github.com/hotio/qbittorrent/pkgs/container/qbittorrent){ title=Container}
 
 I prefer Hotio's Docker image as :simple-protonvpn:{ .protonvpn } ProtonVPN support is built-in. Otherwise, port forwarding for ProtonVPN can be troublesome[^1].
 
-[^1]: [ProtonVPN: How to manually set up port forwarding :octicons-arrow-up-right-16:](https://protonvpn.com/support/port-forwarding-manual-setup).
-- ![qui](https://assets.tylernguyen.wiki/logos/autobrr.svg){ .twemoji } [qui :octicons-arrow-up-right-16:](https://github.com/autobrr/qui)
+[^1]: [ProtonVPN: How to manually set up port forwarding :lucide-arrow-up-right:](https://protonvpn.com/support/port-forwarding-manual-setup).
+- ![qui](https://assets.tylernguyen.wiki/logos/autobrr.svg){ .twemoji } [qui :lucide-arrow-up-right:](https://github.com/autobrr/qui)
   [:lucide-container:](https://github.com/autobrr/qui/pkgs/container/qui){ title=Container}
 
 I never interface with ![qBittorrent](https://assets.tylernguyen.wiki/logos/qbittorrent.svg){ .twemoji } qBittorrent through the stock WebUI.
 
-- ![SABnzbd](https://assets.tylernguyen.wiki/logos/sabnzbd-light.svg#only-light){ .twemoji } ![SABnzbd](https://assets.tylernguyen.wiki/logos/sabnzbd-dark.svg#only-dark){ .twemoji } [SABnzbd :octicons-arrow-up-right-16:](https://sabnzbd.org/)
+- ![SABnzbd](https://assets.tylernguyen.wiki/logos/sabnzbd-light.svg#only-light){ .twemoji } ![SABnzbd](https://assets.tylernguyen.wiki/logos/sabnzbd-dark.svg#only-dark){ .twemoji } [SABnzbd :lucide-arrow-up-right:](https://sabnzbd.org/)
   [:lucide-container:](https://hub.docker.com/r/linuxserver/sabnzbd){ title=Container}
-- ![rmcrackan/Libation](https://assets.tylernguyen.wiki/logos/Libation.svg){ .twemoji } [rmcrackan/Libation :octicons-arrow-up-right-16:](https://github.com/rmcrackan/Libation)
+- ![rmcrackan/Libation](https://assets.tylernguyen.wiki/logos/Libation.svg){ .twemoji } [rmcrackan/Libation :lucide-arrow-up-right:](https://github.com/rmcrackan/Libation)
   [:lucide-container:](https://hub.docker.com/r/rmcrackan/libation/tags){ title=Container}
   [:lucide-file-code-corner:](https://github.com/rmcrackan/Libation){ title="Source Code" }
 
 ## Media
 
-- ![plex](https://assets.tylernguyen.wiki/logos/plex.svg){ .twemoji } [Plex Media Server :octicons-arrow-up-right-16:](https://www.plex.tv/)
+- ![plex](https://assets.tylernguyen.wiki/logos/plex.svg){ .twemoji } [Plex Media Server :lucide-arrow-up-right:](https://www.plex.tv/)
   [:lucide-container:](https://hub.docker.com/r/linuxserver/plex){ title=Container}
-- ![Audiobookshelf](https://assets.tylernguyen.wiki/logos/audiobookshelf.svg){ .twemoji } [Audiobookshelf :octicons-arrow-up-right-16:](https://www.audiobookshelf.org/)
+- ![Audiobookshelf](https://assets.tylernguyen.wiki/logos/audiobookshelf.svg){ .twemoji } [Audiobookshelf :lucide-arrow-up-right:](https://www.audiobookshelf.org/)
   [:lucide-container:](https://github.com/advplyr/audiobookshelf/pkgs/container/audiobookshelf){ title=Container}
   [:lucide-file-code-corner:](https://github.com/advplyr/audiobookshelf){ title="Source Code" }
-- ![Kavita](https://assets.tylernguyen.wiki/logos/kavita.svg){ .twemoji } [Kavita :octicons-arrow-up-right-16:](https://www.kavitareader.com/)
+- ![Kavita](https://assets.tylernguyen.wiki/logos/kavita.svg){ .twemoji } [Kavita :lucide-arrow-up-right:](https://www.kavitareader.com/)
   [:lucide-container:](https://hub.docker.com/r/linuxserver/kavita){ title=Container}
   [:lucide-file-code-corner:](https://github.com/Kareadita/Kavita){ title="Source Code" }
-- :simple-freshrss:{ .freshrss } [FreshRSS :octicons-arrow-up-right-16:](https://freshrss.org/)
+- :simple-freshrss:{ .freshrss } [FreshRSS :lucide-arrow-up-right:](https://freshrss.org/)
   [:lucide-container:](https://hub.docker.com/r/linuxserver/freshrss){ title=Container}
   [:lucide-file-code-corner:](https://github.com/FreshRSS/FreshRSS){ title="Source Code" }
 
 ### Media Management
 
-- :simple-sonarr:{ .sonarr } [Sonarr :octicons-arrow-up-right-16:](https://sonarr.tv/)
+- :simple-sonarr:{ .sonarr } [Sonarr :lucide-arrow-up-right:](https://sonarr.tv/)
   [:lucide-container:](https://hub.docker.com/r/linuxserver/sonarr){ title=Container}
-- :simple-radarr:{ .radarr } [Radarr :octicons-arrow-up-right-16:](https://radarr.video/)
+- :simple-radarr:{ .radarr } [Radarr :lucide-arrow-up-right:](https://radarr.video/)
   [:lucide-container:](https://hub.docker.com/r/linuxserver/radarr){ title=Container}
-- ![Calibre](https://assets.tylernguyen.wiki/logos/calibre.svg){ .twemoji } [Calibre :octicons-arrow-up-right-16:](https://calibre-ebook.com/)
+- ![Calibre](https://assets.tylernguyen.wiki/logos/calibre.svg){ .twemoji } [Calibre :lucide-arrow-up-right:](https://calibre-ebook.com/)
   [:lucide-container:](https://hub.docker.com/r/linuxserver/calibre){ title=Container}
-- ![Kometa](https://assets.tylernguyen.wiki/logos/Kometa.svg){ .twemoji } [Kometa :octicons-arrow-up-right-16:](https://github.com/meisnate12/Plex-Meta-Manager)
+- ![Kometa](https://assets.tylernguyen.wiki/logos/Kometa.svg){ .twemoji } [Kometa :lucide-arrow-up-right:](https://github.com/meisnate12/Plex-Meta-Manager)
   [:lucide-container:](https://hub.docker.com/r/kometateam/kometa){ title=Container}
   [:lucide-file-code-corner:](https://github.com/Kometa-Team/Kometa){ title="Source Code" }
-- ![Kometa/ImageMaid](https://assets.tylernguyen.wiki/logos/Kometa.svg){ .twemoji } [Kometa/ImageMaid :octicons-arrow-up-right-16:](https://github.com/meisnate12/Plex-Meta-Manager)
+- ![Kometa/ImageMaid](https://assets.tylernguyen.wiki/logos/Kometa.svg){ .twemoji } [Kometa/ImageMaid :lucide-arrow-up-right:](https://github.com/meisnate12/Plex-Meta-Manager)
   [:lucide-container:](https://hub.docker.com/r/kometateam/imagemaid){ title=Container}
 
 ### Media Scrobblers
 
-- ![anibridge](https://assets.tylernguyen.wiki/logos/plexanibridge.svg){ .twemoji } [AniBridge :octicons-arrow-up-right-16:](https://github.com/anibridge/anibridge)
+- ![anibridge](https://assets.tylernguyen.wiki/logos/plexanibridge.svg){ .twemoji } [AniBridge :lucide-arrow-up-right:](https://github.com/anibridge/anibridge)
   [:lucide-container:](https://github.com/anibridge/anibridge/pkgs/container/anibridge){ title=Container}
-- ![FoxxMD/multi-scrobbler](https://assets.tylernguyen.wiki/logos/Multi-scrobbler.svg){ .twemoji } [FoxxMD/multi-scrobbler :octicons-arrow-up-right-16:](https://github.com/foxxmd/multi-scrobbler)
+- ![FoxxMD/multi-scrobbler](https://assets.tylernguyen.wiki/logos/Multi-scrobbler.svg){ .twemoji } [FoxxMD/multi-scrobbler :lucide-arrow-up-right:](https://github.com/foxxmd/multi-scrobbler)
   [:lucide-container:](https://github.com/FoxxMD/multi-scrobbler/pkgs/container/multi-scrobbler){ title=Container}
-- ![Koito](https://assets.tylernguyen.wiki/logos/Koito.webp){ .twemoji } [Koito :octicons-arrow-up-right-16:](https://github.com/gabehf/koito)
+- ![Koito](https://assets.tylernguyen.wiki/logos/Koito.webp){ .twemoji } [Koito :lucide-arrow-up-right:](https://github.com/gabehf/koito)
   [:lucide-container:](https://hub.docker.com/r/gabehf/koito){ title=Container}
 
 ## Utilities
 
-- :simple-syncthing:{ .syncthing } [Syncthing :octicons-arrow-up-right-16:](https://syncthing.net/)
+- :simple-syncthing:{ .syncthing } [Syncthing :lucide-arrow-up-right:](https://syncthing.net/)
   [:lucide-container:](https://github.com/linuxserver/docker-syncthing/pkgs/container/syncthing){ title=Container}
   [:lucide-file-code-corner:](https://github.com/syncthing/syncthing){ title="Source Code" }
-- ![tailscale/golink](https://assets.tylernguyen.wiki/logos/Tailscale.webp){ .twemoji } [tailscale/golink :octicons-arrow-up-right-16:](https://github.com/tailscale/golink)
+- ![tailscale/golink](https://assets.tylernguyen.wiki/logos/Tailscale.webp){ .twemoji } [tailscale/golink :lucide-arrow-up-right:](https://github.com/tailscale/golink)
   [:lucide-container:](https://github.com/tailscale/golink/pkgs/container/golink){ title=Container}
-- ![taildrive](https://assets.tylernguyen.wiki/logos/Tailscale.webp){ .twemoji } [taildrive :octicons-arrow-up-right-16:](https://tailscale.com/kb/1369/taildrive)
+- ![taildrive](https://assets.tylernguyen.wiki/logos/Tailscale.webp){ .twemoji } [taildrive :lucide-arrow-up-right:](https://tailscale.com/kb/1369/taildrive)
 
 ## Databases
 
-- ![SQLite](https://assets.tylernguyen.wiki/logos/SQLite.svg){ .twemoji } [SQLite :octicons-arrow-up-right-16:](https://sqlite.org/)
-- ![PostgreSQL](https://assets.tylernguyen.wiki/logos/PostgreSQL.svg){ .twemoji } [PostgreSQL :octicons-arrow-up-right-16:](https://www.postgresql.org/)
-- ![Redis](https://assets.tylernguyen.wiki/logos/Redis.svg){ .twemoji } [Redis :octicons-arrow-up-right-16:](https://redis.io/)
-- :simple-elasticsearch:{ .elasticsearch } [Elasticsearch :octicons-arrow-up-right-16:](https://www.elastic.co/elasticsearch)
+- ![SQLite](https://assets.tylernguyen.wiki/logos/SQLite.svg){ .twemoji } [SQLite :lucide-arrow-up-right:](https://sqlite.org/)
+- ![PostgreSQL](https://assets.tylernguyen.wiki/logos/PostgreSQL.svg){ .twemoji } [PostgreSQL :lucide-arrow-up-right:](https://www.postgresql.org/)
+- ![Redis](https://assets.tylernguyen.wiki/logos/Redis.svg){ .twemoji } [Redis :lucide-arrow-up-right:](https://redis.io/)
+- :simple-elasticsearch:{ .elasticsearch } [Elasticsearch :lucide-arrow-up-right:](https://www.elastic.co/elasticsearch)
 
-Whenever possible, I much prefer ![SQLite](https://assets.tylernguyen.wiki/logos/SQLite.svg){ .twemoji } [SQLite :octicons-arrow-up-right-16:](https://sqlite.org/) over ![PostgreSQL](https://assets.tylernguyen.wiki/logos/PostgreSQL.svg){ .twemoji } PostgreSQL.
+Whenever possible, I much prefer ![SQLite](https://assets.tylernguyen.wiki/logos/SQLite.svg){ .twemoji } [SQLite :lucide-arrow-up-right:](https://sqlite.org/) over ![PostgreSQL](https://assets.tylernguyen.wiki/logos/PostgreSQL.svg){ .twemoji } PostgreSQL.

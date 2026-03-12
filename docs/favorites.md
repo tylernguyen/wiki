@@ -10,10 +10,10 @@ The following are my personal favorite content of all mediums. I try to keep it 
 
 ## Websites
 
-- [No Mercy / No Malice :octicons-arrow-up-right-16:](https://www.profgalloway.com/) [:fontawesome-solid-square-rss:](https://www.profgalloway.com/feed/){ title="RSS Feed" }
-- [Articles & Experiments :octicons-arrow-up-right-16:](https://kizu.dev/) [:fontawesome-solid-square-rss:](https://feeds.feedburner.com/kizuruen){ title="RSS Feed" }
+- [No Mercy / No Malice :lucide-arrow-up-right:](https://www.profgalloway.com/) [:fontawesome-solid-square-rss:](https://www.profgalloway.com/feed/){ title="RSS Feed" }
+- [Articles & Experiments :lucide-arrow-up-right:](https://kizu.dev/) [:fontawesome-solid-square-rss:](https://feeds.feedburner.com/kizuruen){ title="RSS Feed" }
 
-[See more websites... :octicons-arrow-down-left-16:](websites.md)
+[See more websites... :lucide-arrow-down-left:](websites.md)
 
 ## Books
 
@@ -26,7 +26,7 @@ The following are my personal favorite content of all mediums. I try to keep it 
 
 <div class="grid cards" markdown>
 
-- ### ![Hardcover](https://assets.tylernguyen.wiki/logos/Hardcover.svg){ .twemoji } [Hardcover :octicons-arrow-up-right-16:](https://hardcover.app/@tylernguyen)
+- ### ![Hardcover](https://assets.tylernguyen.wiki/logos/Hardcover.svg){ .twemoji } [Hardcover :lucide-arrow-up-right:](https://hardcover.app/@tylernguyen)
 
     I use Hardcover to catalog my book collection and history. It's a new platform with many bugs and missing features. But I still much prefer it over GoodReads.
 
@@ -53,7 +53,7 @@ The following are my personal favorite content of all mediums. I try to keep it 
 
 <div class="grid cards" markdown>
 
-- ### ![Letterboxd](https://assets.tylernguyen.wiki/logos/Letterboxd-light.svg#only-light){ .twemoji } ![Letterboxd](https://assets.tylernguyen.wiki/logos/Letterboxd-dark.svg#only-dark){ .twemoji } [Letterboxd :octicons-arrow-up-right-16:](https://letterboxd.com/tylernguyen)
+- ### ![Letterboxd](https://assets.tylernguyen.wiki/logos/Letterboxd-light.svg#only-light){ .twemoji } ![Letterboxd](https://assets.tylernguyen.wiki/logos/Letterboxd-dark.svg#only-dark){ .twemoji } [Letterboxd :lucide-arrow-up-right:](https://letterboxd.com/tylernguyen)
 
     I've had a Letterboxd account for a while now. New watches are usually tracked there. But I'm still working on cataloging my watch history and movie collection.
 
@@ -94,7 +94,7 @@ The following are my personal favorite content of all mediums. I try to keep it 
 
 <div class="grid cards" markdown>
 
-- ### :simple-anilist:{ .anilist } [AniList :octicons-arrow-up-right-16:](https://anilist.co/user/tylernguyen/animelist)
+- ### :simple-anilist:{ .anilist } [AniList :lucide-arrow-up-right:](https://anilist.co/user/tylernguyen/animelist)
 
     AniList is used exclusively to track anime and manga.
 
@@ -102,13 +102,13 @@ The following are my personal favorite content of all mediums. I try to keep it 
 
 ## Podcasts
 
-- [__This American Life__ :octicons-arrow-up-right-16:](https://www.thisamericanlife.org/){ title="Homepage"}
+- [__This American Life__ :lucide-arrow-up-right:](https://www.thisamericanlife.org/){ title="Homepage"}
   [:fontawesome-solid-square-rss:](https://www.thisamericanlife.org/podcast/rss.xml){ title="RSS Feed"}
   [:octicons-archive-16:](https://www.thisamericanlife.org/archive){ title=Archive}
 
-The official RSS feed only has recently published episodes. See [dcadata/this-american-life-archive :octicons-arrow-up-right-16:](https://github.com/dcadata/this-american-life-archive) for an RSS feed of archived episodes.
+The official RSS feed only has recently published episodes. See [dcadata/this-american-life-archive :lucide-arrow-up-right:](https://github.com/dcadata/this-american-life-archive) for an RSS feed of archived episodes.
 
-- [__99% Invisible__ :octicons-arrow-up-right-16:](https://99percentinvisible.org/){ title="Homepage"}
+- [__99% Invisible__ :lucide-arrow-up-right:](https://99percentinvisible.org/){ title="Homepage"}
   [:fontawesome-solid-square-rss:](https://feeds.99percentinvisible.org/99percentinvisible){ title="RSS Feed"}
 
 ## Games
@@ -130,10 +130,10 @@ The official RSS feed only has recently published episodes. See [dcadata/this-am
 - Root
   [:simple-boardgamegeek:{ .boardgamegeek }](<https://boardgamegeek.com/boardgame/237182/root> "Board Game Geek")
   [![Steam](https://assets.tylernguyen.wiki/logos/Steam.svg){ .twemoji }](https://store.steampowered.com/app/965580/Root/ "Steam")
-- [Pokemon Crystal Clear :octicons-arrow-up-right-16:](https://shockslayer.com/crystal-clear/)
+- [Pokemon Crystal Clear :lucide-arrow-up-right:](https://shockslayer.com/crystal-clear/)
   [:octicons-markdown-16:](https://github.com/ShockSlayer/ccdocs/blob/master/docs/FAQ.md){ title=Documentation}
 - Riichi Mahjong
     - Riichi City
       [![Steam](https://assets.tylernguyen.wiki/logos/Steam.svg){ .twemoji }](https://store.steampowered.com/app/1954420/ "Steam")
       [:simple-steamdb:{ .foreground }](https://steamdb.info/app/1954420/ "SteamDB")
-    - [Tenhou :octicons-arrow-up-right-16:](https://tenhou.net/4/)
+    - [Tenhou :lucide-arrow-up-right:](https://tenhou.net/4/)
