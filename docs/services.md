@@ -11,12 +11,21 @@ I despise advertising as the primary form of monetization for services. And I do
 
 ## Productivity
 
-- ![Google Calendar](https://assets.tylernguyen.wiki/logos/Google_Calendar.svg){ .twemoji } [Google Calendar :octicons-arrow-up-right-16:](https://calendar.google.com/)
-  <span class="solarized-red">:material-lock: **Proprietary**</span>
+- :simple-icloud:{ .icloud } [iCloud+ :octicons-arrow-up-right-16:](https://www.icloud.com/)
+
+The iCloud+ Suite is essential to my setup right now. It handles email for my custom domains. And importantly, it is also backup storage for my iPhone.
+
+/// tip | Data Privacy
+Enable [Advanced Data Protection :octicons-arrow-up-right-16:](https://support.apple.com/en-us/108756) for better data privacy.
+///
+
+- ![Tweek](https://assets.tylernguyen.wiki/logos/tweek.so.webp){ .twemoji } [Tweek :octicons-arrow-up-right-16:](https://tweek.so/)
+
+I've been loving Tweek as a minimal calendar/to-do/planner. On the backend, it syncs with ![Apple Calendar](https://assets.tylernguyen.wiki/logos/Apple_Calendar.svg){ .twemoji } Apple Calendar :octicons-arrow-up-right-16:.
+
 - :simple-todoist:{ .todoist } [Todoist :octicons-arrow-up-right-16:](https://todoist.com/)
   <span class="solarized-red">:material-lock: **Proprietary**</span>
   <span class="solarized-green">:material-sync: **Subscription**</span>-ware
-- :simple-icloud:{ .icloud } [iCloud+ :octicons-arrow-up-right-16:](https://www.icloud.com/)
 - :simple-claude:{ .claude } [Claude :octicons-arrow-up-right-16:](https://claude.ai/)
 
 ## Utility
