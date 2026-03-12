@@ -6,6 +6,17 @@ tags:
 
 # Bookmarks
 
+## CLI
+
+- [nushell :octicons-arrow-up-right-16:](https://github.com/nushell/nushell)
+- [asciinema :octicons-arrow-up-right-16:](https://github.com/asciinema/asciinema)
+- [micasa :octicons-arrow-up-right-16:](https://micasa.dev/)
+  [:lucide-file-code-corner:](https://github.com/cpcloud/micasa){ title="Source Code" }
+- [visidata :octicons-arrow-up-right-16:](https://www.visidata.org/)
+  [:lucide-file-code-corner:](https://github.com/saulpw/visidata){ title="Source Code" }
+
+__Also see [/dotfiles :octicons-arrow-down-left-16:](dotfiles.md).__
+
 ## Fonts
 
 - [Berkeley Mono :octicons-arrow-up-right-16:](https://usgraphics.com/products/berkeley-mono)
