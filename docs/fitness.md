@@ -25,10 +25,9 @@ I'm very satisfied with the Apple Watch Ultra 1st Gen. It's a great balance betw
 ## Software
 
 - ![Intervals.icu](https://assets.tylernguyen.wiki/logos/Intervals.icu.webp){ .twemoji } [Intervals.icu :octicons-arrow-up-right-16:](https://intervals.icu)
-- ![HealthFit](https://assets.tylernguyen.wiki/logos/HealthFit.webp){ .twemoji } [HealthFit :octicons-arrow-up-right-16:](https://apps.apple.com/us/app/healthfit/id1202650514)
 - ![Intervals.icu Companion](https://assets.tylernguyen.wiki/logos/Intervals.icuCompanion.jpg){ .twemoji } [Intervals.icu Companion :octicons-arrow-up-right-16:](https://apps.apple.com/us/app/intervals-icu-companion/id6739638454)
 
-I use __Intervals.icu__ for planning and analysis. It's free, powerful, and highly customizable. The developer, [David :octicons-arrow-up-right-16:](https://forum.intervals.icu/u/david/summary), is accessible and responsive. It's web-only, so I use __HealthFit__ to sync data.
+I use __Intervals.icu__ for planning and analysis. It's free, powerful, and highly customizable. The developer, [David :octicons-arrow-up-right-16:](https://forum.intervals.icu/u/david/summary), is accessible and responsive. __Intervals.icu Companion__ is not the official app on iOS, but it is the best app.
 
 - ![The Outsiders](https://assets.tylernguyen.wiki/logos/TheOutsiders.webp){ .twemoji } [The Outsiders :octicons-arrow-up-right-16:](https://www.theoutsiders.app/)
 - ![Gentler Streak](https://assets.tylernguyen.wiki/logos/GentlerStreak.webp){ .twemoji } [Gentler Streak :octicons-arrow-up-right-16:](https://gentler.app/)
