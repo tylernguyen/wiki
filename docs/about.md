@@ -26,4 +26,4 @@ Technical writings here are limited to my own knowledge and research.
 Opinions expressed here are just that.
 ///
 
-[^1]: ![Wikipedia](https://assets.tylernguyen.wiki/logos/Wikipedia.svg){ .twemoji} Wikipedia: [Nguyen :lucide-arrow-up-right:](https://en.wikipedia.org/wiki/Nguyen)
+[^1]: :simple-wikipedia:{ .foreground } Wikipedia: [Nguyen :lucide-arrow-up-right:](https://en.wikipedia.org/wiki/Nguyen)
