@@ -47,11 +47,6 @@ RSS is my preferred method of following websites. I also maintain an email alias
 
 - [Fridays' Elk :octicons-arrow-up-right-16:](https://buttondown.email/carlzimmer)
 
-## Utilities
-
-- [PGTune :octicons-arrow-up-right-16:](https://pgtune.leopard.in.ua/)
-- [Hyperglot :octicons-arrow-up-right-16:](https://hyperglot.rosettatype.com/)
-
 ## Videos
 
 - [Joel Spolsky - You Suck at Excel](https://www.youtube.com/watch?v=0nbkaYsR94c)

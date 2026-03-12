@@ -12,8 +12,8 @@ nav = [
   {"BLOG" = "index.md"},
   {"CATALOG" = [
      "favorites.md",
-     "projects.md",
-     "websites.md"
+     "websites.md",
+     "bookmarks.md"
   ]},
   {"WORKFLOWS" = [
      "read.md",
