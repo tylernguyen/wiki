@@ -9,7 +9,7 @@ icon: lucide/stamp
 <div class="grid cards" markdown>
 
 - :simple-github:{ .foreground } [GitHub :lucide-arrow-up-right:](https://github.com/)
-  [:lucide-workflow:](https://github.com/tylernguyen/wiki/blob/main/.github/workflows/build.yml){ .card-link title="Workflow" }
+  [:lucide-workflow:](https://github.com/tylernguyen/wiki/blob/main/.github/workflows/pages.yml){ .card-link title="Workflow" }
 - :simple-cloudflare:{ .cloudflare } [Cloudflare R2 :lucide-arrow-up-right:](https://www.cloudflare.com/products/r2/)
   [:lucide-circle-dollar-sign:](https://developers.cloudflare.com/r2/pricing/){ .card-link title="Pricing" }
   [:lucide-eye:](https://www.cloudflare.com/privacypolicy/){ .card-link title="Privacy Policy" }
