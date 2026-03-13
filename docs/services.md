@@ -79,6 +79,6 @@ Archive your Audible library in a DRM-free format. See :lucide-folder-git-2:{ .f
 
 - ![Libby](https://assets.tylernguyen.wiki/logos/Libby.webp){ .twemoji } [Libby :lucide-arrow-up-right:](https://libbyapp.com)
 
-[^1]: [Richard Stallman: Reasons not to buy from Amazon](https://stallman.org/amazon.html)
-[^2]: [Privacy Guides: Email is an insecure form of communication by default](https://www.privacyguides.org/basics/email-security/)
-[^4]: [Lifetime Access To Pocket Casts Plus](https://support.pocketcasts.com/knowledge-base/lifetime-access-to-pocket-casts-plus/)
+[^1]: [Richard Stallman: Reasons not to buy from Amazon :lucide-arrow-up-right:](https://stallman.org/amazon.html)
+[^2]: [Privacy Guides: Email is an insecure form of communication by default :lucide-arrow-up-right:](https://www.privacyguides.org/basics/email-security/)
+[^4]: [Lifetime Access To Pocket Casts Plus :lucide-arrow-up-right:](https://support.pocketcasts.com/knowledge-base/lifetime-access-to-pocket-casts-plus/)
