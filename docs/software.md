@@ -9,20 +9,15 @@ tags:
 
 Though I do prefer free (as in freedom) software, I do use proprietary software if its open-source alternative is not adequate.
 
-## Firefox
+## Internet
 
-<div class="grid cards" markdown>
+:simple-firefoxbrowser:{ .firefox } [Firefox :lucide-arrow-up-right:](https://www.firefox.com/)
+  [:lucide-hat-glasses:](https://www.mozilla.org/privacy/firefox/){ title="Privacy Policy" }
+  [:lucide-file-code-corner:](https://github.com/mozilla-firefox/firefox){ title="Source Code" }
 
-- <figure markdown>
-    <p align="center">
-    ![Firefox](https://assets.tylernguyen.wiki/logos/Firefox-light.svg#only-light){ loading-lazy width=200 }
-    ![Firefox](https://assets.tylernguyen.wiki/logos/Firefox-dark.svg#only-dark){ loading-lazy width=200 }
-    </p>
-    </figure>
+Firefox is my default browser.  It's an independent, third-party alternative to big tech software like Chrome/Safari.
 
-</div>
-
-Firefox is an <span class="solarized-orange">:lucide-folder-git-2: __open source__</span> web browser.
+Recently, I've also been testing ![Glide](https://assets.tylernguyen.wiki/logos/glide-browser.webp){ .twemoji } [Glide :lucide-arrow-up-right:](https://github.com/glide-browser/glide). It's alpha, hobbyist software. But so far, I've loved customizing and tinkering with it.
 
 __Extensions__:
 
@@ -37,11 +32,6 @@ __Extensions__:
 - :simple-1password:{ .onepassword } [1Password :lucide-arrow-up-right:](https://addons.mozilla.org/en-US/firefox/addon/1password-x-password-manager/)
 
 [^1]: [gorhill/uBlock: uBlock Origin Works Best on Firefox](https://github.com/gorhill/uBlock/wiki/uBlock-Origin-works-best-on-Firefox)
-
-[Homepage :lucide-arrow-up-right:](https://firefox.com){ .md-button }
-[:lucide-hat-glasses:](https://www.mozilla.org/privacy/firefox/){ title="Privacy Policy" }
-[:octicons-markdown-16:](https://firefox-source-docs.mozilla.org/){ title="Documentation" }
-[:lucide-file-code-corner:](https://hg.mozilla.org/mozilla-central){ title="Source Code" }
 
 
 ## Code
