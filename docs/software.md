@@ -52,19 +52,15 @@ __Extensions__:
 
 ## Zensical
 
-<div class="grid cards" markdown>
-
 - ![Zensical](https://assets.tylernguyen.wiki/logos/Zensical.webp){ .twemoji }  [Zensical :lucide-arrow-up-right:](https://zensical.org/)
   [:lucide-file-code-corner:](https://github.com/zensical/zensical){ title="Source Code" }
   [:lucide-scale:](https://github.com/zensical/zensical/blob/master/LICENSE.md){ title=License }
 
-    Zensical is an <span class="solarized-orange">:lucide-folder-git-2: __open source__</span> static site generator intended for documentation. It is the successor to :simple-materialformkdocs:{ .materialformkdocs } Material for MkDocs, built by the same creator.
-
-</div>
-
 /// example
 This website is created using Zensical.
 ///
+
+Zensical is my go-to static site generator. It is the successor to :simple-materialformkdocs:{ .materialformkdocs } Material for MkDocs, built by the same creator.
 
 ## Virtualization
 
