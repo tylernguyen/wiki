@@ -11,16 +11,16 @@ I do try to exercise regularly and keep track of what I eat. Swimming is my favo
 
 ## Gear
 
-- __Apple Watch Ultra 1st Gen__
+- :simple-apple:{ .foreground} __Apple Watch Ultra 1st Gen__
 
 I'm very satisfied with the Apple Watch Ultra 1st Gen. It's a great balance between iPhone companion and fitness tracker. Importantly, the battery life of the Ultra means that I don't have to pay too much mind to charging. I don't foresee an upgrade anytime soon.
 
-- __Apple AirPods Pro 3__
+- :simple-apple:{ .foreground} __Apple AirPods Pro 3__
 - __Shokz OpenSwim__
 
 ### Shoes
 
-- ASICS Novablast 3
+- ![ASICS](https://assets.tylernguyen.wiki/logos/ASICS.svg#only-light){ .twemoji } ![ASICS](https://assets.tylernguyen.wiki/logos/ASICS-dark.svg#only-dark){ .twemoji } ASICS Novablast 3
 
 ## Software
 

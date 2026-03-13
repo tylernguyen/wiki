@@ -65,15 +65,15 @@ Secondary cache used for temporary data and faster decompression, formatted in b
 
 ## Mobile
 
-- __Apple 14" Macbook Pro M3 Max__, 36GB unified memory
+- :simple-apple:{ .foreground} __Apple 14" Macbook Pro M3 Max__, 36GB unified memory
 
 This is my de-facto workhorse. The hardware and form factor is perfect for my use case. I plan on renewing AppleCare for it when it expires and don't intend on upgrading for the foreseeable future.
 
-- __iPhone 14 Pro__
+- :simple-apple:{ .foreground} __iPhone 14 Pro__
 
 It's an iPhone: nothing more, nothing less. It's much more powerful than what I use it for, especially since I don't care for photos. The battery life is what matters most to me. Should Apple release a new iPhone Mini, I'd likely swap to that.
 
-- __iPad Mini 6th Gen__
+- :simple-apple:{ .foreground} __iPad Mini 6th Gen__
 
 I use the iPad Mini to read the web, comics, mangas, and the occasional textbooks. It's also how I watch movies and shows on the treadmill.
 
@@ -85,11 +85,11 @@ Runs :simple-koreader:{ .koreader } [KOReader :lucide-arrow-up-right:](https://g
 
 ## Consoles
 
-- __Steam Deck OLED LE__
+- :simple-steamdeck:{ .steamdeck } __Steam Deck OLED LE__
 
 I love my Steam Deck OLED. I previously had a standard Steam Deck and cannot recommend the OLED model enough. I often use it in bed, and during travel. On it, I mostly play roguelikes and emulated titles.
 
-- __Nintendo Switch OLED__
+- ![Nintendo Switch](https://assets.tylernguyen.wiki/logos/Nintendo_Switch.svg){ .twemoji } __Nintendo Switch OLED__
 
 This is solely for Nintendo exclusive games. Nintendo games are particularly good for
 
@@ -97,27 +97,27 @@ See [/favorites#games :lucide-arrow-down-left:](favorites.md#games)
 
 ## Home Network
 
-- __Ubiquiti UniFi Cloud Gateway Fiber__
+- :simple-ubiquiti:{ .ubiquiti } __Ubiquiti UniFi Cloud Gateway Fiber__
 
 I get ~2Gbps symmetrical from my fiber provider. It's more than adequate for my household usage. So my network is designed with 2.5GbE in mind. I don't foresee upgrading to a 10GbE setup even in the far future.
 
-- __Ubiquiti UniFi U7 Pro XG__
+- :simple-ubiquiti:{ .ubiquiti } __Ubiquiti UniFi U7 Pro XG__
 
 I only use 1 AP for the house and try to keep the number of Wi-Fi connected devices to a minimum. I recently just upgraded to the U7 Pro XG and it's been stable thus far. I don't plan upgrading anytime soon.
 
-- __Ubiquiti Unifi Flex 2.5G 5__
+- :simple-ubiquiti:{ .ubiquiti } __Ubiquiti Unifi Flex 2.5G 5__
 
 This switch is mostly used for gaming devices. They usually saturate the speed during downloads.
 
-- __Ubiquiti UniFi USW-Lite-8-PoE__
+- :simple-ubiquiti:{ .ubiquiti } __Ubiquiti UniFi USW-Lite-8-PoE__
 
 The majority of my PoE devices are low bandwidth. As long as my setup doesn't include a PoE device that needs more than 1 gigabit. There are no reasons to upgrade.
 
 ## Miscellaneous
 
-- __Apple AirTag__
-- __Yubikey 5C NFC__
+- :simple-apple:{ .foreground} __Apple AirTag__
+- :simple-yubico:{ .yubico } __Yubikey 5C NFC__
 
-:simple-1password:{ .onepassword } 1Password handles most of my daily security, but I still use the Yubikey as 2FA and/or passkey for a few critical accounts. It's also apart of my GnuPG workflow.
+I use the Yubikey as 2FA and/or passkey for a few critical accounts. It's also apart of my GnuPG workflow. But :simple-1password:{ .onepassword } 1Password handles most of my daily security.
 
 See :lucide-folder-git-2:{ .foreground } [drduh/YubiKey-Guide :lucide-arrow-up-right:](https://github.com/drduh/YubiKey-Guide).

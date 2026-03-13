@@ -194,6 +194,10 @@
   color: #2596BE;
 }
 
+.steamdeck {
+  color: #1A9FFF;
+}
+
 .syncthing {
   color: #0891D1;
 }
@@ -208,6 +212,10 @@
 
 .truenas {
   color: #0095D5;
+}
+
+.ubiquiti {
+  color: #0559C9;
 }
 
 .ublockorigin {
@@ -228,6 +236,10 @@
 
 .yaml {
   color: #CB171E;
+}
+
+.yubico {
+  color: #84BD00;
 }
 
 .zsh {
