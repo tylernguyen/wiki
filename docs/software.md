@@ -21,7 +21,8 @@ Recently, I've also been testing ![Glide](https://assets.tylernguyen.wiki/logos/
 
 __Extensions__:
 
-- :simple-ublockorigin:{ .ublockorigin } [uBlock Origin :lucide-arrow-up-right:](https://addons.mozilla.org/en-US/firefox/addon/ublock-origin/)
+- :simple-1password:{ .onepassword } [1Password :lucide-arrow-up-right:](https://addons.mozilla.org/en-US/firefox/addon/1password-x-password-manager/)
+- :simple-ublockorigin:{ .ublockorigin } [uBlock Origin :lucide-arrow-up-right:](https://addons.mozilla.org/en-US/firefox/addon/ublock-origin/)[^1]
   [:lucide-file-code-corner:](https://github.com/gorhill/uBlock){ title="Source Code" }
 - ![SponsorBlock](https://assets.tylernguyen.wiki/logos/SponsorBlock.svg){ .twemoji } [SponsorBlock :lucide-arrow-up-right:](https://addons.mozilla.org/en-US/firefox/addon/sponsorblock/)
   [:lucide-file-code-corner:](https://github.com/ajayyy/SponsorBlock){ title="Source Code" }
@@ -29,7 +30,6 @@ __Extensions__:
   [:lucide-file-code-corner:](https://github.com/younesaassila/ttv-lol-pro){ title="Source Code" }
 - ![ViolentMonkey](https://assets.tylernguyen.wiki/logos/ViolentMonkey.webp){ .twemoji } [Violentmonkey :lucide-arrow-up-right:](https://addons.mozilla.org/en-US/firefox/addon/violentmonkey/)
   [:lucide-file-code-corner:](https://github.com/violentmonkey/violentmonkey){ title="Source Code" }
-- :simple-1password:{ .onepassword } [1Password :lucide-arrow-up-right:](https://addons.mozilla.org/en-US/firefox/addon/1password-x-password-manager/)
 
 [^1]: [gorhill/uBlock: uBlock Origin Works Best on Firefox :lucide-arrow-up-right:](https://github.com/gorhill/uBlock/wiki/uBlock-Origin-works-best-on-Firefox)
 
