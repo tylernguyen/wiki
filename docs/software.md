@@ -63,6 +63,7 @@ Zensical is my go-to static site generator. It is the successor to :simple-mater
 - ![NetNewsWire](https://assets.tylernguyen.wiki/logos/NetNewsWire.webp){ .twemoji } [NetNewsWire :lucide-arrow-up-right:](https://netnewswire.com/)
 - ![OBS](https://assets.tylernguyen.wiki/logos/OBS.svg){ .twemoji } [OBS Studio :lucide-arrow-up-right:](https://obsproject.com/)
   [:lucide-file-code-corner:](https://github.com/obsproject/obs-studio "Source Code")
+- ![Tachimanga](https://assets.tylernguyen.wiki/logos/Tachimanga.webp){ .twemoji } [Tachimanga :lucide-arrow-up-right:](https://apps.apple.com/us/app/tachimanga/id6447486175)
 
 ## Files
 
