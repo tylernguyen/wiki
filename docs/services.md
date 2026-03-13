@@ -24,8 +24,6 @@ Enable [Advanced Data Protection :lucide-arrow-up-right:](https://support.apple.
 I've been loving Tweek as a minimal calendar/to-do/planner. On the backend, it syncs with Apple Calendar via the iOS app.
 
 - :simple-todoist:{ .todoist } [Todoist :lucide-arrow-up-right:](https://todoist.com/)
-  <span class="solarized-red">:material-lock: **Proprietary**</span>
-  <span class="solarized-green">:material-sync: **Subscription**</span>-ware
 - :simple-claude:{ .claude } [Claude :lucide-arrow-up-right:](https://claude.ai/)
 
 ## Utility
@@ -73,8 +71,6 @@ Archive your Audible library in a DRM-free format. See :lucide-folder-git-2:{ .f
 
 - ![Libby](https://assets.tylernguyen.wiki/logos/Libby.webp){ .twemoji } [Libby :lucide-arrow-up-right:](https://libbyapp.com)
 - :simple-pocketcasts:{ .pocketcasts } [Pocket Casts :lucide-arrow-up-right:](https://pocketcasts.com/)
-  <span class="solarized-red">:material-lock: **Proprietary**</span>
-  <span class="solarized-green">:material-sync: **Subscription**</span>-ware
 
 Having purchased the iOS and web app early on, I'm grandfathered into its lifetime plan[^4]. I do not think that :simple-pocketcasts:{ .pocketcasts } Pocket Casts is worth it at its current subscription price.
 
