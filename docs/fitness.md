@@ -25,7 +25,7 @@ I'm very satisfied with the Apple Watch Ultra 1st Gen. It's a great balance betw
 ## Software
 
 - ![Intervals.icu](https://assets.tylernguyen.wiki/logos/Intervals.icu.webp){ .twemoji } [Intervals.icu :lucide-arrow-up-right:](https://intervals.icu)
-- ![Intervals.icu Companion](https://assets.tylernguyen.wiki/logos/Intervals.icuCompanion.jpg){ .twemoji } [Intervals.icu Companion :lucide-arrow-up-right:](https://apps.apple.com/us/app/intervals-icu-companion/id6739638454)
+- ![Intervals.icu Companion](https://assets.tylernguyen.wiki/logos/Intervals.icuCompanion.webp){ .twemoji } [Intervals.icu Companion :lucide-arrow-up-right:](https://apps.apple.com/us/app/intervals-icu-companion/id6739638454)
 
 I use __Intervals.icu__ for planning and analysis. It's free, powerful, and highly customizable. The developer, [David :lucide-arrow-up-right:](https://forum.intervals.icu/u/david/summary), is accessible and responsive. __Intervals.icu Companion__ is not the official app on iOS, but it is the best app.
 
@@ -34,8 +34,8 @@ I use __Intervals.icu__ for planning and analysis. It's free, powerful, and high
 
 __Gentler Streak__ is especially nice as a simpler companion the other, more data-intensive platforms. I recommend you use the app and wait until you are targeted for a discounted lifetime offer.
 
-- ![MacroFactor](https://assets.tylernguyen.wiki/logos/MacroFactor.jpg){ .twemoji } [MacroFactor :lucide-arrow-up-right:](https://macrofactorapp.com/)
-- ![Train](https://assets.tylernguyen.wiki/logos/Motra.jpg){ .twemoji } [Motra (formerly Train) :lucide-arrow-up-right:](https://trainfitness.ai/)
+- ![MacroFactor](https://assets.tylernguyen.wiki/logos/Macrofactor.webp){ .twemoji } [MacroFactor :lucide-arrow-up-right:](https://macrofactorapp.com/)
+- ![Train](https://assets.tylernguyen.wiki/logos/Motra.webp){ .twemoji } [Motra (formerly Train) :lucide-arrow-up-right:](https://trainfitness.ai/)
 - ![Garmin Connect](https://assets.tylernguyen.wiki/logos/GarminConnect.webp){ .twemoji } [Garmin Connect :lucide-arrow-up-right:](https://connect.garmin.com/)
 
 Nowadays, I only use this app for my Garmin Index S2 Scale. I don't particularly like the Garmin ecosystem, and much prefer to stay within ![Apple HealthKit](https://assets.tylernguyen.wiki/logos/Apple_HealthKit.webp){ .twemoji } Apple HealthKit.
