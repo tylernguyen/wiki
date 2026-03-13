@@ -199,6 +199,18 @@
   flex-shrink: 0;
 }
 
+.md-content__head:not(:has(.md-tags)) {
+  display: block;
+  padding: 0;
+  min-height: 0;
+  overflow: visible;
+}
+
+.md-content__head:not(:has(.md-tags)) .md-content__button {
+  float: right;
+  margin-top: .7rem;
+}
+
 .md-typeset .md-tag {
   color: var(--md-default-fg-color);
   background-color: var(--md-primary-fg-color--light);
