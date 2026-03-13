@@ -19,14 +19,17 @@ tags:
 
 __See [/hardware#server :lucide-arrow-down-left:](hardware.md#server) for hardware specs.__
 
-## Public Instances
+## Public
 
-- :simple-mastodon:{ .mastodon } [__Mastodon__: _tylernguyen.social_ :lucide-arrow-up-right:](https://tylernguyen.social/@tylernguyen)
+- :simple-mastodon:{ .mastodon } __Mastodon__: [_tylernguyen.social_ :lucide-arrow-up-right:](https://tylernguyen.social/@tylernguyen)
   [:lucide-container:](https://github.com/mastodon/mastodon/pkgs/container/mastodon){ title=Container}
   [:lucide-file-code-corner:](https://github.com/mastodon/mastodon){ title="Source Code" }
-- :simple-forgejo:{ .forgejo } [__Forgejo__: _tylernguyen.codes_ :lucide-arrow-up-right:](https://tylernguyen.codes/)
+
+I mostly lurk and read on Mastodon. But I do intend post more in the future. My favorite client for both web and iOS is ![Phanpy](https://assets.tylernguyen.wiki/logos/Phanpy.svg){ .twemoji } [Phanpy :lucide-arrow-up-right:](https://phanpy.social/).
+
+- :simple-forgejo:{ .forgejo } __Forgejo__: [_tylernguyen.codes_ :lucide-arrow-up-right:](https://tylernguyen.codes/)
   [:lucide-container:](https://codeberg.org/forgejo/-/packages/container/forgejo/versions){ title=Container}
-- ![Koito](https://assets.tylernguyen.wiki/logos/Koito.webp){ .twemoji } [__Koito__: _koito.tylernguyen.app_](https://koito.tylernguyen.app)
+- ![Koito](https://assets.tylernguyen.wiki/logos/Koito.webp){ .twemoji } __Koito__: [_koito.tylernguyen.app_](https://koito.tylernguyen.app)
   [:lucide-container:](https://hub.docker.com/r/gabehf/koito){ title=Container}
   [:lucide-file-code-corner:](https://github.com/gabehf/Koito/){ title="Source Code" }
 
@@ -34,6 +37,8 @@ __See [/hardware#server :lucide-arrow-down-left:](hardware.md#server) for hardwa
 
 - :simple-homeassistant:{ .homeassistant } [Home Assistant :lucide-arrow-up-right:](https://www.home-assistant.io/)
   [:lucide-file-code-corner:](https://github.com/home-assistant/core){ title="Source Code" }
+
+I'm not too big into home automation. But Home Assistant has been set and forget for the few IoT devices I do have, which is nice.
 
 ## Network
 
