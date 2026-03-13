@@ -89,8 +89,10 @@ The following are my personal favorite content of all mediums. I try to keep it 
   [:simple-anilist:{ .anilist }](https://anilist.co/anime/16662/The-Wind-Rises/){ title="AniList"}
   [:simple-rottentomatoes:{ .rottentomatoes }](https://www.rottentomatoes.com/m/the_wind_rises){ title="Rotten Tomatoes"}
   [:simple-themoviedatabase:{ .tmdb }](https://www.themoviedb.org/movie/149870){ title="TMDB"}
-- Vagabond [:simple-anilist:{ .anilist }](https://anilist.co/manga/30656/Vagabond "AniList") [![Viz](https://assets.tylernguyen.wiki/logos/Viz.webp){ .twemoji  }](<https://www.viz.com/vagabond> "VIZ")
-- Goodnight Punpun [:simple-anilist:{ .anilist }](https://anilist.co/manga/34632/Oyasumi-Punpun "AniList") [![Viz](https://assets.tylernguyen.wiki/logos/Viz.webp){ .twemoji  }](https://www.viz.com/goodnight-punpun "VIZ")
+- Vagabond
+  [:simple-anilist:{ .anilist }](https://anilist.co/manga/30656/Vagabond "AniList")
+- Goodnight Punpun
+  [:simple-anilist:{ .anilist }](https://anilist.co/manga/34632/Oyasumi-Punpun "AniList")
 
 <div class="grid cards" markdown>
 
@@ -120,7 +122,6 @@ The official RSS feed only has recently published episodes. See [dcadata/this-am
 - Slay the Spire
   [![Steam](https://assets.tylernguyen.wiki/logos/Steam.svg){ .twemoji }](https://store.steampowered.com/app/646570/Slay_the_Spire/ "Steam")
   [:simple-steamdb:{ .foreground }](https://steamdb.info/app/646570/ "SteamDB")
-  [:simple-gogdotcom:{ .gog }](https://www.gog.com/game/Slay_the_Spire "GOG")
 - Slay the Spire 2
   [![Steam](https://assets.tylernguyen.wiki/logos/Steam.svg){ .twemoji }](https://store.steampowered.com/app/2868840/Slay_the_Spire_2/ "Steam")
   [:simple-steamdb:{ .foreground }](https://steamdb.info/app/2868840/ "SteamDB")
