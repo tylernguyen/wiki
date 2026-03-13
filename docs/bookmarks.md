@@ -40,7 +40,7 @@ __Also see [/dotfiles :lucide-arrow-down-left:](dotfiles.md).__
 
 - [tylernguyen/x1c6-hackintosh :lucide-arrow-up-right:](https://github.com/tylernguyen/x1c6-hackintosh)
   [:lucide-flip-horizontal-2:](https://tylernguyen.codes/tylernguyen/x1c6-hackintosh){ title="Mirror" }
-  <span class="solarized-yellow">__archived__ :lucide-archive:</span>
+  <span class="solarized-yellow-mark">==:lucide-archive: Archived==</span>
 
 macOS on the Lenovo ThinkPad X1 Carbon 6th Gen, built with OpenCore and ASL.
 

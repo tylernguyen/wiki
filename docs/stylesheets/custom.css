@@ -180,8 +180,7 @@
 }
 
 .md-typeset mark {
-  padding-left: 2px;
-  padding-right: 2px;
+  padding: 4px;
 }
 
 .md-post__back {

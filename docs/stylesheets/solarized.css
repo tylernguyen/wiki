@@ -90,6 +90,15 @@
 .solarized-cyan    { color: rgb(var(--solarized-cyan)); }
 .solarized-green   { color: rgb(var(--solarized-green)); }
 
+.solarized-yellow-mark  mark { background-color: rgba(var(--solarized-yellow),  0.3); }
+.solarized-orange-mark  mark { background-color: rgba(var(--solarized-orange),  0.3); }
+.solarized-red-mark     mark { background-color: rgba(var(--solarized-red),     0.3); }
+.solarized-magenta-mark mark { background-color: rgba(var(--solarized-magenta), 0.3); }
+.solarized-violet-mark  mark { background-color: rgba(var(--solarized-violet),  0.3); }
+.solarized-blue-mark    mark { background-color: rgba(var(--solarized-blue),    0.3); }
+.solarized-cyan-mark    mark { background-color: rgba(var(--solarized-cyan),    0.3); }
+.solarized-green-mark   mark { background-color: rgba(var(--solarized-green),   0.3); }
+
 .md-typeset a:hover {
   text-decoration-color: rgb(var(--solarized-cyan));
 }
