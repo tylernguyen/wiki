@@ -170,6 +170,30 @@
   border-radius: 4px;
 }
 
+.md-content__head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0;
+}
+
+.md-content__head .md-tags {
+  margin: 0;
+  flex: 1;
+}
+
+.md-typeset .md-tags:not([hidden]) {
+	margin-top: 0;
+	padding-top: 0.7rem;
+	margin-bottom: 1rem;
+}
+
+.md-content__head .md-content__button {
+  float: none;
+  margin: 0;
+  flex-shrink: 0;
+}
+
 .md-typeset .md-tag {
   color: var(--md-default-fg-color);
   background-color: var(--md-primary-fg-color--light);

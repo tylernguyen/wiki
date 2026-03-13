@@ -3,11 +3,11 @@
      SPDX-License-Identifier: MIT
 -->
 
-<!-- Actions -->
-{% include "partials/actions.html" %}
-
-<!-- Tags -->
-{% include "partials/tags.html" %}
+<!-- Actions + Tags -->
+<div class="md-content__head">
+  {% include "partials/tags.html" %}
+  {% include "partials/actions.html" %}
+</div>
 
 <!--
   Hack: check whether the content contains a h1 headline. If it doesn't, the
