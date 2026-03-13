@@ -98,7 +98,11 @@ The following are my personal favorite content of all mediums. I try to keep it 
 
 - ### :simple-anilist:{ .anilist } [AniList :lucide-arrow-up-right:](https://anilist.co/user/tylernguyen/animelist)
 
-    AniList is used exclusively to track anime and manga.
+    Activities on my AniList is comprehensive and up-to-date.
+
+    I self-host ![anibridge](https://assets.tylernguyen.wiki/logos/plexanibridge.svg){ .twemoji } [AniBridge :lucide-arrow-up-right:](https://github.com/anibridge/anibridge) to scrobble anime activies on my Plex server.
+
+    On iOS, I use ![Tachimanga](https://assets.tylernguyen.wiki/logos/Tachimanga.webp){ .twemoji } [Tachimanga :lucide-arrow-up-right:](https://apps.apple.com/us/app/tachimanga/id6447486175) to track manga reading history.
 
 </div>
 
