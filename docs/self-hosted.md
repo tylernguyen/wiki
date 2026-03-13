@@ -7,28 +7,15 @@ tags:
 
 # Self-hosted
 
-## Unraid
-
 <div class="grid cards" markdown>
 
-- <figure markdown>
-    <p align="center">
-    ![Unraid](https://assets.tylernguyen.wiki/logos/Unraid-light.svg#only-light){ width=250 }
-    ![Unraid](https://assets.tylernguyen.wiki/logos/Unraid-dark.svg#only-dark){ width=250 }
-    </p>
-    </figure>
+- ### :simple-unraid:{ .unraid } [Unraid :lucide-arrow-up-right:](https://unraid.net)
+
+    My primary usage is media archival, its consumption, and sharing. The data stored is __non-personal and easily replaceable__.
+
+    Hence the reason I chose :simple-unraid:{ .unraid } [Unraid :lucide-arrow-up-right:](https://unraid.net/) over :simple-truenas:{ .truenas } [TrueNas :lucide-arrow-up-right:](https://www.truenas.com/). Unraid's parity function is also better at maximizing usable storage, and dealing with mixed drive capacities.
 
 </div>
-
-Unraid is a <span class="solarized-red">:material-lock: __proprietary__</span>, <span class="solarized-green">:lucide-circle-dollar-sign: __commercial__</span> NAS operating system.
-
-[Homepage :lucide-arrow-up-right:](https://unraid.net/){ .md-button }
-[:lucide-circle-dollar-sign:](https://unraid.net/pricing){ title=Pricing}
-[:octicons-markdown-16:](https://wiki.unraid.net/Documentation){ title=Documentation}
-
-Primary usage is media archival, its consumption, and sharing. The data stored is __non-personal and easily replaceable__.
-
-Thus is the primary reason I chose :simple-unraid:{ .unraid } [Unraid :lucide-arrow-up-right:](https://unraid.net/) over :simple-truenas:{ .truenas } [TrueNas :lucide-arrow-up-right:](https://www.truenas.com/). Unraid's parity function is also better at maximizing usable storage, and dealing with mixed drive capacities.
 
 __See [/hardware#server :lucide-arrow-down-left:](hardware.md#server) for hardware specs.__
 
