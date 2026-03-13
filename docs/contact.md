@@ -18,8 +18,8 @@ See [/ident :lucide-arrow-down-left:](ident.md)
 I do not have a Twitter[^1], Facebook[^2], Instagram, nor Threads.
 ///
 
-[^1]: [Richard Stallman: Twitter](https://stallman.org/twitter.html)
-[^2]: [Richard Stallman: Reasons Not to be Used by Facebook](https://stallman.org/facebook.html)
+[^1]: [Richard Stallman: Twitter :lucide-arrow-up-right:](https://stallman.org/twitter.html)
+[^2]: [Richard Stallman: Reasons Not to be Used by Facebook :lucide-arrow-up-right:](https://stallman.org/facebook.html)
 
 /// success | What I'll DEFINITELY respond to.
 - Meaningful replies, critiques, and/or thoughts on things I have written/published are always welcomed. I take criticism fairly well and will do my best to express my thoughts in responding.

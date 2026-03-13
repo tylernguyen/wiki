@@ -31,8 +31,7 @@ __Extensions__:
   [:lucide-file-code-corner:](https://github.com/violentmonkey/violentmonkey){ title="Source Code" }
 - :simple-1password:{ .onepassword } [1Password :lucide-arrow-up-right:](https://addons.mozilla.org/en-US/firefox/addon/1password-x-password-manager/)
 
-[^1]: [gorhill/uBlock: uBlock Origin Works Best on Firefox](https://github.com/gorhill/uBlock/wiki/uBlock-Origin-works-best-on-Firefox)
-
+[^1]: [gorhill/uBlock: uBlock Origin Works Best on Firefox :lucide-arrow-up-right:](https://github.com/gorhill/uBlock/wiki/uBlock-Origin-works-best-on-Firefox)
 
 ## Code
 
