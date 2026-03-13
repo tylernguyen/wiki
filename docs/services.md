@@ -58,6 +58,14 @@ I mainly need transactional email for self-hosted apps, which send a very low vo
 
 ## Media
 
+- ![Steam](https://assets.tylernguyen.wiki/logos/Steam.svg){ .twemoji } [Steam :lucide-arrow-up-right:](https://store.steampowered.com/)
+  [:lucide-hat-glasses:](https://store.steampowered.com/privacy_agreement/){ title="Privacy Policy" }
+- :simple-pocketcasts:{ .pocketcasts } [Pocket Casts :lucide-arrow-up-right:](https://pocketcasts.com/)
+
+Having purchased the iOS and web app early on, I'm grandfathered into its lifetime plan[^4]. I do not think that Pocket Casts is worth it at its current subscription price.
+
+Instead, I recommend :simple-overcast:{ .overcast } [Overcast :lucide-arrow-up-right:](https://overcast.fm/), or ![Audiobookshelf](https://assets.tylernguyen.wiki/logos/audiobookshelf.svg){ .twemoji } [Audiobookshelf :lucide-arrow-up-right:](https://www.audiobookshelf.org/).
+
 - :simple-audible:{ .audible } [Audible :lucide-arrow-up-right:](https://www.audible.com/)
   <span class="solarized-orange">:lucide-triangle-alert: **Subsidiary of Amazon**</span>[^1]
 
@@ -70,27 +78,6 @@ Archive your Audible library in a DRM-free format. See :lucide-folder-git-2:{ .f
 ///
 
 - ![Libby](https://assets.tylernguyen.wiki/logos/Libby.webp){ .twemoji } [Libby :lucide-arrow-up-right:](https://libbyapp.com)
-- :simple-pocketcasts:{ .pocketcasts } [Pocket Casts :lucide-arrow-up-right:](https://pocketcasts.com/)
-
-Having purchased the iOS and web app early on, I'm grandfathered into its lifetime plan[^4]. I do not think that :simple-pocketcasts:{ .pocketcasts } Pocket Casts is worth it at its current subscription price.
-
-Instead, I recommend :simple-overcast:{ .overcast } [Overcast :lucide-arrow-up-right:](https://overcast.fm/), or ![Audiobookshelf](https://assets.tylernguyen.wiki/logos/audiobookshelf.svg){ .twemoji } [Audiobookshelf :lucide-arrow-up-right:](https://www.audiobookshelf.org/).
-
-## Steam
-
-<div class="grid cards" markdown>
-
-- <figure markdown>
-    <p align="center">
-    ![Steam](https://assets.tylernguyen.wiki/logos/Steam-light.svg#only-light){ loading-lazy width=250 }
-    ![Steam](https://assets.tylernguyen.wiki/logos/Steam-dark.svg#only-dark){ loading-lazy width=250 }
-    </p>
-    </figure>
-
-</div>
-
-[Homepage :lucide-arrow-up-right:](https://store.steampowered.com/){ .md-button }
-[:lucide-hat-glasses:](https://store.steampowered.com/privacy_agreement/){ title="Privacy Policy" }
 
 [^1]: [Richard Stallman: Reasons not to buy from Amazon](https://stallman.org/amazon.html)
 [^2]: [Privacy Guides: Email is an insecure form of communication by default](https://www.privacyguides.org/basics/email-security/)
