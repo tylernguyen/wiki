@@ -30,7 +30,7 @@ See [/ident :lucide-arrow-down-left:](ident.md)
 > - If your message doesn't explicitly look like it needs a response: being vague or unclear what the purpose is, you may not hear back from me.
 
 > [!failure] What I'll definitely NOT respond to
-> - [Don't ask to ask, just ask.](https://dontasktoask.com/)
-> - [The XY Problem](https://xyproblem.info/)
+> - [Don't ask to ask, just ask. :lucide-arrow-up-right:](https://dontasktoask.com/)
+> - [The XY Problem :lucide-arrow-up-right:](https://xyproblem.info/)
 > - No guest posts, linking, cross-promotions, and/or solicitations will be accepted.
 > - Do not bump my email inbox by sending another email without substance. By doing so, you are annoying me and lessening a chance that I will reply.
