@@ -40,9 +40,8 @@ I prefer to rebase by default, unless there is very specific reason to merge.
 
 - :simple-gnubash:{ .gnubash } [winget :lucide-arrow-up-right:](https://github.com/microsoft/winget-cli)
 
-/// note
-On Windows, portable executables are placed in `%userprofile%/bin`. Include this in `PATH`.
-///
+> [!note]
+> On Windows, portable executables are placed in `%userprofile%/bin`. Include this in `PATH`.
 
 - :simple-homebrew:{ .homebrew } [homebrew :lucide-arrow-up-right:](https://brew.sh/)
 - :simple-flatpak:{ .flatpak } [Flatpak :lucide-arrow-up-right:](<https://flatpak.org/>)

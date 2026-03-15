@@ -45,9 +45,8 @@ __Extensions__:
   [:lucide-file-code-corner:](https://github.com/zensical/zensical){ title="Source Code" }
   [:lucide-scale:](https://github.com/zensical/zensical/blob/master/LICENSE.md){ title=License }
 
-/// example
-This website is created using Zensical.
-///
+> [!example]
+> This website is created using Zensical.
 
 Zensical is my go-to static site generator. It is the successor to :simple-materialformkdocs:{ .materialformkdocs } Material for MkDocs, built by the same creator.
 

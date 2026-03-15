@@ -7,9 +7,8 @@ tags:
 
 # Hardware
 
-/// danger | Lighting
-I hate decorative RGBs. They're a distraction, waste of money and energy.
-///
+> [!danger] Lighting
+> I hate decorative RGBs. They're a distraction, waste of money and energy.
 
 ## Desktop
 

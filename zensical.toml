@@ -175,34 +175,12 @@ options.custom_icons = ["overrides/.icons"]
 [project.markdown_extensions.tables]
 [project.markdown_extensions.toc]
 permalink =  true
-[project.markdown_extensions.pymdownx.blocks.admonition]
-types = [
-  "abstract",
-  "announce",
-  "bug",
-  "danger",
-  "example",
-  "extension",
-  "failure",
-  "info",
-  "note",
-  "question",
-  "quote",
-  "setting",
-  "success",
-  "tip",
-  "warning"
-]
 [project.markdown_extensions.pymdownx.blocks.caption]
 [project.markdown_extensions.pymdownx.blocks.definition]
-[project.markdown_extensions.pymdownx.blocks.details]
-types = [
-  "",
-]
 [project.markdown_extensions.pymdownx.blocks.tab]
 alternate_style = true
-#[project.markdown_extensions.pymdownx.quotes]
-#callouts = true
+[project.markdown_extensions.pymdownx.quotes]
+callouts = true
 [project.markdown_extensions.pymdownx.caret]
 [project.markdown_extensions.pymdownx.critic]
 [project.markdown_extensions.pymdownx.mark]

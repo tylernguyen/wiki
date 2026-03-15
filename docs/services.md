@@ -15,9 +15,8 @@ I despise advertising as the primary form of monetization for services. And I do
 
 The iCloud+ Suite is essential to my setup right now. It handles email for my custom domains. And importantly, it is also backup storage for my iPhone.
 
-/// tip | Data Privacy
-Enable [Advanced Data Protection :lucide-arrow-up-right:](https://support.apple.com/en-us/108756) for better data privacy.
-///
+> [!tip] Data Privacy
+> Enable [Advanced Data Protection :lucide-arrow-up-right:](https://support.apple.com/en-us/108756) for better data privacy.
 
 - ![Tweek](https://assets.tylernguyen.wiki/logos/tweek.so.webp){ .twemoji } [Tweek :lucide-arrow-up-right:](https://tweek.so/)
 
@@ -73,9 +72,8 @@ Audible is only used for exclusives.
 
 eBooks and audiobooks are sold by Amazon with DRM. Buy directly from publisher and your local bookstore when possible!
 
-/// tip
-Archive your Audible library in a DRM-free format. See :lucide-folder-git-2:{ .foreground } [rmcrackan/Libation :lucide-arrow-up-right:](https://github.com/rmcrackan/Libation).
-///
+> [!tip]
+> Archive your Audible library in a DRM-free format. See :lucide-folder-git-2:{ .foreground } [rmcrackan/Libation :lucide-arrow-up-right:](https://github.com/rmcrackan/Libation).
 
 - ![Libby](https://assets.tylernguyen.wiki/logos/Libby.webp){ .twemoji } [Libby :lucide-arrow-up-right:](https://libbyapp.com)
 

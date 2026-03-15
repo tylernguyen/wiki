@@ -55,11 +55,10 @@ RSS is my preferred method of following websites. I also maintain an email alias
 
 - [Joel Spolsky - The Absolute Minimum Every ... Must Know About Unicode and Character Sets (No Excuses!) :lucide-arrow-up-right:](https://www.joelonsoftware.com/2003/10/08/the-absolute-minimum-every-software-developer-absolutely-positively-must-know-about-unicode-and-character-sets-no-excuses/)
 
-/// tip
-There's an updated addition to the post by another author.
-
-[tonsky.me - The Absolute Minimum Every Software Developer Must Know About Unicode in 2023 (Still No Excuses!)](https://tonsky.me/blog/unicode/)
-///
+> [!tip]
+> There's an updated addition to the post by another author.
+>
+> [tonsky.me - The Absolute Minimum Every Software Developer Must Know About Unicode in 2023 (Still No Excuses!)](https://tonsky.me/blog/unicode/)
 
 ## Cooking
 

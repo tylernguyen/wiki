@@ -85,12 +85,10 @@ icon: lucide/stamp
 
 ## Notice
 
-/// announce | License and Attribution
-I've tried to include every appropriate licenses and due attribution.
+> [!announce] License and Attribution
+> I've tried to include every appropriate licenses and due attribution.
+>
+> [Contact :lucide-arrow-down-left:](contact.md) me if I've missed anything
 
-[Contact :lucide-arrow-down-left:](contact.md) me if I've missed anything
-///
-
-/// abstract | Fair Use
-I believe that small usage of logos, branded assets, and copyrighted content on __Dot Wiki__ fall under the fair use doctrine.
-///
+> [!abstract] Fair Use
+> I believe that small usage of logos, branded assets, and copyrighted content on __Dot Wiki__ fall under the fair use doctrine.

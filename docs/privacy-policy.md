@@ -20,9 +20,8 @@ __Dot Wiki__ uses [PostHog :lucide-arrow-up-right:](https://posthog.com/) for an
 
 Analytics data are used to improve and grow the website. __Data will never be shared, sold, nor used for advertisements/commercial purposes.__
 
-/// warning | Notice
-Analytics data are hosted on the official :flag_us: US-instance of PostHog.
-///
+> [!warning] Notice
+> Analytics data are hosted on the official :flag_us: US-instance of PostHog.
 
 Tracking events are routed through a reverse proxy before reaching PostHog. You may <span class="solarized-red">__OPT-OUT__</span> of analytics by adding ___"<https://hedgehog.tylernguyen.wiki/>"___ to your content blocker.
 
@@ -40,6 +39,5 @@ External links are denoted by the icon {==:lucide-arrow-up-right:==}. I have no 
 
 Pages may contain embedded content from other websites. Embedded content will have an accompanying notice of its source.
 
-/// warning
-Embedded content from other websites behaves in the exact same way as if the visitor has visited the origin website.
-///
+> [!warning]
+> Embedded content from other websites behaves in the exact same way as if the visitor has visited the origin website.

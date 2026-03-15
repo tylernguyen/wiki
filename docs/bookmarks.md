@@ -55,6 +55,5 @@ Python Markdown extension to render and stylize mahjong tiles. I use this to wri
 
 Userscript to translate ![NAGA](https://assets.tylernguyen.wiki/logos/NAGA.webp){ .twemoji } [NAGA Mahjong AI :lucide-arrow-up-right:](https://naga.dmv.nico/naga_report/top/) user interface to English.
 
-/// tip
-I use ![ViolentMonkey](https://assets.tylernguyen.wiki/logos/ViolentMonkey.webp){ .twemoji } [Violentmonkey :lucide-arrow-up-right:](https://addons.mozilla.org/en-US/firefox/addon/violentmonkey/) on :simple-firefox:{ .firefox } Firefox for Javascripts management.
-///
+> [!tip]
+> I use ![ViolentMonkey](https://assets.tylernguyen.wiki/logos/ViolentMonkey.webp){ .twemoji } [Violentmonkey :lucide-arrow-up-right:](https://addons.mozilla.org/en-US/firefox/addon/violentmonkey/) on :simple-firefox:{ .firefox } Firefox for Javascripts management.
