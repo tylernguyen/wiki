@@ -1,5 +1,5 @@
 ---
-icon: lucide/pencil-line
+icon: lucide/scroll-text
 ---
 
 # Blog
