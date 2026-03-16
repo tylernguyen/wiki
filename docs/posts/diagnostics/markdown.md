@@ -4,7 +4,7 @@ icon: material/language-markdown-outline
 
 # Markdown
 
-Samples of Markdown rendering in :simple-materialformkdocs:{ .materialformkdocs } Material for MkDocs.
+Diagnostics page for markdown.
 
 <!-- more -->
 

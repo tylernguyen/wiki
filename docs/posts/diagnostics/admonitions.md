@@ -4,12 +4,11 @@ icon: material/alert-outline
 
 # Admonitions
 
-Samples of Admonitions in :simple-materialformkdocs:{ .materialformkdocs } Material for MkDocs.
+Diagnostics page for admonitions (callouts).
 
 Inherits:
 
-- [mkdocs-material/reference/admonitions/ :lucide-arrow-up-right:](https://squidfunk.github.io/mkdocs-material/reference/admonitions/)
-- [pymdown-extensions/extensions/blocks/plugins/admonition/ :lucide-arrow-up-right:](https://facelessuser.github.io/pymdown-extensions/extensions/blocks/plugins/admonition/)
+- [pymdown-extensions/extensions/quotes/ :lucide-arrow-up-right:](https://facelessuser.github.io/pymdown-extensions/extensions/quotes/)
 
 <!-- more -->
 
@@ -53,7 +52,7 @@ Inherits:
 
 ### Warning
 
-> [! warning]
+> [!warning]
 > In a hole in the ground there lived a hobbit. Not a nasty, dirty, wet hole, filled with the ends of worms and an oozy smell, nor yet a dry, bare, sandy hole with nothing in it to sit down on or to eat: it was a hobbit hole, and that means comfort.
 
 

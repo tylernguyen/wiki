@@ -4,9 +4,9 @@ icon: material/code-braces
 
 # Code
 
-Samples of [Pygments](https://pygments.org/) Syntax Highlighting in :simple-materialformkdocs:{ .materialformkdocs } Material for MkDocs.
+Diagnostics page for Pygments syntax highlighting.
 
-Inherits [mkdocs-material/reference/code-blocks/ :lucide-arrow-up-right:](https://squidfunk.github.io/mkdocs-material/reference/code-blocks/)
+Inherits [zensical/docs/authoring/code-blocks/ :lucide-arrow-up-right:](https://zensical.org/docs/authoring/code-blocks/)
 
 <!-- more -->
 
