@@ -36,6 +36,10 @@ __Also see [/dotfiles :lucide-arrow-down-left:](dotfiles.md).__
 - [Bridgy Fed :lucide-arrow-up-right:](https://github.com/snarfed/bridgy-fed)
 - [FediFetcher :lucide-arrow-up-right:](https://github.com/nanos/FediFetcher)
 
+## Snippets
+
+- [MrOtherGuy/firefox-csshacks :lucide-arrow-up-right:](https://github.com/MrOtherGuy/firefox-csshacks)
+
 ## Personal Projects
 
 - [tylernguyen/x1c6-hackintosh :lucide-arrow-up-right:](https://github.com/tylernguyen/x1c6-hackintosh)
