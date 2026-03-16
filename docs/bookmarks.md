@@ -9,15 +9,15 @@ tags:
 ## CLI
 
 - [nushell :lucide-arrow-up-right:](https://www.nushell.sh/)
-  [:lucide-file-code-corner:](https://github.com/nushell/nushell){ title="Source Code" }
+  [:lucide-file-code-corner:](https://github.com/nushell/nushell){ .extra title="Source Code" }
 - [asciinema :lucide-arrow-up-right:](https://asciinema.org/)
-  [:lucide-file-code-corner:](https://github.com/asciinema/asciinema){ title="Source Code" }
+  [:lucide-file-code-corner:](https://github.com/asciinema/asciinema){ .extra title="Source Code" }
 - [micasa :lucide-arrow-up-right:](https://micasa.dev/)
-  [:lucide-file-code-corner:](https://github.com/cpcloud/micasa){ title="Source Code" }
+  [:lucide-file-code-corner:](https://github.com/cpcloud/micasa){ .extra title="Source Code" }
 - [visidata :lucide-arrow-up-right:](https://www.visidata.org/)
-  [:lucide-file-code-corner:](https://github.com/saulpw/visidata){ title="Source Code" }
+  [:lucide-file-code-corner:](https://github.com/saulpw/visidata){ .extra title="Source Code" }
 - [svgo :lucide-arrow-up-right:](https://svgo.dev/)
-  [:lucide-file-code-corner:](https://github.com/svg/svgo){ title="Source Code" }
+  [:lucide-file-code-corner:](https://github.com/svg/svgo){ .extra title="Source Code" }
 
 __Also see [/dotfiles :lucide-arrow-down-left:](dotfiles.md).__
 
@@ -47,15 +47,15 @@ __Also see [/dotfiles :lucide-arrow-down-left:](dotfiles.md).__
 ## Personal Projects
 
 - [tylernguyen/x1c6-hackintosh :lucide-arrow-up-right:](https://github.com/tylernguyen/x1c6-hackintosh)
-  [:lucide-flip-horizontal-2:](https://tylernguyen.codes/tylernguyen/x1c6-hackintosh){ title="Mirror" }
+  [:lucide-flip-horizontal-2:](https://tylernguyen.codes/tylernguyen/x1c6-hackintosh){ .extra title="Mirror" }
   <span class="solarized-yellow-mark">==:lucide-archive: Archived==</span>
 
 macOS on the Lenovo ThinkPad X1 Carbon 6th Gen, built with OpenCore and ASL.
 
 - [tylernguyen/pymdownx-mahjong :lucide-arrow-up-right:](https://github.com/tylernguyen/pymdownx-mahjong)
     :simple-pypi:{ .pypi } [PyPI :lucide-arrow-up-right:](https://pypi.org/project/pymdownx-mahjong/)
-  [:lucide-house:](https://pymdownx-mahjong.tylernguyen.codes/){ title="MHomepage" }
-  [:lucide-flip-horizontal-2:](https://tylernguyen.codes/tylernguyen/pymdownx-mahjong){ title="Mirror" }
+  [:lucide-house:](https://pymdownx-mahjong.tylernguyen.codes/){ .extra title="MHomepage" }
+  [:lucide-flip-horizontal-2:](https://tylernguyen.codes/tylernguyen/pymdownx-mahjong){ .extra title="Mirror" }
 
 Python Markdown extension to render and stylize mahjong tiles. I use this to write riichi mahjong content on the wiki.
 

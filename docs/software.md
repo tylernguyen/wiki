@@ -12,8 +12,8 @@ Though I do prefer free (as in freedom) software, I do use proprietary software 
 ## Internet
 
 :simple-firefoxbrowser:{ .firefox } [Firefox :lucide-arrow-up-right:](https://www.firefox.com/)
-  [:lucide-hat-glasses:](https://www.mozilla.org/privacy/firefox/){ title="Privacy Policy" }
-  [:lucide-file-code-corner:](https://github.com/mozilla-firefox/firefox){ title="Source Code" }
+  [:lucide-hat-glasses:](https://www.mozilla.org/privacy/firefox/){ .extra title="Privacy Policy" }
+  [:lucide-file-code-corner:](https://github.com/mozilla-firefox/firefox){ .extra title="Source Code" }
 
 Firefox is my default browser.  It's an independent, third-party alternative to big tech software like Chrome/Safari.
 
@@ -23,13 +23,13 @@ __Extensions__:
 
 - :simple-1password:{ .onepassword } [1Password :lucide-arrow-up-right:](https://addons.mozilla.org/en-US/firefox/addon/1password-x-password-manager/)
 - :simple-ublockorigin:{ .ublockorigin } [uBlock Origin :lucide-arrow-up-right:](https://addons.mozilla.org/en-US/firefox/addon/ublock-origin/)[^1]
-  [:lucide-file-code-corner:](https://github.com/gorhill/uBlock){ title="Source Code" }
+  [:lucide-file-code-corner:](https://github.com/gorhill/uBlock){ .extra title="Source Code" }
 - ![SponsorBlock](https://assets.tylernguyen.wiki/logos/SponsorBlock.svg){ .twemoji } [SponsorBlock :lucide-arrow-up-right:](https://addons.mozilla.org/en-US/firefox/addon/sponsorblock/)
-  [:lucide-file-code-corner:](https://github.com/ajayyy/SponsorBlock){ title="Source Code" }
+  [:lucide-file-code-corner:](https://github.com/ajayyy/SponsorBlock){ .extra title="Source Code" }
 - ![TTV LOL Pro](https://assets.tylernguyen.wiki/logos/Firefox_TTV-LOL-Pro.webp){ .twemoji } [TTV LOL Pro :lucide-arrow-up-right:](https://addons.mozilla.org/en-US/firefox/addon/ttv-lol-pro/)
-  [:lucide-file-code-corner:](https://github.com/younesaassila/ttv-lol-pro){ title="Source Code" }
+  [:lucide-file-code-corner:](https://github.com/younesaassila/ttv-lol-pro){ .extra title="Source Code" }
 - ![ViolentMonkey](https://assets.tylernguyen.wiki/logos/ViolentMonkey.webp){ .twemoji } [Violentmonkey :lucide-arrow-up-right:](https://addons.mozilla.org/en-US/firefox/addon/violentmonkey/)
-  [:lucide-file-code-corner:](https://github.com/violentmonkey/violentmonkey){ title="Source Code" }
+  [:lucide-file-code-corner:](https://github.com/violentmonkey/violentmonkey){ .extra title="Source Code" }
 
 [^1]: [gorhill/uBlock: uBlock Origin Works Best on Firefox :lucide-arrow-up-right:](https://github.com/gorhill/uBlock/wiki/uBlock-Origin-works-best-on-Firefox)
 
@@ -42,8 +42,8 @@ __Extensions__:
 ## Zensical
 
 - ![Zensical](https://assets.tylernguyen.wiki/logos/Zensical.webp){ .twemoji }  [Zensical :lucide-arrow-up-right:](https://zensical.org/)
-  [:lucide-file-code-corner:](https://github.com/zensical/zensical){ title="Source Code" }
-  [:lucide-scale:](https://github.com/zensical/zensical/blob/master/LICENSE.md){ title=License }
+  [:lucide-file-code-corner:](https://github.com/zensical/zensical){ .extra title="Source Code" }
+  [:lucide-scale:](https://github.com/zensical/zensical/blob/master/LICENSE.md){ .extra title=License }
 
 > [!example]
 > This website is created using Zensical.
@@ -53,9 +53,9 @@ Zensical is my go-to static site generator. It is the successor to :simple-mater
 ## Virtualization
 
 - :simple-docker:{ .docker } [Docker Desktop :lucide-arrow-up-right:](https://www.docker.com/products/docker-desktop/)
-  [:lucide-circle-dollar-sign:](https://www.docker.com/pricing/){ title="Pricing" }
+  [:lucide-circle-dollar-sign:](https://www.docker.com/pricing/){ .extra title="Pricing" }
 - ![OrbStack](https://assets.tylernguyen.wiki/logos/OrbStack.webp){ .twemoji } [OrbStack :lucide-arrow-up-right:](https://orbstack.dev/)
-  [:lucide-circle-dollar-sign:](https://orbstack.dev/pricing){ title="Pricing" }
+  [:lucide-circle-dollar-sign:](https://orbstack.dev/pricing){ .extra title="Pricing" }
 
 ## Media
 

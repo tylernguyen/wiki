@@ -56,8 +56,8 @@ Reads `/data/media/books/`, serve using PWA.
 ## Libation
 
 - ![rmcrackan/Libation](https://assets.tylernguyen.wiki/logos/Libation.svg){ .twemoji } [Libation :lucide-arrow-up-right:](https://github.com/rmcrackan/Libation)
-  [:lucide-container:](https://hub.docker.com/r/rmcrackan/libation/tags){ title=Container}
-  [:lucide-file-code-corner:](https://github.com/rmcrackan/Libation){ title="Source Code" }
+  [:lucide-container:](https://hub.docker.com/r/rmcrackan/libation/tags){ .extra title=Container}
+  [:lucide-file-code-corner:](https://github.com/rmcrackan/Libation){ .extra title="Source Code" }
 
 ```json title="Settings.json"
 {

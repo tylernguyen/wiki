@@ -28,42 +28,42 @@ I've been loving Tweek as a minimal calendar/to-do/planner. On the backend, it s
 ## Utility
 
 - :simple-1password:{ .onepassword } [1Password :lucide-arrow-up-right:](https://1password.com/)
-  [:lucide-circle-dollar-sign:](https://1password.com/sign-up/){ title=Pricing }
-  [:lucide-hat-glasses:](https://support.onepassword.com/1password-privacy/){ title="Privacy Policy" }
-  [:lucide-file-text:](https://developer.onepassword.com/){ title="Developer Documentation" }
+  [:lucide-circle-dollar-sign:](https://1password.com/sign-up/){ .extra title=Pricing }
+  [:lucide-hat-glasses:](https://support.onepassword.com/1password-privacy/){ .extra title="Privacy Policy" }
+  [:lucide-file-text:](https://developer.onepassword.com/){ .extra title="Developer Documentation" }
 - :simple-protonvpn:{ .protonvpn } [Proton VPN :lucide-arrow-up-right:](https://protonvpn.com/)
-  [:lucide-circle-dollar-sign:](https://protonvpn.com/pricing){ title="Pricing" }
-  [:lucide-hat-glasses:](https://proton.me/legal/privacy){ title="Privacy Policy" }
+  [:lucide-circle-dollar-sign:](https://protonvpn.com/pricing){ .extra title="Pricing" }
+  [:lucide-hat-glasses:](https://proton.me/legal/privacy){ .extra title="Privacy Policy" }
   <span class="solarized-red">:lucide-skull: **VPNs do not provide anonymity**</span>
 
 I use ProtonVPN strictly for P2P traffic as it's one of the few VPN services that supports [port forwarding :lucide-arrow-up-right:](https://protonvpn.com/support/port-forwarding).
 
 - ![Postmark](https://assets.tylernguyen.wiki/logos/Postmark.svg){ .twemoji } [Postmark :lucide-arrow-up-right:](https://postmarkapp.com/)
-  [:lucide-circle-dollar-sign:](https://postmarkapp.com/pricing){ title="Pricing" }
-  [:lucide-hat-glasses:](https://postmarkapp.com/privacy-policy){ title="Privacy Policy" }
-  [:lucide-file-text:](https://postmarkapp.com/manual){ title=Documentation }
+  [:lucide-circle-dollar-sign:](https://postmarkapp.com/pricing){ .extra title="Pricing" }
+  [:lucide-hat-glasses:](https://postmarkapp.com/privacy-policy){ .extra title="Privacy Policy" }
+  [:lucide-file-text:](https://postmarkapp.com/manual){ .extra title=Documentation }
 
 I mainly need transactional email for self-hosted apps, which send a very low volume. Postmark's free plan has been perfect for this.
 
 - :simple-nextdns:{ .nextdns } [NextDNS :lucide-arrow-up-right:](https://nextdns.io/)
-  [:lucide-circle-dollar-sign:](https://nextdns.io/pricing){ title="Pricing" }
+  [:lucide-circle-dollar-sign:](https://nextdns.io/pricing){ .extra title="Pricing" }
 
 ## Internet
 
 - :simple-discord:{ .discord } [Discord :lucide-arrow-up-right:](https://discord.com/)
-  [:lucide-hat-glasses:](https://discord.com/privacy){ title="Privacy Policy" }
+  [:lucide-hat-glasses:](https://discord.com/privacy){ .extra title="Privacy Policy" }
 
 This is my instant messenger and voice chat for friends. I also have a personal server for webhook notifications.
 
 - :simple-cloudflare:{ .cloudflare } Cloudflare: [Domain Registrar :lucide-arrow-up-right:](https://www.cloudflare.com/products/registrar/), [DNS :lucide-arrow-up-right:](https://www.cloudflare.com/), [R2 :lucide-arrow-up-right:](https://www.cloudflare.com/products/r2/) :simple-cloudflareworkers:{ .cloudflare } [Workers :lucide-arrow-up-right:](https://workers.cloudflare.com/), :simple-cloudflarepages:{ .cloudflarepages } [Pages :lucide-arrow-up-right:](https://pages.cloudflare.com/), and [Zero Trust :lucide-arrow-up-right:](https://www.cloudflare.com/zero-trust/)
-  [:lucide-hat-glasses:](https://www.cloudflare.com/privacypolicy/){ title="Privacy Policy" }
+  [:lucide-hat-glasses:](https://www.cloudflare.com/privacypolicy/){ .extra title="Privacy Policy" }
 - ![PostHog](https://assets.tylernguyen.wiki/logos/PostHog-logomark-light.svg#only-light){ .twemoji } ![PostHog](https://assets.tylernguyen.wiki/logos/PostHog-logomark-dark.svg#only-dark){ .twemoji } [PostHog :lucide-arrow-up-right:](https://posthog.com/)
-  [:lucide-hat-glasses:](https://posthog.com/privacy){ title="Privacy Policy" }
+  [:lucide-hat-glasses:](https://posthog.com/privacy){ .extra title="Privacy Policy" }
 
 ## Media
 
 - ![Steam](https://assets.tylernguyen.wiki/logos/Steam.svg){ .twemoji } [Steam :lucide-arrow-up-right:](https://store.steampowered.com/)
-  [:lucide-hat-glasses:](https://store.steampowered.com/privacy_agreement/){ title="Privacy Policy" }
+  [:lucide-hat-glasses:](https://store.steampowered.com/privacy_agreement/){ .extra title="Privacy Policy" }
 - :simple-pocketcasts:{ .pocketcasts } [Pocket Casts :lucide-arrow-up-right:](https://pocketcasts.com/)
 
 Having purchased the iOS and web app early on, I'm grandfathered into its lifetime plan[^4]. I do not think that Pocket Casts is worth it at its current subscription price.

@@ -260,3 +260,11 @@
   background-color: currentColor;
   animation: blink 1s step-start infinite;
 }
+
+.md-typeset .extra {
+  color: var(--md-default-fg-color--lighter) !important;
+}
+
+.md-typeset .extra:hover {
+  color: var(--md-default-fg-color) !important;
+}

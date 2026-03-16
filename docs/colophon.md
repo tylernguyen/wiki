@@ -23,8 +23,8 @@ icon: lucide/stamp
 <div class="grid cards" markdown>
 
 - ![Zensical](https://assets.tylernguyen.wiki/logos/Zensical.webp){ .twemoji }  [Zensical :lucide-arrow-up-right:](https://zensical.org/)
-  [:lucide-file-code-corner:](https://github.com/zensical/zensical){ title="Source Code" }
-  [:lucide-scale:](https://github.com/zensical/zensical/blob/master/LICENSE.md){ title=License }
+  [:lucide-file-code-corner:](https://github.com/zensical/zensical){ .extra title="Source Code" }
+  [:lucide-scale:](https://github.com/zensical/zensical/blob/master/LICENSE.md){ .extra title=License }
 - [PyMdown Extensions :lucide-arrow-up-right:](https://facelessuser.github.io/pymdown-extensions/)
   [:lucide-file-code-corner:](https://github.com/facelessuser/pymdown-extensions/tree/main){ .card-link title="Source Code" }
   [:lucide-scale:](https://github.com/facelessuser/pymdown-extensions/blob/main/LICENSE.md){ .card-link title=License }
@@ -52,7 +52,7 @@ icon: lucide/stamp
   [:lucide-scale:](https://github.com/simple-icons/simple-icons/blob/develop/LICENSE.md){ .card-link title=License }
   [:lucide-heart:](https://opencollective.com/simple-icons){ .card-link title=Support }
 - :simple-lucide:{ .lucidelogo } [Lucide :lucide-arrow-up-right:](https://lucide.dev/)
-  [:lucide-scale:](https://lucide.dev/license){ title=License }
+  [:lucide-scale:](https://lucide.dev/license){ .extra title=License }
 - :simple-materialdesignicons:{ .materialdesignicons } [Material Design Icons :lucide-arrow-up-right:](https://pictogrammers.com/library/mdi/)
 
 </div>

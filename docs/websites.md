@@ -15,15 +15,15 @@ RSS is my preferred method of following websites. I also maintain an email alias
 
 ## Blogs
 
-- [danluu.com :lucide-arrow-up-right:](https://danluu.com/) [:fontawesome-solid-square-rss:](https://danluu.com/atom.xml){ title="RSS Feed" }
-- [No Mercy / No Malice :lucide-arrow-up-right:](https://www.profgalloway.com/) [:fontawesome-solid-square-rss:](https://www.profgalloway.com/feed/){ title="RSS Feed" }
-- [Schneier on Security :lucide-arrow-up-right:](https://www.schneier.com/) [:fontawesome-solid-square-rss:](https://www.schneier.com/feed/ ){ title="RSS Feed" }
-- [Julia Evans :lucide-arrow-up-right:](https://jvns.ca) [:fontawesome-solid-square-rss:](https://jvns.ca/atom.xml){ title="RSS Feed" }
+- [danluu.com :lucide-arrow-up-right:](https://danluu.com/) [:fontawesome-solid-square-rss:](https://danluu.com/atom.xml){ .extra title="RSS Feed" }
+- [No Mercy / No Malice :lucide-arrow-up-right:](https://www.profgalloway.com/) [:fontawesome-solid-square-rss:](https://www.profgalloway.com/feed/){ .extra title="RSS Feed" }
+- [Schneier on Security :lucide-arrow-up-right:](https://www.schneier.com/) [:fontawesome-solid-square-rss:](https://www.schneier.com/feed/ ){ .extra title="RSS Feed" }
+- [Julia Evans :lucide-arrow-up-right:](https://jvns.ca) [:fontawesome-solid-square-rss:](https://jvns.ca/atom.xml){ .extra title="RSS Feed" }
 - [Seirdy’s Home :lucide-arrow-up-right:](https://seirdy.one/)
-- [Jeff Geerling :lucide-arrow-up-right:](https://www.jeffgeerling.com/blog) [:fontawesome-solid-square-rss:](https://www.jeffgeerling.com/blog.xml){ title="RSS Feed" } / [@JeffGeerling](https://www.youtube.com/@JeffGeerling)
-- [tonsky.me :lucide-arrow-up-right:](https://tonsky.me/) [:fontawesome-solid-square-rss:](https://tonsky.me/atom.xml){ title="RSS Feed" }
-- [LMNT :lucide-arrow-up-right:](https://lmnt.me/) [:fontawesome-solid-square-rss:](https://lmnt.me/feed.xml){ title="RSS Feed" }
-- [Articles & Experiments by Roman Komarov :lucide-arrow-up-right:](https://kizu.dev/) [:fontawesome-solid-square-rss:](https://feeds.feedburner.com/kizuruen){ title="RSS Feed" }
+- [Jeff Geerling :lucide-arrow-up-right:](https://www.jeffgeerling.com/blog) [:fontawesome-solid-square-rss:](https://www.jeffgeerling.com/blog.xml){ .extra title="RSS Feed" } / [@JeffGeerling](https://www.youtube.com/@JeffGeerling)
+- [tonsky.me :lucide-arrow-up-right:](https://tonsky.me/) [:fontawesome-solid-square-rss:](https://tonsky.me/atom.xml){ .extra title="RSS Feed" }
+- [LMNT :lucide-arrow-up-right:](https://lmnt.me/) [:fontawesome-solid-square-rss:](https://lmnt.me/feed.xml){ .extra title="RSS Feed" }
+- [Articles & Experiments by Roman Komarov :lucide-arrow-up-right:](https://kizu.dev/) [:fontawesome-solid-square-rss:](https://feeds.feedburner.com/kizuruen){ .extra title="RSS Feed" }
 
 ## Digital Gardens
 

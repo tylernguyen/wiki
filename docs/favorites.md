@@ -10,8 +10,8 @@ The following are my personal favorite content of all mediums. I try to keep it 
 
 ## Websites
 
-- [No Mercy / No Malice :lucide-arrow-up-right:](https://www.profgalloway.com/) [:fontawesome-solid-square-rss:](https://www.profgalloway.com/feed/){ title="RSS Feed" }
-- [Articles & Experiments :lucide-arrow-up-right:](https://kizu.dev/) [:fontawesome-solid-square-rss:](https://feeds.feedburner.com/kizuruen){ title="RSS Feed" }
+- [No Mercy / No Malice :lucide-arrow-up-right:](https://www.profgalloway.com/) [:fontawesome-solid-square-rss:](https://www.profgalloway.com/feed/){ .extra title="RSS Feed" }
+- [Articles & Experiments :lucide-arrow-up-right:](https://kizu.dev/) [:fontawesome-solid-square-rss:](https://feeds.feedburner.com/kizuruen){ .extra title="RSS Feed" }
 
 [See more websites... :lucide-arrow-down-left:](websites.md)
 
@@ -37,18 +37,18 @@ The following are my personal favorite content of all mediums. I try to keep it 
 ## Movies
 
 - The Matrix
-  [:simple-rottentomatoes:{ .rottentomatoes }](https://www.rottentomatoes.com/m/matrix){ title="Rotten Tomatoes"}
-  [:simple-themoviedatabase:{ .tmdb }](https://www.themoviedb.org/movie/603-the-matrix){ title="TMDB"}
+  [:simple-rottentomatoes:{ .rottentomatoes }](https://www.rottentomatoes.com/m/matrix){ .extra title="Rotten Tomatoes"}
+  [:simple-themoviedatabase:{ .tmdb }](https://www.themoviedb.org/movie/603-the-matrix){ .extra title="TMDB"}
 - Infernal Affairs
-  [:simple-rottentomatoes:{ .rottentomatoes }](https://www.rottentomatoes.com/m/infernal_affairs){ title="Rotten Tomatoes"}
-  [:simple-themoviedatabase:{ .tmdb }](https://www.themoviedb.org/movie/10775){ title="TMDB"}
+  [:simple-rottentomatoes:{ .rottentomatoes }](https://www.rottentomatoes.com/m/infernal_affairs){ .extra title="Rotten Tomatoes"}
+  [:simple-themoviedatabase:{ .tmdb }](https://www.themoviedb.org/movie/10775){ .extra title="TMDB"}
   [![The Criterion Collection](https://assets.tylernguyen.wiki/logos/The-Criterion-Collection.svg){ .twemoji title="The Criterion Collection" }](https://www.criterion.com/boxsets/6276-the-infernal-affairs-trilogy)
 - Heat
-  [:simple-rottentomatoes:{ .rottentomatoes }](https://www.rottentomatoes.com/m/heat_1995){ title="Rotten Tomatoes"}
-  [:simple-themoviedatabase:{ .tmdb }](https://www.themoviedb.org/movie/949-heat){ title="TMDB"}
+  [:simple-rottentomatoes:{ .rottentomatoes }](https://www.rottentomatoes.com/m/heat_1995){ .extra title="Rotten Tomatoes"}
+  [:simple-themoviedatabase:{ .tmdb }](https://www.themoviedb.org/movie/949-heat){ .extra title="TMDB"}
 - The Sweet Hereafter
-  [:simple-rottentomatoes:{ .rottentomatoes }](https://www.rottentomatoes.com/m/sweet_hereafter){ title="Rotten Tomatoes"}
-  [:simple-themoviedatabase:{ .tmdb }](https://www.themoviedb.org/movie/10217-the-sweet-hereafter){ title="TMDB"}
+  [:simple-rottentomatoes:{ .rottentomatoes }](https://www.rottentomatoes.com/m/sweet_hereafter){ .extra title="Rotten Tomatoes"}
+  [:simple-themoviedatabase:{ .tmdb }](https://www.themoviedb.org/movie/10217-the-sweet-hereafter){ .extra title="TMDB"}
   [![The Criterion Collection](https://assets.tylernguyen.wiki/logos/The-Criterion-Collection.svg){ .twemoji title="The Criterion Collection" }](https://www.criterionchannel.com/the-sweet-hereafter)
 
 <div class="grid cards" markdown>
@@ -62,33 +62,33 @@ The following are my personal favorite content of all mediums. I try to keep it 
 ## TV
 
 - Mr. Robot
-  [:simple-rottentomatoes:{ .rottentomatoes }](https://www.rottentomatoes.com/tv/mr_robot){ title="Rotten Tomatoes"}
-  [:simple-themoviedatabase:{ .tmdb }](https://www.themoviedb.org/tv/62560-mr-robot){ title="TMDB"}
+  [:simple-rottentomatoes:{ .rottentomatoes }](https://www.rottentomatoes.com/tv/mr_robot){ .extra title="Rotten Tomatoes"}
+  [:simple-themoviedatabase:{ .tmdb }](https://www.themoviedb.org/tv/62560-mr-robot){ .extra title="TMDB"}
 - Severance
-  [:simple-rottentomatoes:{ .rottentomatoes }](https://www.rottentomatoes.com/tv/severance/s01){ title="Rotten Tomatoes"}
-  [:simple-themoviedatabase:{ .tmdb }](https://www.themoviedb.org/tv/95396-severance){ title="TMDB"}
+  [:simple-rottentomatoes:{ .rottentomatoes }](https://www.rottentomatoes.com/tv/severance/s01){ .extra title="Rotten Tomatoes"}
+  [:simple-themoviedatabase:{ .tmdb }](https://www.themoviedb.org/tv/95396-severance){ .extra title="TMDB"}
 - Barry
-  [:simple-rottentomatoes:{ .rottentomatoes }](https://www.rottentomatoes.com/tv/barry){ title="Rotten Tomatoes"}
-  [:simple-themoviedatabase:{ .tmdb }](https://www.themoviedb.org/tv/73107-barry){ title="TMDB"}
+  [:simple-rottentomatoes:{ .rottentomatoes }](https://www.rottentomatoes.com/tv/barry){ .extra title="Rotten Tomatoes"}
+  [:simple-themoviedatabase:{ .tmdb }](https://www.themoviedb.org/tv/73107-barry){ .extra title="TMDB"}
 - Utopia
-  [:simple-rottentomatoes:{ .rottentomatoes }](https://www.rottentomatoes.com/tv/utopia_2013){ title="Rotten Tomatoes"}
-  [:simple-themoviedatabase:{ .tmdb }](https://www.themoviedb.org/tv/46511-utopia){ title="TMDB"}
+  [:simple-rottentomatoes:{ .rottentomatoes }](https://www.rottentomatoes.com/tv/utopia_2013){ .extra title="Rotten Tomatoes"}
+  [:simple-themoviedatabase:{ .tmdb }](https://www.themoviedb.org/tv/46511-utopia){ .extra title="TMDB"}
 
 ## Anime/Manga
 
 - Cowboy Bebop
-  [:simple-anilist:{ .anilist }](https://anilist.co/anime/1/Cowboy-Bebop/){ title="AniList"}
+  [:simple-anilist:{ .anilist }](https://anilist.co/anime/1/Cowboy-Bebop/){ .extra title="AniList"}
   [![aniDB](https://assets.tylernguyen.wiki/logos/aniDB.webp){ .twemoji title="aniDB" }](https://anidb.net/anime/23)
 - Frieren: Beyond Journey's End
-  [:simple-anilist:{ .anilist }](https://anilist.co/anime/154587/Sousou-no-Frieren){ title="AniList"}
+  [:simple-anilist:{ .anilist }](https://anilist.co/anime/154587/Sousou-no-Frieren){ .extra title="AniList"}
   [![aniDB](https://assets.tylernguyen.wiki/logos/aniDB.webp){ .twemoji title="aniDB" }](https://anidb.net/anime/17617)
 - Nichijou
-  [:simple-anilist:{ .anilist }](https://anilist.co/anime/10165/Nichijou--My-Ordinary-Life/){ title="AniList"}
+  [:simple-anilist:{ .anilist }](https://anilist.co/anime/10165/Nichijou--My-Ordinary-Life/){ .extra title="AniList"}
   [![aniDB](https://assets.tylernguyen.wiki/logos/aniDB.webp){ .twemoji title="aniDB" }](https://anidb.net/anime/8168)
 - The Wind Rises (2013)
-  [:simple-anilist:{ .anilist }](https://anilist.co/anime/16662/The-Wind-Rises/){ title="AniList"}
-  [:simple-rottentomatoes:{ .rottentomatoes }](https://www.rottentomatoes.com/m/the_wind_rises){ title="Rotten Tomatoes"}
-  [:simple-themoviedatabase:{ .tmdb }](https://www.themoviedb.org/movie/149870){ title="TMDB"}
+  [:simple-anilist:{ .anilist }](https://anilist.co/anime/16662/The-Wind-Rises/){ .extra title="AniList"}
+  [:simple-rottentomatoes:{ .rottentomatoes }](https://www.rottentomatoes.com/m/the_wind_rises){ .extra title="Rotten Tomatoes"}
+  [:simple-themoviedatabase:{ .tmdb }](https://www.themoviedb.org/movie/149870){ .extra title="TMDB"}
 - Vagabond
   [:simple-anilist:{ .anilist }](https://anilist.co/manga/30656/Vagabond "AniList")
 - Goodnight Punpun
@@ -108,14 +108,14 @@ The following are my personal favorite content of all mediums. I try to keep it 
 
 ## Podcasts
 
-- [__This American Life__ :lucide-arrow-up-right:](https://www.thisamericanlife.org/){ title="Homepage"}
-  [:fontawesome-solid-square-rss:](https://www.thisamericanlife.org/podcast/rss.xml){ title="RSS Feed"}
-  [:lucide-archive:](https://www.thisamericanlife.org/archive){ title=Archive}
+- [__This American Life__ :lucide-arrow-up-right:](https://www.thisamericanlife.org/){ .extra title="Homepage"}
+  [:fontawesome-solid-square-rss:](https://www.thisamericanlife.org/podcast/rss.xml){ .extra title="RSS Feed"}
+  [:lucide-archive:](https://www.thisamericanlife.org/archive){ .extra title=Archive}
 
 The official RSS feed only has recently published episodes. See [dcadata/this-american-life-archive :lucide-arrow-up-right:](https://github.com/dcadata/this-american-life-archive) for an RSS feed of archived episodes.
 
-- [__99% Invisible__ :lucide-arrow-up-right:](https://99percentinvisible.org/){ title="Homepage"}
-  [:fontawesome-solid-square-rss:](https://feeds.99percentinvisible.org/99percentinvisible){ title="RSS Feed"}
+- [__99% Invisible__ :lucide-arrow-up-right:](https://99percentinvisible.org/){ .extra title="Homepage"}
+  [:fontawesome-solid-square-rss:](https://feeds.99percentinvisible.org/99percentinvisible){ .extra title="RSS Feed"}
 
 ## Games
 
@@ -136,7 +136,7 @@ The official RSS feed only has recently published episodes. See [dcadata/this-am
   [:simple-boardgamegeek:{ .boardgamegeek }](<https://boardgamegeek.com/boardgame/237182/root> "Board Game Geek")
   [![Steam](https://assets.tylernguyen.wiki/logos/Steam.svg){ .twemoji }](https://store.steampowered.com/app/965580/Root/ "Steam")
 - [Pokemon Crystal Clear :lucide-arrow-up-right:](https://shockslayer.com/crystal-clear/)
-  [:lucide-file-text:](https://github.com/ShockSlayer/ccdocs/blob/master/docs/FAQ.md){ title=Documentation}
+  [:lucide-file-text:](https://github.com/ShockSlayer/ccdocs/blob/master/docs/FAQ.md){ .extra title=Documentation}
 - Riichi Mahjong
     - Riichi City
       [![Steam](https://assets.tylernguyen.wiki/logos/Steam.svg){ .twemoji }](https://store.steampowered.com/app/1954420/ "Steam")

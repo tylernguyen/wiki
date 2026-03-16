@@ -81,6 +81,7 @@
 }
 
 .foreground        { color: var(--md-default-fg-color); }
+.foreground-light  { color: var(--md-default-fg-color--light); }
 .solarized-yellow  { color: rgb(var(--solarized-yellow)); }
 .solarized-orange  { color: rgb(var(--solarized-orange)); }
 .solarized-red     { color: rgb(var(--solarized-red)); }
