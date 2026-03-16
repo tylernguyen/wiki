@@ -70,7 +70,7 @@ I never interface with ![qBittorrent](https://assets.tylernguyen.wiki/logos/qbit
 
 - ![SABnzbd](https://assets.tylernguyen.wiki/logos/sabnzbd-light.svg#only-light){ .twemoji } ![SABnzbd](https://assets.tylernguyen.wiki/logos/sabnzbd-dark.svg#only-dark){ .twemoji } [SABnzbd :lucide-arrow-up-right:](https://sabnzbd.org/)
   [:lucide-container:](https://hub.docker.com/r/linuxserver/sabnzbd){ title=Container}
-- ![rmcrackan/Libation](https://assets.tylernguyen.wiki/logos/Libation.svg){ .twemoji } [rmcrackan/Libation :lucide-arrow-up-right:](https://github.com/rmcrackan/Libation)
+- ![Libation](https://assets.tylernguyen.wiki/logos/Libation.svg){ .twemoji } [Libation :lucide-arrow-up-right:](https://getlibation.com/)
   [:lucide-container:](https://hub.docker.com/r/rmcrackan/libation/tags){ title=Container}
   [:lucide-file-code-corner:](https://github.com/rmcrackan/Libation){ title="Source Code" }
 
