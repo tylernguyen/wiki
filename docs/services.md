@@ -50,6 +50,11 @@ I mainly need transactional email for self-hosted apps, which send a very low vo
 
 ## Internet
 
+- :simple-discord:{ .discord } [Discord :lucide-arrow-up-right:](https://discord.com/)
+  [:lucide-hat-glasses:](https://discord.com/privacy){ title="Privacy Policy" }
+
+This is my instant messenger and voice chat for friends. I also have a personal server for webhook notifications.
+
 - :simple-cloudflare:{ .cloudflare } Cloudflare: [Domain Registrar :lucide-arrow-up-right:](https://www.cloudflare.com/products/registrar/), [DNS :lucide-arrow-up-right:](https://www.cloudflare.com/), [R2 :lucide-arrow-up-right:](https://www.cloudflare.com/products/r2/) :simple-cloudflareworkers:{ .cloudflare } [Workers :lucide-arrow-up-right:](https://workers.cloudflare.com/), :simple-cloudflarepages:{ .cloudflarepages } [Pages :lucide-arrow-up-right:](https://pages.cloudflare.com/), and [Zero Trust :lucide-arrow-up-right:](https://www.cloudflare.com/zero-trust/)
   [:lucide-hat-glasses:](https://www.cloudflare.com/privacypolicy/){ title="Privacy Policy" }
 - ![PostHog](https://assets.tylernguyen.wiki/logos/PostHog-logomark-light.svg#only-light){ .twemoji } ![PostHog](https://assets.tylernguyen.wiki/logos/PostHog-logomark-dark.svg#only-dark){ .twemoji } [PostHog :lucide-arrow-up-right:](https://posthog.com/)
