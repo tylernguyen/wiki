@@ -51,10 +51,6 @@ icon: lucide/stamp
   [:lucide-file-code-corner:](https://github.com/simple-icons/simple-icons){ .card-link title="Source Code" }
   [:lucide-scale:](https://github.com/simple-icons/simple-icons/blob/develop/LICENSE.md){ .card-link title=License }
   [:lucide-heart:](https://opencollective.com/simple-icons){ .card-link title=Support }
-- :simple-refinedgithub:{ .foreground } [Octicons :lucide-arrow-up-right:](https://primer.style/foundations/icons) by GitHub
-  [:lucide-file-code-corner:](https://github.com/primer/octicons){ .card-link title="Source Code" }
-  [:lucide-scale:](https://github.com/primer/octicons/blob/main/LICENSE){ .card-link title=License }
-  [:lucide-hat-glasses:](https://docs.github.com/en/site-policy/privacy-policies/github-privacy-statement){ .card-link title="Privacy Policy" }
 - :simple-lucide:{ .lucidelogo } [Lucide :lucide-arrow-up-right:](https://lucide.dev/)
   [:lucide-scale:](https://lucide.dev/license){ title=License }
 - :simple-materialdesignicons:{ .materialdesignicons } [Material Design Icons :lucide-arrow-up-right:](https://pictogrammers.com/library/mdi/)

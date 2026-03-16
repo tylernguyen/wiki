@@ -30,7 +30,7 @@ I've been loving Tweek as a minimal calendar/to-do/planner. On the backend, it s
 - :simple-1password:{ .onepassword } [1Password :lucide-arrow-up-right:](https://1password.com/)
   [:lucide-circle-dollar-sign:](https://1password.com/sign-up/){ title=Pricing }
   [:lucide-hat-glasses:](https://support.onepassword.com/1password-privacy/){ title="Privacy Policy" }
-  [:octicons-markdown-16:](https://developer.onepassword.com/){ title="Developer Documentation" }
+  [:lucide-file-text:](https://developer.onepassword.com/){ title="Developer Documentation" }
 - :simple-protonvpn:{ .protonvpn } [Proton VPN :lucide-arrow-up-right:](https://protonvpn.com/)
   [:lucide-circle-dollar-sign:](https://protonvpn.com/pricing){ title="Pricing" }
   [:lucide-hat-glasses:](https://proton.me/legal/privacy){ title="Privacy Policy" }
@@ -41,7 +41,7 @@ I use ProtonVPN strictly for P2P traffic as it's one of the few VPN services tha
 - ![Postmark](https://assets.tylernguyen.wiki/logos/Postmark.svg){ .twemoji } [Postmark :lucide-arrow-up-right:](https://postmarkapp.com/)
   [:lucide-circle-dollar-sign:](https://postmarkapp.com/pricing){ title="Pricing" }
   [:lucide-hat-glasses:](https://postmarkapp.com/privacy-policy){ title="Privacy Policy" }
-  [:octicons-markdown-16:](https://postmarkapp.com/manual){ title=Documentation }
+  [:lucide-file-text:](https://postmarkapp.com/manual){ title=Documentation }
 
 I mainly need transactional email for self-hosted apps, which send a very low volume. Postmark's free plan has been perfect for this.
 

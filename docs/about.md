@@ -1,5 +1,5 @@
 ---
-icon: octicons/person-16
+icon: lucide/user
 ---
 
 # About

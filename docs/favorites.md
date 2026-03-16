@@ -136,7 +136,7 @@ The official RSS feed only has recently published episodes. See [dcadata/this-am
   [:simple-boardgamegeek:{ .boardgamegeek }](<https://boardgamegeek.com/boardgame/237182/root> "Board Game Geek")
   [![Steam](https://assets.tylernguyen.wiki/logos/Steam.svg){ .twemoji }](https://store.steampowered.com/app/965580/Root/ "Steam")
 - [Pokemon Crystal Clear :lucide-arrow-up-right:](https://shockslayer.com/crystal-clear/)
-  [:octicons-markdown-16:](https://github.com/ShockSlayer/ccdocs/blob/master/docs/FAQ.md){ title=Documentation}
+  [:lucide-file-text:](https://github.com/ShockSlayer/ccdocs/blob/master/docs/FAQ.md){ title=Documentation}
 - Riichi Mahjong
     - Riichi City
       [![Steam](https://assets.tylernguyen.wiki/logos/Steam.svg){ .twemoji }](https://store.steampowered.com/app/1954420/ "Steam")

@@ -69,7 +69,7 @@ Zensical is my go-to static site generator. It is the successor to :simple-mater
 - :simple-cryptomator:{ .cryptomator } [Cryptomator :lucide-arrow-up-right:](https://cryptomator.org/)
 - :simple-syncthing:{ .syncthing } [Syncthing :lucide-arrow-up-right:](https://syncthing.net/)
   [:lucide-file-code-corner:](https://github.com/syncthing/ "Source Code")
-  [:octicons-markdown-16:](https://docs.syncthing.net/ "Documentation")
+  [:lucide-file-text:](https://docs.syncthing.net/ "Documentation")
 - ![PowerToys](https://assets.tylernguyen.wiki/logos/Microsoft_PowerToys.svg){ .twemoji } [PowerToys :lucide-arrow-up-right:](https://github.com/microsoft/PowerToys)
 
 ## Design

@@ -110,7 +110,7 @@ top = "lucide/arrow-up-to-line"
 note = "lucide/pencil-line"
 abstract = "lucide/scroll"
 info = "lucide/badge-info"
-tip = "octicons/squirrel-16"
+tip = "lucide/bird"
 success = "lucide/circle-check"
 question = "lucide/message-circle-question-mark"
 warning = "lucide/message-square-warning"
@@ -160,7 +160,7 @@ workflow = "workflow"
 [project.theme.icon.tag]
 evergreen = "material/leaf"
 uses = "lucide/hand"
-workflow = "octicons/workflow-16"
+workflow = "lucide/workflow"
 
 # SECTION Plugins and Extensions
 [project.plugins.offline]

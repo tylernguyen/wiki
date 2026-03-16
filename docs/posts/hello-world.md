@@ -4,7 +4,7 @@ Building a knowledge base and maintaining a blog has always been something I've 
 
 <!-- more -->
 
-## Markdown :octicons-markdown-16:
+## Markdown
 
 [Markdown](https://en.wikipedia.org/wiki/Markdown) is the de-facto markup language. The standard is open, simple, and widely supported. Files written in Markdown are human-readable without a WYSIWYG editor. So I see no particular reasons to use anything else.
 
