@@ -108,13 +108,13 @@ The following are my personal favorite content of all mediums. I try to keep it 
 
 ## Podcasts
 
-- [__This American Life__ :lucide-arrow-up-right:](https://www.thisamericanlife.org/){ .extra title="Homepage"}
+- [__This American Life__ :lucide-arrow-up-right:](https://www.thisamericanlife.org/)
   [:fontawesome-solid-square-rss:](https://www.thisamericanlife.org/podcast/rss.xml){ .extra title="RSS Feed"}
   [:lucide-archive:](https://www.thisamericanlife.org/archive){ .extra title=Archive}
 
 The official RSS feed only has recently published episodes. See [dcadata/this-american-life-archive :lucide-arrow-up-right:](https://github.com/dcadata/this-american-life-archive) for an RSS feed of archived episodes.
 
-- [__99% Invisible__ :lucide-arrow-up-right:](https://99percentinvisible.org/){ .extra title="Homepage"}
+- [__99% Invisible__ :lucide-arrow-up-right:](https://99percentinvisible.org/)
   [:fontawesome-solid-square-rss:](https://feeds.99percentinvisible.org/99percentinvisible){ .extra title="RSS Feed"}
 
 ## Games
