@@ -322,3 +322,13 @@
   -webkit-mask-image: var(--md-admonition-icon--announce);
   mask-image: var(--md-admonition-icon--announce);
 }
+
+[data-md-color-scheme="default"] .mermaid {
+  --md-default-fg-color--lightest: rgba(var(--solarized-green), 0.2);
+  --md-default-fg-color--lighter: rgb(var(--solarized-green));
+}
+
+[data-md-color-scheme="slate"] .mermaid {
+  --md-default-fg-color--lightest: rgba(var(--solarized-red), 0.2);
+  --md-default-fg-color--lighter: rgb(var(--solarized-red));
+}
