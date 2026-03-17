@@ -5,7 +5,7 @@ tags:
     - uses
 ---
 
-# dotfiles <span class="caret"></span>
+# dotfiles
 
 ## [tylernguyen/dotfiles :lucide-arrow-up-right:](https://github.com/tylernguyen/dotfiles)
 
@@ -28,13 +28,22 @@ I intentionally keep my dotfiles bare and basic. Its sole purpose is to intializ
   [:lucide-file-code-corner:](https://github.com/ghostty-org/ghostty){ .extra title="Source Code" }
   [:lucide-scale:](https://github.com/ghostty-org/ghostty/blob/main/LICENSE){ .extra title=License }
 
-## Git :simple-git:{ .git }
+```
+~/
+├─ src/
+│  ├─ tylernguyen@GitHub/
+│  │  ├─ wiki/
+│  │  ├─ pymdownx-mahjong/
+│  │  ├─ ...
+│  ├─ tylernguyen.codes/
+│  ├─ ...
+├─ .gitconfig
+├─ .tylernguyen@GitHub.gitconfig
+├─ .tylernguyen.codes.gitconfig
+├─ ...
+```
 
-`.gitconfig` uses `code` (Visual Studio Code) as the editor, diff and merge tool.
-
-Projects live under `src/` and are associated with their respective SSH signing key, i.e. `src/tylernguyen@GitHub`, `src/tylernguyen@GitLab`, `tylernguyen.codes`.
-
-I prefer to rebase by default, unless there is very specific reason to merge.
+Projects live under `~/src/`, organized by the SSH key they are associated with.
 
 ## Package Managers
 
