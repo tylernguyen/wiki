@@ -27,6 +27,8 @@ I intentionally keep my dotfiles bare and basic. Its sole purpose is to intializ
   [:lucide-file-code-corner:](https://github.com/ghostty-org/ghostty){ .extra title="Source Code" }
   [:lucide-scale:](https://github.com/ghostty-org/ghostty/blob/main/LICENSE){ .extra title=License }
 
+Projects live under `~/src/`, organized by the SSH key they are associated with.
+
 ```
 ~/
 ├─ src/
@@ -41,8 +43,6 @@ I intentionally keep my dotfiles bare and basic. Its sole purpose is to intializ
 ├─ .tylernguyen.codes.gitconfig
 ├─ ...
 ```
-
-Projects live under `~/src/`, organized by the SSH key they are associated with.
 
 ## Package Managers
 
