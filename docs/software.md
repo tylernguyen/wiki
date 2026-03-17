@@ -60,16 +60,18 @@ Zensical is my go-to static site generator. It is the successor to :simple-mater
 ## Media
 
 - ![NetNewsWire](https://assets.tylernguyen.wiki/logos/NetNewsWire.webp){ .twemoji } [NetNewsWire :lucide-arrow-up-right:](https://netnewswire.com/)
+  [:lucide-file-code-corner:](https://github.com/Ranchero-Software/NetNewsWire){ .extra title="Source Code"}
 - ![OBS](https://assets.tylernguyen.wiki/logos/OBS.svg){ .twemoji } [OBS Studio :lucide-arrow-up-right:](https://obsproject.com/)
-  [:lucide-file-code-corner:](https://github.com/obsproject/obs-studio "Source Code")
+  [:lucide-file-code-corner:](https://github.com/obsproject/obs-studio){ .extra title="Source Code"}
 - ![Tachimanga](https://assets.tylernguyen.wiki/logos/Tachimanga.webp){ .twemoji } [Tachimanga :lucide-arrow-up-right:](https://apps.apple.com/us/app/tachimanga/id6447486175)
 
 ## Utilities
 
 - :simple-cryptomator:{ .cryptomator } [Cryptomator :lucide-arrow-up-right:](https://cryptomator.org/)
+  [:lucide-file-code-corner:](https://github.com/cryptomator/cryptomator){ .extra title="Source Code"}
 - :simple-syncthing:{ .syncthing } [Syncthing :lucide-arrow-up-right:](https://syncthing.net/)
-  [:lucide-file-code-corner:](https://github.com/syncthing/ "Source Code")
-  [:lucide-file-text:](https://docs.syncthing.net/ "Documentation")
+  [:lucide-file-code-corner:](https://github.com/syncthing/){ .extra title="Source Code"}
+  [:lucide-file-text:](https://docs.syncthing.net/){.extra title="Documentation"}
 - ![PowerToys](https://assets.tylernguyen.wiki/logos/Microsoft_PowerToys.svg){ .twemoji } [PowerToys :lucide-arrow-up-right:](https://github.com/microsoft/PowerToys)
 
 ## Design
