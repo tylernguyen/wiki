@@ -246,21 +246,6 @@
   transform: none !important;
 }
 
-@keyframes blink {
-  0%, 100% { background-color: currentColor; }
-  50% { background-color: transparent; }
-}
-
-.caret {
-  display: inline-block;
-  width: 0.6em;
-  height: 1em;
-  vertical-align: -0.1em;
-  margin-left: -0.25em;
-  background-color: currentColor;
-  animation: blink 1s step-start infinite;
-}
-
 .md-typeset .extra {
   color: var(--md-default-fg-color--lighter) !important;
 }
