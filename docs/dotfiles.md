@@ -11,10 +11,9 @@ tags:
 
 I intentionally keep my dotfiles bare and basic. Its sole purpose is to intialize my CLI, secrets, and SSH workflow. Other application settings are backed up separately.
 
-- ![chezmoi](https://assets.tylernguyen.wiki/logos/chezmoi.svg){ .twemoji } [chezmoi :lucide-arrow-up-right:](https://github.com/twpayne/chezmoi/) manages the dotfiles.
+- ![chezmoi](https://assets.tylernguyen.wiki/logos/chezmoi.svg){ .twemoji } [chezmoi :lucide-arrow-up-right:](https://github.com/twpayne/chezmoi/) as dotfiles manager.
   [:lucide-file-text:](https://www.chezmoi.io/){ .extra title=Documentation}
-  [:lucide-scale:](https://github.com/twpayne/chezmoi/blob/master/LICENSE){ .extra title=License }
-- :simple-1password:{ .onepassword } [1Password :lucide-arrow-up-right:](https://1password.com/) is my secrets and SSH manager.
+- :simple-1password:{ .onepassword } [1Password :lucide-arrow-up-right:](https://1password.com/) as SSH and secrets manager.
   [:lucide-circle-dollar-sign:](https://1password.com/sign-up/){ .extra title=Pricing }
   [:lucide-hat-glasses:](https://support.onepassword.com/1password-privacy/){ .extra title="Privacy Policy" }
 - :simple-zsh:{ .zsh } [z shell :lucide-arrow-up-right:](https://zsh.sourceforge.io/)
