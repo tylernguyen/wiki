@@ -37,8 +37,8 @@ Watches `/data/media/import/books/`, and imports to `/data/media/books/`.
 ## Kavita
 
 - ![Kavita](https://assets.tylernguyen.wiki/logos/kavita.svg){ .twemoji } [Kavita :lucide-arrow-up-right:](https://www.kavitareader.com/)
-  [:lucide-container:](https://hub.docker.com/r/linuxserver/kavita){ .card-link title=Container}
-  [:lucide-file-code-corner:](https://github.com/Kareadita/Kavita){ .card-link title="Source Code" }
+  [:lucide-container:](https://hub.docker.com/r/linuxserver/kavita){ .extra title=Container}
+  [:lucide-file-code-corner:](https://github.com/Kareadita/Kavita){ .extra title="Source Code" }
 
 Reads `/data/media/books/`, serve using PWA.
 
@@ -71,8 +71,8 @@ Where `[<id>]` is the Amazon Standard Identification Number (ASIN).
 ## Audiobookshelf
 
 - ![Audiobookshelf](https://assets.tylernguyen.wiki/logos/audiobookshelf.svg){ .twemoji } [Audiobookshelf :lucide-arrow-up-right:](https://www.audiobookshelf.org/)
-  [:lucide-container:](https://github.com/advplyr/audiobookshelf/pkgs/container/audiobookshelf){ .card-link title=Container}
-  [:lucide-file-code-corner:](https://github.com/advplyr/audiobookshelf){ .card-link title="Source Code" }
+  [:lucide-container:](https://github.com/advplyr/audiobookshelf/pkgs/container/audiobookshelf){ .extra title=Container}
+  [:lucide-file-code-corner:](https://github.com/advplyr/audiobookshelf){ .extra title="Source Code" }
 
 Reads `/data/media/audiobooks`
 
