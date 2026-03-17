@@ -19,6 +19,7 @@ The following are my personal favorite content of all mediums. I try to keep it 
 
 - [The Sympathizer :lucide-arrow-up-right:](https://hardcover.app/books/the-sympathizer)
 - [The Committed :lucide-arrow-up-right:](https://hardcover.app/books/the-committed "Sequel to The Sympathizer")
+- [The Best We Could Do :lucide-arrow-up-right:](https://hardcover.app/books/the-best-we-could-do)
 
 <div class="grid cards" markdown>
 
@@ -114,7 +115,13 @@ The official RSS feed only has recently published episodes. See [dcadata/this-am
 - [Pokemon Crystal Clear :lucide-arrow-up-right:](https://shockslayer.com/crystal-clear/)
   [:lucide-file-text:](https://github.com/ShockSlayer/ccdocs/blob/master/docs/FAQ.md){ .extra title=Documentation}
 - Riichi Mahjong
-    - Riichi City
-      [![Steam](https://assets.tylernguyen.wiki/logos/Steam.svg){ .twemoji }](https://store.steampowered.com/app/1954420/ "Steam")
+    - [Riichi City :lucide-arrow-up-right:](https://store.steampowered.com/app/1954420/ "Riichi City on Steam")
       [:simple-steamdb:{ .foreground }](https://steamdb.info/app/1954420/ "SteamDB")
     - [Tenhou :lucide-arrow-up-right:](https://tenhou.net/4/)
+
+
+<div class="grid cards" markdown>
+
+- ### ![Steam](https://assets.tylernguyen.wiki/logos/Steam.svg){ .twemoji } [Steam @youngsimon :lucide-arrow-up-right:](https://steamcommunity.com/id/youngsimon/)
+
+</div>
