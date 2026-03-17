@@ -23,7 +23,7 @@ The following are my personal favorite content of all mediums. I try to keep it 
 
 <div class="grid cards" markdown>
 
-- ### ![Hardcover](https://assets.tylernguyen.wiki/logos/Hardcover.svg){ .twemoji } [Hardcover :lucide-arrow-up-right:](https://hardcover.app/@tylernguyen)
+- ### ![Hardcover](https://assets.tylernguyen.wiki/logos/Hardcover.svg){ .twemoji } [Hardcover @tylernguyen :lucide-arrow-up-right:](https://hardcover.app/@tylernguyen)
 
     I use Hardcover to catalog my book collection and history. It's a new platform, but I still much prefer it over GoodReads.
 
@@ -46,7 +46,7 @@ The following are my personal favorite content of all mediums. I try to keep it 
 
 <div class="grid cards" markdown>
 
-- ### ![Letterboxd](https://assets.tylernguyen.wiki/logos/Letterboxd-light.svg#only-light){ .twemoji } ![Letterboxd](https://assets.tylernguyen.wiki/logos/Letterboxd-dark.svg#only-dark){ .twemoji } [Letterboxd :lucide-arrow-up-right:](https://letterboxd.com/tylernguyen)
+- ### ![Letterboxd](https://assets.tylernguyen.wiki/logos/Letterboxd-light.svg#only-light){ .twemoji } ![Letterboxd](https://assets.tylernguyen.wiki/logos/Letterboxd-dark.svg#only-dark){ .twemoji } [Letterboxd @tylernguyen :lucide-arrow-up-right:](https://letterboxd.com/tylernguyen)
 
     I've had a Letterboxd account for a while now. New watches are usually tracked there. But I'm still working on cataloging my watch history and movie collection.
 
@@ -78,7 +78,7 @@ The following are my personal favorite content of all mediums. I try to keep it 
 
 <div class="grid cards" markdown>
 
-- ### :simple-anilist:{ .anilist } [AniList :lucide-arrow-up-right:](https://anilist.co/user/tylernguyen/animelist)
+- ### :simple-anilist:{ .anilist } [AniList @tylernguyen :lucide-arrow-up-right:](https://anilist.co/user/tylernguyen/animelist)
 
     Activities on my AniList is comprehensive and up-to-date.
 
