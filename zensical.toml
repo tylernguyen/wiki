@@ -16,7 +16,8 @@ nav = [
      "bookmarks.md"
   ]},
   {"WORKFLOWS" = [
-     "read.md",
+     "workflows/audiobooks.md",
+     "workflows/books.md",
   ]},
   {"USES" = [
      "dotfiles.md",
