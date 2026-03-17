@@ -3,6 +3,7 @@ icon: simple/gnubash
 tags:
     - evergreen
     - uses
+    - workflow
 ---
 
 # dotfiles
