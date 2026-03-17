@@ -12,7 +12,7 @@ See my profile on these external platforms for up-to-date listings and activitie
 
 - ![Hardcover](https://assets.tylernguyen.wiki/logos/Hardcover.svg){ .twemoji } Hardcover [@tylernguyen :lucide-arrow-up-right:](https://hardcover.app/@tylernguyen)
 - ![Letterboxd](https://assets.tylernguyen.wiki/logos/Letterboxd-light.svg#only-light){ .twemoji } ![Letterboxd](https://assets.tylernguyen.wiki/logos/Letterboxd-dark.svg#only-dark){ .twemoji } Letterboxd [@tylernguyen :lucide-arrow-up-right:](https://letterboxd.com/tylernguyen)
-- :simple-anilist:{ .anilist } AniList [@tylernguyen :lucide-arrow-up-right:](https://anilist.co/user/tylernguyen/animelist)
+- :simple-anilist:{ .anilist } AniList [@tylernguyen :lucide-arrow-up-right:](https://anilist.co/user/tylernguyen)
 - ![Steam](https://assets.tylernguyen.wiki/logos/Steam.svg){ .twemoji } Steam [@youngsimon :lucide-arrow-up-right:](https://steamcommunity.com/id/youngsimon/)
 
 ## Websites
