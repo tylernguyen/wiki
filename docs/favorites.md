@@ -17,12 +17,8 @@ The following are my personal favorite content of all mediums. I try to keep it 
 
 ## Books
 
-- Nguyễn, Việt Thanh - _The Sympathizer_
-  [![Hardcover](https://assets.tylernguyen.wiki/logos/Hardcover.svg){ .twemoji }](https://hardcover.app/books/the-sympathizer/ "Hardcover")
-  [:simple-goodreads:{ .foreground }](https://www.goodreads.com/book/show/23168277-the-sympathizer "Goodreads")
-- Nguyễn, Việt Thanh - _The Committed (Sequel to The Sympathizer)_
-  [![Hardcover](https://assets.tylernguyen.wiki/logos/Hardcover.svg){ .twemoji }](https://hardcover.app/books/the-committed "Hardcover")
-  [:simple-goodreads:{ .foreground }](https://www.goodreads.com/book/show/52260627-the-committed "Goodreads")
+- [The Sympathizer :lucide-arrow-up-right:](https://hardcover.app/books/the-sympathizer)
+- [The Committed :lucide-arrow-up-right:](https://hardcover.app/books/the-committed "Sequel to The Sympathizer")
 
 <div class="grid cards" markdown>
 
@@ -36,18 +32,14 @@ The following are my personal favorite content of all mediums. I try to keep it 
 
 ## Movies
 
-- The Matrix
-  [:simple-rottentomatoes:{ .rottentomatoes }](https://www.rottentomatoes.com/m/matrix){ .extra title="Rotten Tomatoes"}
+- [The Matrix :lucide-arrow-up-right:](https://letterboxd.com/film/the-matrix/)
   [:simple-themoviedatabase:{ .tmdb }](https://www.themoviedb.org/movie/603-the-matrix){ .extra title="TMDB"}
-- Infernal Affairs
-  [:simple-rottentomatoes:{ .rottentomatoes }](https://www.rottentomatoes.com/m/infernal_affairs){ .extra title="Rotten Tomatoes"}
+- [Infernal Affairs :lucide-arrow-up-right:](https://letterboxd.com/film/infernal-affairs/)
   [:simple-themoviedatabase:{ .tmdb }](https://www.themoviedb.org/movie/10775){ .extra title="TMDB"}
   [![The Criterion Collection](https://assets.tylernguyen.wiki/logos/The-Criterion-Collection.svg){ .twemoji title="The Criterion Collection" }](https://www.criterion.com/boxsets/6276-the-infernal-affairs-trilogy)
-- Heat
-  [:simple-rottentomatoes:{ .rottentomatoes }](https://www.rottentomatoes.com/m/heat_1995){ .extra title="Rotten Tomatoes"}
+- [Heat :lucide-arrow-up-right:](https://letterboxd.com/film/heat-1995/)
   [:simple-themoviedatabase:{ .tmdb }](https://www.themoviedb.org/movie/949-heat){ .extra title="TMDB"}
-- The Sweet Hereafter
-  [:simple-rottentomatoes:{ .rottentomatoes }](https://www.rottentomatoes.com/m/sweet_hereafter){ .extra title="Rotten Tomatoes"}
+- [The Sweet Hereafter:lucide-arrow-up-right:](https://letterboxd.com/film/the-sweet-hereafter/)
   [:simple-themoviedatabase:{ .tmdb }](https://www.themoviedb.org/movie/10217-the-sweet-hereafter){ .extra title="TMDB"}
   [![The Criterion Collection](https://assets.tylernguyen.wiki/logos/The-Criterion-Collection.svg){ .twemoji title="The Criterion Collection" }](https://www.criterionchannel.com/the-sweet-hereafter)
 
@@ -62,37 +54,26 @@ The following are my personal favorite content of all mediums. I try to keep it 
 ## TV
 
 - Mr. Robot
-  [:simple-rottentomatoes:{ .rottentomatoes }](https://www.rottentomatoes.com/tv/mr_robot){ .extra title="Rotten Tomatoes"}
   [:simple-themoviedatabase:{ .tmdb }](https://www.themoviedb.org/tv/62560-mr-robot){ .extra title="TMDB"}
 - Severance
-  [:simple-rottentomatoes:{ .rottentomatoes }](https://www.rottentomatoes.com/tv/severance/s01){ .extra title="Rotten Tomatoes"}
   [:simple-themoviedatabase:{ .tmdb }](https://www.themoviedb.org/tv/95396-severance){ .extra title="TMDB"}
 - Barry
-  [:simple-rottentomatoes:{ .rottentomatoes }](https://www.rottentomatoes.com/tv/barry){ .extra title="Rotten Tomatoes"}
   [:simple-themoviedatabase:{ .tmdb }](https://www.themoviedb.org/tv/73107-barry){ .extra title="TMDB"}
 - Utopia
-  [:simple-rottentomatoes:{ .rottentomatoes }](https://www.rottentomatoes.com/tv/utopia_2013){ .extra title="Rotten Tomatoes"}
   [:simple-themoviedatabase:{ .tmdb }](https://www.themoviedb.org/tv/46511-utopia){ .extra title="TMDB"}
 
 ## Anime/Manga
 
-- Cowboy Bebop
-  [:simple-anilist:{ .anilist }](https://anilist.co/anime/1/Cowboy-Bebop/){ .extra title="AniList"}
+- [Cowboy Bebop :lucide-arrow-up-right:](https://anilist.co/anime/1/Cowboy-Bebop/)
   [![aniDB](https://assets.tylernguyen.wiki/logos/aniDB.webp){ .twemoji title="aniDB" }](https://anidb.net/anime/23)
-- Frieren: Beyond Journey's End
-  [:simple-anilist:{ .anilist }](https://anilist.co/anime/154587/Sousou-no-Frieren){ .extra title="AniList"}
+- [Frieren: Beyond Journey's End :lucide-arrow-up-right:](https://anilist.co/anime/154587/Frieren-Beyond-Journeys-End/)
   [![aniDB](https://assets.tylernguyen.wiki/logos/aniDB.webp){ .twemoji title="aniDB" }](https://anidb.net/anime/17617)
-- Nichijou
-  [:simple-anilist:{ .anilist }](https://anilist.co/anime/10165/Nichijou--My-Ordinary-Life/){ .extra title="AniList"}
+- [Nichijou - My Ordinary Life :lucide-arrow-up-right:](https://anilist.co/anime/10165/Nichijou--My-Ordinary-Life/)
   [![aniDB](https://assets.tylernguyen.wiki/logos/aniDB.webp){ .twemoji title="aniDB" }](https://anidb.net/anime/8168)
-- The Wind Rises (2013)
-  [:simple-anilist:{ .anilist }](https://anilist.co/anime/16662/The-Wind-Rises/){ .extra title="AniList"}
-  [:simple-rottentomatoes:{ .rottentomatoes }](https://www.rottentomatoes.com/m/the_wind_rises){ .extra title="Rotten Tomatoes"}
+- [The Wind Rises (2013) :lucide-arrow-up-right:](https://anilist.co/anime/16662/The-Wind-Rises/)
   [:simple-themoviedatabase:{ .tmdb }](https://www.themoviedb.org/movie/149870){ .extra title="TMDB"}
-- Vagabond
-  [:simple-anilist:{ .anilist }](https://anilist.co/manga/30656/Vagabond "AniList")
-- Goodnight Punpun
-  [:simple-anilist:{ .anilist }](https://anilist.co/manga/34632/Oyasumi-Punpun "AniList")
+- [Vagabond :lucide-arrow-up-right:](https://anilist.co/manga/30656/Vagabond/)
+- [Goodnight Punpun :lucide-arrow-up-right:](https://anilist.co/manga/34632/Goodnight-Punpun/)
 
 <div class="grid cards" markdown>
 
@@ -119,18 +100,13 @@ The official RSS feed only has recently published episodes. See [dcadata/this-am
 
 ## Games
 
-- VALORANT
-[:simple-riotgames:{ .riotgames }](https://playvalorant.com/ "Play VALORANT")
-- Teamfight Tactics
-[:simple-riotgames:{ .riotgames }](https://teamfighttactics.leagueoflegends.com/en-us/ "Play Teamfight Tactics")
-- Slay the Spire
-  [![Steam](https://assets.tylernguyen.wiki/logos/Steam.svg){ .twemoji }](https://store.steampowered.com/app/646570/Slay_the_Spire/ "Steam")
+- [VALORANT :lucide-arrow-up-right:](https://playvalorant.com/en-us/)
+- [Teamfight Tactics :lucide-arrow-up-right:](https://teamfighttactics.leagueoflegends.com/en-us/)
+- [Slay the Spire :lucide-arrow-up-right:](https://store.steampowered.com/app/646570/Slay_the_Spire/ "Slay the Spire on Steam")
   [:simple-steamdb:{ .foreground }](https://steamdb.info/app/646570/ "SteamDB")
-- Slay the Spire 2
-  [![Steam](https://assets.tylernguyen.wiki/logos/Steam.svg){ .twemoji }](https://store.steampowered.com/app/2868840/Slay_the_Spire_2/ "Steam")
+- [Slay the Spire 2 :lucide-arrow-up-right:](https://store.steampowered.com/app/2868840/Slay_the_Spire_2/ "Slay the Spire 2 on Steam")
   [:simple-steamdb:{ .foreground }](https://steamdb.info/app/2868840/ "SteamDB")
-- Balatro
-  [![Steam](https://assets.tylernguyen.wiki/logos/Steam.svg){ .twemoji }](https://store.steampowered.com/app/2379780/Balatro/ "Steam")
+- [Balatro :lucide-arrow-up-right:](https://store.steampowered.com/app/2379780/Balatro/ "Balatro on Steam")
   [:simple-steamdb:{ .foreground }](https://steamdb.info/app/2379780/ "SteamDB")
 - Root
   [:simple-boardgamegeek:{ .boardgamegeek }](<https://boardgamegeek.com/boardgame/237182/root> "Board Game Geek")
