@@ -4,11 +4,14 @@ icon: lucide/scroll-text
 
 # Blog
 
-> [!announce] TRANSITION IN PROGRESS :lucide-construction:{ .solarized-yellow }
-> Previously, `.wiki` used :simple-materialformkdocs:{ .materialformkdocs } [Material for MkDocs (Insiders) :lucide-arrow-up-right:](https://github.com/squidfunk/mkdocs-material). However, the project is now in __maintenance mode__.
+## TRANSITION IN PROGRESS :lucide-construction:{ .solarized-yellow }
+
+Previously, _Dot Wiki_ used :simple-materialformkdocs:{ .materialformkdocs } [Material for MkDocs (Insiders) :lucide-arrow-up-right:](https://github.com/squidfunk/mkdocs-material). However, the project is now in __maintenance mode__.
+
+I have since transitioned the site to ![Zensical](https://assets.tylernguyen.wiki/logos/Zensical.webp){ .twemoji } [Zensical :lucide-arrow-up-right:](https://github.com/zensical/zensical), the successor project built by the same author.
+
+> [!warning]
 >
-> I have since transitioned the majority of `.wiki` to ![Zensical](https://assets.tylernguyen.wiki/logos/Zensical.webp){ .twemoji } [Zensical :lucide-arrow-up-right:](https://github.com/zensical/zensical), the successor project built by the same author.
+> Zensical currently lacks support for blogging. See [zensical/backlog :lucide-arrow-up-right:](https://github.com/zensical/backlog/issues/30).
 >
-> However, Zensical still lacks support for blogging. Until that is released, `.wiki` will not have a blog.
->
-> __Feel free to explore other parts of `.wiki`!__
+> Until that is released, _Dot Wiki_ __will not__ have a blog.
