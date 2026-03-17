@@ -6,7 +6,14 @@ tags:
 
 # Favorites
 
-The following are my personal favorite content of all mediums. I try to keep it to a minimum, so do try to check out my complete catalog for more recommendations.
+This is a __non-exhaustive__ list of personal favorites across different mediums.
+
+See my profile on these external platforms for up-to-date listings and activities.
+
+- ![Hardcover](https://assets.tylernguyen.wiki/logos/Hardcover.svg){ .twemoji } Hardcover [@tylernguyen :lucide-arrow-up-right:](https://hardcover.app/@tylernguyen)
+- ![Letterboxd](https://assets.tylernguyen.wiki/logos/Letterboxd-light.svg#only-light){ .twemoji } ![Letterboxd](https://assets.tylernguyen.wiki/logos/Letterboxd-dark.svg#only-dark){ .twemoji } Letterboxd [@tylernguyen :lucide-arrow-up-right:](https://letterboxd.com/tylernguyen)
+- :simple-anilist:{ .anilist } AniList [@tylernguyen :lucide-arrow-up-right:](https://anilist.co/user/tylernguyen/animelist)
+- ![Steam](https://assets.tylernguyen.wiki/logos/Steam.svg){ .twemoji } Steam [@youngsimon :lucide-arrow-up-right:](https://steamcommunity.com/id/youngsimon/)
 
 ## Websites
 
@@ -21,16 +28,6 @@ The following are my personal favorite content of all mediums. I try to keep it 
 - [The Committed :lucide-arrow-up-right:](https://hardcover.app/books/the-committed "Sequel to The Sympathizer")
 - [The Best We Could Do :lucide-arrow-up-right:](https://hardcover.app/books/the-best-we-could-do)
 
-<div class="grid cards" markdown>
-
-- ### ![Hardcover](https://assets.tylernguyen.wiki/logos/Hardcover.svg){ .twemoji } [Hardcover @tylernguyen :lucide-arrow-up-right:](https://hardcover.app/@tylernguyen)
-
-    I use Hardcover to catalog my book collection and history. It's a new platform, but I still much prefer it over GoodReads.
-
-    I listen to the audiobook version when possible; likely due to the fact that I tend to consume books during treadmill or swim sessions.
-
-</div>
-
 ## Movies
 
 - [The Matrix :lucide-arrow-up-right:](https://letterboxd.com/film/the-matrix/)
@@ -43,14 +40,6 @@ The following are my personal favorite content of all mediums. I try to keep it 
 - [The Sweet Hereafter:lucide-arrow-up-right:](https://letterboxd.com/film/the-sweet-hereafter/)
   [:simple-themoviedatabase:{ .tmdb }](https://www.themoviedb.org/movie/10217-the-sweet-hereafter){ .extra title="TMDB"}
   [![The Criterion Collection](https://assets.tylernguyen.wiki/logos/The-Criterion-Collection.svg){ .twemoji title="The Criterion Collection" }](https://www.criterionchannel.com/the-sweet-hereafter)
-
-<div class="grid cards" markdown>
-
-- ### ![Letterboxd](https://assets.tylernguyen.wiki/logos/Letterboxd-light.svg#only-light){ .twemoji } ![Letterboxd](https://assets.tylernguyen.wiki/logos/Letterboxd-dark.svg#only-dark){ .twemoji } [Letterboxd @tylernguyen :lucide-arrow-up-right:](https://letterboxd.com/tylernguyen)
-
-    I've had a Letterboxd account for a while now. New watches are usually tracked there. But I'm still working on cataloging my watch history and movie collection.
-
-</div>
 
 ## TV
 
@@ -75,18 +64,6 @@ The following are my personal favorite content of all mediums. I try to keep it 
   [:simple-themoviedatabase:{ .tmdb }](https://www.themoviedb.org/movie/149870){ .extra title="TMDB"}
 - [Vagabond :lucide-arrow-up-right:](https://anilist.co/manga/30656/Vagabond/)
 - [Goodnight Punpun :lucide-arrow-up-right:](https://anilist.co/manga/34632/Goodnight-Punpun/)
-
-<div class="grid cards" markdown>
-
-- ### :simple-anilist:{ .anilist } [AniList @tylernguyen :lucide-arrow-up-right:](https://anilist.co/user/tylernguyen/animelist)
-
-    Activities on my AniList is comprehensive and up-to-date.
-
-    I self-host ![anibridge](https://assets.tylernguyen.wiki/logos/plexanibridge.svg){ .twemoji } [AniBridge :lucide-arrow-up-right:](https://github.com/anibridge/anibridge) to scrobble anime activies on my Plex server.
-
-    On iOS, I use ![Tachimanga](https://assets.tylernguyen.wiki/logos/Tachimanga.webp){ .twemoji } [Tachimanga :lucide-arrow-up-right:](https://apps.apple.com/us/app/tachimanga/id6447486175) to track manga reading history.
-
-</div>
 
 ## Podcasts
 
@@ -118,10 +95,3 @@ The official RSS feed only has recently published episodes. See [dcadata/this-am
     - [Riichi City :lucide-arrow-up-right:](https://store.steampowered.com/app/1954420/ "Riichi City on Steam")
       [:simple-steamdb:{ .foreground }](https://steamdb.info/app/1954420/ "SteamDB")
     - [Tenhou :lucide-arrow-up-right:](https://tenhou.net/4/)
-
-
-<div class="grid cards" markdown>
-
-- ### ![Steam](https://assets.tylernguyen.wiki/logos/Steam.svg){ .twemoji } [Steam @youngsimon :lucide-arrow-up-right:](https://steamcommunity.com/id/youngsimon/)
-
-</div>
