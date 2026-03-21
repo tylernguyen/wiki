@@ -42,11 +42,13 @@ I'm not too big into home automation. But Home Assistant has been set and forget
 
 ## Network
 
-- :simple-cloudflare:{ .cloudflare } [Cloudflare Tunnel :lucide-arrow-up-right:](https://www.cloudflare.com/)
-  [:lucide-container:](https://hub.docker.com/r/cloudflare/cloudflared){ .extra title=Container}
 - ![Tailscale](https://assets.tylernguyen.wiki/logos/Tailscale.webp){ .twemoji } [Tailscale :lucide-arrow-up-right:](https://tailscale.com/)
 - ![Pocket ID](https://assets.tylernguyen.wiki/logos/pocket-id-light.svg#only-light){ .twemoji } ![Pocket ID](https://assets.tylernguyen.wiki/logos/pocket-id-dark.svg#only-dark){ .twemoji } [Pocket ID :lucide-arrow-up-right:](https://pocket-id.org/)
   [:lucide-container:](https://github.com/pocket-id/pocket-id/pkgs/container/pocket-id){ .extra title=Container}
+- :simple-caddy:{ .caddy } [Caddy :lucide-arrow-up-right:](https://caddyserver.com/)
+- ![Crowdsec](https://assets.tylernguyen.wiki/logos/crowdsec.svg){ .twemoji } [Crowdsec :lucide-arrow-up-right:](https://www.crowdsec.net/)
+- ![Anubis](https://assets.tylernguyen.wiki/logos/Anubis.webp){ .twemoji } [Anubis :lucide-arrow-up-right:](https://anubis.techaro.lol/)
+  [:lucide-file-code-corner:](https://github.com/TecharoHQ/anubis){ .extra title="Source Code" }
 
 ## Indexing
 
