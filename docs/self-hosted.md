@@ -126,7 +126,12 @@ I never interface with ![qBittorrent](https://assets.tylernguyen.wiki/logos/qbit
 
 - ![SQLite](https://assets.tylernguyen.wiki/logos/SQLite.svg){ .twemoji } [SQLite :lucide-arrow-up-right:](https://sqlite.org/)
 - ![PostgreSQL](https://assets.tylernguyen.wiki/logos/PostgreSQL.svg){ .twemoji } [PostgreSQL :lucide-arrow-up-right:](https://www.postgresql.org/)
-- ![Redis](https://assets.tylernguyen.wiki/logos/Redis.svg){ .twemoji } [Redis :lucide-arrow-up-right:](https://redis.io/)
+- :simple-redis:{ .redis } [Redis :lucide-arrow-up-right:](https://redis.io/)
 - :simple-elasticsearch:{ .elasticsearch } [Elasticsearch :lucide-arrow-up-right:](https://www.elastic.co/elasticsearch)
 
 Whenever possible, I much prefer ![SQLite](https://assets.tylernguyen.wiki/logos/SQLite.svg){ .twemoji } [SQLite :lucide-arrow-up-right:](https://sqlite.org/) over ![PostgreSQL](https://assets.tylernguyen.wiki/logos/PostgreSQL.svg){ .twemoji } PostgreSQL.
+
+## Observability
+
+- :simple-grafana:{ .grafana } [Grafana :lucide-arrow-up-right:](https://grafana.com/)
+- :simple-prometheus:{ .prometheus } [Promethesus :lucide-arrow-up-right:](https://prometheus.io/)

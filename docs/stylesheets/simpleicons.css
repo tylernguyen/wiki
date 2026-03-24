@@ -94,6 +94,10 @@
   color: #0093dd;
 }
 
+.grafana {
+  color: #F46800;
+}
+
 .homeassistant {
   color: #18BCF2;
 }
@@ -166,9 +170,14 @@
   color: #4169E1;
 }
 
+.prometheus {
+  color: #E6522C;
+}
+
 .protonvpn {
   color: #66deb1;
 }
+
 
 .python {
   color: #3776AB;
@@ -180,6 +189,10 @@
 
 .radarr {
   color: #FFCB3D;
+}
+
+.redis {
+  color: #FF4438;
 }
 
 .riotgames {
