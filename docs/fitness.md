@@ -17,6 +17,7 @@ I'm very satisfied with the Apple Watch Ultra 1st Gen. It's a great balance betw
 
 - :simple-apple:{ .foreground} __Apple AirPods Pro 3__
 - __Shokz OpenSwim__
+- __Tymewear VitalPro__
 
 ## Shoes
 
