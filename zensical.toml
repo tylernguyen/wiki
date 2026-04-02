@@ -75,7 +75,7 @@ features = [
     "navigation.sections",
     #"navigation.tabs",
     #"navigation.tabs.sticky",
-    "navigation.top", # NOTE Return to Top
+    #"navigation.top", # NOTE Return to Top
     "navigation.tracking",
     "search.highlight",
     "toc.follow",
