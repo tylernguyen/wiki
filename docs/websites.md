@@ -24,6 +24,8 @@ RSS is my preferred method of following websites. I also maintain an email alias
 - [tonsky.me :lucide-arrow-up-right:](https://tonsky.me/) [:fontawesome-solid-square-rss:](https://tonsky.me/atom.xml){ .extra title="RSS Feed" }
 - [LMNT :lucide-arrow-up-right:](https://lmnt.me/) [:fontawesome-solid-square-rss:](https://lmnt.me/feed.xml){ .extra title="RSS Feed" }
 - [Articles & Experiments by Roman Komarov :lucide-arrow-up-right:](https://kizu.dev/) [:fontawesome-solid-square-rss:](https://feeds.feedburner.com/kizuruen){ .extra title="RSS Feed" }
+- [ The Hopeless Girl on the Path of Houou :lucide-arrow-up-right:](https://pathofhouou.blogspot.com/)
+
 
 ## Digital Gardens
 
