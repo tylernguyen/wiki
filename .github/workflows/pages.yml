@@ -35,7 +35,7 @@ jobs:
           zensical build --clean
 
       - name: Publish to Cloudflare Pages
-        uses: cloudflare/wrangler-action@v3
+        uses: cloudflare/wrangler-action@v4
         with:
           apiToken: ${{ secrets.CLOUDFLARE_PAGES_API }}
           accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
