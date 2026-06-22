@@ -35,7 +35,6 @@ __Extensions__:
 
 ## Code
 
-- ![Visual Studio Code](https://assets.tylernguyen.wiki/logos/VSCode.svg){ .twemoji } [Visual Studio Code :lucide-arrow-up-right:](https://code.visualstudio.com/)
 - :simple-zedindustries:{ .foreground } [Zed :lucide-arrow-up-right:](https://zed.dev/)
 - :simple-claude:{ .claude } [Claude :lucide-arrow-up-right:](https://claude.ai/)
 
