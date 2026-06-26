@@ -27,6 +27,7 @@ __Also see [/dotfiles :lucide-arrow-down-left:](dotfiles.md).__
 - [Server Mono :lucide-arrow-up-right:](https://github.com/internet-development/www-server-mono)
 - [Space Grotesk :lucide-arrow-up-right:](https://github.com/floriankarsten/space-grotesk)
 - [Iosevka :lucide-arrow-up-right:](https://github.com/be5invis/Iosevka)
+- [Lilex :lucide-arrow-up-right:](https://github.com/mishamyrt/Lilex)
 
 ## Utilities
 
