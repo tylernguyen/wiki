@@ -30,8 +30,8 @@ I'm very satisfied with the Apple Watch Ultra 1st Gen. It's a great balance betw
 
 I use __Intervals.icu__ for planning and analysis. It's free, powerful, and highly customizable. The developer, [David :lucide-arrow-up-right:](https://forum.intervals.icu/u/david/summary), is accessible and responsive. __Intervals.icu Companion__ is not the official app on iOS, but it is the best app.
 
-- ![The Outsiders](https://assets.tylernguyen.wiki/logos/TheOutsiders.webp){ .twemoji } [The Outsiders :lucide-arrow-up-right:](https://www.theoutsiders.app/)
-- ![Gentler Streak](https://assets.tylernguyen.wiki/logos/GentlerStreak.webp){ .twemoji } [Gentler Streak :lucide-arrow-up-right:](https://gentler.app/)
+- ![The Outsiders](https://assets.tylernguyen.wiki/logos/theOutsiders-light.webp#only-light){ .twemoji } ![The Outsiders](https://assets.tylernguyen.wiki/logos/theOutsiders-dark.webp#only-dark){ .twemoji } [The Outsiders :lucide-arrow-up-right:](https://www.theoutsiders.app/)
+- ![Gentler Streak](https://assets.tylernguyen.wiki/logos/GentlerStreak-light.webp#only-light){ .twemoji } ![Gentler Streak](https://assets.tylernguyen.wiki/logos/GentlerStreak-dark.webp#only-dark){ .twemoji } [Gentler Streak :lucide-arrow-up-right:](https://gentler.app/)
 
 __Gentler Streak__ is especially nice as a simpler companion the other, more data-intensive platforms. I recommend you use the app and wait until you are targeted for a discounted lifetime offer.
 
