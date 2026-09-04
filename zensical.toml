@@ -205,4 +205,13 @@ custom_fences = [
 #]
 [project.markdown_extensions.pymdownx.betterem]
 smart_enable = "all"
+
+[projects.plugins.meta]
+
+[projects.plugins.minify]
+minify_html = true
+minify_js = true
+minify_css = true
+
+[projects.plugins.tags]
 # !SECTION
