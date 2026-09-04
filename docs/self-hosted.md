@@ -89,6 +89,9 @@ I never interface with ![qBittorrent](https://assets.tylernguyen.wiki/logos/qbit
 - :simple-freshrss:{ .freshrss } [FreshRSS :lucide-arrow-up-right:](https://freshrss.org/)
   [:lucide-container:](https://hub.docker.com/r/linuxserver/freshrss){ .extra title=Container}
   [:lucide-file-code-corner:](https://github.com/FreshRSS/FreshRSS){ .extra title="Source Code" }
+- ![RomM](https://assets.tylernguyen.wiki/logos/romm.svg){ .twemoji } [RomM :lucide-arrow-up-right:](https://github.com/rommapp/romm)
+  [:lucide-container:](https://github.com/rommapp/romm/pkgs/container/romm){ .extra title=Container}
+  [:lucide-file-code-corner:](https://github.com/rommapp/romm){ .extra title="Source Code" }
 
 ### Media Management
 
