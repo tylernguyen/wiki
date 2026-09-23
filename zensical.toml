@@ -208,6 +208,9 @@ smart_enable = "all"
 
 [projects.plugins.meta]
 
+[project.plugins.blog]
+blog_dir = "."
+
 [projects.plugins.minify]
 minify_html = true
 minify_js = true
