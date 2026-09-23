@@ -1,5 +1,14 @@
 ---
 icon: material/code-braces
+authors:
+  - tylernguyen
+date:
+    created: 2026-09-22
+    updated: 2026-09-22
+comments: false
+draft: true
+categories:
+  - Diagnostics
 ---
 
 # Code
