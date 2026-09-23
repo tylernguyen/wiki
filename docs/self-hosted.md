@@ -137,5 +137,5 @@ Whenever possible, I much prefer ![SQLite](https://assets.tylernguyen.wiki/logos
 
 ## Observability
 
-- :simple-grafana:{ .grafana } [Grafana :lucide-arrow-up-right:](https://grafana.com/)
-- :simple-prometheus:{ .prometheus } [Promethesus :lucide-arrow-up-right:](https://prometheus.io/)
+- ![Beszel](https://assets.tylernguyen.wiki/logos/Beszel.svg){ .twemoji } [Beszel :lucide-arrow-up-right:](https://beszel.dev/)
+- ![Dozzle](https://assets.tylernguyen.wiki/logos/Dozzle.svg){ .twemoji } [Dozzle :lucide-arrow-up-right:](https://dozzle.dev/)
