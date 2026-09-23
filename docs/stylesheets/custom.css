@@ -41,6 +41,10 @@
   padding: 1rem 0;
 }
 
+.md-sidebar.md-sidebar--post .md-post__back {
+	margin-bottom: 0rem;
+}
+
 .md-nav--primary .md-nav__item .md-nav__link--active {
   border-radius: 4px;
   background: var(--md-default-fg-color);
