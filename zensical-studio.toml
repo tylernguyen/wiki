@@ -1,0 +1,23 @@
+version = 1
+
+[lint.rules]
+abbreviation.duplicate-definition = "warning"
+attribute.duplicate-name = "warning"
+attribute.rewritten-name = "warning"
+fence.highlight-range = "warning"
+footnote.empty-definition = "warning"
+heading.level-skip = "warning"
+html.invalid-markdown-mode = "warning"
+image.missing-alt = "warning"
+link.empty-destination = "warning"
+tab.duplicate-title = "warning"
+tab.empty-title = "error"
+
+abbreviation.unused-definition = "off"
+code.indented = "off"
+container.empty-body = "off"
+document.first-heading-h1 = "off"
+fence.missing-language = "off"
+heading.multiple-h1 = "off"
+html.disallowed = "off"
+section.empty = "off"
