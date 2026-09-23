@@ -65,6 +65,7 @@ I'm not too big into home automation. But Home Assistant has been set and forget
 I prefer Hotio's Docker image as :simple-protonvpn:{ .protonvpn } ProtonVPN support is built-in. Otherwise, port forwarding for ProtonVPN can be troublesome[^1].
 
 [^1]: [ProtonVPN: How to manually set up port forwarding :lucide-arrow-up-right:](https://protonvpn.com/support/port-forwarding-manual-setup).
+
 - ![qui](https://assets.tylernguyen.wiki/logos/autobrr.svg){ .twemoji } [qui :lucide-arrow-up-right:](https://github.com/autobrr/qui)
   [:lucide-container:](https://github.com/autobrr/qui/pkgs/container/qui){ .extra title=Container}
 
