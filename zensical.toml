@@ -1,7 +1,7 @@
 [project]
 site_name = "Dot Wiki"
 site_description = """
-  This is my website. There are many like it, but this one is mine.
+This is my website. There are many like it, but this one is mine.
 """
 site_author = "Tyler Nguyen"
 repo_url = "https://github.com/tylernguyen/wiki"
@@ -210,6 +210,18 @@ smart_enable = "all"
 
 [project.plugins.blog]
 blog_dir = "."
+
+[project.plugins.rss]
+categories = [
+  "tags",
+  "categories"
+]
+
+[project.plugins.rss.feeds_filenames]
+json_created = "feed.json"
+json_updated = "feed-updated.json"
+rss_created = "rss.xml"
+rss_updated = "rss-updated.xml"
 
 [projects.plugins.minify]
 minify_html = true
