@@ -45,9 +45,6 @@ I use ProtonVPN strictly for P2P traffic as it's one of the few VPN services tha
 
 I mainly need transactional email for self-hosted apps, which send a very low volume. Postmark's free plan has been perfect for this.
 
-- :simple-nextdns:{ .nextdns } [NextDNS :lucide-arrow-up-right:](https://nextdns.io/)
-  [:lucide-circle-dollar-sign:](https://nextdns.io/pricing){ .extra title="Pricing" }
-
 ## Internet
 
 - :simple-discord:{ .discord } [Discord :lucide-arrow-up-right:](https://discord.com/)
