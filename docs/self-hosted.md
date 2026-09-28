@@ -140,3 +140,4 @@ Whenever possible, I much prefer ![SQLite](https://assets.tylernguyen.wiki/logos
 
 - ![Beszel](https://assets.tylernguyen.wiki/logos/Beszel.svg){ .twemoji } [Beszel :lucide-arrow-up-right:](https://beszel.dev/)
 - ![Dozzle](https://assets.tylernguyen.wiki/logos/Dozzle.svg){ .twemoji } [Dozzle :lucide-arrow-up-right:](https://dozzle.dev/)
+- ![Kener](https://assets.tylernguyen.wiki/logos/Kener.svg){ .twemoji } [Kener :lucide-arrow-up-right:](https://kener.ing/)
