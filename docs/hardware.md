@@ -88,6 +88,10 @@ Runs :simple-koreader:{ .koreader } [KOReader :lucide-arrow-up-right:](https://g
 
 I love my Steam Deck OLED. I previously had a standard Steam Deck and cannot recommend the OLED model enough. I often use it in bed, and during travel. On it, I mostly play roguelikes and emulated titles.
 
+- __TrimUI Brick Pro__
+
+Basically my Pokemon ROM hack device. Runs [NextUI :lucide-arrow-up-right:](https://github.com/LoveRetro/NextUI), and connects to my self-hosted ![RomM](https://assets.tylernguyen.wiki/logos/romm.svg){ .twemoji } [RomM :lucide-arrow-up-right:](https://romm.app/) instance.
+
 - ![Nintendo Switch](https://assets.tylernguyen.wiki/logos/Nintendo_Switch.svg){ .twemoji } __Nintendo Switch OLED__
 
 This is solely for Nintendo exclusive games. Nintendo games are particularly good for
