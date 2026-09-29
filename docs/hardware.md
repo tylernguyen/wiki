@@ -132,6 +132,10 @@ The majority of my PoE devices are low bandwidth. As long as my setup doesn't in
 
 ## Miscellaneous
 
+- :simple-raspberrypi:{ .raspberrypi } __Raspberry Pi 3B__
+
+Forgot when I purchased this, but I use this to host ![Kener](https://assets.tylernguyen.wiki/logos/Kener.svg){ .twemoji } [Kener :lucide-arrow-up-right:](https://kener.ing/) and ![UpSnap](https://assets.tylernguyen.wiki/logos/UpSnap.svg){ .twemoji } [UpSnap :lucide-arrow-up-right:](https://github.com/seriousm4x/upsnap).
+
 - :simple-apple:{ .foreground} __Apple AirTag__
 - :simple-yubico:{ .yubico } __Yubikey 5C NFC__
 
