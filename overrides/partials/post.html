@@ -41,18 +41,6 @@
           </li>
         {% endif %}
 
-        <!-- Post readtime -->
-        {% if post.config.readtime %}
-          {% set time = post.config.readtime %}
-          <li class="md-meta__item">
-            {% if time == 1 %}
-              {{ lang.t("readtime.one") }}
-            {% else %}
-              {{ lang.t("readtime.other") | replace("#", time) }}
-            {% endif %}
-          </li>
-        {% endif %}
-
         <!-- Pin marker -->
         {% if post.config.pin %}
           <span class="md-pin"></span>
