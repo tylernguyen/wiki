@@ -29,9 +29,13 @@ I mostly lurk and read on Mastodon. But I do intend post more in the future. My 
 
 - :simple-forgejo:{ .forgejo } __Forgejo__: [_tylernguyen.codes_ :lucide-arrow-up-right:](https://tylernguyen.codes/)
   [:lucide-container:](https://codeberg.org/forgejo/-/packages/container/forgejo/versions){ .extra title=Container}
-- ![Koito](https://assets.tylernguyen.wiki/logos/Koito.webp){ .twemoji } __Koito__: [_koito.tylernguyen.app_](https://koito.tylernguyen.app)
+- ![Koito](https://assets.tylernguyen.wiki/logos/Koito.webp){ .twemoji } __Koito__: [_koito.tylernguyen.app_ :lucide-arrow-up-right:](https://koito.tylernguyen.app)
   [:lucide-container:](https://hub.docker.com/r/gabehf/koito){ .extra title=Container}
   [:lucide-file-code-corner:](https://github.com/gabehf/Koito/){ .extra title="Source Code" }
+- ![Kener](https://assets.tylernguyen.wiki/logos/Kener.svg){ .twemoji } __Kener__: [_status.tylernguyen.app_ :lucide-arrow-up-right:](https://status.tylernguyen.app/)
+  [:lucide-container:](https://github.com/rajnandan1/kener/pkgs/container/kener){ .extra title=Container}
+  [:lucide-file-code-corner:](https://github.com/rajnandan1/kener){ .extra title="Source Code" }
+
 
 ## Home
 
@@ -152,6 +156,3 @@ Whenever possible, I much prefer ![SQLite](https://assets.tylernguyen.wiki/logos
 - ![Dozzle](https://assets.tylernguyen.wiki/logos/Dozzle.svg){ .twemoji } [Dozzle :lucide-arrow-up-right:](https://dozzle.dev/)
   [:lucide-container:](https://github.com/amir20/dozzle/pkgs/container/dozzle){ .extra title=Container}
   [:lucide-file-code-corner:](https://github.com/amir20/dozzle){ .extra title="Source Code" }
-- ![Kener](https://assets.tylernguyen.wiki/logos/Kener.svg){ .twemoji } [Kener :lucide-arrow-up-right:](https://kener.ing/)
-  [:lucide-container:](https://github.com/rajnandan1/kener/pkgs/container/kener){ .extra title=Container}
-  [:lucide-file-code-corner:](https://github.com/rajnandan1/kener){ .extra title="Source Code" }
