@@ -132,6 +132,9 @@ I never interface with ![qBittorrent](https://assets.tylernguyen.wiki/logos/qbit
   [:lucide-container:](https://github.com/tailscale/golink/pkgs/container/golink){ .extra title=Container}
 - ![taildrive](https://assets.tylernguyen.wiki/logos/Tailscale.webp){ .twemoji } [taildrive :lucide-arrow-up-right:](https://tailscale.com/kb/1369/taildrive)
   [:lucide-container:](https://github.com/tailscale/taildrive/pkgs/container/taildrive){ .extra title=Container}
+- ![UpSnap](https://assets.tylernguyen.wiki/logos/UpSnap.svg){ .twemoji } [UpSnap :lucide-arrow-up-right:](https://github.com/seriousm4x/upsnap)
+  [:lucide-container:](https://github.com/seriousm4x/UpSnap/pkgs/container/upsnap){ .extra title=Container}
+
 ## Databases
 
 - ![SQLite](https://assets.tylernguyen.wiki/logos/SQLite.svg){ .twemoji } [SQLite :lucide-arrow-up-right:](https://sqlite.org/)
