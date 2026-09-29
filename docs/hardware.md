@@ -94,7 +94,7 @@ Basically my Pokemon ROM hack device. Runs [NextUI :lucide-arrow-up-right:](http
 
 - ![Nintendo Switch](https://assets.tylernguyen.wiki/logos/Nintendo_Switch.svg){ .twemoji } __Nintendo Switch OLED__
 
-This is solely for Nintendo exclusive games. Nintendo games are particularly good for
+I keep a Switch around for Nintendo exclusives.
 
 See [/favorites#games :lucide-arrow-down-left:](favorites.md#games)
 
