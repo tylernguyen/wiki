@@ -210,6 +210,7 @@ smart_enable = "all"
 
 [project.plugins.blog]
 blog_dir = "."
+post_readtime = false
 
 [project.plugins.rss]
 categories = [
