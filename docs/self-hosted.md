@@ -124,8 +124,6 @@ I never interface with ![qBittorrent](https://assets.tylernguyen.wiki/logos/qbit
   [:lucide-container:](https://github.com/anibridge/anibridge/pkgs/container/anibridge){ .extra title=Container}
 - ![FoxxMD/multi-scrobbler](https://assets.tylernguyen.wiki/logos/Multi-scrobbler.svg){ .twemoji } [FoxxMD/multi-scrobbler :lucide-arrow-up-right:](https://github.com/foxxmd/multi-scrobbler)
   [:lucide-container:](https://github.com/FoxxMD/multi-scrobbler/pkgs/container/multi-scrobbler){ .extra title=Container}
-- ![Koito](https://assets.tylernguyen.wiki/logos/Koito.webp){ .twemoji } [Koito :lucide-arrow-up-right:](https://github.com/gabehf/koito)
-  [:lucide-container:](https://hub.docker.com/r/gabehf/koito){ .extra title=Container}
 
 ## Utilities
 
