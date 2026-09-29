@@ -35,6 +35,8 @@ _AM4_ is more than adequate for my fidelity and performance needs right now. I d
 
 ## Server
 
+### Hammerhead
+
 Runs :simple-unraid:{ .unraid } Unraid, the primary usage is for media archival and consumption.
 
 __See [.wiki/self-hosted :lucide-arrow-down-left:](self-hosted.md) for my software stack.__
@@ -61,6 +63,18 @@ Primary cache for Docker appdata, formatted in :simple-openzfs:{ .openzfs } ZFS 
 Secondary cache used for temporary data and faster decompression, formatted in btrfs and run in RAID0.
 
 - __PSU__: be quiet! Dark Power 12 1000W
+
+
+### Marlin
+
+Also runs :simple-unraid:{ .unraid } Unraid. This is my legacy server, mainly used for testing and internal services.
+
+- __MOBO__: MSI Z270 TOMAHAWK
+- __CPU__: Intel Core i7-7700K
+- __GPU__: EVGA GTX 1080 Ti
+- __RAM__: 64GB
+- __HDD__: 10TB of mixed 3.5" drives
+
 
 ## Mobile
 
