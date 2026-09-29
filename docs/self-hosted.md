@@ -7,7 +7,7 @@ tags:
 
 # Self-hosted
 
-    My primary usage is media archival, its consumption, and sharing. The data stored is __non-personal and easily replaceable__.
+My primary usage is media archival, its consumption, and sharing. The data stored is __non-personal and easily replaceable__.
 
 The preferred platform is :simple-unraid:{ .unraid } [Unraid :lucide-arrow-up-right:](https://unraid.net/), mainly for its ability to handle mixed drives.
 
@@ -84,6 +84,12 @@ I never interface with ![qBittorrent](https://assets.tylernguyen.wiki/logos/qbit
 
 - ![plex](https://assets.tylernguyen.wiki/logos/plex.svg){ .twemoji } [Plex Media Server :lucide-arrow-up-right:](https://www.plex.tv/)
   [:lucide-container:](https://hub.docker.com/r/linuxserver/plex){ .extra title=Container}
+- :simple-jellyfin:{ .jellyfin } [Jellyfin :lucide-arrow-up-right:](https://jellyfin.org/)
+  [:lucide-container:](https://hub.docker.com/r/linuxserver/jellyfin){ .extra title=Container}
+  [:lucide-file-code-corner:](https://github.com/jellyfin/jellyfin){ .extra title="Source Code" }
+
+This is my fallback for Plex.
+
 - ![Audiobookshelf](https://assets.tylernguyen.wiki/logos/audiobookshelf.svg){ .twemoji } [Audiobookshelf :lucide-arrow-up-right:](https://www.audiobookshelf.org/)
   [:lucide-container:](https://github.com/advplyr/audiobookshelf/pkgs/container/audiobookshelf){ .extra title=Container}
   [:lucide-file-code-corner:](https://github.com/advplyr/audiobookshelf){ .extra title="Source Code" }
