@@ -7,15 +7,9 @@ tags:
 
 # Self-hosted
 
-<div class="grid cards" markdown>
-
-- ### :simple-unraid:{ .unraid } [Unraid :lucide-arrow-up-right:](https://unraid.net)
-
     My primary usage is media archival, its consumption, and sharing. The data stored is __non-personal and easily replaceable__.
 
-    Hence the reason I chose :simple-unraid:{ .unraid } [Unraid :lucide-arrow-up-right:](https://unraid.net/) over :simple-truenas:{ .truenas } [TrueNas :lucide-arrow-up-right:](https://www.truenas.com/). Unraid's parity function is also better at maximizing usable storage, and dealing with mixed drive capacities.
-
-</div>
+The preferred platform is :simple-unraid:{ .unraid } [Unraid :lucide-arrow-up-right:](https://unraid.net/), mainly for its ability to handle mixed drives.
 
 __See [/hardware#server :lucide-arrow-down-left:](hardware.md#server) for hardware specs.__
 
@@ -144,7 +138,7 @@ I never interface with ![qBittorrent](https://assets.tylernguyen.wiki/logos/qbit
 - :simple-redis:{ .redis } [Redis :lucide-arrow-up-right:](https://redis.io/)
 - :simple-elasticsearch:{ .elasticsearch } [Elasticsearch :lucide-arrow-up-right:](https://www.elastic.co/elasticsearch)
 
-Whenever possible, I much prefer ![SQLite](https://assets.tylernguyen.wiki/logos/SQLite.svg){ .twemoji } [SQLite :lucide-arrow-up-right:](https://sqlite.org/) over ![PostgreSQL](https://assets.tylernguyen.wiki/logos/PostgreSQL.svg){ .twemoji } PostgreSQL.
+Whenever possible, I much prefer ![SQLite](https://assets.tylernguyen.wiki/logos/SQLite.svg){ .twemoji } [SQLite :lucide-arrow-up-right:](https://sqlite.org/) over ![PostgreSQL](https://assets.tylernguyen.wiki/logos/PostgreSQL.svg){ .twemoji } [PostgreSQL :lucide-arrow-up-right:](https://www.postgresql.org/).
 
 ## Observability
 
