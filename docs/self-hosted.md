@@ -55,25 +55,29 @@ I'm not too big into home automation. But Home Assistant has been set and forget
 
 - ![Prowlarr](https://assets.tylernguyen.wiki/logos/prowlarr.svg){ .twemoji } [Prowlarr :lucide-arrow-up-right:](https://prowlarr.com/)
   [:lucide-container:](https://hub.docker.com/r/linuxserver/prowlarr){ .extra title=Container}
-- ![autobrr](https://assets.tylernguyen.wiki/logos/autobrr.svg){ .twemoji } [autobrr :lucide-arrow-up-right:](https://github.com/autobrr/autobrr)
+- ![autobrr](https://assets.tylernguyen.wiki/logos/autobrr.svg){ .twemoji } [autobrr :lucide-arrow-up-right:](https://autobrr.com/)
   [:lucide-container:](https://github.com/autobrr/autobrr/pkgs/container/autobrr){ .extra title=Container}
+  [:lucide-file-code-corner:](https://github.com/autobrr/autobrr){ .extra title="Source Code" }
 
 ## Archiving
 
 - ![qBittorrent](https://assets.tylernguyen.wiki/logos/qbittorrent.svg){ .twemoji } [qBittorrent :lucide-arrow-up-right:](https://www.qbittorrent.org/)
   [:lucide-container:](https://github.com/hotio/qbittorrent/pkgs/container/qbittorrent){ .extra title=Container}
+  [:lucide-file-code-corner:](https://github.com/qbittorrent/qBittorrent){ .extra title="Source Code" }
 
 I prefer Hotio's Docker image as :simple-protonvpn:{ .protonvpn } ProtonVPN support is built-in. Otherwise, port forwarding for ProtonVPN can be troublesome[^1].
 
 [^1]: [ProtonVPN: How to manually set up port forwarding :lucide-arrow-up-right:](https://protonvpn.com/support/port-forwarding-manual-setup).
 
-- ![qui](https://assets.tylernguyen.wiki/logos/autobrr.svg){ .twemoji } [qui :lucide-arrow-up-right:](https://github.com/autobrr/qui)
+- ![qui](https://assets.tylernguyen.wiki/logos/autobrr.svg){ .twemoji } [qui :lucide-arrow-up-right:](https://getqui.com/)
   [:lucide-container:](https://github.com/autobrr/qui/pkgs/container/qui){ .extra title=Container}
+  [:lucide-file-code-corner:](https://github.com/autobrr/qui){ .extra title="Source Code" }
 
 I never interface with ![qBittorrent](https://assets.tylernguyen.wiki/logos/qbittorrent.svg){ .twemoji } qBittorrent through the stock WebUI.
 
 - ![SABnzbd](https://assets.tylernguyen.wiki/logos/sabnzbd-light.svg#only-light){ .twemoji } ![SABnzbd](https://assets.tylernguyen.wiki/logos/sabnzbd-dark.svg#only-dark){ .twemoji } [SABnzbd :lucide-arrow-up-right:](https://sabnzbd.org/)
   [:lucide-container:](https://hub.docker.com/r/linuxserver/sabnzbd){ .extra title=Container}
+  [:lucide-file-code-corner:](https://github.com/sabnzbd/sabnzbd){ .extra title="Source Code" }
 - ![Libation](https://assets.tylernguyen.wiki/logos/Libation.svg){ .twemoji } [Libation :lucide-arrow-up-right:](https://getlibation.com/)
   [:lucide-container:](https://hub.docker.com/r/rmcrackan/libation/tags){ .extra title=Container}
   [:lucide-file-code-corner:](https://github.com/rmcrackan/Libation){ .extra title="Source Code" }
@@ -103,6 +107,7 @@ I never interface with ![qBittorrent](https://assets.tylernguyen.wiki/logos/qbit
   [:lucide-container:](https://hub.docker.com/r/linuxserver/radarr){ .extra title=Container}
 - ![Calibre](https://assets.tylernguyen.wiki/logos/calibre.svg){ .twemoji } [Calibre :lucide-arrow-up-right:](https://calibre-ebook.com/)
   [:lucide-container:](https://hub.docker.com/r/linuxserver/calibre){ .extra title=Container}
+  [:lucide-file-code-corner:](https://github.com/kovidgoyal/calibre){ .extra title="Source Code" }
 - ![Kometa](https://assets.tylernguyen.wiki/logos/Kometa.svg){ .twemoji } [Kometa :lucide-arrow-up-right:](https://github.com/meisnate12/Plex-Meta-Manager)
   [:lucide-container:](https://hub.docker.com/r/kometateam/kometa){ .extra title=Container}
   [:lucide-file-code-corner:](https://github.com/Kometa-Team/Kometa){ .extra title="Source Code" }
@@ -126,7 +131,7 @@ I never interface with ![qBittorrent](https://assets.tylernguyen.wiki/logos/qbit
 - ![tailscale/golink](https://assets.tylernguyen.wiki/logos/Tailscale.webp){ .twemoji } [tailscale/golink :lucide-arrow-up-right:](https://github.com/tailscale/golink)
   [:lucide-container:](https://github.com/tailscale/golink/pkgs/container/golink){ .extra title=Container}
 - ![taildrive](https://assets.tylernguyen.wiki/logos/Tailscale.webp){ .twemoji } [taildrive :lucide-arrow-up-right:](https://tailscale.com/kb/1369/taildrive)
-
+  [:lucide-container:](https://github.com/tailscale/taildrive/pkgs/container/taildrive){ .extra title=Container}
 ## Databases
 
 - ![SQLite](https://assets.tylernguyen.wiki/logos/SQLite.svg){ .twemoji } [SQLite :lucide-arrow-up-right:](https://sqlite.org/)
@@ -139,5 +144,11 @@ Whenever possible, I much prefer ![SQLite](https://assets.tylernguyen.wiki/logos
 ## Observability
 
 - ![Beszel](https://assets.tylernguyen.wiki/logos/Beszel.svg){ .twemoji } [Beszel :lucide-arrow-up-right:](https://beszel.dev/)
+  [:lucide-container:](https://github.com/henrygd/beszel/pkgs/container/beszel%2Fbeszel){ .extra title=Container}
+  [:lucide-file-code-corner:](https://github.com/henrygd/beszel){ .extra title="Source Code" }
 - ![Dozzle](https://assets.tylernguyen.wiki/logos/Dozzle.svg){ .twemoji } [Dozzle :lucide-arrow-up-right:](https://dozzle.dev/)
+  [:lucide-container:](https://github.com/amir20/dozzle/pkgs/container/dozzle){ .extra title=Container}
+  [:lucide-file-code-corner:](https://github.com/amir20/dozzle){ .extra title="Source Code" }
 - ![Kener](https://assets.tylernguyen.wiki/logos/Kener.svg){ .twemoji } [Kener :lucide-arrow-up-right:](https://kener.ing/)
+  [:lucide-container:](https://github.com/rajnandan1/kener/pkgs/container/kener){ .extra title=Container}
+  [:lucide-file-code-corner:](https://github.com/rajnandan1/kener){ .extra title="Source Code" }
