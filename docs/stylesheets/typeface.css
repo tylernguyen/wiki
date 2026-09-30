@@ -104,4 +104,5 @@ body {
   color: var(--md-default-fg-color--light);
   font-size: small;
   margin-bottom: 5px;
+  margin-top: 1rem;
 }
