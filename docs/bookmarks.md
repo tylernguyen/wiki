@@ -8,16 +8,12 @@ tags:
 
 ## CLI
 
-- [nushell :lucide-arrow-up-right:](https://www.nushell.sh/)
-  [:lucide-file-code-corner:](https://github.com/nushell/nushell){ .extra title="Source Code" }
 - [asciinema :lucide-arrow-up-right:](https://asciinema.org/)
   [:lucide-file-code-corner:](https://github.com/asciinema/asciinema){ .extra title="Source Code" }
 - [micasa :lucide-arrow-up-right:](https://micasa.dev/)
   [:lucide-file-code-corner:](https://github.com/cpcloud/micasa){ .extra title="Source Code" }
 - [visidata :lucide-arrow-up-right:](https://www.visidata.org/)
   [:lucide-file-code-corner:](https://github.com/saulpw/visidata){ .extra title="Source Code" }
-- [svgo :lucide-arrow-up-right:](https://svgo.dev/)
-  [:lucide-file-code-corner:](https://github.com/svg/svgo){ .extra title="Source Code" }
 
 __Also see [/dotfiles :lucide-arrow-down-left:](dotfiles.md).__
 

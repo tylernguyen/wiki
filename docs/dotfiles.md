@@ -54,3 +54,12 @@ Projects live under `~/src/`, organized by the SSH key they are associated with.
 
 - :simple-homebrew:{ .homebrew } [homebrew :lucide-arrow-up-right:](https://brew.sh/)
 - :simple-flatpak:{ .flatpak } [Flatpak :lucide-arrow-up-right:](<https://flatpak.org/>)
+
+## CLI Utilities
+
+- [nushell :lucide-arrow-up-right:](https://www.nushell.sh/)
+  [:lucide-file-code-corner:](https://github.com/nushell/nushell){ .extra title="Source Code" }
+- :simple-uv:{.uv} [uv :lucide-arrow-up-right:](https://docs.astral.sh/uv/)
+  [:lucide-file-code-corner:](https://github.com/astral-sh/uv){ .extra title="Source Code" }
+- :simple-svgo:{ .svgo } [svgo :lucide-arrow-up-right:](https://svgo.dev/)
+  [:lucide-file-code-corner:](https://github.com/svg/svgo){ .extra title="Source Code" }
