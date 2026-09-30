@@ -47,20 +47,26 @@ __Also see [/dotfiles :lucide-arrow-down-left:](dotfiles.md).__
 
 ## Personal Projects
 
-- [tylernguyen/x1c6-hackintosh :lucide-arrow-up-right:](https://github.com/tylernguyen/x1c6-hackintosh)
-  [:lucide-flip-horizontal-2:](https://tylernguyen.codes/tylernguyen/x1c6-hackintosh){ .extra title="Mirror" }
+- [__tylernguyen/x1c6-hackintosh :lucide-arrow-up-right:__](https://github.com/tylernguyen/x1c6-hackintosh)
+  [:lucide-triangles-centerline-dashed-vertical:](https://tylernguyen.codes/tylernguyen/x1c6-hackintosh){ .extra title="Mirror" }
   <span class="solarized-yellow-mark">==:lucide-archive: Archived==</span>
 
-macOS on the Lenovo ThinkPad X1 Carbon 6th Gen, built with OpenCore and ASL.
+OpenCore | ASL
 
-- [tylernguyen/pymdownx-mahjong :lucide-arrow-up-right:](https://github.com/tylernguyen/pymdownx-mahjong)
+macOS on the Lenovo ThinkPad X1 Carbon 6th Gen.
+
+- [__tylernguyen/pymdownx-mahjong :lucide-arrow-up-right:__](https://github.com/tylernguyen/pymdownx-mahjong)
     :simple-pypi:{ .pypi } [PyPI :lucide-arrow-up-right:](https://pypi.org/project/pymdownx-mahjong/)
   [:lucide-house:](https://pymdownx-mahjong.tylernguyen.codes/){ .extra title="MHomepage" }
-  [:lucide-flip-horizontal-2:](https://tylernguyen.codes/tylernguyen/pymdownx-mahjong){ .extra title="Mirror" }
+  [:lucide-triangles-centerline-dashed-vertical:](https://tylernguyen.codes/tylernguyen/pymdownx-mahjong){ .extra title="Mirror" }
+
+:simple-python:{ .python } Python | :simple-css:{ .css } CSS | ![Zensical](https://assets.tylernguyen.wiki/logos/Zensical.webp){ .twemoji } Zensical
 
 Python Markdown extension to render and stylize mahjong tiles. I use this to write riichi mahjong content on the wiki.
 
-- [NAGAen.user.js :lucide-arrow-up-right:](https://gist.github.com/tylernguyen/9c37f09cfd331633982d7ef2a507691a)
+- [__NAGAen.user.js :lucide-arrow-up-right:__](https://gist.github.com/tylernguyen/9c37f09cfd331633982d7ef2a507691a)
+
+:simple-javascript:{ .javascript } JavaScript
 
 Userscript to translate ![NAGA](https://assets.tylernguyen.wiki/logos/NAGA.webp){ .twemoji } [NAGA Mahjong AI :lucide-arrow-up-right:](https://naga.dmv.nico/naga_report/top/) user interface to English.
 
