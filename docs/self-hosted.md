@@ -44,15 +44,18 @@ I'm not too big into home automation. But Home Assistant has been set and forget
 - ![Pocket ID](https://assets.tylernguyen.wiki/logos/pocket-id-light.svg#only-light){ .twemoji } ![Pocket ID](https://assets.tylernguyen.wiki/logos/pocket-id-dark.svg#only-dark){ .twemoji } [Pocket ID :lucide-arrow-up-right:](https://pocket-id.org/)
   [:lucide-container:](https://github.com/pocket-id/pocket-id/pkgs/container/pocket-id){ .extra title=Container}
 - :simple-caddy:{ .caddy } [Caddy :lucide-arrow-up-right:](https://caddyserver.com/)
+  [:lucide-file-code-corner:](https://github.com/caddyserver/caddy){ .extra title="Source Code" }
 - ![Crowdsec](https://assets.tylernguyen.wiki/logos/crowdsec.svg){ .twemoji } [Crowdsec :lucide-arrow-up-right:](https://www.crowdsec.net/)
 - ![Anubis](https://assets.tylernguyen.wiki/logos/Anubis.webp){ .twemoji } [Anubis :lucide-arrow-up-right:](https://anubis.techaro.lol/)
   [:lucide-file-code-corner:](https://github.com/TecharoHQ/anubis){ .extra title="Source Code" }
 - ![Technitium](https://assets.tylernguyen.wiki/logos/Technitium.svg){ .twemoji } [Technitium DNS Server :lucide-arrow-up-right:](https://technitium.com/dns/)
+  [:lucide-file-code-corner:](https://github.com/TechnitiumSoftware/DnsServer){ .extra title="Source Code" }
 
 ## Indexing
 
 - ![Prowlarr](https://assets.tylernguyen.wiki/logos/prowlarr.svg){ .twemoji } [Prowlarr :lucide-arrow-up-right:](https://prowlarr.com/)
   [:lucide-container:](https://hub.docker.com/r/linuxserver/prowlarr){ .extra title=Container}
+  [:lucide-file-code-corner:](https://github.com/Prowlarr/Prowlarr){ .extra title="Source Code" }
 - ![autobrr](https://assets.tylernguyen.wiki/logos/autobrr.svg){ .twemoji } [autobrr :lucide-arrow-up-right:](https://autobrr.com/)
   [:lucide-container:](https://github.com/autobrr/autobrr/pkgs/container/autobrr){ .extra title=Container}
   [:lucide-file-code-corner:](https://github.com/autobrr/autobrr){ .extra title="Source Code" }
@@ -107,8 +110,10 @@ This is my fallback for Plex.
 
 - :simple-sonarr:{ .sonarr } [Sonarr :lucide-arrow-up-right:](https://sonarr.tv/)
   [:lucide-container:](https://hub.docker.com/r/linuxserver/sonarr){ .extra title=Container}
+  [:lucide-file-code-corner:](https://github.com/Sonarr/Sonarr){ .extra title="Source Code" }
 - :simple-radarr:{ .radarr } [Radarr :lucide-arrow-up-right:](https://radarr.video/)
   [:lucide-container:](https://hub.docker.com/r/linuxserver/radarr){ .extra title=Container}
+  [:lucide-file-code-corner:](https://github.com/Radarr/Radarr){ .extra title="Source Code" }
 - ![Calibre](https://assets.tylernguyen.wiki/logos/calibre.svg){ .twemoji } [Calibre :lucide-arrow-up-right:](https://calibre-ebook.com/)
   [:lucide-container:](https://hub.docker.com/r/linuxserver/calibre){ .extra title=Container}
   [:lucide-file-code-corner:](https://github.com/kovidgoyal/calibre){ .extra title="Source Code" }
