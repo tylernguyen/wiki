@@ -47,7 +47,7 @@ __Also see [/dotfiles :lucide-arrow-down-left:](dotfiles.md).__
   [:lucide-triangles-centerline-dashed-vertical:](https://tylernguyen.codes/tylernguyen/x1c6-hackintosh){ .extra title="Mirror" }
   <span class="solarized-yellow-mark">==:lucide-archive: Archived==</span>
 
-OpenCore | ASL
+![OpenCore](https://assets.tylernguyen.wiki/logos/OpenCore.svg){ .twemoji } OpenCore | ![UEFI](https://assets.tylernguyen.wiki/logos/UEFI.svg){ .twemoji } ASL
 
 macOS on the Lenovo ThinkPad X1 Carbon 6th Gen.
 
