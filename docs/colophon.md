@@ -15,7 +15,9 @@ icon: lucide/stamp
   [:lucide-circle-dollar-sign:](https://developers.cloudflare.com/r2/pricing/){ .extra title="Pricing" }
   [:lucide-hat-glasses:](https://www.cloudflare.com/privacypolicy/){ .extra title="Privacy Policy" }
 
-GitHub hosts source code. GitHub Actions [workflow :lucide-arrow-up-right:](https://github.com/tylernguyen/wiki/blob/main/.github/workflows/pages.yml) builds and deploys the website to Cloudflare Pages. Cloudflare R2 hosts static assets and serve from ___"assets.tylernguyen.wiki"___.
+GitHub hosts source code. GitHub Actions [workflow :lucide-arrow-up-right:](https://github.com/tylernguyen/wiki/blob/main/.github/workflows/pages.yml) builds and deploys the website to Cloudflare Pages.
+
+Cloudflare R2 hosts static assets and serve from ___"assets.tylernguyen.wiki"___.
 
 Forgejo hosts a [mirror :lucide-arrow-up-right:](https://tylernguyen.codes/tylernguyen/wiki) of the source code.
 
@@ -32,8 +34,6 @@ Forgejo hosts a [mirror :lucide-arrow-up-right:](https://tylernguyen.codes/tyler
 
 Zensical and PyMdown Extensions are the backbone of the website. giscus depends on GitHub Discussions and uses it as a comments platform.
 
----
-
 - ![PostHog](https://assets.tylernguyen.wiki/logos/PostHog-logomark-light.svg#only-light){ .twemoji } ![PostHog](https://assets.tylernguyen.wiki/logos/PostHog-logomark-dark.svg#only-dark){ .twemoji } [PostHog :lucide-arrow-up-right:](https://posthog.com/)
   [:lucide-hat-glasses:](https://posthog.com/privacy){ .extra title="Privacy Policy" }
 
@@ -47,8 +47,6 @@ Cookieless analytics. See [Privacy :lucide-arrow-down-left:](privacy-policy.md).
 - ![U.S. Graphics Company](https://assets.tylernguyen.wiki/logos/Berkeley-Graphics.webp){ .twemoji } [Berkeley Mono :lucide-arrow-up-right:](https://usgraphics.com/products/berkeley-mono) by U.S. Graphics Company
   [:lucide-circle-dollar-sign:](https://berkeleygraphics.com/products/){ .extra title="Pricing" }
   [:lucide-scale:](https://berkeleygraphics.com/legal/license/){ .extra title=License }
-
----
 
 - :simple-simpleicons:{ .foreground } [Simple Icons :lucide-arrow-up-right:](https://simpleicons.org/)
   [:lucide-file-code-corner:](https://github.com/simple-icons/simple-icons){ .extra title="Source Code" }
