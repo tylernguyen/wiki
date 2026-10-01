@@ -18,12 +18,14 @@ icon: lucide/hat-glasses
 
 __Dot Wiki__ uses [PostHog :lucide-arrow-up-right:](https://posthog.com/) for analytics. This includes, but is not limited to, traffic and interaction analytics.
 
+I've opted for cookieless tracking. PostHog never stores data in cookies or local/session storage.
+
 Analytics data are used to improve and grow the website. __Data will never be shared, sold, nor used for advertisements/commercial purposes.__
 
 > [!warning] Notice
 > Analytics data are hosted on the official :flag_us: US-instance of PostHog.
 
-Tracking events are routed through a reverse proxy before reaching PostHog. You may <span class="solarized-red">__OPT-OUT__</span> of analytics by adding ___"<https://hedgehog.tylernguyen.wiki/>"___ to your content blocker.
+Tracking events are routed through a reverse proxy before reaching PostHog. You may <span class="solarized-red">__OPT-OUT__</span> of analytics by adding ___"<https://hedgehog.tylernguyen.app/>"___ to your content blocker.
 
 ## Assets
 
