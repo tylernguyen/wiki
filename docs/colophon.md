@@ -37,7 +37,7 @@ Zensical and PyMdown Extensions are the backbone of the website. giscus depends 
 - ![PostHog](https://assets.tylernguyen.wiki/logos/PostHog-logomark-light.svg#only-light){ .twemoji } ![PostHog](https://assets.tylernguyen.wiki/logos/PostHog-logomark-dark.svg#only-dark){ .twemoji } [PostHog :lucide-arrow-up-right:](https://posthog.com/)
   [:lucide-hat-glasses:](https://posthog.com/privacy){ .extra title="Privacy Policy" }
 
-Cookieless analytics. See [Privacy :lucide-arrow-down-left:](privacy-policy.md).
+Cookieless analytics. See [/privacy-policy :lucide-arrow-down-left:](privacy-policy.md).
 
 ## Design
 
