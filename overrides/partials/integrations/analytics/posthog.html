@@ -5,6 +5,7 @@
   posthog.init('phc_8tXTcwOcAcrZH8fofZ6HGBfStZkXSl7nCDBrwwcX0oN', {
       cookieless_mode: "always",
       api_host: 'https://hedgehog.tylernguyen.app',
+      ui_host: 'https://us.posthog.com', // necessary because you're using a proxy, this way links will point back to PostHog properly
       defaults: '2026-05-30'
   })
 
