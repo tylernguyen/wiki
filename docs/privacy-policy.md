@@ -18,7 +18,7 @@ icon: lucide/hat-glasses
 
 __Dot Wiki__ uses [PostHog :lucide-arrow-up-right:](https://posthog.com/) for analytics. This includes, but is not limited to, traffic and interaction analytics.
 
-I've opted for cookieless tracking. PostHog never stores data in cookies or local/session storage.
+I've opted for __cookieless__ analytics. PostHog never stores data in cookies or local/session storage.
 
 Analytics data are used to improve and grow the website. __Data will never be shared, sold, nor used for advertisements/commercial purposes.__
 
