@@ -163,3 +163,7 @@ Whenever possible, I much prefer ![SQLite](https://assets.tylernguyen.wiki/logos
 - ![Dozzle](https://assets.tylernguyen.wiki/logos/Dozzle.svg){ .twemoji } [Dozzle :lucide-arrow-up-right:](https://dozzle.dev/)
   [:lucide-container:](https://github.com/amir20/dozzle/pkgs/container/dozzle){ .extra title=Container}
   [:lucide-file-code-corner:](https://github.com/amir20/dozzle){ .extra title="Source Code" }
+
+## Notice
+
+My self-hosted infrastructure also includes, and (sometimes) depends on external cloud-hosted services. See [__/services#utility :lucide-arrow-down-left:__](services.md#utility).
