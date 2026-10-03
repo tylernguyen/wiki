@@ -23,6 +23,10 @@ I mostly lurk and read on Mastodon. But I do intend post more in the future. My 
 
 - :simple-forgejo:{ .forgejo } __Forgejo__: [_tylernguyen.codes_ :lucide-arrow-up-right:](https://tylernguyen.codes/)
   [:lucide-container:](https://codeberg.org/forgejo/-/packages/container/forgejo/versions){ .extra title=Container}
+  [:lucide-file-code-corner:](https://codeberg.org/forgejo/forgejo){ .extra title="Source Code" }
+- ![OpenGist](https://assets.tylernguyen.wiki/logos/OpenGist-light.svg#only-light){ .twemoji } ![OpenGist](https://assets.tylernguyen.wiki/logos/OpenGist-dark.svg#only-dark){ .twemoji } __OpenGist__ [_gist.tylernguyen.codes_ :lucide-arrow-up-right:](https://gist.tylernguyen.codes/)
+  [:lucide-container:](https://github.com/thomiceli/opengist/pkgs/container/opengist){ .extra title=Container}
+  [:lucide-file-code-corner:](https://github.com/thomiceli/opengist){ .extra title="Source Code" }
 - ![Koito](https://assets.tylernguyen.wiki/logos/Koito.webp){ .twemoji } __Koito__: [_koito.tylernguyen.app_ :lucide-arrow-up-right:](https://koito.tylernguyen.app)
   [:lucide-container:](https://hub.docker.com/r/gabehf/koito){ .extra title=Container}
   [:lucide-file-code-corner:](https://github.com/gabehf/Koito/){ .extra title="Source Code" }
