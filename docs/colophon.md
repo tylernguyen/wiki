@@ -23,7 +23,7 @@ Forgejo hosts a [mirror :lucide-arrow-up-right:](https://tylernguyen.codes/tyler
 
 ## Framework
 
-- ![Zensical](https://assets.tylernguyen.wiki/logos/Zensical.webp){ .twemoji }  [Zensical :lucide-arrow-up-right:](https://zensical.org/)
+- :simple-zensical:{ .zensical } [Zensical :lucide-arrow-up-right:](https://zensical.org/)
   [:lucide-file-code-corner:](https://github.com/zensical/zensical){ .extra title="Source Code" }
   [:lucide-scale:](https://github.com/zensical/zensical/blob/master/LICENSE.md){ .extra title=License }
 - [PyMdown Extensions :lucide-arrow-up-right:](https://facelessuser.github.io/pymdown-extensions/)

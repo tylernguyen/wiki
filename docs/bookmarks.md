@@ -56,7 +56,7 @@ macOS on the Lenovo ThinkPad X1 Carbon 6th Gen.
   [:lucide-house:](https://pymdownx-mahjong.tylernguyen.codes/){ .extra title="MHomepage" }
   [:lucide-triangles-centerline-dashed-vertical:](https://tylernguyen.codes/tylernguyen/pymdownx-mahjong){ .extra title="Mirror" }
 
-:simple-python:{ .python } Python | :simple-css:{ .css } CSS | ![Zensical](https://assets.tylernguyen.wiki/logos/Zensical.webp){ .twemoji } Zensical
+:simple-python:{ .python } Python | :simple-css:{ .css } CSS | :simple-zensical:{ .zensical }Zensical
 
 Python Markdown extension to render and stylize mahjong tiles. I use this to write riichi mahjong content on the wiki.
 
