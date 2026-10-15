@@ -206,7 +206,7 @@ custom_fences = [
 [project.markdown_extensions.pymdownx.betterem]
 smart_enable = "all"
 
-[projects.plugins.meta]
+[project.plugins.meta]
 
 [project.plugins.blog]
 blog_dir = "."
@@ -224,10 +224,10 @@ json_updated = "feed-updated.json"
 rss_created = "rss.xml"
 rss_updated = "rss-updated.xml"
 
-[projects.plugins.minify]
+[project.plugins.minify]
 minify_html = true
 minify_js = true
 minify_css = true
 
-[projects.plugins.tags]
+[project.plugins.tags]
 # !SECTION
