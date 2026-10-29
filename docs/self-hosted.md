@@ -49,7 +49,6 @@ I'm not too big into home automation. But Home Assistant has been set and forget
   [:lucide-container:](https://github.com/pocket-id/pocket-id/pkgs/container/pocket-id){ .extra title=Container}
 - :simple-caddy:{ .caddy } [Caddy :lucide-arrow-up-right:](https://caddyserver.com/)
   [:lucide-file-code-corner:](https://github.com/caddyserver/caddy){ .extra title="Source Code" }
-- ![Crowdsec](https://assets.tylernguyen.wiki/logos/crowdsec.svg){ .twemoji } [Crowdsec :lucide-arrow-up-right:](https://www.crowdsec.net/)
 - ![Anubis](https://assets.tylernguyen.wiki/logos/Anubis.webp){ .twemoji } [Anubis :lucide-arrow-up-right:](https://anubis.techaro.lol/)
   [:lucide-file-code-corner:](https://github.com/TecharoHQ/anubis){ .extra title="Source Code" }
 - ![Technitium](https://assets.tylernguyen.wiki/logos/Technitium.svg){ .twemoji } [Technitium DNS Server :lucide-arrow-up-right:](https://technitium.com/dns/)
