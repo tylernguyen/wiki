@@ -7,8 +7,11 @@ comments: false
 ---
 
 # Mahjong
+Diagnostics page for mahjong renders.
 
 Depends on [tylernguyen/pymdownx-mahjong :lucide-arrow-up-right:](https://github.com/tylernguyen/pymdownx-mahjong).
+
+<!-- more -->
 
 ## Inline
 
