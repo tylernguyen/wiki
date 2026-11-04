@@ -27,6 +27,7 @@ jobs:
         with:
           python-version: 3.x
       - run: |
+          pip install pymdownx-mahjong
           pip install zensical
 
       - name: Build site

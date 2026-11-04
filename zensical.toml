@@ -36,7 +36,7 @@ extra_css = [
     "stylesheets/solarized.css",
     "stylesheets/custom.css",
     "stylesheets/typeface.css",
-    #"stylesheets/mahjong.css",
+    "stylesheets/mahjong.css",
     "stylesheets/simpleicons.css",
 ]
 extra_javascript = [
@@ -195,14 +195,16 @@ url_download= true
 auto_append = [
   "includes/abbreviations.md",
 ]
-#[project.markdown_extensions.pymdownx_mahjong]
+[project.markdown_extensions.pymdownx_mahjong]
+theme = "auto"
+closed_kan_style = "outer"
+tile_back_color = "#e7b246"
+table_color = ""
 [project.markdown_extensions.pymdownx.superfences]
 custom_fences = [
-  { name = "mermaid", class = "mermaid", format = "pymdownx.superfences.fence_code_format" }
+  { name = "mermaid", class = "mermaid", format = "pymdownx.superfences.fence_code_format" },
+  { name = "mahjong", class = "mahjong", format = "pymdownx_mahjong.superfences_formatter" }
 ]
-#custom_fences = [
-#  { name = "mahjong", class = "mahjong", format = "pymdownx_mahjong.superfences_formatter" }
-#]
 [project.markdown_extensions.pymdownx.betterem]
 smart_enable = "all"
 

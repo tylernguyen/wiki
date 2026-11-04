@@ -1,0 +1,1116 @@
+:root {
+    --mahjong-tile-width: 1.8rem;
+    --mahjong-tile-height: 2.4rem;
+    --mahjong-tile-gap: 0.05rem;
+    --mahjong-meld-gap: 1.5rem;
+    --mahjong-bg: transparent;
+    --mahjong-border: transparent;
+    --mahjong-caption-color: #000;
+    --mahjong-error-bg: #fee2e2;
+    --mahjong-error-border: #ef4444;
+    --mahjong-error-color: #991b1b;
+    --mahjong-seat-bg: #d9d9d9;
+    --mahjong-table-center-bg: rgba(0, 0, 0, 0.18);
+    --mahjong-tile-bg: #f5f0eb;
+    --mahjong-tile-depth: 10px;
+    --mahjong-tile-border: #cfcfcf;
+    --mahjong-tile-shadow: rgba(0, 0, 0, 0.35);
+    --mahjong-tile-radius: 4px;
+    --mahjong-tile-back: #e7b246;
+    --mahjong-tile-side: #d0ccc8;
+}
+
+[data-md-color-scheme="slate"],
+[data-theme="dark"],
+.dark {
+    --mahjong-caption-color: #fff;
+    --mahjong-error-bg: #450a0a;
+    --mahjong-error-border: #dc2626;
+    --mahjong-error-color: #fca5a5;
+    --mahjong-seat-bg: #4a4a4a;
+    --mahjong-table-center-bg: rgba(255, 255, 255, 0.08);
+    --mahjong-tile-bg: #262626;
+    --mahjong-tile-border: var(--mahjong-tile-side);
+    --mahjong-tile-shadow: rgba(0, 0, 0, 0.55);
+    --mahjong-tile-side: #2d2d2d;
+}
+
+/* Theme-specific tile visibility for auto-switching */
+.mahjong-tile-light {
+    display: contents;
+}
+
+.mahjong-tile-dark {
+    display: none;
+}
+
+[data-md-color-scheme="slate"] .mahjong-tile-light,
+[data-theme="dark"] .mahjong-tile-light,
+.dark .mahjong-tile-light {
+    display: none;
+}
+
+[data-md-color-scheme="slate"] .mahjong-tile-dark,
+[data-theme="dark"] .mahjong-tile-dark,
+.dark .mahjong-tile-dark {
+    display: contents;
+}
+
+/* Dark tiles in light mode need dark background for contrast */
+.mahjong-theme-dark {
+    --mahjong-tile-bg: #262626;
+    --mahjong-tile-border: var(--mahjong-tile-side);
+    --mahjong-tile-side: #2d2d2d;
+}
+
+/* Light tiles in dark mode need light background for contrast */
+[data-md-color-scheme="slate"] .mahjong-theme-light,
+[data-theme="dark"] .mahjong-theme-light,
+.dark .mahjong-theme-light {
+    --mahjong-tile-bg: #f5f0eb;
+    --mahjong-tile-border: #cfcfcf;
+    --mahjong-tile-side: #d0ccc8;
+}
+
+/* NOTE Main container — centered by default (hands without melds shrink to their
+   content and auto-margin horizontally). */
+.mahjong-hand {
+    display: block;
+    width: fit-content;
+    max-width: 100%;
+    margin: 1.8em auto;
+    padding: 0;
+    background: var(--mahjong-bg);
+    border: 1px solid var(--mahjong-border);
+    border-radius: 4px;
+}
+
+/* NOTE Override MkDocs Material/Zensical theme figure defaults, keeping the centered
+   layout consistent with the base rule. */
+.md-typeset .mahjong-hand {
+    width: fit-content;
+    max-width: 100%;
+    margin: 1.8em auto;
+}
+
+/* NOTE Hands with called melds span full width and left-align, so the melds can
+   right-justify and the draw can center between the hand and the melds. */
+.mahjong-hand:has(.mahjong-hand-melds),
+.md-typeset .mahjong-hand:has(.mahjong-hand-melds) {
+    width: auto;
+    margin: 1.8em;
+}
+
+/* NOTE Hand row - contains left (closed tiles), draw, and right (melds) sections */
+.mahjong-hand-row {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: flex-end;
+}
+
+/* NOTE Left section - closed tiles and melds */
+.mahjong-hand-left {
+    flex: 0 0 auto;
+}
+
+/* NOTE Draw tile section */
+.mahjong-hand-draw {
+    flex: 0 0 auto;
+    margin-left: calc(var(--mahjong-meld-gap) * 0.75);
+    position: relative;
+}
+
+/* When melds are present, center the draw tile between the hand and the melds.
+   Two auto left-margins (draw + melds) split the free space evenly, so the gap
+   is equal on each side of the draw. Without melds the draw keeps its small
+   margin above and stays next to the hand. */
+.mahjong-hand-row:has(.mahjong-hand-melds) .mahjong-hand-draw {
+    margin-left: auto;
+}
+
+/* NOTE Melds section - pushed to the right edge of the hand row */
+.mahjong-hand-melds {
+    flex: 0 0 auto;
+    margin-left: auto;
+}
+
+/* NOTE Tiles container - flexbox layout */
+.mahjong-tiles {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    gap: var(--mahjong-tile-gap);
+}
+
+/* NOTE Individual tile - styled like physical riichi tiles */
+.mahjong-tile {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: var(--mahjong-tile-width);
+    height: var(--mahjong-tile-height);
+    vertical-align: bottom;
+    flex-shrink: 0;
+    background: var(--mahjong-tile-bg);
+    border: 1px solid var(--mahjong-tile-border);
+    border-radius: 3px;
+    padding: 2px;
+    box-sizing: border-box;
+    position: relative;
+    margin-bottom: var(--mahjong-tile-depth);
+    /* Fill the face's rounded bottom corners with the tile-edge color so they read as
+       a beveled edge, not a see-through notch. A box-shadow paints above any ancestor
+       background (unlike z-index: -1), so this works inline and inside table cells. */
+    box-shadow: 0 3px 0 var(--mahjong-tile-side);
+}
+
+/* Bottom face of tile — grey side face with yellow back strip at bottom */
+.mahjong-tile::before {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: -1px;
+    right: -1px;
+    height: var(--mahjong-tile-depth);
+    background: linear-gradient(
+        to bottom,
+        var(--mahjong-tile-side) 7px,
+        var(--mahjong-tile-back) 7px
+    );
+    border-radius: 0 0 3px 3px;
+    box-sizing: border-box;
+    box-shadow: 0 4px 3px var(--mahjong-tile-shadow);
+}
+
+.mahjong-tile svg,
+.mahjong-tile img {
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+.mahjong-tile img {
+    object-fit: contain;
+}
+
+/* Rotated tile (called from another player) */
+.mahjong-tile-rotated {
+    transform: rotate(90deg);
+    will-change: transform;
+    backface-visibility: hidden;
+    /* Depth is on the element-right (= screen-bottom after rotation), so fill that side */
+    box-shadow: 3px 0 0 var(--mahjong-tile-side);
+    margin-left: calc(var(--mahjong-tile-gap) * 6);
+    margin-right: calc(var(--mahjong-tile-gap) * 6);
+    margin-bottom: 0;
+    position: relative;
+    top: calc(
+        (var(--mahjong-tile-height) - var(--mahjong-tile-width)) / 2 -
+            var(--mahjong-tile-depth)
+    );
+}
+
+/* Raised face moves to element-right (= screen-bottom after 90deg clockwise rotation).
+   left: 100% overlaps the border like the upright tile's top: 100%, so the depth
+   strip sits level with upright tiles. */
+.mahjong-tile-rotated::before {
+    top: -1px;
+    bottom: -1px;
+    left: 100%;
+    right: auto;
+    height: auto;
+    width: var(--mahjong-tile-depth);
+    background: linear-gradient(
+        to right,
+        var(--mahjong-tile-side) 7px,
+        var(--mahjong-tile-back) 7px
+    );
+    box-shadow: 4px 0 3px var(--mahjong-tile-shadow);
+}
+
+/* Stacked tiles container for added kan (shouminkan) */
+.mahjong-tile-stack {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    width: var(--mahjong-tile-height);
+    vertical-align: bottom;
+    margin-left: calc(var(--mahjong-tile-gap) * 1.5);
+    margin-right: calc(var(--mahjong-tile-gap) * 1.5);
+}
+
+/* Rotated tiles inside the stack */
+.mahjong-tile-stack .mahjong-tile-rotated {
+    margin: 0;
+    margin-top: calc(-1 * (var(--mahjong-tile-height) - var(--mahjong-tile-width)) / 2);
+    margin-bottom: calc(-1 * (var(--mahjong-tile-height) - var(--mahjong-tile-width)) / 2);
+    top: calc(-1 * var(--mahjong-tile-depth));
+}
+
+/* Gap between the two stacked tiles */
+.mahjong-tile-stack .mahjong-tile-rotated:first-child {
+    margin-bottom: calc(var(--mahjong-tile-gap) - (var(--mahjong-tile-height) - var(--mahjong-tile-width)) / 2);
+}
+
+/* Unknown/placeholder tile */
+.mahjong-tile-unknown {
+    font-size: 1.5em;
+    color: #999;
+}
+
+/* Meld container */
+.mahjong-meld {
+    display: inline-flex;
+    align-items: flex-end;
+    gap: var(--mahjong-tile-gap);
+}
+
+/* Back tile - solid color */
+.mahjong-tile-back {
+    background: var(--mahjong-tile-back);
+    /* No visible border on face-down tiles, but keep the 1px border box so their
+       size and depth-face alignment stay consistent with bordered face-up tiles */
+    border-color: transparent;
+    /* Face-down tiles show the back color (not the side) in the corner notch */
+    box-shadow: 0 3px 0 var(--mahjong-tile-back);
+    padding: 0;
+}
+
+/* Back tile bottom strip shows tile material (the side), not the back color */
+.mahjong-tile-back::before {
+    background: linear-gradient(
+        to bottom,
+        var(--mahjong-tile-back) 6px,
+        var(--mahjong-tile-side) 6px
+    );
+}
+
+/* Dora row - the dora indicators, centered at the top of the figure and scaled to 90%. */
+.mahjong-dora-row {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 0.5em;
+    zoom: 0.9;
+}
+
+.mahjong-dora {
+    display: flex;
+}
+
+.mahjong-dora-tiles {
+    display: inline-flex;
+    align-items: flex-end;
+    gap: var(--mahjong-tile-gap);
+}
+
+/* Dora indicators drawn as a stretch of the dead wall: each slot is a two-high stack.
+   The top tile (face-up indicator or face-down filler) keeps its usual edge, then a 1px
+   seam, then the edge of the face-down tile underneath, drawn like any face-down tile
+   (back strip, then side). Override the seam color with --mahjong-wall-seam. */
+.mahjong-dora-wall .mahjong-tile {
+    margin-bottom: calc(var(--mahjong-tile-depth) * 2 + 1px);
+    /* Under the dora row's zoom the 1px border snaps to whole device pixels while the
+       edge's offsets don't, so the edge came out wider or narrower than the face. Draw
+       the border as an inset shadow instead, so face and edge share one box. */
+    border-width: 0;
+    box-shadow:
+        inset 0 0 0 1px var(--mahjong-tile-border),
+        0 3px 0 var(--mahjong-tile-side);
+}
+
+.mahjong-dora-wall .mahjong-tile-back {
+    box-shadow: 0 3px 0 var(--mahjong-tile-back);
+}
+
+.mahjong-dora-wall .mahjong-tile::before {
+    height: calc(var(--mahjong-tile-depth) * 2 + 1px);
+    /* Keep the stack as wide as the face; the usual -1px overhang closes the gaps
+       between slots over this taller edge. */
+    left: 0;
+    right: 0;
+    /* Negative spread cancels the blur's sideways bleed, which would otherwise fill the
+       gaps along the tall stack and make the bottom look wider than the faces. */
+    box-shadow: 0 4px 3px -3px var(--mahjong-tile-shadow);
+    background: linear-gradient(
+        to bottom,
+        var(--mahjong-tile-side) 7px,
+        var(--mahjong-tile-back) 7px var(--mahjong-tile-depth),
+        var(--mahjong-wall-seam, #8a6a45) var(--mahjong-tile-depth) calc(var(--mahjong-tile-depth) + 1px),
+        var(--mahjong-tile-back) calc(var(--mahjong-tile-depth) + 1px) calc(var(--mahjong-tile-depth) + 7px),
+        var(--mahjong-tile-side) calc(var(--mahjong-tile-depth) + 7px)
+    );
+}
+
+.mahjong-dora-wall .mahjong-tile-back::before {
+    background: linear-gradient(
+        to bottom,
+        var(--mahjong-tile-back) 6px,
+        var(--mahjong-tile-side) 6px var(--mahjong-tile-depth),
+        var(--mahjong-wall-seam, #8a6a45) var(--mahjong-tile-depth) calc(var(--mahjong-tile-depth) + 1px),
+        var(--mahjong-tile-back) calc(var(--mahjong-tile-depth) + 1px) calc(var(--mahjong-tile-depth) + 7px),
+        var(--mahjong-tile-side) calc(var(--mahjong-tile-depth) + 7px)
+    );
+}
+
+/* Status row - between the discards and the hand: seat wind and score at the left,
+   riichi/honba sticks flush with the right edge. Scaled to 90% like the dora row. */
+.mahjong-status {
+    display: flex;
+    align-items: center;
+    gap: 1.5em;
+    margin-bottom: 0.75em;
+    zoom: 0.9;
+}
+
+/* An added kan's upper tile is lifted by the tile depth and pokes above the hand row,
+   so keep the same clearance between it and the status row. */
+.mahjong-hand:has(.mahjong-tile-stack) .mahjong-status {
+    margin-bottom: calc(0.75em + var(--mahjong-tile-depth));
+}
+
+.mahjong-seat {
+    display: flex;
+    align-items: center;
+    gap: 0.4em;
+    color: var(--mahjong-caption-color);
+    white-space: nowrap;
+}
+
+/* Seat wind kanji on a square grey badge */
+.mahjong-seat-wind {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 1.5em;
+    aspect-ratio: 1;
+    font-size: 1.4em;
+    font-weight: 700;
+    line-height: 1;
+    background: var(--mahjong-seat-bg);
+    border-radius: 2px;
+}
+
+.mahjong-score {
+    font-size: 1.15em;
+    font-weight: 600;
+    line-height: 1;
+    font-variant-numeric: tabular-nums;
+}
+
+/* Thousands stand out a little; the last three digits (hundreds) are smaller, e.g. 2|500. */
+.mahjong-score-thousands {
+    font-size: 1.08em;
+}
+
+.mahjong-score-hundreds {
+    font-size: 0.8em;
+}
+
+/* Riichi and honba sticks - stacked, pushed to the right of the status row.
+   A two-column grid (stick, count) shared via subgrid keeps the sticks aligned
+   with each other when their counts differ in width (e.g. x1 and x12). */
+.mahjong-sticks {
+    display: grid;
+    grid-template-columns: auto auto;
+    align-items: center;
+    gap: 0.3em;
+    margin-left: auto;
+}
+
+.mahjong-stick {
+    display: grid;
+    grid-column: 1 / -1;
+    grid-template-columns: subgrid;
+    align-items: center;
+}
+
+.mahjong-stick svg {
+    display: block;
+    width: calc(var(--mahjong-tile-width) * 2.75);
+    height: auto;
+    aspect-ratio: 65.45 / 7.3;
+}
+
+.mahjong-stick-count {
+    font-size: 0.9em;
+    font-weight: 600;
+    line-height: 1;
+    color: var(--mahjong-caption-color);
+    white-space: nowrap;
+}
+
+/* Round marker (East or South) kept by the original dealer - pushed to the right of the
+   status row, or straight after the sticks when the original dealer is also the dealer. */
+.mahjong-round-marker {
+    display: inline-flex;
+    margin-left: auto;
+}
+
+.mahjong-sticks + .mahjong-round-marker {
+    margin-left: 0;
+}
+
+.mahjong-round-marker svg {
+    display: block;
+    width: auto;
+    height: 1.8em;
+    aspect-ratio: 567 / 374;
+}
+
+/* NOTE Discard pile - centered above the hand, with its rows left-aligned to each
+   other. Rows are split by the renderer (6, 6, rest); rows never wrap, so the last
+   row extends to the right as it grows. */
+.mahjong-discards {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    /* Smaller tiles than the hand. zoom (unlike transform) also shrinks the layout box,
+       so centering and spacing follow the scaled size. */
+    zoom: var(--mahjong-discard-scale, 0.9);
+    gap: var(--mahjong-discard-row-gap, 0.15em);
+    margin-bottom: 0.75em;
+}
+
+.mahjong-discard-row {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: flex-end;
+    gap: var(--mahjong-tile-gap);
+}
+
+/* Tsumogiri (discarded straight from the draw) - dimmed */
+.mahjong-tile-tsumogiri {
+    filter: brightness(0.75);
+}
+
+/* Called away by another player - faded */
+.mahjong-tile-called {
+    opacity: 0.35;
+}
+
+/* Caption/title below the hand */
+.mahjong-caption {
+    display: block;
+    margin-top: 0.75em;
+    font-size: 0.9em;
+    color: var(--mahjong-caption-color);
+    text-align: center;
+}
+
+/* Higher specificity override for MkDocs */
+.md-typeset .mahjong-hand .mahjong-seat,
+.md-typeset .mahjong-hand .mahjong-stick-count,
+.md-typeset .mahjong-hand .mahjong-caption,
+.md-typeset figure.mahjong-hand figcaption {
+    color: var(--mahjong-caption-color);
+}
+
+/* Round and tiles remaining - styled like the score, on two lines (round above). On a
+   single hand they sit left of the dora indicators in a compact grey panel at the right
+   of the hand, like the table's center panel (the table puts them below the dora). */
+.mahjong-dora-row {
+    align-items: center;
+    gap: 1em;
+}
+
+.mahjong-hand > .mahjong-dora-row {
+    width: fit-content;
+    margin-left: auto;
+    margin-right: 0;
+    padding: 0.5em 0.75em;
+    background: var(--mahjong-table-center-bg);
+    border-radius: 4px;
+}
+
+/* On a single hand the discard pile and the dora panel share the first line: discards at
+   the left, dora at the right. The status row, hand and caption span the full width below.
+   (A table lays these out on its own, so it keeps the figure's block layout.) */
+.mahjong-hand:not(:has(> .mahjong-table)) {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    align-items: start;
+    column-gap: 1em;
+}
+
+.mahjong-hand:not(:has(> .mahjong-table)) > * {
+    grid-column: 1 / -1;
+}
+
+.mahjong-hand > .mahjong-discards {
+    grid-column: 1;
+    grid-row: 1;
+    margin-left: 0;
+}
+
+/* Beside the dora panel, start the discards below the same padding as the dora tiles,
+   so the first row lines up with them (both rows are scaled alike). */
+.mahjong-hand:has(> .mahjong-dora-row) > .mahjong-discards {
+    padding-top: 0.5em;
+}
+
+.mahjong-hand > .mahjong-dora-row {
+    grid-column: 2;
+    grid-row: 1;
+}
+
+.mahjong-hand > .mahjong-dora-row > .mahjong-round-info {
+    order: -1;
+    align-items: flex-end;
+}
+
+.mahjong-round-info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.35em;
+    font-size: 1.15em;
+    font-weight: 600;
+    line-height: 1;
+    white-space: nowrap;
+    font-variant-numeric: tabular-nums;
+    color: var(--mahjong-caption-color);
+}
+
+.md-typeset .mahjong-hand .mahjong-round-info {
+    color: var(--mahjong-caption-color);
+}
+
+/* NOTE Table - other players around the dora row, each laid out like a single hand
+   (discards, status row, hand) along their own edge. The table is a square in tile
+   units, and its tiles size themselves to the figure's width (a size container), so the
+   whole table shrinks to fit the content column instead of scrolling. */
+/* With a background (table_color), keep the players' hands a little in from its edge. */
+.mahjong-table-filled {
+    --mahjong-table-inset: calc(var(--mahjong-tile-width) * 0.25);
+}
+
+.mahjong-hand:has(.mahjong-table),
+.md-typeset .mahjong-hand:has(.mahjong-table) {
+    container-type: inline-size;
+    width: auto;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.mahjong-table {
+    /* Tiles a little smaller than a single hand's (--mahjong-table-scale), shrunk further
+       so 22 tile widths fit the figure, less a little room for the tiles' drop shadows.
+       Sizing the tiles rather than zooming the table keeps their 1px borders and edges
+       identical to a single hand's. */
+    --mahjong-tile-width: min(1.8rem * var(--mahjong-table-scale, 0.8), (100cqi - 1rem) / 22);
+    --mahjong-tile-height: calc(var(--mahjong-tile-width) * 4 / 3);
+    --mahjong-table-size: calc(var(--mahjong-tile-width) * 22);
+    --mahjong-table-center: calc(var(--mahjong-tile-width) * 6 + var(--mahjong-tile-gap) * 5);
+    --mahjong-table-panel: calc(var(--mahjong-table-center) - var(--mahjong-tile-width) * 0.6);
+    /* Space between each discard pile and the center, which opens up the corners where piles meet. */
+    --mahjong-discard-offset: calc(var(--mahjong-tile-width) * 0.15);
+    --mahjong-discard-scale: 1;
+    --mahjong-discard-row-gap: var(--mahjong-tile-gap);
+    position: relative;
+    width: var(--mahjong-table-size);
+    height: var(--mahjong-table-size);
+    margin: 0 auto;
+    /* Transparent unless the table_color option (or your CSS) sets --mahjong-table-bg. */
+    background: var(--mahjong-table-bg, transparent);
+    border-radius: 6px;
+    /* Text scales with the tiles (0.8rem at the default size). */
+    font-size: calc(var(--mahjong-tile-width) / 1.8);
+}
+
+/* The dora row is a square panel in the center, a little inside the discards, with the
+   round and tiles remaining below the indicators. Its contents keep the dora row's usual
+   90% scale; the panel itself is unscaled so it stays centered among the discards. */
+.mahjong-table > .mahjong-dora-row {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: var(--mahjong-table-panel);
+    height: var(--mahjong-table-panel);
+    transform: translate(-50%, -50%);
+    flex-direction: column;
+    justify-content: center;
+    gap: 0.5em;
+    margin: 0;
+    background: var(--mahjong-table-center-bg);
+    border-radius: 4px;
+    zoom: 1;
+}
+
+.mahjong-table > .mahjong-dora-row > * {
+    zoom: 0.9;
+}
+
+.mahjong-table .mahjong-round-info {
+    align-items: center;
+}
+
+/* Each player covers the whole table, laid out as the bottom player (status row and hand
+   along the bottom edge), then rotated about the center: shimocha right, toimen across,
+   kamicha left. */
+.mahjong-player {
+    position: absolute;
+    inset: var(--mahjong-table-inset, 0);
+    display: grid;
+    justify-content: center;
+    align-content: end;
+}
+
+.mahjong-player-shimo {
+    transform: rotate(-90deg);
+}
+
+.mahjong-player-toimen {
+    transform: rotate(180deg);
+}
+
+.mahjong-player-kami {
+    transform: rotate(90deg);
+}
+
+/* Nearer players (lower on screen) paint over farther ones where their tiles meet at a
+   corner, e.g. the bottom player's sideways riichi tile over shimocha's first discard. */
+.mahjong-player-self {
+    z-index: 3;
+}
+
+.mahjong-player-shimo,
+.mahjong-player-kami {
+    z-index: 2;
+}
+
+.mahjong-player-toimen {
+    z-index: 1;
+}
+
+/* Discards start at the center's corner and grow toward their player, as on a real table. */
+.mahjong-player > .mahjong-discards {
+    position: absolute;
+    top: calc(50% + var(--mahjong-table-center) / 2 + var(--mahjong-discard-offset));
+    left: calc(50% - var(--mahjong-table-center) / 2);
+    margin: 0;
+}
+
+.mahjong-table .mahjong-hand-row {
+    justify-content: center;
+}
+
+.mahjong-table .mahjong-hand-melds,
+.mahjong-table .mahjong-hand-row:has(.mahjong-hand-melds) .mahjong-hand-draw {
+    margin-left: calc(var(--mahjong-meld-gap) * 0.75);
+}
+
+/* Table text already scales with the tiles, so skip the breakpoints' extra shrinking. */
+.mahjong-table .mahjong-seat,
+.mahjong-table .mahjong-stick-count {
+    font-size: 1em;
+}
+
+/* NOTE Table tile edges - every tile's 3D edge faces the bottom of the screen, whatever
+   its seat. In a seat's own frame that side is: shimocha left, toimen top, kamicha right.
+   A sideways tile is turned another 90deg, so its edge is on the next side round. */
+
+/* Edge on the tile's left: shimocha's upright tiles, toimen's sideways tiles */
+.mahjong-player-shimo .mahjong-tile:not(.mahjong-tile-rotated),
+.mahjong-player-toimen .mahjong-tile-rotated {
+    box-shadow: -3px 0 0 var(--mahjong-tile-side);
+}
+
+.mahjong-player-shimo .mahjong-tile:not(.mahjong-tile-rotated)::before,
+.mahjong-player-toimen .mahjong-tile-rotated::before {
+    top: -1px;
+    bottom: -1px;
+    left: auto;
+    right: 100%;
+    width: var(--mahjong-tile-depth);
+    height: auto;
+    border-radius: 3px 0 0 3px;
+    background: linear-gradient(to left, var(--mahjong-tile-side) 7px, var(--mahjong-tile-back) 7px);
+    box-shadow: -4px 0 3px var(--mahjong-tile-shadow);
+}
+
+/* Edge on the tile's top: toimen's upright tiles, kamicha's sideways tiles */
+.mahjong-player-toimen .mahjong-tile:not(.mahjong-tile-rotated),
+.mahjong-player-kami .mahjong-tile-rotated {
+    box-shadow: 0 -3px 0 var(--mahjong-tile-side);
+}
+
+.mahjong-player-toimen .mahjong-tile:not(.mahjong-tile-rotated)::before,
+.mahjong-player-kami .mahjong-tile-rotated::before {
+    top: auto;
+    bottom: 100%;
+    left: -1px;
+    right: -1px;
+    width: auto;
+    height: var(--mahjong-tile-depth);
+    border-radius: 3px 3px 0 0;
+    background: linear-gradient(to top, var(--mahjong-tile-side) 7px, var(--mahjong-tile-back) 7px);
+    box-shadow: 0 -4px 3px var(--mahjong-tile-shadow);
+}
+
+/* Edge on the tile's right: kamicha's upright tiles (shimocha's sideways tiles keep the
+   usual bottom edge) */
+.mahjong-player-kami .mahjong-tile:not(.mahjong-tile-rotated) {
+    box-shadow: 3px 0 0 var(--mahjong-tile-side);
+}
+
+.mahjong-player-kami .mahjong-tile:not(.mahjong-tile-rotated)::before {
+    top: -1px;
+    bottom: -1px;
+    left: 100%;
+    right: auto;
+    width: var(--mahjong-tile-depth);
+    height: auto;
+    border-radius: 0 3px 3px 0;
+    background: linear-gradient(to right, var(--mahjong-tile-side) 7px, var(--mahjong-tile-back) 7px);
+    box-shadow: 4px 0 3px var(--mahjong-tile-shadow);
+}
+
+.mahjong-player-shimo .mahjong-tile-rotated {
+    box-shadow: 0 3px 0 var(--mahjong-tile-side);
+}
+
+.mahjong-player-shimo .mahjong-tile-rotated::before {
+    top: 100%;
+    bottom: auto;
+    left: -1px;
+    right: -1px;
+    width: auto;
+    height: var(--mahjong-tile-depth);
+    border-radius: 0 0 3px 3px;
+    background: linear-gradient(to bottom, var(--mahjong-tile-side) 7px, var(--mahjong-tile-back) 7px);
+    box-shadow: 0 4px 3px var(--mahjong-tile-shadow);
+}
+
+/* Face-down tiles (never sideways): back color in the corner and atop the edge. The side
+   players' face-down tiles stack like their discards, so, as in the dora wall, their edge
+   starts with a 1px seam (--mahjong-wall-seam) that shows between neighboring tiles. */
+.mahjong-player-shimo .mahjong-tile.mahjong-tile-back {
+    box-shadow: -3px 0 0 var(--mahjong-tile-back);
+}
+
+.mahjong-player-shimo .mahjong-tile.mahjong-tile-back::before {
+    background: linear-gradient(
+        to left,
+        var(--mahjong-wall-seam, #8a6a45) 1px,
+        var(--mahjong-tile-back) 1px 6px,
+        var(--mahjong-tile-side) 6px
+    );
+}
+
+.mahjong-player-toimen .mahjong-tile.mahjong-tile-back {
+    box-shadow: 0 -3px 0 var(--mahjong-tile-back);
+}
+
+.mahjong-player-toimen .mahjong-tile.mahjong-tile-back::before {
+    background: linear-gradient(to top, var(--mahjong-tile-back) 6px, var(--mahjong-tile-side) 6px);
+}
+
+.mahjong-player-kami .mahjong-tile.mahjong-tile-back {
+    box-shadow: 3px 0 0 var(--mahjong-tile-back);
+}
+
+.mahjong-player-kami .mahjong-tile.mahjong-tile-back::before {
+    background: linear-gradient(
+        to right,
+        var(--mahjong-wall-seam, #8a6a45) 1px,
+        var(--mahjong-tile-back) 1px 6px,
+        var(--mahjong-tile-side) 6px
+    );
+}
+
+/* NOTE Hidden hands - the other players' face-down hand tiles (.mahjong-tile-standing)
+   stand upright, seen from the bottom player's side: the back faces the center as a band
+   of back color, and the rest is the tile's ivory top. Across the table toimen's backs
+   face the viewer, so the band is most of the tile; from the side, kamicha's and
+   shimocha's tiles show mostly their top, and stand shorter. Closed kans keep lying
+   face-down. */
+.mahjong-player-shimo .mahjong-tile.mahjong-tile-standing,
+.mahjong-player-toimen .mahjong-tile.mahjong-tile-standing,
+.mahjong-player-kami .mahjong-tile.mahjong-tile-standing {
+    --mahjong-standing-back: 22%;
+    height: calc(var(--mahjong-tile-height) * 0.6);
+    background: linear-gradient(
+        to bottom,
+        var(--mahjong-tile-back) var(--mahjong-standing-back),
+        var(--mahjong-tile-bg) var(--mahjong-standing-back)
+    );
+    border-color: var(--mahjong-tile-border);
+}
+
+.mahjong-player-toimen .mahjong-tile.mahjong-tile-standing {
+    --mahjong-standing-back: 60%;
+    height: var(--mahjong-tile-height);
+    /* The back facing the viewer is the whole visible tile: no edge below it, just the
+       usual drop shadow, cast toward the screen's bottom (toimen's frame is upside down). */
+    box-shadow: 0 -4px 3px var(--mahjong-tile-shadow);
+}
+
+.mahjong-player-toimen .mahjong-tile.mahjong-tile-standing::before {
+    content: none;
+}
+
+/* Kamicha's and shimocha's edges show in the gap between stacked tiles, so they're plain
+   tile side: each tile's back band stops at the tile instead of running on through every
+   gap and joining the hand into one strip. */
+.mahjong-player-shimo .mahjong-tile.mahjong-tile-standing {
+    box-shadow: -3px 0 0 var(--mahjong-tile-side);
+}
+
+.mahjong-player-kami .mahjong-tile.mahjong-tile-standing {
+    box-shadow: 3px 0 0 var(--mahjong-tile-side);
+}
+
+/* Measure the face's back band over the whole tile, border included, so it lines up with
+   the band wrapping around the edge below. The grey border stays all the way round (a
+   back-colored border on one side met the grey at the rounded corners in jagged joins). */
+.mahjong-player-shimo .mahjong-tile.mahjong-tile-standing,
+.mahjong-player-kami .mahjong-tile.mahjong-tile-standing {
+    background-origin: border-box;
+}
+
+.mahjong-player-shimo .mahjong-tile.mahjong-tile-standing::before,
+.mahjong-player-kami .mahjong-tile.mahjong-tile-standing::before {
+    background: var(--mahjong-tile-side);
+}
+
+/* The bottommost tile's edge is uncovered, so like a real tile the back wraps around its
+   side: the band carries on over the edge. Kamicha's rows run down the screen (its last
+   tile is lowest), shimocha's run up (its first). */
+.mahjong-player-kami .mahjong-tile.mahjong-tile-standing:last-child::before,
+.mahjong-player-shimo .mahjong-tile.mahjong-tile-standing:first-child::before {
+    /* Starts with the face's 1px border, so the outline carries on round the edge too. */
+    background: linear-gradient(
+        to bottom,
+        var(--mahjong-tile-border) 1px,
+        var(--mahjong-tile-back) 1px var(--mahjong-standing-back),
+        var(--mahjong-tile-side) var(--mahjong-standing-back)
+    );
+}
+
+/* Start that edge a little under the face, so the band runs straight around the face's
+   rounded corner instead of breaking at it. */
+.mahjong-player-kami .mahjong-tile.mahjong-tile-standing:last-child::before {
+    left: calc(100% - 3px);
+    width: calc(var(--mahjong-tile-depth) + 3px);
+}
+
+.mahjong-player-shimo .mahjong-tile.mahjong-tile-standing:first-child::before {
+    right: calc(100% - 3px);
+    width: calc(var(--mahjong-tile-depth) + 3px);
+}
+
+/* Toimen's edges face the row behind, so each tile makes room for its own edge. */
+.mahjong-player-toimen .mahjong-tile {
+    margin-top: var(--mahjong-tile-depth);
+}
+
+/* Side players' tiles lie sideways on screen, so they stack like an added kan's tiles:
+   each tile's edge tucks under the tile below it.
+
+   Kamicha's rows run down the screen, so later tiles already paint over earlier ones'
+   edges. Each tile is its own stacking context (z-index 0, still painted in document
+   order), so z-index -1 keeps its edge beneath its face but above its own corner-fill
+   shadow, which would otherwise hide the face-down tiles' seam. */
+.mahjong-player-kami .mahjong-tile {
+    z-index: 0;
+}
+
+.mahjong-player-kami .mahjong-tile::before {
+    z-index: -1;
+}
+
+/* Shimocha's rows run up the screen, so each tile must paint over the next one's edge:
+   number the tiles (and melds) from the end of their row so earlier ones sit higher.
+   This also covers tiles that form their own stacking context (sideways, tsumogiri and
+   called tiles), which a negative z-index on the edge can't reach. Rows past 24 tiles
+   share the lowest level. */
+.mahjong-player-shimo .mahjong-tile::before {
+    z-index: -1;
+}
+
+.mahjong-player-shimo :is(.mahjong-discard-row, .mahjong-tiles, .mahjong-meld, .mahjong-tile-stack) > :nth-last-child(1) { z-index: 1; }
+.mahjong-player-shimo :is(.mahjong-discard-row, .mahjong-tiles, .mahjong-meld, .mahjong-tile-stack) > :nth-last-child(2) { z-index: 2; }
+.mahjong-player-shimo :is(.mahjong-discard-row, .mahjong-tiles, .mahjong-meld, .mahjong-tile-stack) > :nth-last-child(3) { z-index: 3; }
+.mahjong-player-shimo :is(.mahjong-discard-row, .mahjong-tiles, .mahjong-meld, .mahjong-tile-stack) > :nth-last-child(4) { z-index: 4; }
+.mahjong-player-shimo :is(.mahjong-discard-row, .mahjong-tiles, .mahjong-meld, .mahjong-tile-stack) > :nth-last-child(5) { z-index: 5; }
+.mahjong-player-shimo :is(.mahjong-discard-row, .mahjong-tiles, .mahjong-meld, .mahjong-tile-stack) > :nth-last-child(6) { z-index: 6; }
+.mahjong-player-shimo :is(.mahjong-discard-row, .mahjong-tiles, .mahjong-meld, .mahjong-tile-stack) > :nth-last-child(7) { z-index: 7; }
+.mahjong-player-shimo :is(.mahjong-discard-row, .mahjong-tiles, .mahjong-meld, .mahjong-tile-stack) > :nth-last-child(8) { z-index: 8; }
+.mahjong-player-shimo :is(.mahjong-discard-row, .mahjong-tiles, .mahjong-meld, .mahjong-tile-stack) > :nth-last-child(9) { z-index: 9; }
+.mahjong-player-shimo :is(.mahjong-discard-row, .mahjong-tiles, .mahjong-meld, .mahjong-tile-stack) > :nth-last-child(10) { z-index: 10; }
+.mahjong-player-shimo :is(.mahjong-discard-row, .mahjong-tiles, .mahjong-meld, .mahjong-tile-stack) > :nth-last-child(11) { z-index: 11; }
+.mahjong-player-shimo :is(.mahjong-discard-row, .mahjong-tiles, .mahjong-meld, .mahjong-tile-stack) > :nth-last-child(12) { z-index: 12; }
+.mahjong-player-shimo :is(.mahjong-discard-row, .mahjong-tiles, .mahjong-meld, .mahjong-tile-stack) > :nth-last-child(13) { z-index: 13; }
+.mahjong-player-shimo :is(.mahjong-discard-row, .mahjong-tiles, .mahjong-meld, .mahjong-tile-stack) > :nth-last-child(14) { z-index: 14; }
+.mahjong-player-shimo :is(.mahjong-discard-row, .mahjong-tiles, .mahjong-meld, .mahjong-tile-stack) > :nth-last-child(15) { z-index: 15; }
+.mahjong-player-shimo :is(.mahjong-discard-row, .mahjong-tiles, .mahjong-meld, .mahjong-tile-stack) > :nth-last-child(16) { z-index: 16; }
+.mahjong-player-shimo :is(.mahjong-discard-row, .mahjong-tiles, .mahjong-meld, .mahjong-tile-stack) > :nth-last-child(17) { z-index: 17; }
+.mahjong-player-shimo :is(.mahjong-discard-row, .mahjong-tiles, .mahjong-meld, .mahjong-tile-stack) > :nth-last-child(18) { z-index: 18; }
+.mahjong-player-shimo :is(.mahjong-discard-row, .mahjong-tiles, .mahjong-meld, .mahjong-tile-stack) > :nth-last-child(19) { z-index: 19; }
+.mahjong-player-shimo :is(.mahjong-discard-row, .mahjong-tiles, .mahjong-meld, .mahjong-tile-stack) > :nth-last-child(20) { z-index: 20; }
+.mahjong-player-shimo :is(.mahjong-discard-row, .mahjong-tiles, .mahjong-meld, .mahjong-tile-stack) > :nth-last-child(21) { z-index: 21; }
+.mahjong-player-shimo :is(.mahjong-discard-row, .mahjong-tiles, .mahjong-meld, .mahjong-tile-stack) > :nth-last-child(22) { z-index: 22; }
+.mahjong-player-shimo :is(.mahjong-discard-row, .mahjong-tiles, .mahjong-meld, .mahjong-tile-stack) > :nth-last-child(23) { z-index: 23; }
+.mahjong-player-shimo :is(.mahjong-discard-row, .mahjong-tiles, .mahjong-meld, .mahjong-tile-stack) > :nth-last-child(24) { z-index: 24; }
+
+/* Only the bottom player's discard edges face the next row. Elsewhere the room each tile
+   keeps below it for its edge would just widen the gap between rows, so drop it; sideways
+   tiles then need only their centering offset to sit flush with the row. */
+.mahjong-player-shimo .mahjong-discards .mahjong-tile,
+.mahjong-player-toimen .mahjong-discards .mahjong-tile,
+.mahjong-player-kami .mahjong-discards .mahjong-tile {
+    margin-bottom: 0;
+}
+
+.mahjong-player-shimo .mahjong-discards .mahjong-tile-rotated,
+.mahjong-player-toimen .mahjong-discards .mahjong-tile-rotated,
+.mahjong-player-kami .mahjong-discards .mahjong-tile-rotated {
+    top: calc((var(--mahjong-tile-height) - var(--mahjong-tile-width)) / 2);
+}
+
+/* Error display */
+.mahjong-error {
+    display: inline-block;
+    padding: 0.75em 1em;
+    background: var(--mahjong-error-bg);
+    border: 1px solid var(--mahjong-error-border);
+    border-radius: 4px;
+    color: var(--mahjong-error-color);
+    font-family: monospace;
+    font-size: 0.9em;
+}
+
+.mahjong-error strong {
+    color: var(--mahjong-error-border);
+}
+
+/* Responsive adjustments for mobile devices */
+@media (max-width: 768px) {
+    .mahjong-hand {
+        --mahjong-tile-width: 1.4rem;
+        --mahjong-tile-height: 1.87rem;
+        --mahjong-tile-gap: 1px;
+        --mahjong-meld-gap: 0.5rem;
+        /* Safety net: if a wide hand still overflows after the tiles shrink, scroll it
+           horizontally instead of spilling past the block / breaking the page. The
+           small vertical padding keeps the 3D drop shadow
+           from being clipped (overflow-x forces overflow-y to auto). */
+        overflow-x: auto;
+        padding-block: 0.75em;
+    }
+
+    /* The content column (.md-content__inner) has ~0.8rem side gutters on mobile, which
+       eats width. Break the hand out toward the viewport edges and use full width so
+       tiles get maximum room (combined with overflow-x above for anything still wider). */
+    .mahjong-hand,
+    .md-typeset .mahjong-hand,
+    .mahjong-hand:has(.mahjong-hand-melds),
+    .md-typeset .mahjong-hand:has(.mahjong-hand-melds) {
+        width: auto;
+        max-width: none;
+        margin-left: -0.6rem;
+        margin-right: -0.6rem;
+    }
+
+    /* No-meld hands: keep the tiles centered within the now full-width block */
+    .mahjong-hand:not(:has(.mahjong-hand-melds)) .mahjong-hand-row {
+        justify-content: center;
+    }
+
+    .mahjong-tile {
+        border-width: 1px;
+        border-radius: 3px;
+        padding: 1px;
+    }
+}
+
+@media (max-width: 480px) {
+    .mahjong-hand {
+        --mahjong-tile-width: 1.1rem;
+        --mahjong-tile-height: 1.47rem;
+        --mahjong-tile-gap: 0.5px;
+        --mahjong-meld-gap: 0.35rem;
+    }
+
+    .mahjong-tile {
+        border-width: 1px;
+        border-radius: 3px;
+        padding: 0.5px;
+    }
+
+    .mahjong-stick-count {
+        font-size: 0.65em;
+    }
+
+    .mahjong-seat {
+        font-size: 0.75em;
+    }
+
+    .mahjong-caption {
+        font-size: 0.8em;
+    }
+}
+
+@media (max-width: 360px) {
+    .mahjong-hand {
+        --mahjong-tile-width: 0.9rem;
+        --mahjong-tile-height: 1.2rem;
+        --mahjong-tile-gap: 0.25px;
+        --mahjong-meld-gap: 0.25rem;
+    }
+
+    .mahjong-tile {
+        border-width: 1px;
+        border-radius: 3px;
+        padding: 0;
+    }
+
+    .mahjong-dora-row {
+        margin-bottom: 0.35em;
+    }
+
+    .mahjong-stick-count {
+        font-size: 0.6em;
+    }
+
+    .mahjong-seat {
+        font-size: 0.7em;
+    }
+
+    .mahjong-caption {
+        font-size: 0.75em;
+        margin-top: 0.5em;
+    }
+}
+
+/* Print styles */
+@media print {
+    .mahjong-hand {
+        break-inside: avoid;
+    }
+}
+
+/* Inline tile styles (emoji-sized) */
+.mahjong-inline {
+    display: inline;
+}
+
+.mahjong-inline .mahjong-tile {
+    --mahjong-tile-width: 1.8em;
+    --mahjong-tile-height: 2.4em;
+    display: inline-flex;
+    vertical-align: text-bottom;
+    margin: 0 0.05em;
+    margin-bottom: var(--mahjong-tile-depth);
+    border-width: 1px;
+    border-radius: 3px;
+    padding: 1px;
+}
+
+.mahjong-inline .mahjong-tile+.mahjong-tile {
+    margin-left: 0;
+}
