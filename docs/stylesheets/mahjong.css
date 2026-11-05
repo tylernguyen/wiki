@@ -6,6 +6,8 @@
     --mahjong-bg: transparent;
     --mahjong-border: transparent;
     --mahjong-caption-color: #000;
+    --mahjong-delta-negative: #b91c1c;
+    --mahjong-delta-positive: #15803d;
     --mahjong-error-bg: #fee2e2;
     --mahjong-error-border: #ef4444;
     --mahjong-error-color: #991b1b;
@@ -13,17 +15,20 @@
     --mahjong-table-center-bg: rgba(0, 0, 0, 0.18);
     --mahjong-tile-bg: #f5f0eb;
     --mahjong-tile-depth: 10px;
+    --mahjong-tile-highlight: #e6194b;
     --mahjong-tile-border: #cfcfcf;
     --mahjong-tile-shadow: rgba(0, 0, 0, 0.35);
-    --mahjong-tile-radius: 4px;
     --mahjong-tile-back: #e7b246;
     --mahjong-tile-side: #d0ccc8;
+    --mahjong-wall-edge: #b4b0ac;
 }
 
 [data-md-color-scheme="slate"],
 [data-theme="dark"],
 .dark {
     --mahjong-caption-color: #fff;
+    --mahjong-delta-negative: #f87171;
+    --mahjong-delta-positive: #4ade80;
     --mahjong-error-bg: #450a0a;
     --mahjong-error-border: #dc2626;
     --mahjong-error-color: #fca5a5;
@@ -33,6 +38,7 @@
     --mahjong-tile-border: var(--mahjong-tile-side);
     --mahjong-tile-shadow: rgba(0, 0, 0, 0.55);
     --mahjong-tile-side: #2d2d2d;
+    --mahjong-wall-edge: #161616;
 }
 
 /* Theme-specific tile visibility for auto-switching */
@@ -61,6 +67,7 @@
     --mahjong-tile-bg: #262626;
     --mahjong-tile-border: var(--mahjong-tile-side);
     --mahjong-tile-side: #2d2d2d;
+    --mahjong-wall-edge: #161616;
 }
 
 /* Light tiles in dark mode need light background for contrast */
@@ -70,6 +77,7 @@
     --mahjong-tile-bg: #f5f0eb;
     --mahjong-tile-border: #cfcfcf;
     --mahjong-tile-side: #d0ccc8;
+    --mahjong-wall-edge: #b4b0ac;
 }
 
 /* NOTE Main container — centered by default (hands without melds shrink to their
@@ -144,6 +152,8 @@
 
 /* NOTE Individual tile - styled like physical riichi tiles */
 .mahjong-tile {
+    --mahjong-tile-radius: 3px;
+    --mahjong-tile-padding: 2px;
     display: inline-flex;
     align-items: center;
     justify-content: center;
@@ -153,8 +163,8 @@
     flex-shrink: 0;
     background: var(--mahjong-tile-bg);
     border: 1px solid var(--mahjong-tile-border);
-    border-radius: 3px;
-    padding: 2px;
+    border-radius: var(--mahjong-tile-radius);
+    padding: var(--mahjong-tile-padding);
     box-sizing: border-box;
     position: relative;
     margin-bottom: var(--mahjong-tile-depth);
@@ -174,10 +184,10 @@
     height: var(--mahjong-tile-depth);
     background: linear-gradient(
         to bottom,
-        var(--mahjong-tile-side) 7px,
-        var(--mahjong-tile-back) 7px
+        var(--mahjong-tile-side) calc(var(--mahjong-tile-depth) * 0.7),
+        var(--mahjong-tile-back) calc(var(--mahjong-tile-depth) * 0.7)
     );
-    border-radius: 0 0 3px 3px;
+    border-radius: 0 0 var(--mahjong-tile-radius) var(--mahjong-tile-radius);
     box-sizing: border-box;
     box-shadow: 0 4px 3px var(--mahjong-tile-shadow);
 }
@@ -222,8 +232,8 @@
     width: var(--mahjong-tile-depth);
     background: linear-gradient(
         to right,
-        var(--mahjong-tile-side) 7px,
-        var(--mahjong-tile-back) 7px
+        var(--mahjong-tile-side) calc(var(--mahjong-tile-depth) * 0.7),
+        var(--mahjong-tile-back) calc(var(--mahjong-tile-depth) * 0.7)
     );
     box-shadow: 4px 0 3px var(--mahjong-tile-shadow);
 }
@@ -281,8 +291,8 @@
 .mahjong-tile-back::before {
     background: linear-gradient(
         to bottom,
-        var(--mahjong-tile-back) 6px,
-        var(--mahjong-tile-side) 6px
+        var(--mahjong-tile-back) calc(var(--mahjong-tile-depth) * 0.6),
+        var(--mahjong-tile-side) calc(var(--mahjong-tile-depth) * 0.6)
     );
 }
 
@@ -305,9 +315,12 @@
 }
 
 /* Dora indicators drawn as a stretch of the dead wall: each slot is a two-high stack.
-   The top tile (face-up indicator or face-down filler) keeps its usual edge, then a 1px
-   seam, then the edge of the face-down tile underneath, drawn like any face-down tile
-   (back strip, then side). Override the seam color with --mahjong-wall-seam. */
+   The top tile (face-up indicator or face-down filler) keeps its usual edge, then the
+   edge of the face-down tile underneath, drawn like any face-down tile (back strip, then
+   side). --mahjong-wall-edge darkens the sides so they stand out from the panel. Where a
+   face-up tile's back strip meets the one below, a 1px seam (default: a shade of the back
+   color, override with --mahjong-wall-seam) keeps them apart; under a face-down filler
+   the change from side to back strip already does. */
 .mahjong-dora-wall .mahjong-tile {
     margin-bottom: calc(var(--mahjong-tile-depth) * 2 + 1px);
     /* Under the dora row's zoom the 1px border snaps to whole device pixels while the
@@ -316,7 +329,7 @@
     border-width: 0;
     box-shadow:
         inset 0 0 0 1px var(--mahjong-tile-border),
-        0 3px 0 var(--mahjong-tile-side);
+        0 3px 0 var(--mahjong-wall-edge);
 }
 
 .mahjong-dora-wall .mahjong-tile-back {
@@ -334,22 +347,21 @@
     box-shadow: 0 4px 3px -3px var(--mahjong-tile-shadow);
     background: linear-gradient(
         to bottom,
-        var(--mahjong-tile-side) 7px,
-        var(--mahjong-tile-back) 7px var(--mahjong-tile-depth),
-        var(--mahjong-wall-seam, #8a6a45) var(--mahjong-tile-depth) calc(var(--mahjong-tile-depth) + 1px),
-        var(--mahjong-tile-back) calc(var(--mahjong-tile-depth) + 1px) calc(var(--mahjong-tile-depth) + 7px),
-        var(--mahjong-tile-side) calc(var(--mahjong-tile-depth) + 7px)
+        var(--mahjong-wall-edge) calc(var(--mahjong-tile-depth) * 0.7),
+        var(--mahjong-tile-back) calc(var(--mahjong-tile-depth) * 0.7) var(--mahjong-tile-depth),
+        var(--mahjong-wall-seam, color-mix(in srgb, var(--mahjong-tile-back), black 25%)) var(--mahjong-tile-depth) calc(var(--mahjong-tile-depth) + 1px),
+        var(--mahjong-tile-back) calc(var(--mahjong-tile-depth) + 1px) calc(var(--mahjong-tile-depth) * 1.7),
+        var(--mahjong-wall-edge) calc(var(--mahjong-tile-depth) * 1.7)
     );
 }
 
 .mahjong-dora-wall .mahjong-tile-back::before {
     background: linear-gradient(
         to bottom,
-        var(--mahjong-tile-back) 6px,
-        var(--mahjong-tile-side) 6px var(--mahjong-tile-depth),
-        var(--mahjong-wall-seam, #8a6a45) var(--mahjong-tile-depth) calc(var(--mahjong-tile-depth) + 1px),
-        var(--mahjong-tile-back) calc(var(--mahjong-tile-depth) + 1px) calc(var(--mahjong-tile-depth) + 7px),
-        var(--mahjong-tile-side) calc(var(--mahjong-tile-depth) + 7px)
+        var(--mahjong-tile-back) calc(var(--mahjong-tile-depth) * 0.6),
+        var(--mahjong-wall-edge) calc(var(--mahjong-tile-depth) * 0.6) calc(var(--mahjong-tile-depth) + 1px),
+        var(--mahjong-tile-back) calc(var(--mahjong-tile-depth) + 1px) calc(var(--mahjong-tile-depth) * 1.7),
+        var(--mahjong-wall-edge) calc(var(--mahjong-tile-depth) * 1.7)
     );
 }
 
@@ -407,6 +419,45 @@
     font-size: 0.8em;
 }
 
+/* Hovering a score swaps it for its change from the starting score. Both share one grid
+   cell, so the box fits the wider of the two and nothing shifts. */
+.mahjong-score {
+    display: inline-grid;
+    align-items: baseline;
+    justify-items: start; /* beside the wind marker, even if the page centers its text */
+}
+
+.mahjong-score > * {
+    grid-area: 1 / 1;
+}
+
+.mahjong-score-delta,
+.mahjong-score:hover .mahjong-score-value {
+    visibility: hidden;
+}
+
+.mahjong-score:hover .mahjong-score-delta {
+    visibility: visible;
+}
+
+.mahjong-score-delta-positive {
+    color: var(--mahjong-delta-positive);
+}
+
+.mahjong-score-delta-negative {
+    color: var(--mahjong-delta-negative);
+}
+
+/* A bank loan, beside the delta on hover. It overflows a zero-width box, staying on the digits'
+   baseline without widening the score's box. */
+.mahjong-score-loan {
+    display: inline-block;
+    width: 0;
+    margin-inline: 0.3em -0.3em;
+    white-space: nowrap;
+    font-size: 0.8em; /* matches .mahjong-score-hundreds */
+}
+
 /* Riichi and honba sticks - stacked, pushed to the right of the status row.
    A two-column grid (stick, count) shared via subgrid keeps the sticks aligned
    with each other when their counts differ in width (e.g. x1 and x12). */
@@ -429,7 +480,17 @@
     display: block;
     width: calc(var(--mahjong-tile-width) * 2.75);
     height: auto;
-    aspect-ratio: 65.45 / 7.3;
+    /* Matches the artwork's viewBox, which keeps a margin so its outline is never clipped. */
+    aspect-ratio: 66.45 / 8.3;
+}
+
+/* The status row's zoom can round an SVG's clip area smaller than its box, which cuts off
+   the outline, so don't clip the sticks or the round marker. */
+.mahjong-stick svg,
+symbol[id^="mj-tenbou-"],
+.mahjong-round-marker svg,
+symbol[id^="mj-marker-"] {
+    overflow: visible;
 }
 
 .mahjong-stick-count {
@@ -480,6 +541,38 @@
     flex-wrap: nowrap;
     align-items: flex-end;
     gap: var(--mahjong-tile-gap);
+}
+
+/* As in the dora wall: under a single hand's discard zoom the 1px border snaps to whole
+   device pixels while the edge's offsets don't, leaving a tile's sides crooked where face
+   meets edge. Draw the border as an inset shadow, so face and edge share one box, and add
+   its width to the padding and the edge's offset so nothing else moves. (A table's discards
+   aren't zoomed.) */
+.mahjong-hand > .mahjong-discards .mahjong-tile {
+    border-width: 0;
+    padding: calc(var(--mahjong-tile-padding) + 1px);
+    box-shadow:
+        inset 0 0 0 1px var(--mahjong-tile-border),
+        0 3px 0 var(--mahjong-tile-side);
+}
+
+.mahjong-hand > .mahjong-discards .mahjong-tile::before {
+    top: calc(100% - 1px);
+    left: 0;
+    right: 0;
+}
+
+.mahjong-hand > .mahjong-discards .mahjong-tile-rotated {
+    box-shadow:
+        inset 0 0 0 1px var(--mahjong-tile-border),
+        3px 0 0 var(--mahjong-tile-side);
+}
+
+.mahjong-hand > .mahjong-discards .mahjong-tile-rotated::before {
+    top: 0;
+    bottom: 0;
+    left: calc(100% - 1px);
+    right: auto;
 }
 
 /* Tsumogiri (discarded straight from the draw) - dimmed */
@@ -655,8 +748,15 @@
     position: absolute;
     inset: var(--mahjong-table-inset, 0);
     display: grid;
-    justify-content: center;
+    grid-template-columns: minmax(0, 1fr);
     align-content: end;
+    /* Each player's box covers the whole table, so let the pointer through to whatever is
+       beneath it; only the labelled pieces take it back, keeping their tooltips reachable. */
+    pointer-events: none;
+}
+
+.mahjong-player :is([role="img"], [title]) {
+    pointer-events: auto;
 }
 
 .mahjong-player-shimo {
@@ -694,13 +794,38 @@
     margin: 0;
 }
 
-.mahjong-table .mahjong-hand-row {
-    justify-content: center;
+/* The status row keeps to the middle of the player's edge, clear of the corners (14 tiles
+   wide, undoing the row's zoom). */
+.mahjong-player > .mahjong-status {
+    justify-self: center;
+    width: calc(var(--mahjong-tile-width) * 14 / 0.9);
 }
 
-.mahjong-table .mahjong-hand-melds,
+.mahjong-table .mahjong-hand-row {
+    justify-content: center;
+    column-gap: var(--mahjong-hand-section-gap, calc(var(--mahjong-meld-gap) * 0.75));
+}
+
+.mahjong-table .mahjong-hand-draw,
 .mahjong-table .mahjong-hand-row:has(.mahjong-hand-melds) .mahjong-hand-draw {
-    margin-left: calc(var(--mahjong-meld-gap) * 0.75);
+    margin-left: 0;
+}
+
+/* Melds sit at the player's right corner, with the closed tiles centered in the space left
+   of them, which also keeps those tiles out of the previous player's meld corner. */
+.mahjong-table .mahjong-hand-row:has(.mahjong-hand-melds) > .mahjong-hand-left {
+    margin-left: auto;
+}
+
+.mahjong-table .mahjong-hand-melds {
+    margin-right: calc(var(--mahjong-tile-width) * 0.5);
+}
+
+/* The side players' tile edges point along their hand row, and keep their full depth as
+   the tiles shrink, so the gap between sections must always clear an edge. */
+.mahjong-player-shimo,
+.mahjong-player-kami {
+    --mahjong-hand-section-gap: max(calc(var(--mahjong-meld-gap) * 0.75), calc(var(--mahjong-tile-depth) + 0.25rem));
 }
 
 /* Table text already scales with the tiles, so skip the breakpoints' extra shrinking. */
@@ -727,8 +852,8 @@
     right: 100%;
     width: var(--mahjong-tile-depth);
     height: auto;
-    border-radius: 3px 0 0 3px;
-    background: linear-gradient(to left, var(--mahjong-tile-side) 7px, var(--mahjong-tile-back) 7px);
+    border-radius: var(--mahjong-tile-radius) 0 0 var(--mahjong-tile-radius);
+    background: linear-gradient(to left, var(--mahjong-tile-side) calc(var(--mahjong-tile-depth) * 0.7), var(--mahjong-tile-back) calc(var(--mahjong-tile-depth) * 0.7));
     box-shadow: -4px 0 3px var(--mahjong-tile-shadow);
 }
 
@@ -746,8 +871,8 @@
     right: -1px;
     width: auto;
     height: var(--mahjong-tile-depth);
-    border-radius: 3px 3px 0 0;
-    background: linear-gradient(to top, var(--mahjong-tile-side) 7px, var(--mahjong-tile-back) 7px);
+    border-radius: var(--mahjong-tile-radius) var(--mahjong-tile-radius) 0 0;
+    background: linear-gradient(to top, var(--mahjong-tile-side) calc(var(--mahjong-tile-depth) * 0.7), var(--mahjong-tile-back) calc(var(--mahjong-tile-depth) * 0.7));
     box-shadow: 0 -4px 3px var(--mahjong-tile-shadow);
 }
 
@@ -764,8 +889,8 @@
     right: auto;
     width: var(--mahjong-tile-depth);
     height: auto;
-    border-radius: 0 3px 3px 0;
-    background: linear-gradient(to right, var(--mahjong-tile-side) 7px, var(--mahjong-tile-back) 7px);
+    border-radius: 0 var(--mahjong-tile-radius) var(--mahjong-tile-radius) 0;
+    background: linear-gradient(to right, var(--mahjong-tile-side) calc(var(--mahjong-tile-depth) * 0.7), var(--mahjong-tile-back) calc(var(--mahjong-tile-depth) * 0.7));
     box-shadow: 4px 0 3px var(--mahjong-tile-shadow);
 }
 
@@ -780,14 +905,14 @@
     right: -1px;
     width: auto;
     height: var(--mahjong-tile-depth);
-    border-radius: 0 0 3px 3px;
-    background: linear-gradient(to bottom, var(--mahjong-tile-side) 7px, var(--mahjong-tile-back) 7px);
+    border-radius: 0 0 var(--mahjong-tile-radius) var(--mahjong-tile-radius);
+    background: linear-gradient(to bottom, var(--mahjong-tile-side) calc(var(--mahjong-tile-depth) * 0.7), var(--mahjong-tile-back) calc(var(--mahjong-tile-depth) * 0.7));
     box-shadow: 0 4px 3px var(--mahjong-tile-shadow);
 }
 
-/* Face-down tiles (never sideways): back color in the corner and atop the edge. The side
-   players' face-down tiles stack like their discards, so, as in the dora wall, their edge
-   starts with a 1px seam (--mahjong-wall-seam) that shows between neighboring tiles. */
+/* Face-down tiles: back color in the corner and atop the edge. The side players' face-down
+   tiles stack like their discards, so, as in the dora wall, their edge starts with a 1px
+   seam (--mahjong-wall-seam) that shows between neighboring tiles. */
 .mahjong-player-shimo .mahjong-tile.mahjong-tile-back {
     box-shadow: -3px 0 0 var(--mahjong-tile-back);
 }
@@ -796,8 +921,8 @@
     background: linear-gradient(
         to left,
         var(--mahjong-wall-seam, #8a6a45) 1px,
-        var(--mahjong-tile-back) 1px 6px,
-        var(--mahjong-tile-side) 6px
+        var(--mahjong-tile-back) 1px calc(var(--mahjong-tile-depth) * 0.6),
+        var(--mahjong-tile-side) calc(var(--mahjong-tile-depth) * 0.6)
     );
 }
 
@@ -806,7 +931,7 @@
 }
 
 .mahjong-player-toimen .mahjong-tile.mahjong-tile-back::before {
-    background: linear-gradient(to top, var(--mahjong-tile-back) 6px, var(--mahjong-tile-side) 6px);
+    background: linear-gradient(to top, var(--mahjong-tile-back) calc(var(--mahjong-tile-depth) * 0.6), var(--mahjong-tile-side) calc(var(--mahjong-tile-depth) * 0.6));
 }
 
 .mahjong-player-kami .mahjong-tile.mahjong-tile-back {
@@ -817,8 +942,51 @@
     background: linear-gradient(
         to right,
         var(--mahjong-wall-seam, #8a6a45) 1px,
-        var(--mahjong-tile-back) 1px 6px,
-        var(--mahjong-tile-side) 6px
+        var(--mahjong-tile-back) 1px calc(var(--mahjong-tile-depth) * 0.6),
+        var(--mahjong-tile-side) calc(var(--mahjong-tile-depth) * 0.6)
+    );
+}
+
+/* A face-down riichi discard lies sideways, so its edge is on the next side round. */
+.mahjong-tile-back.mahjong-tile-rotated {
+    box-shadow: 3px 0 0 var(--mahjong-tile-back);
+}
+
+.mahjong-tile-back.mahjong-tile-rotated::before {
+    background: linear-gradient(to right, var(--mahjong-tile-back) calc(var(--mahjong-tile-depth) * 0.6), var(--mahjong-tile-side) calc(var(--mahjong-tile-depth) * 0.6));
+}
+
+.mahjong-player-shimo .mahjong-tile.mahjong-tile-back.mahjong-tile-rotated {
+    box-shadow: 0 3px 0 var(--mahjong-tile-back);
+}
+
+.mahjong-player-shimo .mahjong-tile.mahjong-tile-back.mahjong-tile-rotated::before {
+    background: linear-gradient(
+        to bottom,
+        var(--mahjong-wall-seam, #8a6a45) 1px,
+        var(--mahjong-tile-back) 1px calc(var(--mahjong-tile-depth) * 0.6),
+        var(--mahjong-tile-side) calc(var(--mahjong-tile-depth) * 0.6)
+    );
+}
+
+.mahjong-player-toimen .mahjong-tile.mahjong-tile-back.mahjong-tile-rotated {
+    box-shadow: -3px 0 0 var(--mahjong-tile-back);
+}
+
+.mahjong-player-toimen .mahjong-tile.mahjong-tile-back.mahjong-tile-rotated::before {
+    background: linear-gradient(to left, var(--mahjong-tile-back) calc(var(--mahjong-tile-depth) * 0.6), var(--mahjong-tile-side) calc(var(--mahjong-tile-depth) * 0.6));
+}
+
+.mahjong-player-kami .mahjong-tile.mahjong-tile-back.mahjong-tile-rotated {
+    box-shadow: 0 -3px 0 var(--mahjong-tile-back);
+}
+
+.mahjong-player-kami .mahjong-tile.mahjong-tile-back.mahjong-tile-rotated::before {
+    background: linear-gradient(
+        to top,
+        var(--mahjong-wall-seam, #8a6a45) 1px,
+        var(--mahjong-tile-back) 1px calc(var(--mahjong-tile-depth) * 0.6),
+        var(--mahjong-tile-side) calc(var(--mahjong-tile-depth) * 0.6)
     );
 }
 
@@ -894,13 +1062,13 @@
 /* Start that edge a little under the face, so the band runs straight around the face's
    rounded corner instead of breaking at it. */
 .mahjong-player-kami .mahjong-tile.mahjong-tile-standing:last-child::before {
-    left: calc(100% - 3px);
-    width: calc(var(--mahjong-tile-depth) + 3px);
+    left: calc(100% - var(--mahjong-tile-radius));
+    width: calc(var(--mahjong-tile-depth) + var(--mahjong-tile-radius));
 }
 
 .mahjong-player-shimo .mahjong-tile.mahjong-tile-standing:first-child::before {
-    right: calc(100% - 3px);
-    width: calc(var(--mahjong-tile-depth) + 3px);
+    right: calc(100% - var(--mahjong-tile-radius));
+    width: calc(var(--mahjong-tile-depth) + var(--mahjong-tile-radius));
 }
 
 /* Toimen's edges face the row behind, so each tile makes room for its own edge. */
@@ -957,6 +1125,47 @@
 .mahjong-player-shimo :is(.mahjong-discard-row, .mahjong-tiles, .mahjong-meld, .mahjong-tile-stack) > :nth-last-child(23) { z-index: 23; }
 .mahjong-player-shimo :is(.mahjong-discard-row, .mahjong-tiles, .mahjong-meld, .mahjong-tile-stack) > :nth-last-child(24) { z-index: 24; }
 
+/* NOTE Same-tile highlight - hovering a tile on a table outlines every visible copy, with a
+   red 5 counting as a 5. The outline sits inside the tile's face, where its edge and its
+   neighbors can't cover it. */
+.mahjong-table:has([data-tile="1m"]:hover) [data-tile="1m"],
+.mahjong-table:has([data-tile="2m"]:hover) [data-tile="2m"],
+.mahjong-table:has([data-tile="3m"]:hover) [data-tile="3m"],
+.mahjong-table:has([data-tile="4m"]:hover) [data-tile="4m"],
+.mahjong-table:has(:is([data-tile="5m"], [data-tile="0m"]):hover) :is([data-tile="5m"], [data-tile="0m"]),
+.mahjong-table:has([data-tile="6m"]:hover) [data-tile="6m"],
+.mahjong-table:has([data-tile="7m"]:hover) [data-tile="7m"],
+.mahjong-table:has([data-tile="8m"]:hover) [data-tile="8m"],
+.mahjong-table:has([data-tile="9m"]:hover) [data-tile="9m"],
+.mahjong-table:has([data-tile="1p"]:hover) [data-tile="1p"],
+.mahjong-table:has([data-tile="2p"]:hover) [data-tile="2p"],
+.mahjong-table:has([data-tile="3p"]:hover) [data-tile="3p"],
+.mahjong-table:has([data-tile="4p"]:hover) [data-tile="4p"],
+.mahjong-table:has(:is([data-tile="5p"], [data-tile="0p"]):hover) :is([data-tile="5p"], [data-tile="0p"]),
+.mahjong-table:has([data-tile="6p"]:hover) [data-tile="6p"],
+.mahjong-table:has([data-tile="7p"]:hover) [data-tile="7p"],
+.mahjong-table:has([data-tile="8p"]:hover) [data-tile="8p"],
+.mahjong-table:has([data-tile="9p"]:hover) [data-tile="9p"],
+.mahjong-table:has([data-tile="1s"]:hover) [data-tile="1s"],
+.mahjong-table:has([data-tile="2s"]:hover) [data-tile="2s"],
+.mahjong-table:has([data-tile="3s"]:hover) [data-tile="3s"],
+.mahjong-table:has([data-tile="4s"]:hover) [data-tile="4s"],
+.mahjong-table:has(:is([data-tile="5s"], [data-tile="0s"]):hover) :is([data-tile="5s"], [data-tile="0s"]),
+.mahjong-table:has([data-tile="6s"]:hover) [data-tile="6s"],
+.mahjong-table:has([data-tile="7s"]:hover) [data-tile="7s"],
+.mahjong-table:has([data-tile="8s"]:hover) [data-tile="8s"],
+.mahjong-table:has([data-tile="9s"]:hover) [data-tile="9s"],
+.mahjong-table:has([data-tile="1z"]:hover) [data-tile="1z"],
+.mahjong-table:has([data-tile="2z"]:hover) [data-tile="2z"],
+.mahjong-table:has([data-tile="3z"]:hover) [data-tile="3z"],
+.mahjong-table:has([data-tile="4z"]:hover) [data-tile="4z"],
+.mahjong-table:has([data-tile="5z"]:hover) [data-tile="5z"],
+.mahjong-table:has([data-tile="6z"]:hover) [data-tile="6z"],
+.mahjong-table:has([data-tile="7z"]:hover) [data-tile="7z"] {
+    outline: 2px solid var(--mahjong-tile-highlight);
+    outline-offset: -2px;
+}
+
 /* Only the bottom player's discard edges face the next row. Elsewhere the room each tile
    keeps below it for its edge would just widen the gap between rows, so drop it; sideways
    tiles then need only their centering offset to sit flush with the row. */
@@ -971,6 +1180,15 @@
 .mahjong-player-kami .mahjong-discards .mahjong-tile-rotated {
     top: calc((var(--mahjong-tile-height) - var(--mahjong-tile-width)) / 2);
 }
+
+/* Toimen's edges face the previous row, which is nearer the viewer, so earlier rows paint on top. */
+.mahjong-player-toimen .mahjong-discard-row {
+    position: relative;
+}
+
+.mahjong-player-toimen .mahjong-discard-row:nth-child(1) { z-index: 3; }
+.mahjong-player-toimen .mahjong-discard-row:nth-child(2) { z-index: 2; }
+.mahjong-player-toimen .mahjong-discard-row:nth-child(3) { z-index: 1; }
 
 /* Error display */
 .mahjong-error {
@@ -1022,24 +1240,74 @@
     }
 
     .mahjong-tile {
+        --mahjong-tile-padding: 1px;
         border-width: 1px;
-        border-radius: 3px;
-        padding: 1px;
+    }
+
+    /* Smaller tiles keep the desktop tile's proportions: 3px on a 36px tile. Inline tiles
+       stay their desktop size, so they keep its radius too. */
+    .mahjong-hand .mahjong-tile {
+        --mahjong-tile-radius: calc(var(--mahjong-tile-width) / 12);
+    }
+
+    /* A sideways tile's face overhangs its box by this much on each side, whatever the
+       tile size, so its neighbors keep the usual gap. */
+    .mahjong-tile-rotated {
+        margin-left: calc((var(--mahjong-tile-height) - var(--mahjong-tile-width)) / 2);
+        margin-right: calc((var(--mahjong-tile-height) - var(--mahjong-tile-width)) / 2);
+    }
+
+    /* Keep melds apart from each other. On the side players each meld's last edge also has
+       to clear the next meld, since melds run along the screen's height there. */
+    .mahjong-hand-melds > .mahjong-tiles {
+        gap: 3px;
+    }
+
+    .mahjong-player-shimo .mahjong-hand-melds > .mahjong-tiles,
+    .mahjong-player-kami .mahjong-hand-melds > .mahjong-tiles {
+        gap: calc(var(--mahjong-tile-depth) + 2px);
+    }
+
+    /* The table is measured in tile widths, so a fixed edge outgrows the shrinking tiles and
+       pushes the discards into the hand. Scale the edge with the tiles instead. */
+    .mahjong-table {
+        --mahjong-tile-depth: calc(var(--mahjong-tile-width) * 0.3);
+        --mahjong-discard-offset: max(calc(var(--mahjong-tile-width) * 0.15), 3px);
+    }
+
+    /* Hold the closed tiles back from the previous player's melds, which fill the corner. */
+    .mahjong-table .mahjong-hand-row:has(.mahjong-hand-melds) > .mahjong-hand-left {
+        padding-left: calc(var(--mahjong-tile-width) * 2.75);
+    }
+
+    /* A riichi tile in the bottom player's first row runs a tile's overhang past the center,
+       so shimocha's pile keeps clear of it. */
+    .mahjong-player-shimo > .mahjong-discards {
+        top: calc(50% + var(--mahjong-table-center) / 2 + var(--mahjong-discard-offset) + var(--mahjong-tile-height) - var(--mahjong-tile-width));
+    }
+
+    /* Slimmer sticks leave the third discard row room beside them. */
+    .mahjong-table .mahjong-stick svg {
+        width: calc(var(--mahjong-tile-width) * 2.25);
+    }
+
+    /* Auto margins collapse when a hand fills its row, so keep a minimum between sections.
+       :where() leaves the table's own section gap in charge there. */
+    .mahjong-hand-row:where(:has(.mahjong-hand-melds)) {
+        column-gap: var(--mahjong-meld-gap);
     }
 }
 
 @media (max-width: 480px) {
     .mahjong-hand {
-        --mahjong-tile-width: 1.1rem;
-        --mahjong-tile-height: 1.47rem;
-        --mahjong-tile-gap: 0.5px;
+        --mahjong-tile-width: 1rem;
+        --mahjong-tile-height: 1.33rem;
         --mahjong-meld-gap: 0.35rem;
     }
 
     .mahjong-tile {
+        --mahjong-tile-padding: 0.5px;
         border-width: 1px;
-        border-radius: 3px;
-        padding: 0.5px;
     }
 
     .mahjong-stick-count {
@@ -1057,16 +1325,14 @@
 
 @media (max-width: 360px) {
     .mahjong-hand {
-        --mahjong-tile-width: 0.9rem;
-        --mahjong-tile-height: 1.2rem;
-        --mahjong-tile-gap: 0.25px;
+        --mahjong-tile-width: 0.8rem;
+        --mahjong-tile-height: 1.07rem;
         --mahjong-meld-gap: 0.25rem;
     }
 
     .mahjong-tile {
+        --mahjong-tile-padding: 0px;
         border-width: 1px;
-        border-radius: 3px;
-        padding: 0;
     }
 
     .mahjong-dora-row {
@@ -1096,21 +1362,34 @@
 
 /* Inline tile styles (emoji-sized) */
 .mahjong-inline {
+    --mahjong-tile-width: 1.8em;
+    --mahjong-tile-height: 2.4em;
     display: inline;
 }
 
 .mahjong-inline .mahjong-tile {
-    --mahjong-tile-width: 1.8em;
-    --mahjong-tile-height: 2.4em;
     display: inline-flex;
     vertical-align: text-bottom;
-    margin: 0 0.05em;
-    margin-bottom: var(--mahjong-tile-depth);
     border-width: 1px;
-    border-radius: 3px;
     padding: 1px;
 }
 
-.mahjong-inline .mahjong-tile+.mahjong-tile {
+.mahjong-inline > .mahjong-tile {
+    margin: 0 0.05em;
+    margin-bottom: var(--mahjong-tile-depth);
+}
+
+.mahjong-inline > .mahjong-tile+.mahjong-tile {
     margin-left: 0;
+}
+
+.mahjong-inline .mahjong-meld {
+    vertical-align: text-bottom;
+    margin: 0 0.25em;
+}
+
+/* A sideways tile's face overhangs its box by this much on each side, in em like the tile. */
+.mahjong-inline .mahjong-meld > .mahjong-tile-rotated {
+    margin-left: calc((var(--mahjong-tile-height) - var(--mahjong-tile-width)) / 2);
+    margin-right: calc((var(--mahjong-tile-height) - var(--mahjong-tile-width)) / 2);
 }
